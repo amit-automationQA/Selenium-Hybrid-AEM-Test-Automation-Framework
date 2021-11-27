@@ -10,7 +10,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="verifyTalkToAdvisor"/>
+          <include name="verifyTalkToAdvisorPopup"/>
           <include name="tearD"/>
           <include name="initializeDriver"/>
         </methods>

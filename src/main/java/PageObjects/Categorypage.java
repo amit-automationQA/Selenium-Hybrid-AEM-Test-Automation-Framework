@@ -24,6 +24,12 @@ public class Categorypage extends BaseClass{
 	
 	@FindBy (xpath="(//a[@class='siteButton outlinedBtn'])[4]")
 	WebElement talktoadvisorbtn;
+	
+	@FindBy(xpath="//img[@class='homeIconImg']")
+	WebElement breadcrumbhomeicon;
+	
+	@FindBy(xpath="(//a[@class=\"siteButton outlinedBtn learMoreBtn dataLayerBtnClick\"])[1]")
+	WebElement c2pllearnmorebtn;
 
 	public void clickheaderAllLink()
 	{
@@ -59,4 +65,17 @@ public class Categorypage extends BaseClass{
 		Thread.sleep(3000);
 	}
 	
+	public void clickHomeIconInBreadcrumb() throws InterruptedException
+	{
+		breadcrumbhomeicon.isDisplayed();
+		breadcrumbhomeicon.click();
+		Thread.sleep(3000);
+	}
+	
+	public void clickC2plLearnMoreBtn() throws InterruptedException
+	{
+		c2pllearnmorebtn.isDisplayed();
+		c2pllearnmorebtn.click();
+		Thread.sleep(3000);
+	}
 }

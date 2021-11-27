@@ -48,7 +48,7 @@ public class HomepageTest extends BaseClass {
 		
 	}
 
-	@Test(priority=2,retryAnalyzer = Analyzer.RetryAnalyzer.class)
+	/*@Test(priority=2,retryAnalyzer = Analyzer.RetryAnalyzer.class)
 	public void verifyTermPlanOnBanner() throws InterruptedException
 	{
 		hp.clickTermPlanBlock();
@@ -284,7 +284,7 @@ public class HomepageTest extends BaseClass {
 		js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
 		Thread.sleep(3000);
 		hp.groupWebsiteLinks();
-	}
+	}*/
 	
 	@AfterClass(alwaysRun=true)
 	public void tear()
