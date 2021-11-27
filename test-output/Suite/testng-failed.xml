@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="10">
+  <listeners>
+    <listener class-name="util.Listeners"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="SeleniumTesting.AEMhdfc.CategorypageTest">
+        <methods>
+          <include name="navigateToPage"/>
+          <include name="tearDown"/>
+          <include name="initializeDriver"/>
+        </methods>
+      </class> <!-- SeleniumTesting.AEMhdfc.CategorypageTest -->
+      <class name="SeleniumTesting.AEMhdfc.HomepageTest">
+        <methods>
+          <include name="verifyMouseIndicator"/>
+          <include name="verifyschedulePopupWithValidData" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="verifyProductAndPopularLinks"/>
+          <include name="initializeDriver"/>
+        </methods>
+      </class> <!-- SeleniumTesting.AEMhdfc.HomepageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
