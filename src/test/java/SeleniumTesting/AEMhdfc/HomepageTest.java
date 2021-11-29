@@ -1,4 +1,5 @@
 package SeleniumTesting.AEMhdfc;
+import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import org.openqa.selenium.JavascriptExecutor;

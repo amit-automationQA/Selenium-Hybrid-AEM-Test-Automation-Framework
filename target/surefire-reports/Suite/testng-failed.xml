@@ -9,9 +9,9 @@
       <class name="SeleniumTesting.AEMhdfc.CategorypageTest">
         <methods>
           <include name="tearDown"/>
+          <include name="verifyC2PLProduct"/>
           <include name="setUp"/>
-          <include name="verifyTalkToAdvisorPopup"/>
-          <include name="tearD"/>
+          <include name="tear"/>
           <include name="initializeDriver"/>
         </methods>
       </class> <!-- SeleniumTesting.AEMhdfc.CategorypageTest -->

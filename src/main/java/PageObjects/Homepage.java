@@ -594,11 +594,12 @@ public class Homepage extends BaseClass{
 		Thread.sleep(3000);
 	}
 
-	public void verifyLink(String categorypageurl)
+	public void verifyLink(String pageurl) throws InterruptedException
 	{
-		softAssertion.assertEquals(driver.getCurrentUrl(), categorypageurl);
+		softAssertion.assertEquals(driver.getCurrentUrl(), pageurl);
 		driver.navigate().back();
 		softAssertion.assertAll();
+		Thread.sleep(3000);
 	}
 
 	public void verifyValidationErrorForBlankSubmit()

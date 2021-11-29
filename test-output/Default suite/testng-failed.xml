@@ -5,10 +5,10 @@
     <classes>
       <class name="SeleniumTesting.AEMhdfc.CategorypageTest">
         <methods>
-          <include name="verifyTalkToAdvisorPopup"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="tearD"/>
+          <include name="verifyC2PLProduct"/>
+          <include name="tear"/>
           <include name="initializeDriver"/>
         </methods>
       </class> <!-- SeleniumTesting.AEMhdfc.CategorypageTest -->

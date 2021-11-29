@@ -1,58 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="7" passed="5" failed="0" skipped="0">
+<testng-results ignored="2" total="8" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-27T15:19:05 IST" name="Suite" finished-at="2021-11-27T15:19:51 IST" duration-ms="46414">
+  <suite started-at="2021-11-29T15:18:18 IST" name="Suite" finished-at="2021-11-29T15:19:16 IST" duration-ms="57770">
     <groups>
     </groups>
-    <test started-at="2021-11-27T15:19:05 IST" name="Test" finished-at="2021-11-27T15:19:51 IST" duration-ms="46414">
+    <test started-at="2021-11-29T15:18:18 IST" name="Test" finished-at="2021-11-29T15:19:16 IST" duration-ms="57770">
       <class name="SeleniumTesting.AEMhdfc.HomepageTest">
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:SeleniumTesting.AEMhdfc.HomepageTest@1972e513]" started-at="2021-11-27T15:18:58 IST" name="initializeDriver" finished-at="2021-11-27T15:19:05 IST" duration-ms="6109" status="PASS">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:SeleniumTesting.AEMhdfc.HomepageTest@1972e513]" started-at="2021-11-29T15:18:13 IST" name="initializeDriver" finished-at="2021-11-29T15:18:18 IST" duration-ms="5976" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTesting.AEMhdfc.HomepageTest@1972e513]" started-at="2021-11-27T15:19:05 IST" name="setUp" finished-at="2021-11-27T15:19:05 IST" duration-ms="22" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTesting.AEMhdfc.HomepageTest@1972e513]" started-at="2021-11-29T15:18:19 IST" name="setUp" finished-at="2021-11-29T15:18:19 IST" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyBannerCarousel()[pri:1, instance:SeleniumTesting.AEMhdfc.HomepageTest@1972e513]" started-at="2021-11-27T15:19:05 IST" name="verifyBannerCarousel" finished-at="2021-11-27T15:19:08 IST" duration-ms="3716" status="PASS">
+        <test-method signature="verifyBannerCarousel()[pri:1, instance:SeleniumTesting.AEMhdfc.HomepageTest@1972e513]" started-at="2021-11-29T15:18:19 IST" name="verifyBannerCarousel" finished-at="2021-11-29T15:18:22 IST" duration-ms="3789" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBannerCarousel -->
-        <test-method is-config="true" signature="tear()[pri:0, instance:SeleniumTesting.AEMhdfc.HomepageTest@1972e513]" started-at="2021-11-27T15:19:08 IST" name="tear" finished-at="2021-11-27T15:19:09 IST" duration-ms="305" status="PASS">
+        <test-method is-config="true" signature="tear()[pri:0, instance:SeleniumTesting.AEMhdfc.HomepageTest@1972e513]" started-at="2021-11-29T15:18:22 IST" name="tear" finished-at="2021-11-29T15:18:23 IST" duration-ms="323" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumTesting.AEMhdfc.HomepageTest@1972e513]" started-at="2021-11-27T15:19:51 IST" name="tearDown" finished-at="2021-11-27T15:19:51 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumTesting.AEMhdfc.HomepageTest@1972e513]" started-at="2021-11-29T15:19:17 IST" name="tearDown" finished-at="2021-11-29T15:19:17 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- SeleniumTesting.AEMhdfc.HomepageTest -->
       <class name="SeleniumTesting.AEMhdfc.CategorypageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTesting.AEMhdfc.CategorypageTest@3f4faf53]" started-at="2021-11-27T15:19:09 IST" name="setUp" finished-at="2021-11-27T15:19:14 IST" duration-ms="5119" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTesting.AEMhdfc.CategorypageTest@533bda92]" started-at="2021-11-29T15:18:23 IST" name="setUp" finished-at="2021-11-29T15:18:28 IST" duration-ms="5664" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="navigateToPage()[pri:1, instance:SeleniumTesting.AEMhdfc.CategorypageTest@3f4faf53]" started-at="2021-11-27T15:19:14 IST" name="navigateToPage" finished-at="2021-11-27T15:19:22 IST" duration-ms="8758" status="PASS">
+        <test-method signature="navigateToPage()[pri:1, instance:SeleniumTesting.AEMhdfc.CategorypageTest@533bda92]" started-at="2021-11-29T15:18:28 IST" name="navigateToPage" finished-at="2021-11-29T15:18:38 IST" duration-ms="9434" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToPage -->
-        <test-method signature="verifyCalculatePremiumBtn()[pri:2, instance:SeleniumTesting.AEMhdfc.CategorypageTest@3f4faf53]" started-at="2021-11-27T15:19:23 IST" name="verifyCalculatePremiumBtn" finished-at="2021-11-27T15:19:35 IST" duration-ms="12416" status="PASS">
+        <test-method signature="verifyCalculatePremiumBtn()[pri:2, instance:SeleniumTesting.AEMhdfc.CategorypageTest@533bda92]" started-at="2021-11-29T15:18:38 IST" name="verifyCalculatePremiumBtn" finished-at="2021-11-29T15:18:50 IST" duration-ms="12557" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCalculatePremiumBtn -->
-        <test-method signature="verifyTalkToAdvisor()[pri:3, instance:SeleniumTesting.AEMhdfc.CategorypageTest@3f4faf53]" started-at="2021-11-27T15:19:35 IST" name="verifyTalkToAdvisor" finished-at="2021-11-27T15:19:41 IST" duration-ms="6245" status="PASS">
+        <test-method signature="verifyTalkToAdvisor()[pri:3, instance:SeleniumTesting.AEMhdfc.CategorypageTest@533bda92]" started-at="2021-11-29T15:18:50 IST" name="verifyTalkToAdvisor" finished-at="2021-11-29T15:18:57 IST" duration-ms="6278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTalkToAdvisor -->
-        <test-method signature="verifyTalkToAdvisorPopup()[pri:4, instance:SeleniumTesting.AEMhdfc.CategorypageTest@3f4faf53]" started-at="2021-11-27T15:19:41 IST" name="verifyTalkToAdvisorPopup" finished-at="2021-11-27T15:19:51 IST" duration-ms="9438" status="PASS">
+        <test-method signature="verifyTalkToAdvisorPopup()[pri:4, instance:SeleniumTesting.AEMhdfc.CategorypageTest@533bda92]" started-at="2021-11-29T15:18:57 IST" name="verifyTalkToAdvisorPopup" finished-at="2021-11-29T15:19:06 IST" duration-ms="9607" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTalkToAdvisorPopup -->
-        <test-method is-config="true" signature="tearD()[pri:0, instance:SeleniumTesting.AEMhdfc.CategorypageTest@3f4faf53]" started-at="2021-11-27T15:19:51 IST" name="tearD" finished-at="2021-11-27T15:19:51 IST" duration-ms="361" status="PASS">
+        <test-method signature="verifyHomeIconInBreadCrumb()[pri:5, instance:SeleniumTesting.AEMhdfc.CategorypageTest@533bda92]" started-at="2021-11-29T15:19:06 IST" name="verifyHomeIconInBreadCrumb" finished-at="2021-11-29T15:19:16 IST" duration-ms="9703" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearD -->
+        </test-method> <!-- verifyHomeIconInBreadCrumb -->
+        <test-method is-config="true" signature="tear()[pri:0, instance:SeleniumTesting.AEMhdfc.CategorypageTest@533bda92]" started-at="2021-11-29T15:19:16 IST" name="tear" finished-at="2021-11-29T15:19:16 IST" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
       </class> <!-- SeleniumTesting.AEMhdfc.CategorypageTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
