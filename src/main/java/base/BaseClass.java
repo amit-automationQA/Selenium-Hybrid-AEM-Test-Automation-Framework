@@ -26,6 +26,7 @@ public class BaseClass {
 	public static EventFiringWebDriver e_driver;
 	public static WebEventListener eventListener;
 	public TakesScreenshot ts;
+	//public static String downloadPath = System.getProperty("user.dir") + "\\Downloaded";
 	public static File folder;
 	//String projectpath= System.getProperty("user.dir");
 
@@ -36,6 +37,7 @@ public class BaseClass {
 		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\configFiles\\config.properties");
 		prop.load(fis);
 		String browsername = prop.getProperty("browser");
+		
 		folder = new File(UUID.randomUUID().toString());
 		if (browsername.equals("chrome"))
 		{
@@ -43,7 +45,7 @@ public class BaseClass {
 			DesiredCapabilities capabilities = DesiredCapabilities.chrome();
 			HashMap<String, Object> chromePrefs = new HashMap<String, Object>(); // code from developer chrome website
 			chromePrefs.put("profile.default_content_settings.popups", 0);
-			chromePrefs.put("download.default_directory",folder.getAbsolutePath());// to download any file in project directory only
+			chromePrefs.put("download.default_directory", folder.getAbsolutePath());// to download any file in project directory only*/
             ChromeOptions options = new ChromeOptions();
 			options.addArguments("--disable-notifications"); // Disabled notifications popup
 			options.addArguments("--start-maximized"); // https://stackoverflow.com/a/26283818/1689770

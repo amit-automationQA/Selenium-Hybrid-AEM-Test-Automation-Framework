@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="79.044" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="84.668" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="webdriver.chrome.driver" value="C:\Users\Akundar\eclipse-workspace\AEMhdfc\Driver\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Users\Akundar\Installers\openjdk-17_windows-x64_bin (1)\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\Akundar\AppData\Local\Temp\surefire18110896255256835140\surefirebooter15732224634034021786.jar C:\Users\Akundar\AppData\Local\Temp\surefire18110896255256835140 2021-11-29T15-58-18_689-jvmRun1 surefire9559729194129961622tmp surefire_0682312367803318969tmp"/>
+    <property name="sun.java.command" value="C:\Users\Akundar\AppData\Local\Temp\surefire7459475759695183766\surefirebooter3291368469039145647.jar C:\Users\Akundar\AppData\Local\Temp\surefire7459475759695183766 2021-11-29T16-48-37_720-jvmRun1 surefire7277759235592078512tmp surefire_07386651786040901672tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Akundar\eclipse-workspace\AEMhdfc\target\test-classes;C:\Users\Akundar\eclipse-workspace\AEMhdfc\target\classes;C:\Users\Akundar\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Akundar\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Akundar\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Akundar\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Akundar\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Akundar\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Akundar\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Akundar\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Akundar\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Akundar\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Akundar\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Akundar\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Akundar\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Akundar\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Akundar\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Akundar\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Akundar\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Akundar\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Akundar\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Akundar\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Akundar\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\poi\5.0.0\poi-5.0.0.jar;C:\Users\Akundar\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Akundar\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Akundar\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Akundar\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Akundar\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Akundar\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\poi-ooxml\5.0.0\poi-ooxml-5.0.0.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\poi-ooxml-lite\5.0.0\poi-ooxml-lite-5.0.0.jar;C:\Users\Akundar\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\Akundar\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Akundar\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.68\bcpkix-jdk15on-1.68.jar;C:\Users\Akundar\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.68\bcprov-jdk15on-1.68.jar;C:\Users\Akundar\.m2\repository\org\apache\santuario\xmlsec\2.2.1\xmlsec-2.2.1.jar;C:\Users\Akundar\.m2\repository\com\fasterxml\woodstox\woodstox-core\5.2.1\woodstox-core-5.2.1.jar;C:\Users\Akundar\.m2\repository\org\codehaus\woodstox\stax2-api\4.2\stax2-api-4.2.jar;C:\Users\Akundar\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar;C:\Users\Akundar\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-all\1.13\batik-all-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-anim\1.13\batik-anim-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-shared-resources\1.13\batik-shared-resources-1.13.jar;C:\Users\Akundar\.m2\repository\xml-apis\xml-apis-ext\1.3.04\xml-apis-ext-1.3.04.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-awt-util\1.13\batik-awt-util-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\xmlgraphics-commons\2.4\xmlgraphics-commons-2.4.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-bridge\1.13\batik-bridge-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-codec\1.13\batik-codec-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-constants\1.13\batik-constants-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-css\1.13\batik-css-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-dom\1.13\batik-dom-1.13.jar;C:\Users\Akundar\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\Akundar\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\Akundar\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-ext\1.13\batik-ext-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-extension\1.13\batik-extension-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-gui-util\1.13\batik-gui-util-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-gvt\1.13\batik-gvt-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-i18n\1.13\batik-i18n-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-parser\1.13\batik-parser-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-rasterizer-ext\1.13\batik-rasterizer-ext-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-rasterizer\1.13\batik-rasterizer-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-script\1.13\batik-script-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-slideshow\1.13\batik-slideshow-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-squiggle-ext\1.13\batik-squiggle-ext-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-squiggle\1.13\batik-squiggle-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-svg-dom\1.13\batik-svg-dom-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-svgbrowser\1.13\batik-svgbrowser-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-svggen\1.13\batik-svggen-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-svgpp\1.13\batik-svgpp-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-svgrasterizer\1.13\batik-svgrasterizer-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-swing\1.13\batik-swing-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-transcoder\1.13\batik-transcoder-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-util\1.13\batik-util-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-ttf2svg\1.13\batik-ttf2svg-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-xml\1.13\batik-xml-1.13.jar;C:\Users\Akundar\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\Akundar\.m2\repository\org\apache\pdfbox\pdfbox\2.0.22\pdfbox-2.0.22.jar;C:\Users\Akundar\.m2\repository\org\apache\pdfbox\fontbox\2.0.22\fontbox-2.0.22.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\poi-scratchpad\5.0.0\poi-scratchpad-5.0.0.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\poi-excelant\5.0.0\poi-excelant-5.0.0.jar;C:\Users\Akundar\.m2\repository\org\apache\ant\ant\1.10.9\ant-1.10.9.jar;C:\Users\Akundar\.m2\repository\org\apache\ant\ant-launcher\1.10.9\ant-launcher-1.10.9.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\ooxml-schemas\1.4\ooxml-schemas-1.4.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.1\xmlbeans-5.0.1.jar;C:\Users\Akundar\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.0\log4j-api-2.14.0.jar;C:\Users\Akundar\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-all\4.1.70.Final\netty-all-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-buffer\4.1.70.Final\netty-buffer-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec\4.1.70.Final\netty-codec-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-dns\4.1.70.Final\netty-codec-dns-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-haproxy\4.1.70.Final\netty-codec-haproxy-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-http\4.1.70.Final\netty-codec-http-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-http2\4.1.70.Final\netty-codec-http2-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-memcache\4.1.70.Final\netty-codec-memcache-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-mqtt\4.1.70.Final\netty-codec-mqtt-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-redis\4.1.70.Final\netty-codec-redis-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-smtp\4.1.70.Final\netty-codec-smtp-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-socks\4.1.70.Final\netty-codec-socks-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-stomp\4.1.70.Final\netty-codec-stomp-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-xml\4.1.70.Final\netty-codec-xml-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-common\4.1.70.Final\netty-common-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-handler\4.1.70.Final\netty-handler-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-handler-proxy\4.1.70.Final\netty-handler-proxy-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-resolver\4.1.70.Final\netty-resolver-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-resolver-dns\4.1.70.Final\netty-resolver-dns-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport\4.1.70.Final\netty-transport-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-rxtx\4.1.70.Final\netty-transport-rxtx-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-sctp\4.1.70.Final\netty-transport-sctp-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-udt\4.1.70.Final\netty-transport-udt-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.70.Final\netty-transport-classes-epoll-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.70.Final\netty-transport-native-unix-common-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.70.Final\netty-transport-classes-kqueue-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.70.Final\netty-resolver-dns-classes-macos-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-native-epoll\4.1.70.Final\netty-transport-native-epoll-4.1.70.Final-linux-x86_64.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-native-epoll\4.1.70.Final\netty-transport-native-epoll-4.1.70.Final-linux-aarch_64.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.70.Final\netty-transport-native-kqueue-4.1.70.Final-osx-x86_64.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.70.Final\netty-transport-native-kqueue-4.1.70.Final-osx-aarch_64.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.70.Final\netty-resolver-dns-native-macos-4.1.70.Final-osx-x86_64.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.70.Final\netty-resolver-dns-native-macos-4.1.70.Final-osx-aarch_64.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Akundar\AppData\Local\Temp\surefire18110896255256835140\surefirebooter15732224634034021786.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Akundar\AppData\Local\Temp\surefire7459475759695183766\surefirebooter3291368469039145647.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17+35-2724"/>
@@ -57,110 +57,110 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="verifyBannerCarousel" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="3.801">
+  <testcase name="verifyBannerCarousel" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="3.933">
     <system-out><![CDATA[Before navigating to: 'https://www.hdfclife.com/'
 Navigated to:'https://www.hdfclife.com/'
 Homepage test cases started
 Trying to find Element By : By.xpath: //li[@data-slide-to='1']
 Found Element By : By.xpath: //li[@data-slide-to='1']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (0ae2c6bfc2ac07e2dc34f57501c49a3e)] -> xpath: //li[@data-slide-to='1']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (0ae2c6bfc2ac07e2dc34f57501c49a3e)] -> xpath: //li[@data-slide-to='1']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (da76ace8817bb4e2b7d8b6e15bfb2077)] -> xpath: //li[@data-slide-to='1']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (da76ace8817bb4e2b7d8b6e15bfb2077)] -> xpath: //li[@data-slide-to='1']]
 Trying to find Element By : By.xpath: //div[@class='carousel-item active']//img[@class='bg-align']
 Found Element By : By.xpath: //div[@class='carousel-item active']//img[@class='bg-align']
 Trying to find Element By : By.xpath: //li[@data-slide-to='2']
 Found Element By : By.xpath: //li[@data-slide-to='2']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (0ae2c6bfc2ac07e2dc34f57501c49a3e)] -> xpath: //li[@data-slide-to='2']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (0ae2c6bfc2ac07e2dc34f57501c49a3e)] -> xpath: //li[@data-slide-to='2']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (da76ace8817bb4e2b7d8b6e15bfb2077)] -> xpath: //li[@data-slide-to='2']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (da76ace8817bb4e2b7d8b6e15bfb2077)] -> xpath: //li[@data-slide-to='2']]
 Trying to find Element By : By.xpath: //div[@class='carousel-item active']//img[@class='bg-align']
 Found Element By : By.xpath: //div[@class='carousel-item active']//img[@class='bg-align']
 Trying to find Element By : By.xpath: //li[@data-slide-to='3']
 Found Element By : By.xpath: //li[@data-slide-to='3']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (0ae2c6bfc2ac07e2dc34f57501c49a3e)] -> xpath: //li[@data-slide-to='3']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (0ae2c6bfc2ac07e2dc34f57501c49a3e)] -> xpath: //li[@data-slide-to='3']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (da76ace8817bb4e2b7d8b6e15bfb2077)] -> xpath: //li[@data-slide-to='3']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (da76ace8817bb4e2b7d8b6e15bfb2077)] -> xpath: //li[@data-slide-to='3']]
 Trying to find Element By : By.xpath: //div[@class='carousel-item active']//img[@class='bg-align']
 Found Element By : By.xpath: //div[@class='carousel-item active']//img[@class='bg-align']
 Trying to find Element By : By.xpath: //li[@data-slide-to='4']
 Found Element By : By.xpath: //li[@data-slide-to='4']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (0ae2c6bfc2ac07e2dc34f57501c49a3e)] -> xpath: //li[@data-slide-to='4']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (0ae2c6bfc2ac07e2dc34f57501c49a3e)] -> xpath: //li[@data-slide-to='4']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (da76ace8817bb4e2b7d8b6e15bfb2077)] -> xpath: //li[@data-slide-to='4']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (da76ace8817bb4e2b7d8b6e15bfb2077)] -> xpath: //li[@data-slide-to='4']]
 Trying to find Element By : By.xpath: //div[@class='carousel-item active']//img[@class='bg-align']
 Found Element By : By.xpath: //div[@class='carousel-item active']//img[@class='bg-align']
 Trying to find Element By : By.xpath: //li[@data-slide-to='0']
 Found Element By : By.xpath: //li[@data-slide-to='0']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (0ae2c6bfc2ac07e2dc34f57501c49a3e)] -> xpath: //li[@data-slide-to='0']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (0ae2c6bfc2ac07e2dc34f57501c49a3e)] -> xpath: //li[@data-slide-to='0']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (da76ace8817bb4e2b7d8b6e15bfb2077)] -> xpath: //li[@data-slide-to='0']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (da76ace8817bb4e2b7d8b6e15bfb2077)] -> xpath: //li[@data-slide-to='0']]
 Trying to find Element By : By.xpath: //div[@class='carousel-item active']//img[@class='bg-align']
 Found Element By : By.xpath: //div[@class='carousel-item active']//img[@class='bg-align']
 ]]></system-out>
-    <system-err><![CDATA[Nov 29, 2021 3:58:20 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+    <system-err><![CDATA[Nov 29, 2021 4:48:39 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 17036
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 27444
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Nov 29, 2021 3:58:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Nov 29, 2021 4:48:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="navigateToPage" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="8.925">
+  <testcase name="navigateToPage" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="9.481">
     <system-out><![CDATA[Homepage test cases executed
 Before navigating to: 'https://www.hdfclife.com/'
 Navigated to:'https://www.hdfclife.com/'
 Category page test cases started
 Trying to find Element By : By.xpath: //a[@class='megaMenuLink']
 Found Element By : By.xpath: //a[@class='megaMenuLink']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cf122a2c6254d401f334541deb7aa20e)] -> xpath: //a[@class='megaMenuLink']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cf122a2c6254d401f334541deb7aa20e)] -> xpath: //a[@class='megaMenuLink']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (85102d6b3e9bbea3792e5fc109409e41)] -> xpath: //a[@class='megaMenuLink']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (85102d6b3e9bbea3792e5fc109409e41)] -> xpath: //a[@class='megaMenuLink']]
 Trying to find Element By : By.xpath: (//a[@class='moreMenuLink gtm-moreMenuLink'])[1]
 Found Element By : By.xpath: (//a[@class='moreMenuLink gtm-moreMenuLink'])[1]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cf122a2c6254d401f334541deb7aa20e)] -> xpath: (//a[@class='moreMenuLink gtm-moreMenuLink'])[1]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cf122a2c6254d401f334541deb7aa20e)] -> xpath: (//a[@class='moreMenuLink gtm-moreMenuLink'])[1]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (85102d6b3e9bbea3792e5fc109409e41)] -> xpath: (//a[@class='moreMenuLink gtm-moreMenuLink'])[1]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (85102d6b3e9bbea3792e5fc109409e41)] -> xpath: (//a[@class='moreMenuLink gtm-moreMenuLink'])[1]]
 ]]></system-out>
-    <system-err><![CDATA[Nov 29, 2021 3:58:30 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+    <system-err><![CDATA[Nov 29, 2021 4:48:50 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 23682
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 27371
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Nov 29, 2021 3:58:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Nov 29, 2021 4:48:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="verifyCalculatePremiumBtn" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="12.645">
+  <testcase name="verifyCalculatePremiumBtn" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="12.611">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //a[@class='siteButton dataLayerBtnClick']
 Found Element By : By.xpath: //a[@class='siteButton dataLayerBtnClick']
 Trying to find Element By : By.xpath: //a[@class='siteButton dataLayerBtnClick']
 Found Element By : By.xpath: //a[@class='siteButton dataLayerBtnClick']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cf122a2c6254d401f334541deb7aa20e)] -> xpath: //a[@class='siteButton dataLayerBtnClick']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cf122a2c6254d401f334541deb7aa20e)] -> xpath: //a[@class='siteButton dataLayerBtnClick']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (85102d6b3e9bbea3792e5fc109409e41)] -> xpath: //a[@class='siteButton dataLayerBtnClick']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (85102d6b3e9bbea3792e5fc109409e41)] -> xpath: //a[@class='siteButton dataLayerBtnClick']]
 ]]></system-out>
   </testcase>
-  <testcase name="verifyTalkToAdvisor" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="6.333">
+  <testcase name="verifyTalkToAdvisor" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="6.301">
     <system-out><![CDATA[Trying to find Element By : By.xpath: (//a[@class='siteButton outlinedBtn'])[4]
 Found Element By : By.xpath: (//a[@class='siteButton outlinedBtn'])[4]
 Trying to find Element By : By.xpath: (//a[@class='siteButton outlinedBtn'])[4]
 Found Element By : By.xpath: (//a[@class='siteButton outlinedBtn'])[4]
 Trying to find Element By : By.xpath: (//a[@class='siteButton outlinedBtn'])[4]
 Found Element By : By.xpath: (//a[@class='siteButton outlinedBtn'])[4]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cf122a2c6254d401f334541deb7aa20e)] -> xpath: (//a[@class='siteButton outlinedBtn'])[4]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cf122a2c6254d401f334541deb7aa20e)] -> xpath: (//a[@class='siteButton outlinedBtn'])[4]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (85102d6b3e9bbea3792e5fc109409e41)] -> xpath: (//a[@class='siteButton outlinedBtn'])[4]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (85102d6b3e9bbea3792e5fc109409e41)] -> xpath: (//a[@class='siteButton outlinedBtn'])[4]]
 Trying to find Element By : By.xpath: //span[@class='close-icon1']
 Found Element By : By.xpath: //span[@class='close-icon1']
 Trying to find Element By : By.xpath: //span[@class='close-icon1']
 Found Element By : By.xpath: //span[@class='close-icon1']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cf122a2c6254d401f334541deb7aa20e)] -> xpath: //span[@class='close-icon1']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cf122a2c6254d401f334541deb7aa20e)] -> xpath: //span[@class='close-icon1']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (85102d6b3e9bbea3792e5fc109409e41)] -> xpath: //span[@class='close-icon1']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (85102d6b3e9bbea3792e5fc109409e41)] -> xpath: //span[@class='close-icon1']]
 ]]></system-out>
   </testcase>
-  <testcase name="verifyTalkToAdvisorPopup" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="9.474">
+  <testcase name="verifyTalkToAdvisorPopup" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="9.611">
     <system-out><![CDATA[Trying to find Element By : By.xpath: (//a[@class='siteButton outlinedBtn'])[4]
 Found Element By : By.xpath: (//a[@class='siteButton outlinedBtn'])[4]
 Trying to find Element By : By.xpath: (//a[@class='siteButton outlinedBtn'])[4]
 Found Element By : By.xpath: (//a[@class='siteButton outlinedBtn'])[4]
 Trying to find Element By : By.xpath: (//a[@class='siteButton outlinedBtn'])[4]
 Found Element By : By.xpath: (//a[@class='siteButton outlinedBtn'])[4]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cf122a2c6254d401f334541deb7aa20e)] -> xpath: (//a[@class='siteButton outlinedBtn'])[4]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cf122a2c6254d401f334541deb7aa20e)] -> xpath: (//a[@class='siteButton outlinedBtn'])[4]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (85102d6b3e9bbea3792e5fc109409e41)] -> xpath: (//a[@class='siteButton outlinedBtn'])[4]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (85102d6b3e9bbea3792e5fc109409e41)] -> xpath: (//a[@class='siteButton outlinedBtn'])[4]]
 Trying to find Element By : By.xpath: //input[@class='first-name']
 Found Element By : By.xpath: //input[@class='first-name']
 Trying to find Element By : By.xpath: //input[@class='modilewidth']
@@ -177,22 +177,22 @@ Trying to find Element By : By.xpath: //span[@class='close-icon1']
 Found Element By : By.xpath: //span[@class='close-icon1']
 Trying to find Element By : By.xpath: //span[@class='close-icon1']
 Found Element By : By.xpath: //span[@class='close-icon1']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cf122a2c6254d401f334541deb7aa20e)] -> xpath: //span[@class='close-icon1']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cf122a2c6254d401f334541deb7aa20e)] -> xpath: //span[@class='close-icon1']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (85102d6b3e9bbea3792e5fc109409e41)] -> xpath: //span[@class='close-icon1']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (85102d6b3e9bbea3792e5fc109409e41)] -> xpath: //span[@class='close-icon1']]
 ]]></system-out>
   </testcase>
-  <testcase name="verifyHomeIconInBreadCrumb" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="9.556">
+  <testcase name="verifyHomeIconInBreadCrumb" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="9.804">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //img[@class='homeIconImg']
 Found Element By : By.xpath: //img[@class='homeIconImg']
 Trying to find Element By : By.xpath: //img[@class='homeIconImg']
 Found Element By : By.xpath: //img[@class='homeIconImg']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cf122a2c6254d401f334541deb7aa20e)] -> xpath: //img[@class='homeIconImg']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cf122a2c6254d401f334541deb7aa20e)] -> xpath: //img[@class='homeIconImg']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (85102d6b3e9bbea3792e5fc109409e41)] -> xpath: //img[@class='homeIconImg']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (85102d6b3e9bbea3792e5fc109409e41)] -> xpath: //img[@class='homeIconImg']]
 Navigating back to previous page
 Navigated back to previous page
 ]]></system-out>
   </testcase>
-  <testcase name="verifyC2PLProduct" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="15.139">
+  <testcase name="verifyC2PLProduct" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="18.911">
     <system-out><![CDATA[Trying to find Element By : By.xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[1]
 Found Element By : By.xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[1]
 Trying to find Element By : By.xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[1]
@@ -201,15 +201,15 @@ Trying to find Element By : By.xpath: (//a[@class='siteButton outlinedBtn learMo
 Found Element By : By.xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[1]
 Trying to find Element By : By.xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[1]
 Found Element By : By.xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[1]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cf122a2c6254d401f334541deb7aa20e)] -> xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[1]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cf122a2c6254d401f334541deb7aa20e)] -> xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[1]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (85102d6b3e9bbea3792e5fc109409e41)] -> xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[1]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (85102d6b3e9bbea3792e5fc109409e41)] -> xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[1]]
 Navigating back to previous page
 Navigated back to previous page
 Trying to find Element By : By.xpath: (//a[@class='dwnldLink dataLayerBtnClick'])[1]
 Found Element By : By.xpath: (//a[@class='dwnldLink dataLayerBtnClick'])[1]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cf122a2c6254d401f334541deb7aa20e)] -> xpath: (//a[@class='dwnldLink dataLayerBtnClick'])[1]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cf122a2c6254d401f334541deb7aa20e)] -> xpath: (//a[@class='dwnldLink dataLayerBtnClick'])[1]]
-The directory is empty
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (85102d6b3e9bbea3792e5fc109409e41)] -> xpath: (//a[@class='dwnldLink dataLayerBtnClick'])[1]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (85102d6b3e9bbea3792e5fc109409e41)] -> xpath: (//a[@class='dwnldLink dataLayerBtnClick'])[1]]
+MC062124237-V01-HDFC-Life-Click-2-Protect-Life-Retail-Brochure.pdf is present
 ]]></system-out>
   </testcase>
 </testsuite>

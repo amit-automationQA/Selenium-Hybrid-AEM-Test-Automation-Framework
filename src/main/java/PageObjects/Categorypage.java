@@ -103,6 +103,7 @@ public class Categorypage extends BaseClass{
 	}
 	
 	public static Boolean isFileDownloaded(String fileName) {
+		//folder.mkdir();
         boolean flag = false;
         //paste your directory path below
         //eg: C:\\Users\\username\\Downloads
@@ -122,6 +123,7 @@ public class Categorypage extends BaseClass{
         return flag;
     }
 	
+	
 	public void deleteFolder()
 	{
 		for(File file : folder.listFiles())
@@ -130,7 +132,7 @@ public class Categorypage extends BaseClass{
 		}
 		folder.delete();
 	}
-	
 	}
+
 
 
