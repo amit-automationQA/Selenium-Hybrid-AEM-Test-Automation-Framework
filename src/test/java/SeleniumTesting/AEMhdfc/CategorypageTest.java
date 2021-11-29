@@ -82,8 +82,8 @@ public class CategorypageTest extends BaseClass{
 		cp.clickC2plLearnMoreBtn();
 		hp.verifyLink("https://www.hdfclife.com/term-insurance-plans/click-2-protect-life");
 		cp.downloadBrochure();
-		Thread.sleep(3000);
 		Categorypage.isFileDownloaded("MC062124237-V01-HDFC-Life-Click-2-Protect-Life-Retail-Brochure.pdf");
+
 	}
 	@AfterClass(alwaysRun=true)
 	public void tear()

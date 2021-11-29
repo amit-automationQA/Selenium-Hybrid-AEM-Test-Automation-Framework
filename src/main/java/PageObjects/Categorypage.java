@@ -102,8 +102,8 @@ public class Categorypage extends BaseClass{
 		c2pldowbloadbrochure.click();
 	}
 	
-	public static Boolean isFileDownloaded(String fileName) {
-		//folder.mkdir();
+	public static Boolean isFileDownloaded(String fileName) throws InterruptedException {
+		Thread.sleep(3000);
         boolean flag = false;
         //paste your directory path below
         //eg: C:\\Users\\username\\Downloads
@@ -115,7 +115,11 @@ public class Categorypage extends BaseClass{
             for (File listFile : listOfFiles) {
                 if (listFile.getName().contains(fileName)) {
                     System.out.println(fileName + " is present");
-                    break;
+                   
+                }
+                else {
+                	System.out.println(fileName + " is incorrect");
+                	 break;
                 }
                 flag = true;
             }

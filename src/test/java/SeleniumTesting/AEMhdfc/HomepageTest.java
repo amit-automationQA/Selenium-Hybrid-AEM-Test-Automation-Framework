@@ -3,6 +3,7 @@ import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -23,11 +24,13 @@ public class HomepageTest extends BaseClass {
 	}
 
 	@BeforeClass(alwaysRun = true)
-	public void setUp() throws MalformedURLException {
+	public void setUp() throws IOException {
+		initializeDriver();
 		hp = new Homepage(driver);
 		PageFactory.initElements(driver, hp);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		this.js=js;
+		ts = (TakesScreenshot) driver;
 		System.out.println("Homepage test cases started");
 	}
 
