@@ -106,7 +106,7 @@ public class Categorypage extends BaseClass{
         boolean flag = false;
         //paste your directory path below
         //eg: C:\\Users\\username\\Downloads
-        File listOfFiles[]= folder.listFiles();
+        File []listOfFiles= folder.listFiles();
         if (listOfFiles.length == 0 || listOfFiles == null) {
             System.out.println("The directory is empty");
             flag = false;
