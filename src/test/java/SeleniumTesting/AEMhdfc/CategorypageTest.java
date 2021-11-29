@@ -85,7 +85,7 @@ public class CategorypageTest extends BaseClass{
 				, "https://www.hdfclife.com/term-insurance-plans");
 	}
 
-	@Test(priority=7)
+	@Test(priority=7, dependsOnMethods = { "verifyC2PLProduct" })
 	public void verifySJBProduct() throws InterruptedException
 	{
 		js.executeScript("window.scrollBy(0,800)");
@@ -97,7 +97,7 @@ public class CategorypageTest extends BaseClass{
 				,"https://www.hdfclife.com/term-insurance-plans");
 	}
 
-	@Test(priority=8)
+	@Test(priority=8, dependsOnMethods = { "verifyC2PLProduct", "verifySJBProduct" })
 	public void verifyLetsCalculateWithValidData() throws InterruptedException
 	{
 		js.executeScript("window.scrollBy(0,-500)");
@@ -105,7 +105,7 @@ public class CategorypageTest extends BaseClass{
 		hp.verifyLink("https://www.hdfclife.com/financial-tools-calculators/human-life-value-calculator");		
 	}
 	
-	@Test(priority=9)
+	@Test(priority=9, dependsOnMethods = { "verifyC2PLProduct", "verifySJBProduct", "verifyLetsCalculateWithValidData" })
 	public void verifyVideoOnCategoryPage() throws InterruptedException
 	{
 		Thread.sleep(3000);
