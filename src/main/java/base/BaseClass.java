@@ -16,6 +16,9 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
+
 import util.WebEventListener;
 
 public class BaseClass {
@@ -27,7 +30,7 @@ public class BaseClass {
 	public static File folder;
 	//String projectpath= System.getProperty("user.dir");
 
-	//@BeforeSuite
+	@BeforeSuite
 	public WebDriver initializeDriver() throws IOException
 	{
 		Properties prop = new Properties();
@@ -85,9 +88,9 @@ public class BaseClass {
 		FileUtils.copyFile(source, new File(destinationfile));
 		return destinationfile;
 	}
-	/*@AfterSuite
+	@AfterSuite
 	public void tearDown()
 	{
 		driver.quit();
-	}*/
+	}
 }

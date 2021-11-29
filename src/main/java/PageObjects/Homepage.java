@@ -81,7 +81,7 @@ public class Homepage extends BaseClass{
 	By disclaimeraccordioncollapsed= By.xpath("//a[@class='collapsed']");
 	By subscribeemailfield = By.className("emailAddress");
 	By subscribebtn= By.id("subscribeButton");
-	By emailsubscribemessage = By.className("message-success-subscribe");
+	By emailsubscribemessage = By.xpath("//span[@class='message-success-subscribe']");
 	By appleicon = By.xpath("//a[@class='appleIcon']");
 	By androidicon= By.xpath("(//a[@data-position='Download App Icon'])[2]");
 	By allfootercss = By.cssSelector(".wrapper.footerMenuSec a");

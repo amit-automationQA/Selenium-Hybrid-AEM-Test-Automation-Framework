@@ -6,15 +6,16 @@
   </listeners>
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
-      <class name="SeleniumTesting.AEMhdfc.CategorypageTest">
+      <class name="SeleniumTesting.AEMhdfc.HomepageTest">
         <methods>
           <include name="tearDown"/>
-          <include name="verifyC2PLProduct"/>
-          <include name="setUp"/>
           <include name="tear"/>
+          <include name="verifyschedulePopupWithValidData"/>
+          <include name="verifySubscribeOptionWithValidData"/>
+          <include name="setUp"/>
           <include name="initializeDriver"/>
         </methods>
-      </class> <!-- SeleniumTesting.AEMhdfc.CategorypageTest -->
+      </class> <!-- SeleniumTesting.AEMhdfc.HomepageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,9 +1,6 @@
 package SeleniumTesting.AEMhdfc;
-import java.io.File;
 import java.io.IOException;
-import java.net.MalformedURLException;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -13,6 +10,8 @@ import org.testng.asserts.SoftAssert;
 import PageObjects.Homepage;
 import base.BaseClass;
 import util.ExcelUtil;
+
+import org.openqa.selenium.TakesScreenshot;
 
 public class HomepageTest extends BaseClass {
 	private SoftAssert softAssertion = new SoftAssert();
@@ -25,7 +24,7 @@ public class HomepageTest extends BaseClass {
 
 	@BeforeClass(alwaysRun = true)
 	public void setUp() throws IOException {
-		initializeDriver();
+		//initializeDriver();
 		hp = new Homepage(driver);
 		PageFactory.initElements(driver, hp);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -52,7 +51,7 @@ public class HomepageTest extends BaseClass {
 		
 	}
 
-	/*@Test(priority=2,retryAnalyzer = Analyzer.RetryAnalyzer.class)
+	@Test(priority=2,retryAnalyzer = Analyzer.RetryAnalyzer.class)
 	public void verifyTermPlanOnBanner() throws InterruptedException
 	{
 		hp.clickTermPlanBlock();
@@ -278,6 +277,7 @@ public class HomepageTest extends BaseClass {
 		hp.verifySubScribeBtnOnClickOfField();// // to check if the button is enabled after clicking on field
 		hp.inputTestEmail("amit@teknopoint.in");
 		hp.subscribeBtn().click();
+		js.executeScript("window.scrollBy(0,100)");
 		Thread.sleep(3000);
 		hp.verifyEmailSubscriptionSuccessfulMessage();
 	}
@@ -288,7 +288,7 @@ public class HomepageTest extends BaseClass {
 		js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
 		Thread.sleep(3000);
 		hp.groupWebsiteLinks();
-	}*/
+	}
 	
 	@AfterClass(alwaysRun=true)
 	public void tear()

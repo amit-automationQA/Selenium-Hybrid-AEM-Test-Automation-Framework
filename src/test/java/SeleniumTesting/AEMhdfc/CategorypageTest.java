@@ -1,17 +1,12 @@
 package SeleniumTesting.AEMhdfc;
 
-import java.io.File;
 import java.io.IOException;
-import java.util.UUID;
-
-import org.junit.Assert;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
-
 import PageObjects.Categorypage;
 import PageObjects.Homepage;
 import base.BaseClass;
@@ -34,6 +29,8 @@ public class CategorypageTest extends BaseClass{
 		PageFactory.initElements(driver, cp);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		this.js=js;
+		ts = (TakesScreenshot) driver;
+		//this.ts=ts;
 		System.out.println("Category page test cases started");
 		folder.mkdir();
 		//softAssertion = new SoftAssert();
@@ -83,8 +80,39 @@ public class CategorypageTest extends BaseClass{
 		hp.verifyLink("https://www.hdfclife.com/term-insurance-plans/click-2-protect-life");
 		cp.downloadBrochure();
 		Categorypage.isFileDownloaded("MC062124237-V01-HDFC-Life-Click-2-Protect-Life-Retail-Brochure.pdf");
-
+		cp.clickC2plBuyNowBtn();
+		hp.verifyLinkOpenedInNewWindow("https://onlineinsurance.hdfclife.com/buy-online-term-insurance-plans/click-2-protect-life/basic-details?source=NW_C2PL_Bestseller_BuyOl&agentcode=00399206&language=en"
+				, "https://www.hdfclife.com/term-insurance-plans");
 	}
+
+	@Test(priority=7)
+	public void verifySJBProduct() throws InterruptedException
+	{
+		js.executeScript("window.scrollBy(0,800)");
+		cp.clickSJBLearnMorebtn();
+		hp.verifyLink("https://www.hdfclife.com/term-insurance-plans/saral-jeevan-bima");
+		Categorypage.isFileDownloaded("saral-jeevan-brochure.pdf");
+		cp.clickSJBBuyOnlineBtn();
+		hp.verifyLinkOpenedInNewWindow("https://onlineinsurance.hdfclife.com/buy-online-term-insurance-plans/saral-jeevan-bima/basic-details?source=NW_SJB_BuyOl&agentcode=00399206&language=en"
+				,"https://www.hdfclife.com/term-insurance-plans");
+	}
+
+	@Test(priority=8)
+	public void verifyLetsCalculateWithValidData() throws InterruptedException
+	{
+		js.executeScript("window.scrollBy(0,-500)");
+		cp.clickLetsCalculateBtn();
+		hp.verifyLink("https://www.hdfclife.com/financial-tools-calculators/human-life-value-calculator");		
+	}
+	
+	@Test(priority=9)
+	public void verifyVideoOnCategoryPage() throws InterruptedException
+	{
+		Thread.sleep(3000);
+		js.executeScript("window.scrollBy(0,900)");
+		//cp.verifyVideoOnPage();
+	}
+
 	@AfterClass(alwaysRun=true)
 	public void tear()
 	{
