@@ -3,6 +3,7 @@ import java.io.File;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -54,6 +55,13 @@ public class Categorypage extends BaseClass{
 	
 	@FindBy(xpath="(//a[@class='viewMoreBtn viewLessBtn'])[1]")
 	WebElement whysectionviewlessbtn;
+	
+	@FindBy(xpath="//h2[@class='tabAccordMenu opened']")
+	WebElement openedfaqaccordion;
+	
+	@FindBy(xpath="//h2[@class='tabAccordMenu']")
+	WebElement closedfaqaccordion;
+	
 	
 	
 	public void clickheaderAllLink()
@@ -184,16 +192,52 @@ public class Categorypage extends BaseClass{
 	
 	public void verifyWhyViewMoreAndViewLess() throws InterruptedException
 	{
+		Thread.sleep(3000);
 		softAssertion.assertTrue(whysectionviewmorebtn.isDisplayed()); // verify on page load
 		whysectionviewmorebtn.click();
 		Thread.sleep(3000);
 		if(whysectionviewlessbtn.isDisplayed()) {
 			whysectionviewlessbtn.click();
 			Thread.sleep(3000);
-			softAssertion.assertTrue(whysectionviewlessbtn.isDisplayed());
+			softAssertion.assertTrue(whysectionviewmorebtn.isDisplayed());
+			softAssertion.assertAll();
 			}
 		else {
 			softAssertion.fail("View Less button is not getting displayed in Why section after clicking on view more");
+			softAssertion.assertAll();
+		}
+		
+	}
+	
+	public void verifyFirstOpenFAQ() throws InterruptedException
+	{
+		Thread.sleep(3000);
+		String openaccordionclassname = openedfaqaccordion.getAttribute("class");
+		if(openaccordionclassname.contains("tabAccordMenu opened"))
+		{
+			softAssertion.assertTrue(true, "First FAQ accordion is open on page load");
+			openedfaqaccordion.click();
+		}
+		else {
+			softAssertion.assertTrue(false, "First FAQ accordion is not open bydefault");
+		}
+		softAssertion.assertAll();
+	}
+	
+	public void verifysecondFAQ() throws InterruptedException
+	{
+		Thread.sleep(3000);
+		softAssertion.assertTrue(closedfaqaccordion.isDisplayed());
+		closedfaqaccordion.click();
+		Thread.sleep(3000);
+		String openaccordionclassname1 = openedfaqaccordion.getAttribute("class");
+		if(openaccordionclassname1.contains("tabAccordMenu opened"))
+		{
+			softAssertion.assertTrue(true, "Second FAQ accordion is opened on click");
+			openedfaqaccordion.click();
+		}
+		else {
+			softAssertion.assertTrue(false, "Second FAQ accordion is not opened on click");
 		}
 		softAssertion.assertAll();
 	}

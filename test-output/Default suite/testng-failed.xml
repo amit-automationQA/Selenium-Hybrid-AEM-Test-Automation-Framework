@@ -8,7 +8,12 @@
           <include name="setUp"/>
           <include name="tearDown"/>
           <include name="verifyLetsCalculateWithValidData"/>
+          <include name="verifyC2PLProduct"/>
+          <include name="verifyVideoOnCategoryPage"/>
+          <include name="verifyFaqAccordions"/>
+          <include name="verifyWhySection"/>
           <include name="tear"/>
+          <include name="verifySJBProduct"/>
           <include name="initializeDriver"/>
         </methods>
       </class> <!-- SeleniumTesting.AEMhdfc.CategorypageTest -->

@@ -1,12 +1,14 @@
 package SeleniumTesting.AEMhdfc;
 
 import java.io.IOException;
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+
 import PageObjects.Categorypage;
 import PageObjects.Homepage;
 import base.BaseClass;
@@ -103,15 +105,34 @@ public class CategorypageTest extends BaseClass{
 		cp.clickLetsCalculateBtn();
 		hp.verifyLink("https://www.hdfclife.com/financial-tools-calculators/human-life-value-calculator");		
 	}
-	
+
 	@Test(priority=9, dependsOnMethods = { "verifyC2PLProduct", "verifySJBProduct", "verifyLetsCalculateWithValidData" })
 	public void verifyVideoOnCategoryPage() throws InterruptedException // Youtube implementation is pending
 	{
 		Thread.sleep(3000);
 		js.executeScript("window.scrollBy(0,900)");
-		//cp.verifyVideoOnPage();
+		Thread.sleep(3000);
+		//WebElement framename= driver.findElement(By.xpath("//*[@id=\"planVideoSection\"]/div/div[2]/iframe"));
+		//driver.switchTo().frame(framename);
+		//cp.verifyVideoOnPage();*/
 	}
 
+	@Test(priority=10, dependsOnMethods=  {"verifyVideoOnCategoryPage"})
+	public void verifyWhySection() throws InterruptedException
+	{
+		js.executeScript("window.scrollBy(0,-2000)");
+		cp.verifyWhyViewMoreAndViewLess();
+	}
+	
+	@Test(priority=11, dependsOnMethods = {"verifyWhySection"})
+	public void verifyFaqAccordions() throws InterruptedException
+	{
+		js.executeScript("window.scrollBy(0,2300)");
+		cp.verifyFirstOpenFAQ();
+		js.executeScript("window.scrollBy(0,200)");
+		cp.verifysecondFAQ();
+	}
+	
 	@AfterClass(alwaysRun=true)
 	public void tear()
 	{
