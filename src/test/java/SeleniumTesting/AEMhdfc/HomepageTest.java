@@ -152,7 +152,6 @@ public class HomepageTest extends BaseClass {
 	@Test(priority=14, retryAnalyzer = Analyzer.RetryAnalyzer.class)
 	public void verifyMouseIndicator() throws InterruptedException
 	{
-
 		js.executeScript("arguments[0].scrollIntoView();", hp.bannerCarouselDot0());
 		hp.clickMouseIndicator();
 	}

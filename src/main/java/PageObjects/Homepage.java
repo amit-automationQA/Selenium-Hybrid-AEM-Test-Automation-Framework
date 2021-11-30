@@ -293,6 +293,7 @@ public class Homepage extends BaseClass{
 		Thread.sleep(3000);
 		driver.findElement(mouseindicator).click();
 		Thread.sleep(3000);
+		softAssertion.assertAll();
 	}
 
 	public boolean displayNextArrow()
