@@ -154,11 +154,7 @@ public class HomepageTest extends BaseClass {
 	{
 
 		js.executeScript("arguments[0].scrollIntoView();", hp.bannerCarouselDot0());
-		Thread.sleep(3000);
-		softAssertion.assertTrue(hp.mouseindicator().isDisplayed());
-		Thread.sleep(3000);
-		hp.mouseindicator().click();
-		Thread.sleep(3000);
+		hp.clickMouseIndicator();
 	}
 
 	@DataProvider

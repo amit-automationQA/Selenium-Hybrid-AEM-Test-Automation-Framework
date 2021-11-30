@@ -285,6 +285,15 @@ public class Homepage extends BaseClass{
 	{
 		return driver.findElement(mouseindicator);
 	}
+	
+	public void clickMouseIndicator() throws InterruptedException
+	{
+		Thread.sleep(3000);
+		softAssertion.assertTrue(driver.findElement(mouseindicator).isDisplayed());
+		Thread.sleep(3000);
+		driver.findElement(mouseindicator).click();
+		Thread.sleep(3000);
+	}
 
 	public boolean displayNextArrow()
 	{
