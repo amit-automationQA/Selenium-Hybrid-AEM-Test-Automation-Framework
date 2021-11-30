@@ -16,7 +16,6 @@ public class CategorypageTest extends BaseClass{
 	Categorypage cp;
 	HomepageTest ht;
 	JavascriptExecutor js;
-	//String path = System.getProperty("user.dir") +"\\MC062124237-V01-HDFC-Life-Click-2-Protect-Life-Retail-Brochure.pdf";
 	public CategorypageTest() {
 		super();
 	}
