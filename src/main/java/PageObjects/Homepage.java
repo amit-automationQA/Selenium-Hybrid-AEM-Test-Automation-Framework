@@ -112,36 +112,47 @@ public class Homepage extends BaseClass{
 	List<WebElement> groupwebsites;
 
 	//Initialized objects
-	public WebElement bannerCarouselDot0()
+
+	public void verifyBannerCarouselDot0() throws InterruptedException
 	{
-		return driver.findElement(bannercarouseldot0);
+		driver.findElement(bannercarouseldot0).click();
+		Thread.sleep(3000);
+		softAssertion.assertTrue(driver.findElement(bannercarouselactiveimage).isDisplayed());
+		softAssertion.assertAll();
 	}
 
-	public WebElement bannerCarouselDot1()
+	public void verifyBannerCarouselDot1() throws InterruptedException
 	{
-		return driver.findElement(bannercarouseldot1);
+		driver.findElement(bannercarouseldot1).click();
+		Thread.sleep(3000);
+		softAssertion.assertTrue(driver.findElement(bannercarouselactiveimage).isDisplayed());
+		softAssertion.assertAll();
+	}
+	
+	public void verifyBannerCarouselDot2() throws InterruptedException
+	{
+		driver.findElement(bannercarouseldot2).click();
+		Thread.sleep(3000);
+		softAssertion.assertTrue(driver.findElement(bannercarouselactiveimage).isDisplayed());
+		softAssertion.assertAll();
 	}
 
-	public WebElement bannerCarouselDot2()
+	public void verifyBannerCarouselDot3() throws InterruptedException
 	{
-		return driver.findElement(bannercarouseldot2);
+		driver.findElement(bannercarouseldot3).click();
+		Thread.sleep(3000);
+		softAssertion.assertTrue(driver.findElement(bannercarouselactiveimage).isDisplayed());
+		softAssertion.assertAll();
 	}
 
-	public WebElement bannerCarouselDot3()
+	public void verifyBannerCarouselDot4() throws InterruptedException
 	{
-		return driver.findElement(bannercarouseldot3);
+		driver.findElement(bannercarouseldot4).click();
+		Thread.sleep(3000);
+		softAssertion.assertTrue(driver.findElement(bannercarouselactiveimage).isDisplayed());
+		softAssertion.assertAll();
 	}
-
-	public WebElement bannerCarouselDot4()
-	{
-		return driver.findElement(bannercarouseldot4);
-	}
-
-	public WebElement bannercarouselactiveimage()
-	{
-		return driver.findElement(bannercarouselactiveimage);
-	}
-
+	
 	public void clickTermPlanBlock() throws InterruptedException
 	{
 		Thread.sleep(3000);

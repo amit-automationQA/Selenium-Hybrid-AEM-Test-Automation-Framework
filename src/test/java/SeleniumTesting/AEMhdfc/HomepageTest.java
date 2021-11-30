@@ -35,20 +35,13 @@ public class HomepageTest extends BaseClass {
 
 
 	@Test(priority=1,retryAnalyzer = Analyzer.RetryAnalyzer.class)
-	public void verifyBannerCarousel() throws IOException
+	public void verifyBannerCarousel() throws IOException, InterruptedException
 	{  
-		hp.bannerCarouselDot1().click();
-		softAssertion.assertTrue(hp.bannercarouselactiveimage().isDisplayed());
-		hp.bannerCarouselDot2().click();
-		softAssertion.assertTrue(hp.bannercarouselactiveimage().isDisplayed());
-		hp.bannerCarouselDot3().click();
-		softAssertion.assertTrue(hp.bannercarouselactiveimage().isDisplayed());
-		hp.bannerCarouselDot4().click();
-		softAssertion.assertTrue(hp.bannercarouselactiveimage().isDisplayed());
-		hp.bannerCarouselDot0().click();
-		softAssertion.assertTrue(hp.bannercarouselactiveimage().isDisplayed());
-		softAssertion.assertAll();	
-		
+		hp.verifyBannerCarouselDot1();
+		hp.verifyBannerCarouselDot2();
+		hp.verifyBannerCarouselDot3();
+		hp.verifyBannerCarouselDot4();
+		hp.verifyBannerCarouselDot0();
 	}
 
 	@Test(priority=2,retryAnalyzer = Analyzer.RetryAnalyzer.class)
