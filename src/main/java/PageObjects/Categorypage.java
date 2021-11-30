@@ -49,6 +49,12 @@ public class Categorypage extends BaseClass{
 	@FindBy(xpath="(//a[@class='bannerAdBtn siteButton'])[1]")
 	WebElement letscalculate;
 	
+	@FindBy(xpath="(//a[@class='viewMoreBtn'])[1]")
+	WebElement whysectionviewmorebtn;
+	
+	@FindBy(xpath="(//a[@class='viewMoreBtn viewLessBtn'])[1]")
+	WebElement whysectionviewlessbtn;
+	
 	
 	public void clickheaderAllLink()
 	{
@@ -174,6 +180,22 @@ public class Categorypage extends BaseClass{
 		Thread.sleep(3000);
 		softAssertion.assertTrue(letscalculate.isDisplayed());
 		letscalculate.click();
+	}
+	
+	public void verifyWhyViewMoreAndViewLess() throws InterruptedException
+	{
+		softAssertion.assertTrue(whysectionviewmorebtn.isDisplayed()); // verify on page load
+		whysectionviewmorebtn.click();
+		Thread.sleep(3000);
+		if(whysectionviewlessbtn.isDisplayed()) {
+			whysectionviewlessbtn.click();
+			Thread.sleep(3000);
+			softAssertion.assertTrue(whysectionviewlessbtn.isDisplayed());
+			}
+		else {
+			softAssertion.fail("View Less button is not getting displayed in Why section after clicking on view more");
+		}
+		softAssertion.assertAll();
 	}
 }
 

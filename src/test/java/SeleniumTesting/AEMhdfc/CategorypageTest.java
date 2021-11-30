@@ -106,7 +106,7 @@ public class CategorypageTest extends BaseClass{
 	}
 	
 	@Test(priority=9, dependsOnMethods = { "verifyC2PLProduct", "verifySJBProduct", "verifyLetsCalculateWithValidData" })
-	public void verifyVideoOnCategoryPage() throws InterruptedException
+	public void verifyVideoOnCategoryPage() throws InterruptedException // Youtube implementation is pending
 	{
 		Thread.sleep(3000);
 		js.executeScript("window.scrollBy(0,900)");

@@ -121,6 +121,10 @@ public class Homepage extends BaseClass{
 		softAssertion.assertAll();
 	}
 
+	public WebElement bannerCarouselDot0()
+	{
+		return driver.findElement(bannercarouseldot0);
+	}
 	public void verifyBannerCarouselDot1() throws InterruptedException
 	{
 		driver.findElement(bannercarouseldot1).click();

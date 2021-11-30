@@ -156,7 +156,7 @@ public class HomepageTest extends BaseClass {
 		return data;
 	}
 
-	@Test(priority=15, dataProvider="getscheduleformData", dependsOnMethods = { "getscheduleformData", "verifyMouseIndicator" })
+	@Test(priority=15, dataProvider="getscheduleformData", dependsOnMethods = { "verifyMouseIndicator" })
 	public void verifyschedulePopupWithValidData(String fname, String number) throws InterruptedException
 	{
 		hp.clickScheduleACallButton().click();
@@ -166,7 +166,7 @@ public class HomepageTest extends BaseClass {
 		Thread.sleep(3000);
 	}
 
-	@Test(priority=16, dependsOnMethods = { "getscheduleformData", "verifyMouseIndicator" })
+	@Test(priority=16, dependsOnMethods = { "verifyMouseIndicator" })
 	public void verifyschedulepopupblankSubmit() throws InterruptedException //verify submitting blank data in schedule a call popup
 	{
 		hp.clickScheduleACallButton().click();
@@ -177,7 +177,7 @@ public class HomepageTest extends BaseClass {
 		Thread.sleep(3000);
 
 	}
-	@Test(priority=17, dependsOnMethods = { "getscheduleformData", "verifyMouseIndicator" })
+	@Test(priority=17, dependsOnMethods = { "verifyMouseIndicator" })
 	public void verifyschedulePopupwithoutmindata() throws InterruptedException
 	{
 		hp.clickScheduleACallButton().click();
@@ -186,7 +186,7 @@ public class HomepageTest extends BaseClass {
 		hp.closeScheduleCallPopup();
 	}
 
-	@Test(priority=18, dependsOnMethods = { "getscheduleformData", "verifyMouseIndicator" })
+	@Test(priority=18, dependsOnMethods = {"verifyMouseIndicator" })
 	public void verifycalculatorWithValidData() throws InterruptedException
 	{
 		hp.scrollTillLetUsCalculate();
@@ -202,7 +202,7 @@ public class HomepageTest extends BaseClass {
 		hp.clickCalculateButton2();
 		hp.verifyLearnMorebtn("https://www.hdfclife.com/term-insurance-plans/click-2-protect-life");
 	}
-	@Test(priority=19, dependsOnMethods = { "getscheduleformData", "verifyMouseIndicator", "verifycalculatorWithValidData"})
+	@Test(priority=19, dependsOnMethods = {  "verifyMouseIndicator", "verifycalculatorWithValidData"})
 	public void verifyCalculatorCloseBtn() throws InterruptedException
 	{
 		js.executeScript("window.scrollBy(0,-800)");
@@ -211,7 +211,7 @@ public class HomepageTest extends BaseClass {
 		hp.clickCalculatorCloseBtn();
 	}
 
-	@Test(priority=20, dependsOnMethods = { "getscheduleformData", "verifyMouseIndicator", "verifycalculatorWithValidData"})
+	@Test(priority=20, dependsOnMethods = {  "verifyMouseIndicator", "verifycalculatorWithValidData"})
 	public void verifySanchayPlusBuyNowBtn() throws InterruptedException
 	{
 		js.executeScript("window.scrollBy(0,400)");
@@ -221,7 +221,7 @@ public class HomepageTest extends BaseClass {
 				"https://www.hdfclife.com/");
 	}
 
-	@Test(priority=21, dependsOnMethods = { "getscheduleformData", "verifyMouseIndicator", "verifycalculatorWithValidData"})
+	@Test(priority=21, dependsOnMethods = { "verifyMouseIndicator", "verifycalculatorWithValidData"})
 	public void verifyDisclaimer() throws InterruptedException
 	{
 		hp.scrollToDisclaimer();
@@ -232,7 +232,7 @@ public class HomepageTest extends BaseClass {
 		softAssertion.assertAll();
 	}
 
-	@Test(priority=22, dependsOnMethods = { "getscheduleformData", "verifyMouseIndicator", "verifycalculatorWithValidData", "verifyDisclaimer"})
+	@Test(priority=22, dependsOnMethods = {  "verifyMouseIndicator", "verifycalculatorWithValidData", "verifyDisclaimer"})
 	public void verifyProductAndPopularLinks() throws Throwable, Exception 
 	{
 		js.executeScript("window.scrollBy(0,300)");
@@ -240,8 +240,7 @@ public class HomepageTest extends BaseClass {
 		hp.PopularandProductLinks();
 	}
 
-	@Test(priority=23, dependsOnMethods = { "getscheduleformData", "verifyMouseIndicator", "verifycalculatorWithValidData", "verifyDisclaimer", 
-			"verifyStayConnectedwithUs"})
+	@Test(priority=23, dependsOnMethods = {"verifyMouseIndicator", "verifycalculatorWithValidData", "verifyDisclaimer"})
 	public void verifyStayConnectedwithUs() throws InterruptedException, IOException
 	{
 		js.executeScript("window.scrollBy(0,300)");
