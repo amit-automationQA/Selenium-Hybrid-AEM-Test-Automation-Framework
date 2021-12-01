@@ -37,6 +37,9 @@ public class Categorypage extends BaseClass{
 	@FindBy(xpath="(//a[@class='dwnldLink dataLayerBtnClick'])[1]")
 	WebElement c2pldowbloadbrochure;
 	
+	@FindBy(xpath="(//a[@class='dwnldLink dataLayerBtnClick'])[2]")
+	WebElement sjbdownloadbrochure;
+	
 	@FindBy(xpath="(//a[@class='siteButton buyOnlineBtn dataLayerBtnClick'])[1]")
 	WebElement c2plbuyonlinebtn;
 	
@@ -131,6 +134,11 @@ public class Categorypage extends BaseClass{
 	{
 		c2pldowbloadbrochure.click();
 	}
+	
+	public void sjbDownloadBrochure()
+	{
+		sjbdownloadbrochure.click();
+	}
 
 	public static Boolean isFileDownloaded(String fileName) throws InterruptedException {
 		Thread.sleep(3000);
@@ -148,7 +156,6 @@ public class Categorypage extends BaseClass{
 				}
 				else {
 					System.out.println(fileName + " is incorrect");	
-					break;
 				}
 				flag = true;
 			}

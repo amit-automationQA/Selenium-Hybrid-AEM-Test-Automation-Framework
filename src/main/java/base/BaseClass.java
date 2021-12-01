@@ -2,17 +2,14 @@ package base;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.HashMap;
-import java.util.Map;
 import java.util.Properties;
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.Dimension;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -22,9 +19,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
-
 import util.WebEventListener;
 
 public class BaseClass {
@@ -34,8 +28,8 @@ public class BaseClass {
 	public TakesScreenshot ts;
 	//public static String downloadPath = System.getProperty("user.dir") + "\\Downloaded";
 	public static File folder;
-	String projectpath= System.getProperty("user.dir");
-//@BeforeSuite
+	//String projectpath= System.getProperty("user.dir");
+	
 	public WebDriver initializeDriver() throws IOException
 	{
 		Properties prop = new Properties();
@@ -43,7 +37,7 @@ public class BaseClass {
 		prop.load(fis);
 		String browsername = prop.getProperty("browser");
 		
-		folder = new File(projectpath+UUID.randomUUID().toString());
+		folder = new File(UUID.randomUUID().toString());
 		if (browsername.equals("chrome"))
 		{
 			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "\\Driver\\chromedriver.exe");
@@ -131,7 +125,7 @@ public class BaseClass {
 	        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	        driver.get(prop.getProperty("url"));
 	  }
-	//@AfterSuite
+	  
 	public void tearDown()
 	{
 		driver.quit();

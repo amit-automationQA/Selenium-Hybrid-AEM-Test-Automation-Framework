@@ -93,6 +93,7 @@ public class CategorypageTest extends BaseClass{
 		js.executeScript("window.scrollBy(0,800)");
 		cp.clickSJBLearnMorebtn();
 		hp.verifyLink("https://www.hdfclife.com/term-insurance-plans/saral-jeevan-bima");
+		cp.sjbDownloadBrochure();
 		Categorypage.isFileDownloaded("saral-jeevan-brochure.pdf");
 		cp.clickSJBBuyOnlineBtn();
 		hp.verifyLinkOpenedInNewWindow("https://onlineinsurance.hdfclife.com/buy-online-term-insurance-plans/saral-jeevan-bima/basic-details?source=NW_SJB_BuyOl&agentcode=00399206&language=en"
