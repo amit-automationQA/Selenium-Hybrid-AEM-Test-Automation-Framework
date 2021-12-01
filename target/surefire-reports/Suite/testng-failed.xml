@@ -8,12 +8,9 @@
     <classes>
       <class name="SeleniumTesting.AEMhdfc.HomepageTest">
         <methods>
-          <include name="tearDown"/>
           <include name="tear"/>
-          <include name="verifyschedulePopupWithValidData"/>
-          <include name="verifySubscribeOptionWithValidData"/>
           <include name="setUp"/>
-          <include name="initializeDriver"/>
+          <include name="verifyGroupWebsitesLinks"/>
         </methods>
       </class> <!-- SeleniumTesting.AEMhdfc.HomepageTest -->
     </classes>

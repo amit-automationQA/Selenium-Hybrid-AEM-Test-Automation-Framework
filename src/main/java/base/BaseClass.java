@@ -2,12 +2,17 @@ package base;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Properties;
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -15,6 +20,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
@@ -28,9 +34,8 @@ public class BaseClass {
 	public TakesScreenshot ts;
 	//public static String downloadPath = System.getProperty("user.dir") + "\\Downloaded";
 	public static File folder;
-	//String projectpath= System.getProperty("user.dir");
-
-	@BeforeSuite
+	String projectpath= System.getProperty("user.dir");
+//@BeforeSuite
 	public WebDriver initializeDriver() throws IOException
 	{
 		Properties prop = new Properties();
@@ -38,7 +43,7 @@ public class BaseClass {
 		prop.load(fis);
 		String browsername = prop.getProperty("browser");
 		
-		folder = new File(UUID.randomUUID().toString());
+		folder = new File(projectpath+UUID.randomUUID().toString());
 		if (browsername.equals("chrome"))
 		{
 			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "\\Driver\\chromedriver.exe");
@@ -88,7 +93,45 @@ public class BaseClass {
 		FileUtils.copyFile(source, new File(destinationfile));
 		return destinationfile;
 	}
-	@AfterSuite
+	//SauceLabs credentials
+	//email: kundaramit55@gmail.com [Sign in via Google]
+	//Expiry date for free trial: 28/12/2021
+	//After expiry date please create saucelabs account and replace username, access key and url with saucelabs >> usersettings
+	public static final String AUTOMATE_USERNAME = "oauth-kundaramit55-b543a";
+	  public static final String AUTOMATE_ACCESS_KEY = "82029b88-45ca-4364-ae80-24d72e4eff95";
+	  public static final String URL = "https://" + AUTOMATE_USERNAME + ":" + AUTOMATE_ACCESS_KEY + "@ondemand.eu-central-1.saucelabs.com:443/wd/hub";
+	
+	  
+	  public void SauceLabs_Invocation() throws MalformedURLException, IOException {
+		
+		  Properties prop = new Properties();
+			FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\configFiles\\config.properties");
+			prop.load(fis);
+			folder = new File(UUID.randomUUID().toString());
+			//String baseurl = "https://benjerry.where2getit.com/";
+			DesiredCapabilities caps = DesiredCapabilities.chrome();
+			ChromeOptions options1 = new ChromeOptions();
+			//Map<String, Object> sauceOptions = new HashMap<>();
+			//options1.setCapability("sauce:options", sauceOptions);
+			options1.addArguments("--disable-notifications");
+			options1.addArguments("--start-maximized");
+			caps.setCapability("platform", "Windows 10");
+			caps.setCapability("version", "92");
+			caps.setCapability("resolution", "1920x1080");
+			caps.setCapability("project", "AEM automation");
+			caps.setCapability("build", "SauceLabs Test build");
+			caps.setCapability("name", "SauceLabs Test suite");
+			caps.setCapability(ChromeOptions.CAPABILITY, options1);
+			driver = new RemoteWebDriver(new URL(URL), caps);
+			//driver.manage().window().maximize();
+			driver.manage().deleteAllCookies();
+			//Dimension dim = new Dimension(1920,1080);
+			//driver.manage().window().setSize(dim);
+			driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
+	        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+	        driver.get(prop.getProperty("url"));
+	  }
+	//@AfterSuite
 	public void tearDown()
 	{
 		driver.quit();

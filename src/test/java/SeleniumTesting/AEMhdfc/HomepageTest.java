@@ -24,7 +24,8 @@ public class HomepageTest extends BaseClass {
 
 	@BeforeClass(alwaysRun = true)
 	public void setUp() throws IOException {
-		//initializeDriver();
+		initializeDriver();
+		//SauceLabs_Invocation(); //uncomment if cross browser testing needs to be done
 		hp = new Homepage(driver);
 		PageFactory.initElements(driver, hp);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -51,14 +52,15 @@ public class HomepageTest extends BaseClass {
 		hp.verifyLink("https://www.hdfclife.com/term-insurance-plans/click-2-protect-life");
 	}
 
-	@Test(priority=3, retryAnalyzer = Analyzer.RetryAnalyzer.class)
+	@Test(priority=8, retryAnalyzer = Analyzer.RetryAnalyzer.class)
 	public void verifyFixedMaturityPlanOnBanner() throws InterruptedException
 	{
+		hp.clickViewAllBtn();
 		hp.clickFixedMaturityPlanBlock();
 		hp.verifyLink("https://www.hdfclife.com/savings-plans/sanchay-fixed-maturity-plan");
 	}
 
-	@Test(priority=4, retryAnalyzer = Analyzer.RetryAnalyzer.class)
+	@Test(priority=3, retryAnalyzer = Analyzer.RetryAnalyzer.class)
 	public void verifySavingPlansOnBanner() throws InterruptedException
 	{
 		hp.clickSavingPlansBlock();
@@ -72,20 +74,20 @@ public class HomepageTest extends BaseClass {
 		hp.verifyLink("https://www.hdfclife.com/retirement-and-pension-plans");
 	}
 
-	@Test(priority=6, retryAnalyzer = Analyzer.RetryAnalyzer.class)
+	@Test(priority=7, retryAnalyzer = Analyzer.RetryAnalyzer.class)
 	public void verifyULIPPlansOnBanner() throws InterruptedException
 	{
 		hp.clickUlipPlansBlock();
 		hp.verifyLink("https://www.hdfclife.com/ulip-plans");
 	}
 
-	@Test(priority=7, retryAnalyzer = Analyzer.RetryAnalyzer.class)
+	@Test(priority=6, retryAnalyzer = Analyzer.RetryAnalyzer.class)
 	public void verifyViewAllButton() throws InterruptedException
 	{
 		hp.clickViewAllBtn();
 	}
 
-	@Test(priority=8, retryAnalyzer = Analyzer.RetryAnalyzer.class)
+	@Test(priority=4, retryAnalyzer = Analyzer.RetryAnalyzer.class)
 	public void verifyChildrenPlansOnBanner() throws InterruptedException
 	{
 		hp.clickChildrenPlansBlock();

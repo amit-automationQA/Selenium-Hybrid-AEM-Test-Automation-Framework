@@ -43,7 +43,7 @@ public class Homepage extends BaseClass{
 	By retirementplansblock = By.xpath("//a[@href='/retirement-and-pension-plans']//div//h2[@class='h5']");
 	By comboplansblock = By.xpath("//a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-8']");
 	By viewallbutton = By.xpath("//div[@class='viewall']");
-	By childrenplansblock = By.xpath("//a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-5']");
+	By childrenplansblock = By.xpath("//a[@href='/children-insurance-plans']//div");
 	By healthplansblock= By.xpath("//a[@href='/health-insurance-plans']//div//h2[@class='h5']");
 	By posplansblock =By.xpath("//a[@href='/savings-plans/pos-guaranteed-savings-plan']//div//h2[@class='h5']");
 	By ulipplansblock= By.xpath("//a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-4']");

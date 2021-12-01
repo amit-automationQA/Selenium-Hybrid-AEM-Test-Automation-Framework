@@ -25,22 +25,23 @@ public class CategorypageTest extends BaseClass{
 	@BeforeClass(alwaysRun = true)
 	public void setUp() throws IOException {
 		initializeDriver();
+		//SauceLabs_Invocation(); //uncomment if cross browser testing needs to be done
 		hp = new Homepage(driver);
 		cp = new Categorypage(driver);
 		PageFactory.initElements(driver, cp);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		this.js=js;
 		ts = (TakesScreenshot) driver;
-		//this.ts=ts;
 		System.out.println("Category page test cases started");
 		folder.mkdir();
-		//softAssertion = new SoftAssert();
 	}
 
 	@Test(priority=1, retryAnalyzer = Analyzer.RetryAnalyzer.class)
 	public void navigateToPage() throws InterruptedException
 	{	
 		cp.navigateToTermCategoryPage();
+		//driver.get("https://www.hdfclife.com/term-insurance-plans"); //incase where sauce labs is started need to uncomment the code due to saucelabs resolution issue
+		//Thread.sleep(3000);
 	}
 
 	@Test(priority=2, retryAnalyzer = Analyzer.RetryAnalyzer.class)
@@ -114,7 +115,7 @@ public class CategorypageTest extends BaseClass{
 		Thread.sleep(3000);
 		//WebElement framename= driver.findElement(By.xpath("//*[@id=\"planVideoSection\"]/div/div[2]/iframe"));
 		//driver.switchTo().frame(framename);
-		//cp.verifyVideoOnPage();*/
+		//cp.verifyVideoOnPage();
 	}
 
 	@Test(priority=10, dependsOnMethods=  {"verifyVideoOnCategoryPage"})
