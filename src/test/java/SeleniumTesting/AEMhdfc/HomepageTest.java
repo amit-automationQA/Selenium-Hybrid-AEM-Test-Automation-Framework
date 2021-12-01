@@ -254,7 +254,8 @@ public class HomepageTest extends BaseClass {
 		hp.appleIcon();
 		hp.verifyLinkOpenedInNewWindow("https://apps.apple.com/in/app/id900441427?mt=8", "https://www.hdfclife.com/");
 		hp.androidIconClick();
-		hp.verifyLinkOpenedInNewWindow("https://play.google.com/store/apps/details?id=com.hdfcclife.activities&shortlink=b165a46c&pid=Brandsite&c=TestLinks"
+		hp.verifyLinkOpenedInNewWindow(
+				"https://play.google.com/store/apps/details?id=com.hdfcclife.activities&shortlink=b165a46c&pid=Brandsite&c=TestLinks"
 				, "https://www.hdfclife.com/");
 	}
 
@@ -277,7 +278,7 @@ public class HomepageTest extends BaseClass {
 		Thread.sleep(3000);
 		hp.groupWebsiteLinks();
 	}
-	
+
 	@AfterClass(alwaysRun=true)
 	public void tear()
 	{

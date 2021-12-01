@@ -62,6 +62,11 @@ public class Categorypage extends BaseClass{
 	@FindBy(xpath="//h2[@class='tabAccordMenu']")
 	WebElement closedfaqaccordion;
 	
+	@FindBy(xpath="(//a[@class='viewMoreBtn'])[2]")
+	WebElement buyingguideviewmorebtn;
+	
+	//@FindBy(xpath ="" )
+	
 	
 	
 	public void clickheaderAllLink()
@@ -216,6 +221,7 @@ public class Categorypage extends BaseClass{
 		if(openaccordionclassname.contains("tabAccordMenu opened"))
 		{
 			softAssertion.assertTrue(true, "First FAQ accordion is open on page load");
+			System.out.println("");
 			openedfaqaccordion.click();
 		}
 		else {

@@ -130,7 +130,7 @@ public class CategorypageTest extends BaseClass{
 		js.executeScript("window.scrollBy(0,2300)");
 		cp.verifyFirstOpenFAQ();
 		js.executeScript("window.scrollBy(0,200)");
-		cp.verifysecondFAQ();
+		//cp.verifysecondFAQ();
 	}
 	
 	@AfterClass(alwaysRun=true)
