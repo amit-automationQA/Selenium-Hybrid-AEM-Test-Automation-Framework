@@ -125,16 +125,18 @@ public class CategorypageTest extends BaseClass{
 		js.executeScript("window.scrollBy(0,-2000)");
 		cp.verifyWhyViewMoreAndViewLess();
 	}
-	
+
 	@Test(priority=11, dependsOnMethods = {"verifyWhySection"})
-	public void verifyFaqAccordions() throws InterruptedException
+	public void verifyTermInsuranceGuideFaqSection() throws InterruptedException
 	{
 		js.executeScript("window.scrollBy(0,2300)");
 		cp.verifyFirstOpenFAQ();
 		js.executeScript("window.scrollBy(0,200)");
-		//cp.verifysecondFAQ();
+		cp.verifysecondFAQ();
+		js.executeScript("window.scrollBy(0,300)");
+		cp.verifyTermGuideViewMoreBtn();
 	}
-	
+
 	@AfterClass(alwaysRun=true)
 	public void tear()
 	{

@@ -1,10 +1,13 @@
 package PageObjects;
 import java.io.File;
+
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.asserts.SoftAssert;
 import base.BaseClass;
@@ -36,41 +39,46 @@ public class Categorypage extends BaseClass{
 
 	@FindBy(xpath="(//a[@class='dwnldLink dataLayerBtnClick'])[1]")
 	WebElement c2pldowbloadbrochure;
-	
+
 	@FindBy(xpath="(//a[@class='dwnldLink dataLayerBtnClick'])[2]")
 	WebElement sjbdownloadbrochure;
-	
+
 	@FindBy(xpath="(//a[@class='siteButton buyOnlineBtn dataLayerBtnClick'])[1]")
 	WebElement c2plbuyonlinebtn;
-	
+
 	@FindBy(xpath="(//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[2]")
 	WebElement sjblearnmorebtn;
-	
+
 	@FindBy(xpath="(//a[@class='siteButton buyOnlineBtn dataLayerBtnClick'])[2]")
 	WebElement sjbbuyonlinebtn;
-	
+
 	@FindBy(xpath="(//a[@class='bannerAdBtn siteButton'])[1]")
 	WebElement letscalculate;
-	
+
 	@FindBy(xpath="(//a[@class='viewMoreBtn'])[1]")
 	WebElement whysectionviewmorebtn;
-	
+
 	@FindBy(xpath="(//a[@class='viewMoreBtn viewLessBtn'])[1]")
 	WebElement whysectionviewlessbtn;
-	
+
 	@FindBy(xpath="//h2[@class='tabAccordMenu opened']")
 	WebElement openedfaqaccordion;
-	
-	@FindBy(xpath="//h2[@class='tabAccordMenu']")
-	WebElement closedfaqaccordion;
-	
+
+	@FindBy(xpath="(//h2[@class='tabAccordMenu'])[2]")
+	WebElement closedsecondfaqaccordion;
+
 	@FindBy(xpath="(//a[@class='viewMoreBtn'])[2]")
 	WebElement buyingguideviewmorebtn;
-	
+
+	@FindBy(xpath="(//a[@class='viewMoreBtn'])[2]")
+	WebElement termguideviewmorebtn;
+
+	@FindBy(xpath="//a[@class='viewMoreBtn viewLessBtn']")
+	WebElement termguideviewlessbtn;
 	//@FindBy(xpath ="" )
-	
-	
-	
+
+
+
 	public void clickheaderAllLink()
 	{
 		headeralllink.click();
@@ -134,7 +142,7 @@ public class Categorypage extends BaseClass{
 	{
 		c2pldowbloadbrochure.click();
 	}
-	
+
 	public void sjbDownloadBrochure()
 	{
 		sjbdownloadbrochure.click();
@@ -172,35 +180,35 @@ public class Categorypage extends BaseClass{
 		}
 		folder.delete();
 	}
-	
+
 	public void clickC2plBuyNowBtn() throws InterruptedException
 	{
 		Thread.sleep(3000);
 		softAssertion.assertTrue(c2plbuyonlinebtn.isDisplayed());
 		c2plbuyonlinebtn.click();
 	}
-	
+
 	public void clickSJBLearnMorebtn() throws InterruptedException
 	{
 		Thread.sleep(3000);
 		softAssertion.assertTrue(sjblearnmorebtn.isDisplayed());
 		sjblearnmorebtn.click();
 	}
-	
+
 	public void clickSJBBuyOnlineBtn() throws InterruptedException
 	{
 		Thread.sleep(3000);
 		softAssertion.assertTrue(sjbbuyonlinebtn.isDisplayed());
 		sjbbuyonlinebtn.click();
 	}
-	
+
 	public void clickLetsCalculateBtn() throws InterruptedException
 	{
 		Thread.sleep(3000);
 		softAssertion.assertTrue(letscalculate.isDisplayed());
 		letscalculate.click();
 	}
-	
+
 	public void verifyWhyViewMoreAndViewLess() throws InterruptedException
 	{
 		Thread.sleep(3000);
@@ -212,14 +220,14 @@ public class Categorypage extends BaseClass{
 			Thread.sleep(3000);
 			softAssertion.assertTrue(whysectionviewmorebtn.isDisplayed());
 			softAssertion.assertAll();
-			}
+		}
 		else {
 			softAssertion.fail("View Less button is not getting displayed in Why section after clicking on view more");
 			softAssertion.assertAll();
 		}
-		
+
 	}
-	
+
 	public void verifyFirstOpenFAQ() throws InterruptedException
 	{
 		Thread.sleep(3000);
@@ -235,12 +243,12 @@ public class Categorypage extends BaseClass{
 		}
 		softAssertion.assertAll();
 	}
-	
+
 	public void verifysecondFAQ() throws InterruptedException
 	{
 		Thread.sleep(3000);
-		softAssertion.assertTrue(closedfaqaccordion.isDisplayed());
-		closedfaqaccordion.click();
+		softAssertion.assertTrue(closedsecondfaqaccordion.isDisplayed());
+		closedsecondfaqaccordion.click();
 		Thread.sleep(3000);
 		String openaccordionclassname1 = openedfaqaccordion.getAttribute("class");
 		if(openaccordionclassname1.contains("tabAccordMenu opened"))
@@ -250,6 +258,27 @@ public class Categorypage extends BaseClass{
 		}
 		else {
 			softAssertion.assertTrue(false, "Second FAQ accordion is not opened on click");
+		}
+		softAssertion.assertAll();
+	}
+
+	public void verifyTermGuideViewMoreBtn() throws InterruptedException
+	{
+		Thread.sleep(3000);
+		if(termguideviewmorebtn.isDisplayed())
+		{
+			termguideviewmorebtn.click();
+			Thread.sleep(3000);
+			JavascriptExecutor js = (JavascriptExecutor) driver;
+			js.executeScript("window.scrollBy(0,900)");
+			WebDriverWait wait = new WebDriverWait(driver,30);
+			wait.until(ExpectedConditions.elementToBeClickable(termguideviewlessbtn));
+			termguideviewlessbtn.click();
+			Thread.sleep(3000);
+			softAssertion.assertTrue(termguideviewmorebtn.isDisplayed());
+		}
+		else {
+			softAssertion.assertTrue(false, "View more button for term insurance buying guide is not visible on page load");
 		}
 		softAssertion.assertAll();
 	}

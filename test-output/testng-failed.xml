@@ -3,38 +3,18 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="SeleniumTesting.AEMhdfc.HomepageTest">
+      <class name="SeleniumTesting.AEMhdfc.CategorypageTest">
         <methods>
-          <include name="verifyDisclaimer"/>
-          <include name="verifyMouseIndicator"/>
-          <include name="verifyschedulePopupWithValidData"/>
-          <include name="verifySubscribeOptionWithValidData"/>
-          <include name="verifyChildrenPlansOnBanner"/>
-          <include name="verifySavingPlansOnBanner"/>
-          <include name="verifyPosPlansOnBanner"/>
-          <include name="verifyTermPlanOnBanner"/>
-          <include name="verifyComboPlansOnBanner"/>
-          <include name="verifycalculatorWithValidData"/>
-          <include name="verifyProductAndPopularLinks"/>
-          <include name="verifyStayConnectedwithUs"/>
-          <include name="verifyschedulepopupblankSubmit"/>
-          <include name="verifyBannerCarousel"/>
-          <include name="verifyGroupPlansOnBanner"/>
-          <include name="verifyHealthPlansOnBanner"/>
-          <include name="tear"/>
+          <include name="verifyTermInsuranceGuideFaqSection"/>
           <include name="setUp"/>
-          <include name="verifyCalculatorCloseBtn"/>
-          <include name="verifyRetirementPlansOnBanner"/>
-          <include name="verifyDownloadLinks"/>
-          <include name="verifyViewAllButton"/>
-          <include name="verifySanchayPlusBuyNowBtn"/>
-          <include name="verifyFixedMaturityPlanOnBanner"/>
-          <include name="verifyULIPPlansOnBanner"/>
-          <include name="verifyschedulePopupwithoutmindata"/>
-          <include name="verifyGroupWebsitesLinks"/>
-          <include name="verifyArrowButtonsOnBanner"/>
+          <include name="verifyLetsCalculateWithValidData"/>
+          <include name="verifyC2PLProduct"/>
+          <include name="verifyVideoOnCategoryPage"/>
+          <include name="verifyWhySection"/>
+          <include name="tear"/>
+          <include name="verifySJBProduct"/>
         </methods>
-      </class> <!-- SeleniumTesting.AEMhdfc.HomepageTest -->
+      </class> <!-- SeleniumTesting.AEMhdfc.CategorypageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

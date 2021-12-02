@@ -1,29 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-01T14:46:46Z" name="Default suite" finished-at="2021-12-01T14:47:59Z" duration-ms="72400">
+  <suite started-at="2021-12-02T15:20:24Z" name="Default suite" finished-at="2021-12-02T15:24:02Z" duration-ms="218302">
     <groups>
     </groups>
-    <test started-at="2021-12-01T14:46:46Z" name="Default test" finished-at="2021-12-01T14:47:59Z" duration-ms="72400">
+    <test started-at="2021-12-02T15:20:24Z" name="Default test" finished-at="2021-12-02T15:24:02Z" duration-ms="218302">
       <class name="SeleniumTesting.AEMhdfc.CategorypageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTesting.AEMhdfc.CategorypageTest@31368b99]" started-at="2021-12-01T20:16:46Z" name="setUp" finished-at="2021-12-01T20:16:52Z" duration-ms="6171" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTesting.AEMhdfc.CategorypageTest@2145b572]" started-at="2021-12-02T20:50:24Z" name="setUp" finished-at="2021-12-02T20:50:50Z" duration-ms="26583" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="navigateToPage()[pri:1, instance:SeleniumTesting.AEMhdfc.CategorypageTest@31368b99]" started-at="2021-12-01T20:16:52Z" name="navigateToPage" finished-at="2021-12-01T20:17:02Z" duration-ms="9472" status="PASS">
+        <test-method signature="navigateToPage()[pri:1, instance:SeleniumTesting.AEMhdfc.CategorypageTest@2145b572]" started-at="2021-12-02T20:50:50Z" name="navigateToPage" finished-at="2021-12-02T20:51:00Z" duration-ms="9398" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToPage -->
-        <test-method signature="verifyC2PLProduct()[pri:6, instance:SeleniumTesting.AEMhdfc.CategorypageTest@31368b99]" started-at="2021-12-01T20:17:02Z" name="verifyC2PLProduct" finished-at="2021-12-01T20:17:35Z" duration-ms="33021" status="PASS">
+        <test-method signature="verifyCalculatePremiumBtn()[pri:2, instance:SeleniumTesting.AEMhdfc.CategorypageTest@2145b572]" started-at="2021-12-02T20:51:00Z" name="verifyCalculatePremiumBtn" finished-at="2021-12-02T20:51:12Z" duration-ms="12767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCalculatePremiumBtn -->
+        <test-method signature="verifyTalkToAdvisor()[pri:3, instance:SeleniumTesting.AEMhdfc.CategorypageTest@2145b572]" started-at="2021-12-02T20:51:12Z" name="verifyTalkToAdvisor" finished-at="2021-12-02T20:51:19Z" duration-ms="6587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTalkToAdvisor -->
+        <test-method signature="verifyTalkToAdvisorPopup()[pri:4, instance:SeleniumTesting.AEMhdfc.CategorypageTest@2145b572]" started-at="2021-12-02T20:51:19Z" name="verifyTalkToAdvisorPopup" finished-at="2021-12-02T20:51:29Z" duration-ms="9614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTalkToAdvisorPopup -->
+        <test-method signature="verifyHomeIconInBreadCrumb()[pri:5, instance:SeleniumTesting.AEMhdfc.CategorypageTest@2145b572]" started-at="2021-12-02T20:51:29Z" name="verifyHomeIconInBreadCrumb" finished-at="2021-12-02T20:51:38Z" duration-ms="9446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomeIconInBreadCrumb -->
+        <test-method signature="verifyC2PLProduct()[pri:6, instance:SeleniumTesting.AEMhdfc.CategorypageTest@2145b572]" started-at="2021-12-02T20:51:38Z" name="verifyC2PLProduct" finished-at="2021-12-02T20:52:07Z" duration-ms="28740" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyC2PLProduct -->
-        <test-method signature="verifySJBProduct()[pri:7, instance:SeleniumTesting.AEMhdfc.CategorypageTest@31368b99]" started-at="2021-12-01T20:17:35Z" name="verifySJBProduct" finished-at="2021-12-01T20:17:58Z" depends-on-methods="SeleniumTesting.AEMhdfc.CategorypageTest.verifyC2PLProduct" duration-ms="23289" status="PASS">
+        <test-method signature="verifySJBProduct()[pri:7, instance:SeleniumTesting.AEMhdfc.CategorypageTest@2145b572]" started-at="2021-12-02T20:52:07Z" name="verifySJBProduct" finished-at="2021-12-02T20:52:29Z" depends-on-methods="SeleniumTesting.AEMhdfc.CategorypageTest.verifyC2PLProduct" duration-ms="22781" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySJBProduct -->
-        <test-method is-config="true" signature="tear()[pri:0, instance:SeleniumTesting.AEMhdfc.CategorypageTest@31368b99]" started-at="2021-12-01T20:17:58Z" name="tear" finished-at="2021-12-01T20:17:59Z" duration-ms="421" status="PASS">
+        <test-method signature="verifyLetsCalculateWithValidData()[pri:8, instance:SeleniumTesting.AEMhdfc.CategorypageTest@2145b572]" started-at="2021-12-02T20:52:29Z" name="verifyLetsCalculateWithValidData" finished-at="2021-12-02T20:52:38Z" depends-on-methods="SeleniumTesting.AEMhdfc.CategorypageTest.verifySJBProduct, SeleniumTesting.AEMhdfc.CategorypageTest.verifyC2PLProduct" duration-ms="8906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLetsCalculateWithValidData -->
+        <test-method signature="verifyVideoOnCategoryPage()[pri:9, instance:SeleniumTesting.AEMhdfc.CategorypageTest@2145b572]" started-at="2021-12-02T20:52:38Z" name="verifyVideoOnCategoryPage" finished-at="2021-12-02T20:52:45Z" depends-on-methods="SeleniumTesting.AEMhdfc.CategorypageTest.verifySJBProduct, SeleniumTesting.AEMhdfc.CategorypageTest.verifyLetsCalculateWithValidData, SeleniumTesting.AEMhdfc.CategorypageTest.verifyC2PLProduct" duration-ms="6119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyVideoOnCategoryPage -->
+        <test-method signature="verifyWhySection()[pri:10, instance:SeleniumTesting.AEMhdfc.CategorypageTest@2145b572]" started-at="2021-12-02T20:52:45Z" name="verifyWhySection" finished-at="2021-12-02T20:52:59Z" depends-on-methods="SeleniumTesting.AEMhdfc.CategorypageTest.verifyVideoOnCategoryPage" duration-ms="14749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWhySection -->
+        <test-method signature="verifyTermInsuranceGuideFaqSection()[pri:11, instance:SeleniumTesting.AEMhdfc.CategorypageTest@2145b572]" started-at="2021-12-02T20:52:59Z" name="verifyTermInsuranceGuideFaqSection" finished-at="2021-12-02T20:54:01Z" depends-on-methods="SeleniumTesting.AEMhdfc.CategorypageTest.verifyWhySection" duration-ms="62125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTermInsuranceGuideFaqSection -->
+        <test-method is-config="true" signature="tear()[pri:0, instance:SeleniumTesting.AEMhdfc.CategorypageTest@2145b572]" started-at="2021-12-02T20:54:01Z" name="tear" finished-at="2021-12-02T20:54:02Z" duration-ms="427" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear -->
