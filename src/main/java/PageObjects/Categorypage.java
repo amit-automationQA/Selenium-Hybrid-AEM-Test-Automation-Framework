@@ -92,6 +92,11 @@ WebElement contactusbtn;
 	@FindBy(xpath="//button[normalize-space()='VIEW MORE']")
 	WebElement articlesviewmorebtn;
 
+@FindBy(xpath="//a[@href='/content/dam/hdfclifeinsurancecompany/products-page/brochure-links/HDFC-Life-Protect-Plus-Rider.pdf']")
+WebElement thirdrider;
+
+@FindBy(xpath="(//ul[@class='insuranceBenList'])[1]")
+WebElement riderdownloadbuttons;
 
 	public void clickheaderAllLink()
 	{
@@ -310,37 +315,14 @@ WebElement contactusbtn;
 	{
 		Thread.sleep(3000);
 		System.out.println("Verification for download button in rider section started");
-		/*List<WebElement> buttons = driver.findElements(By.className("siteButton outlinedBtn"));
-		//List<WebElement> stayconnected= buttons;
-		for(WebElement we : buttons)
-		{
-			if(we.getAttribute("innerText").contains("DOWNLOAD"))
-			{
-				we.click();
-			}
-			Thread.sleep(3000);
-		}
-		Iterator<WebElement> itr = buttons.iterator();
-
-		while(itr.hasNext())
-		{
-			if(itr.getAttribute("innerText").contains("DOWNLOAD"))
-			{
-				we.click();
-			}
-		}
-		Thread.sleep(3000);
-		driver.findElement(By.xpath("(//a[@class='siteButton outlinedBtn'])[5]")).click();
-		Thread.sleep(3000);
-		*/
-		WebElement header1 = driver.findElement(By.xpath("(//ul[@class='insuranceBenList'])[1]"));
-		List<WebElement> lin = header1.findElements(By.tagName("a"));
+		//WebElement header1 = driver.findElement(By.xpath("(//ul[@class='insuranceBenList'])[1]"));
+		List<WebElement> lin = riderdownloadbuttons.findElements(By.tagName("a"));
 		int nooflinks = lin.size();
-		System.out.println(" the number of link in header section : " +nooflinks);
+		System.out.println(" the number of buttons in download riders section : " +nooflinks);
 		//int count=0;
 		for(int i=0; i<nooflinks; i++) {
-			WebElement footer1New = driver.findElement(By.xpath("(//ul[@class='insuranceBenList'])[1]"));
-			List<WebElement> linNew = footer1New.findElements(By.tagName("a"));
+			//WebElement footer1New = driver.findElement(By.xpath("(//ul[@class='insuranceBenList'])[1]"));
+			List<WebElement> linNew = riderdownloadbuttons.findElements(By.tagName("a"));
 			JavascriptExecutor js=(JavascriptExecutor)driver;
 			WebElement linkss = linNew.get(i);
 			js.executeScript("arguments[0].scrollIntoView(true);",linkss);
@@ -362,7 +344,11 @@ WebElement contactusbtn;
 			softAssertion.assertEquals(driver.getCurrentUrl(), "https://www.hdfclife.com/term-insurance-plans");
 			Thread.sleep(3000);
 		}
-	
+		thirdrider.click();
+		Thread.sleep(3000);
+		Homepage hp = new Homepage(driver);
+		hp.verifyLinkOpenedInNewWindow("https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/products-page/brochure-links/HDFC-Life-Protect-Plus-Rider.pdf", 
+				"https://www.hdfclife.com/term-insurance-plans");
 	}
 	
 	public void clickContactUsBtn() throws InterruptedException
