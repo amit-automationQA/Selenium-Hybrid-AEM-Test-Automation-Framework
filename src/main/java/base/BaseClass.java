@@ -82,7 +82,7 @@ public class BaseClass {
 			options.addPreference("browser.link.open_newwindow", 3);
 			options.addPreference("browser.link.open_newwindow.restriction", 0);
 
-			WebDriver driver = new FirefoxDriver(options);
+			driver = new FirefoxDriver(options);
 		}
 		e_driver = new EventFiringWebDriver(driver);
 		eventListener = new WebEventListener();
