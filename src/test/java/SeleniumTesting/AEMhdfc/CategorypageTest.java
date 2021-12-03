@@ -165,7 +165,7 @@ public class CategorypageTest extends BaseClass{
 		js.executeScript("window.scrollBy(0,1000)");
 		Thread.sleep(3000);
 		//cp.verifyArticles();
-		js.executeScript("window.scrollBy(0,400)");
+		js.executeScript("window.scrollBy(0,600)");
 		Thread.sleep(3000);
 		cp.clickViewMoreBtn();
 		hp.verifyLink("https://www.hdfclife.com/insurance-knowledge-centre");

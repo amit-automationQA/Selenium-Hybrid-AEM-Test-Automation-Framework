@@ -16,6 +16,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
@@ -64,8 +66,23 @@ public class BaseClass {
 		
 		else if(browsername.equals("firefox"))
 		{
-			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "\\Driver\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir") + "\\Driver\\geckodriver.exe");
 			driver = new FirefoxDriver();
+			FirefoxProfile profile = new FirefoxProfile();
+			profile.setPreference("network.proxy.no_proxies_on", "localhost");
+			profile.setPreference("javascript.enabled", true);
+
+			DesiredCapabilities capabilities = DesiredCapabilities.firefox();
+			capabilities.setCapability("marionette", true);
+			capabilities.setCapability(FirefoxDriver.PROFILE, profile);
+
+			FirefoxOptions options = new FirefoxOptions();
+			options.merge(capabilities);
+			//options.setLogLevel(Level.FINEST);
+			options.addPreference("browser.link.open_newwindow", 3);
+			options.addPreference("browser.link.open_newwindow.restriction", 0);
+
+			WebDriver driver = new FirefoxDriver(options);
 		}
 		e_driver = new EventFiringWebDriver(driver);
 		eventListener = new WebEventListener();

@@ -2,6 +2,7 @@ package PageObjects;
 import java.io.File;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -308,11 +309,11 @@ WebElement contactusbtn;
 
 	public void clickDownloadBtn() throws InterruptedException
 	{
-		/*Thread.sleep(3000);
+		Thread.sleep(3000);
 		System.out.println("Verification for download button in rider section started");
-		List<WebElement> buttons = driver.findElements(By.className("siteButton outlinedBtn"));
+		/*List<WebElement> buttons = driver.findElements(By.className("siteButton outlinedBtn"));
 		//List<WebElement> stayconnected= buttons;
-		/*for(WebElement we : buttons)
+		for(WebElement we : buttons)
 		{
 			if(we.getAttribute("innerText").contains("DOWNLOAD"))
 			{
@@ -328,13 +329,41 @@ WebElement contactusbtn;
 			{
 				we.click();
 			}
-		}*/
+		}
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("(//a[@class='siteButton outlinedBtn'])[5]")).click();
 		Thread.sleep(3000);
-		Homepage hp = new Homepage(driver);
-		hp.verifyLinkOpenedInNewWindow("https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/products-page/brochure-links/HDFC-Life-Income-Benefit-on-Accidental-Disability-Rider.pdf", 
-				"https://www.hdfclife.com/term-insurance-plans");	
+		*/
+		WebElement header1 = driver.findElement(By.xpath("(//ul[@class='insuranceBenList'])[1]"));
+		List<WebElement> lin = header1.findElements(By.tagName("a"));
+		int nooflinks = lin.size();
+		System.out.println(" the number of link in header section : " +nooflinks);
+		//int count=0;
+		for(int i=0; i<nooflinks; i++) {
+			WebElement footer1New = driver.findElement(By.xpath("(//ul[@class='insuranceBenList'])[1]"));
+			List<WebElement> linNew = footer1New.findElements(By.tagName("a"));
+			JavascriptExecutor js=(JavascriptExecutor)driver;
+			WebElement linkss = linNew.get(i);
+			js.executeScript("arguments[0].scrollIntoView(true);",linkss);
+			Thread.sleep(3000);		
+			//String pageName = linkss.getAttribute("innerText");
+			//String href = linkss.getAttribute("href");
+			JavascriptExecutor executor = (JavascriptExecutor) driver;
+			executor.executeScript("arguments[0].click();", linkss);
+			Thread.sleep(3000);
+			Set<String> windows = driver.getWindowHandles();
+			Iterator<String>it2=windows.iterator();
+			String parentId= it2.next();
+			String childId=it2.next();
+			driver.switchTo().window(childId);
+			Thread.sleep(3000);
+			//softAssertion.assertEquals(driver.getCurrentUrl(),childurl);
+			driver.close();
+			driver.switchTo().window(parentId);
+			softAssertion.assertEquals(driver.getCurrentUrl(), "https://www.hdfclife.com/term-insurance-plans");
+			Thread.sleep(3000);
+		}
+	
 	}
 	
 	public void clickContactUsBtn() throws InterruptedException
