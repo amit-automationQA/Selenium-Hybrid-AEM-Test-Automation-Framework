@@ -2,6 +2,7 @@ package SeleniumTesting.AEMhdfc;
 
 import java.io.IOException;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.support.PageFactory;
@@ -135,6 +136,48 @@ public class CategorypageTest extends BaseClass{
 		cp.verifysecondFAQ();
 		js.executeScript("window.scrollBy(0,300)");
 		cp.verifyTermGuideViewMoreBtn();
+	}
+	
+	@Test(priority=12, dependsOnMethods={"verifyTermInsuranceGuideFaqSection"})
+	public void verifyRidersSection() throws InterruptedException //Implementation of for loop for clickdownloadbtnmethod is pending
+	{
+		js.executeScript("window.scrollBy(0,900)");
+		cp.verifyViewMoreOnLoad();
+		js.executeScript("window.scrollBy(0,-100)");
+		Thread.sleep(3000);
+		cp.clickDownloadBtn();
+		Thread.sleep(3000);
+		//driver.findElement(By.xpath("(//a[@class='siteButton outlinedBtn'])[5]")).click();
+		//hp.verifyLinkOpenedInNewWindow(URL, URL)
+	}
+	
+	@Test(priority=13,dependsOnMethods={"verifyRidersSection"} )
+	public void verifyContactUs() throws InterruptedException
+	{
+		js.executeScript("window.scrollBy(0,200)");
+		cp.clickContactUsBtn();
+		hp.verifyLink("https://www.hdfclife.com/contact-us");
+	}
+	
+	@Test(priority=14)
+	public void verifyArticlesSection() throws InterruptedException //Implementation of loop is pending
+	{
+		js.executeScript("window.scrollBy(0,1000)");
+		Thread.sleep(3000);
+		//cp.verifyArticles();
+		js.executeScript("window.scrollBy(0,400)");
+		Thread.sleep(3000);
+		cp.clickViewMoreBtn();
+		hp.verifyLink("https://www.hdfclife.com/insurance-knowledge-centre");
+	}
+	
+	@Test(priority=15)
+	public void verifyDisclaimer() throws InterruptedException
+	{
+		js.executeScript("window.scrollBy(0,400)");
+		Thread.sleep(3000);
+		hp.openCloseDisclaimer();
+		Thread.sleep(3000);
 	}
 
 	@AfterClass(alwaysRun=true)

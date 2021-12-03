@@ -47,6 +47,7 @@ public class BaseClass {
 			chromePrefs.put("download.default_directory", folder.getAbsolutePath());// to download any file in project directory only*/
             ChromeOptions options = new ChromeOptions();
 			options.addArguments("--disable-notifications"); // Disabled notifications popup
+			options.addArguments("--incognito");
 			options.addArguments("--start-maximized"); // https://stackoverflow.com/a/26283818/1689770
 			options.addArguments("enable-automation"); // https://stackoverflow.com/a/43840128/1689770
 			options.addArguments("--no-sandbox"); //https://stackoverflow.com/a/50725918/1689770

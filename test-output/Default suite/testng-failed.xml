@@ -9,6 +9,7 @@
           <include name="setUp"/>
           <include name="verifyLetsCalculateWithValidData"/>
           <include name="verifyC2PLProduct"/>
+          <include name="verifyRidersSection"/>
           <include name="verifyVideoOnCategoryPage"/>
           <include name="verifyWhySection"/>
           <include name="tear"/>

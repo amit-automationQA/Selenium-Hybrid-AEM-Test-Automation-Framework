@@ -1,10 +1,14 @@
 package PageObjects;
 import java.io.File;
+import java.util.Iterator;
+import java.util.List;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Wait;
@@ -75,8 +79,18 @@ public class Categorypage extends BaseClass{
 
 	@FindBy(xpath="//a[@class='viewMoreBtn viewLessBtn']")
 	WebElement termguideviewlessbtn;
-	//@FindBy(xpath ="" )
 
+	@FindBy(xpath="(//a[@class='viewMoreBtn'])[5]")
+	WebElement ridersectionviewmorebtn;
+
+	@FindBy(how=How.CSS,using=".siteButton.outlinedBtn")
+	List<WebElement> allbuttons;
+	
+	@FindBy(xpath="(//a[@class='bannerAdBtn siteButton'])[2]")
+WebElement contactusbtn;
+
+	@FindBy(xpath="//button[normalize-space()='VIEW MORE']")
+	WebElement articlesviewmorebtn;
 
 
 	public void clickheaderAllLink()
@@ -271,8 +285,7 @@ public class Categorypage extends BaseClass{
 			Thread.sleep(3000);
 			JavascriptExecutor js = (JavascriptExecutor) driver;
 			js.executeScript("window.scrollBy(0,900)");
-			WebDriverWait wait = new WebDriverWait(driver,30);
-			wait.until(ExpectedConditions.elementToBeClickable(termguideviewlessbtn));
+			Thread.sleep(3000);
 			termguideviewlessbtn.click();
 			Thread.sleep(3000);
 			softAssertion.assertTrue(termguideviewmorebtn.isDisplayed());
@@ -282,7 +295,74 @@ public class Categorypage extends BaseClass{
 		}
 		softAssertion.assertAll();
 	}
+
+	public void verifyViewMoreOnLoad() throws InterruptedException
+	{
+		Thread.sleep(3000);
+		if(ridersectionviewmorebtn.isDisplayed())
+		{
+			ridersectionviewmorebtn.click();
+			Thread.sleep(3000);
+		}	
+	}
+
+	public void clickDownloadBtn() throws InterruptedException
+	{
+		/*Thread.sleep(3000);
+		System.out.println("Verification for download button in rider section started");
+		List<WebElement> buttons = driver.findElements(By.className("siteButton outlinedBtn"));
+		//List<WebElement> stayconnected= buttons;
+		/*for(WebElement we : buttons)
+		{
+			if(we.getAttribute("innerText").contains("DOWNLOAD"))
+			{
+				we.click();
+			}
+			Thread.sleep(3000);
+		}
+		Iterator<WebElement> itr = buttons.iterator();
+
+		while(itr.hasNext())
+		{
+			if(itr.getAttribute("innerText").contains("DOWNLOAD"))
+			{
+				we.click();
+			}
+		}*/
+		Thread.sleep(3000);
+		driver.findElement(By.xpath("(//a[@class='siteButton outlinedBtn'])[5]")).click();
+		Thread.sleep(3000);
+		Homepage hp = new Homepage(driver);
+		hp.verifyLinkOpenedInNewWindow("https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/products-page/brochure-links/HDFC-Life-Income-Benefit-on-Accidental-Disability-Rider.pdf", 
+				"https://www.hdfclife.com/term-insurance-plans");	
+	}
+	
+	public void clickContactUsBtn() throws InterruptedException
+	{
+		Thread.sleep(3000);
+		softAssertion.assertTrue(contactusbtn.isDisplayed());
+		contactusbtn.click();
+		Thread.sleep(3000);
+	}
+	
+	public void verifyArticles()
+	{
+		List<WebElement> linklist= driver.findElements(By.className("abtboxRt bg1"));
+		for(int z=1; z<=linklist.size();z++)
+		{
+			
+		}
+	}
+	
+	public void clickViewMoreBtn() throws InterruptedException
+	{
+		Thread.sleep(3000);
+		softAssertion.assertTrue(articlesviewmorebtn.isDisplayed());
+		articlesviewmorebtn.click();
+	}
+	
 }
+
 
 
 
