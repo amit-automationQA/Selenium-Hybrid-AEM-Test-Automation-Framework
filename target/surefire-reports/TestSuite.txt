@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 41, Failures: 4, Errors: 0, Skipped: 4, Time elapsed: 527.007 s <<< FAILURE! - in TestSuite
-SeleniumTesting.AEMhdfc.HomepageTest.verifySubscribeOptionWithValidData  Time elapsed: 0.101 s  <<< FAILURE!
+Tests run: 41, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 579.209 s <<< FAILURE! - in TestSuite
+SeleniumTesting.AEMhdfc.HomepageTest.verifySubscribeOptionWithValidData  Time elapsed: 0.128 s  <<< FAILURE!
 java.lang.AssertionError: 
 The following asserts failed:
 	expected [https://www.hdfclife.com/] but found [https://www.hdfclife.com/#],
@@ -10,26 +10,34 @@ The following asserts failed:
 	expected [https://www.hdfclife.com/] but found [https://www.hdfclife.com/#]
 	at SeleniumTesting.AEMhdfc.HomepageTest.verifySubscribeOptionWithValidData(HomepageTest.java:267)
 
-SeleniumTesting.AEMhdfc.CategorypageTest.verifyLetsCalculateBtn  Time elapsed: 7.749 s  <<< FAILURE!
-java.lang.AssertionError: 
-The following asserts failed:
-	expected [https://onlineinsurance.hdfclife.com/buy-online-term-insurance-plans/saral-jeevan-bima/basic-details?source=NW_SJB_BuyOl&agentcode=00399206&language=en] but found [about:blank]
-	at SeleniumTesting.AEMhdfc.CategorypageTest.verifyLetsCalculateBtn(CategorypageTest.java:108)
+SeleniumTesting.AEMhdfc.CategorypageTest.verifyRidersSection  Time elapsed: 3.172 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <a class="viewMoreBtn" href="#"> is not clickable at point (759,263) because another element <iframe id="nv_box_content-iframe_17168" src=""> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN24007907', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 9388, moz:profile: C:\Users\Akundar\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bf425f5c-ee29-40ce-92aa-0139761e817d
+	at SeleniumTesting.AEMhdfc.CategorypageTest.verifyRidersSection(CategorypageTest.java:144)
 
-SeleniumTesting.AEMhdfc.CategorypageTest.verifyContactUs  Time elapsed: 11.12 s  <<< FAILURE!
-java.lang.AssertionError: 
-The following asserts failed:
-	expected [https://onlineinsurance.hdfclife.com/buy-online-term-insurance-plans/saral-jeevan-bima/basic-details?source=NW_SJB_BuyOl&agentcode=00399206&language=en] but found [about:blank]
-	at SeleniumTesting.AEMhdfc.CategorypageTest.verifyContactUs(CategorypageTest.java:157)
+SeleniumTesting.AEMhdfc.CategorypageTest.verifyContactUs  Time elapsed: 3.183 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <a class="bannerAdBtn siteButton" href="/contact-us"> is not clickable at point (1184,250) because another element <div id="nv_js-modal-overlay_17168"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN24007907', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 9388, moz:profile: C:\Users\Akundar\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bf425f5c-ee29-40ce-92aa-0139761e817d
+	at SeleniumTesting.AEMhdfc.CategorypageTest.verifyContactUs(CategorypageTest.java:156)
 
-SeleniumTesting.AEMhdfc.CategorypageTest.verifyArticlesSection  Time elapsed: 13.01 s  <<< FAILURE!
+SeleniumTesting.AEMhdfc.CategorypageTest.verifyArticlesSection  Time elapsed: 13.254 s  <<< FAILURE!
 org.openqa.selenium.StaleElementReferenceException: 
-The element reference of [object String] "{\"element-6066-11e4-a52e-4f735466cecf\":\"7c749d78-3940-4dbc-bbaf-73f7e9e566dc\"}" is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+The element reference of [object String] "{\"element-6066-11e4-a52e-4f735466cecf\":\"f5cfc235-a1d5-4be6-ae71-3977d06d521a\"}" is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LIN24007907', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 19584, moz:profile: C:\Users\Akundar\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 5ee262a5-7c27-4ba7-ad63-3d9f5fdc855d
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 9388, moz:profile: C:\Users\Akundar\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bf425f5c-ee29-40ce-92aa-0139761e817d
 	at SeleniumTesting.AEMhdfc.CategorypageTest.verifyArticlesSection(CategorypageTest.java:165)
 

@@ -5,18 +5,9 @@
     <classes>
       <class name="SeleniumTesting.AEMhdfc.CategorypageTest">
         <methods>
-          <include name="verifyLetsCalculateBtn"/>
-          <include name="verifyTermInsuranceGuideFaqSection"/>
           <include name="setUp"/>
-          <include name="verifyContactUs"/>
-          <include name="verifyC2PLProduct"/>
           <include name="verifyArticlesSection"/>
-          <include name="verifyRidersSection"/>
-          <include name="verifyVideoOnCategoryPage"/>
-          <include name="verifyWhySection"/>
-          <include name="verifyDisclaimer"/>
           <include name="tear"/>
-          <include name="verifySJBProduct"/>
         </methods>
       </class> <!-- SeleniumTesting.AEMhdfc.CategorypageTest -->
     </classes>

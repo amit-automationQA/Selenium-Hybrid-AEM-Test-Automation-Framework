@@ -105,8 +105,8 @@
 			<artifactId>ooxml-schemas</artifactId>
 			<version>1.4</version>
 		</dependency>
-		
-			<dependency>
+
+		<dependency>
 			<groupId>org.apache.xmlbeans</groupId>
 			<artifactId>xmlbeans</artifactId>
 			<version>5.0.1</version>
@@ -117,12 +117,18 @@
 			<version>1.18.20</version>
 		</dependency>
 
-<!-- https://mvnrepository.com/artifact/io.netty/netty-all -->
-<dependency>
-    <groupId>io.netty</groupId>
-    <artifactId>netty-all</artifactId>
-    <version>4.1.70.Final</version>
-</dependency>
+		<dependency>
+			<groupId>com.microsoft.edge</groupId>
+			<artifactId>msedge-selenium-tools-java</artifactId>
+			<version>[3.141.0,)</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/io.netty/netty-all -->
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-all</artifactId>
+			<version>4.1.70.Final</version>
+		</dependency>
 
 
 	</dependencies>
@@ -146,7 +152,7 @@
 					<artifactId>maven-compiler-plugin</artifactId>
 					<version>3.8.0</version>
 				</plugin>
-				
+
 				<plugin>
 					<artifactId>maven-jar-plugin</artifactId>
 					<version>3.0.2</version>

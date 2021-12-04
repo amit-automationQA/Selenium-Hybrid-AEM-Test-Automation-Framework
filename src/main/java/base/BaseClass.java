@@ -17,11 +17,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.firefox.FirefoxProfile;
-import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
+
+import com.microsoft.edge.seleniumtools.EdgeDriver;
+import com.microsoft.edge.seleniumtools.EdgeOptions;
+
 import util.WebEventListener;
 
 public class BaseClass {
@@ -33,7 +35,7 @@ public class BaseClass {
 	public static File folder;
 	//String projectpath= System.getProperty("user.dir");
 
-	public WebDriver initializeDriver() throws IOException
+	public void initializeDriver() throws IOException
 	{
 		Properties prop = new Properties();
 		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\configFiles\\config.properties");
@@ -58,11 +60,21 @@ public class BaseClass {
 			options.addArguments("--disable-dev-shm-usage"); //https://stackoverflow.com/a/50725918/1689770
 			options.addArguments("--disable-browser-side-navigation"); //https://stackoverflow.com/a/49123152/1689770
 			options.addArguments("--disable-gpu"); //https://stackoverflow.com/questions/51959986/how-to-solve-selenium-chromedriver-timed-out-receiving-message-from-renderer-exc
+			options.setExperimentalOption("useAutomationExtension", false);
 			options.setExperimentalOption("prefs", chromePrefs);
 			capabilities.setCapability("chrome.binary",System.getProperty("user.dir") + "\\Driver\\chromedriver.exe");
 			capabilities.setCapability(ChromeOptions.CAPABILITY, options);
 			driver= new ChromeDriver(options);
-
+			e_driver = new EventFiringWebDriver(driver);
+			eventListener = new WebEventListener();
+			e_driver.register(eventListener);
+			driver=e_driver;
+			driver.manage().deleteAllCookies();
+			driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+			driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
+			driver.manage().timeouts().setScriptTimeout(30, TimeUnit.SECONDS);
+			driver.get(prop.getProperty("url"));
+			fis.close();
 		}
 
 		else if(browsername.equals("firefox"))
@@ -81,18 +93,52 @@ public class BaseClass {
 			capabilities.setCapability(FirefoxOptions.FIREFOX_OPTIONS, options);
 			driver = new FirefoxDriver(options);
 			driver.manage().window().maximize();
+			e_driver = new EventFiringWebDriver(driver);
+			eventListener = new WebEventListener();
+			e_driver.register(eventListener);
+			driver=e_driver;
+			driver.manage().deleteAllCookies();
+			driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+			driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
+			driver.manage().timeouts().setScriptTimeout(30, TimeUnit.SECONDS);
+			driver.get(prop.getProperty("url"));
+			fis.close();
 		}
-		e_driver = new EventFiringWebDriver(driver);
-		eventListener = new WebEventListener();
-		e_driver.register(eventListener);
-		driver=e_driver;
-		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
-		driver.manage().timeouts().setScriptTimeout(30, TimeUnit.SECONDS);
-		driver.get(prop.getProperty("url"));
-		fis.close();
-		return driver;
+		else if(browsername.equals("edge"))
+		{
+			System.setProperty("webdriver.edge.driver",System.getProperty("user.dir") + "\\Driver\\msedgedriver.exe");
+			EdgeOptions options= new EdgeOptions();
+			DesiredCapabilities capabilities = DesiredCapabilities.edge();
+			HashMap<String, Object> edgeprefs = new HashMap<String, Object>(); // code from developer edge website
+			edgeprefs.put("profile.default_content_settings.popups", 0);
+			edgeprefs.put("download.default_directory", folder.getAbsolutePath());// to download any file in project directory only
+			options.addArguments("--no-sandbox");
+			options.addArguments("-start-in-incognito");
+			options.addArguments("--disable-notifications");
+	        options.addArguments("disable-infobars"); // disabling infobars
+	        options.addArguments("--disable-extensions"); // disabling extensions
+	        options.addArguments("--disable-gpu"); // applicable to windows os only
+	        options.addArguments("--disable-dev-shm-usage");
+	        options.addArguments("--start-maximized");
+	        options.addArguments("enable-automation"); 
+	        //options.addArguments("--headless");
+			options.merge(capabilities);
+			capabilities.setCapability(EdgeOptions.CAPABILITY, options);
+			driver= (EdgeDriver)new EdgeDriver(options); 
+			options.setBinary(System.getProperty("user.dir") + "\\Driver\\msedgedriver.exe");
+			e_driver = new EventFiringWebDriver(driver);
+			eventListener = new WebEventListener();
+			e_driver.register(eventListener);
+			driver=e_driver;
+			driver.manage().deleteAllCookies();
+			driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+			driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
+			driver.manage().timeouts().setScriptTimeout(30, TimeUnit.SECONDS);
+			driver.get(prop.getProperty("url"));
+			fis.close();
+		}
+		
+		//return driver;
 	}
 	public String getScreenShotPath(String testcasename, WebDriver driver) throws IOException
 	{
