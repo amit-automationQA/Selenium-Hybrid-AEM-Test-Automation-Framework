@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>41/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>33/4/4</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Dec 03 20:38:09 IST 2021</td>
+<td>Started on:</td><td>Sat Dec 04 16:52:15 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>599 seconds (599251 ms)</td>
+<tr><td>Total time:</td><td>526 seconds (526076 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,250 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifySubscribeOptionWithValidData()'><b>verifySubscribeOptionWithValidData</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [https://www.hdfclife.com/] but found [https://www.hdfclife.com/#],
+	expected [https://www.hdfclife.com/] but found [https://www.hdfclife.com/#],
+	expected [https://www.hdfclife.com/] but found [https://www.hdfclife.com/#]
+	at PageObjects.Homepage.emailPlaceholder(Homepage.java:519)
+	at SeleniumTesting.AEMhdfc.HomepageTest.verifySubscribeOptionWithValidData(HomepageTest.java:267)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1303734497", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1303734497'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [https://www.hdfclife.com/] but found [https://www.hdfclife.com/#],
+	expected [https://www.hdfclife.com/] but found [https://www.hdfclife.com/#],
+	expected [https://www.hdfclife.com/] but found [https://www.hdfclife.com/#]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at PageObjects.Homepage.emailPlaceholder(Homepage.java:519)
+	at SeleniumTesting.AEMhdfc.HomepageTest.verifySubscribeOptionWithValidData(HomepageTest.java:267)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+</pre></div></td>
+<td>0</td>
+<td>SeleniumTesting.AEMhdfc.HomepageTest@eadd4fb</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifyArticlesSection()'><b>verifyArticlesSection</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: The element reference of [object String] &quot;{\&quot;element-6066-11e4-a52e-4f735466cecf\&quot;:\&quot;7c749d78-3940-4dbc-bbaf-73f7e9e566dc\&quot;}&quot; is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LIN24007907&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 19584, moz:profile: C:\Users\Akundar\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5ee262a5-7c27-4ba7-ad63-3d9f5fdc855d
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy9.executeScript(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:229)
+	at PageObjects.Categorypage.verifyArticles(Categorypage.java:397)
+	at SeleniumTesting.AEMhdfc.CategorypageTest.verifyArticlesSection(CategorypageTest.java:165)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 39 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1113218094", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1113218094'><pre>org.openqa.selenium.StaleElementReferenceException: The element reference of [object String] &quot;{\&quot;element-6066-11e4-a52e-4f735466cecf\&quot;:\&quot;7c749d78-3940-4dbc-bbaf-73f7e9e566dc\&quot;}&quot; is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LIN24007907&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 19584, moz:profile: C:\Users\Akundar\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5ee262a5-7c27-4ba7-ad63-3d9f5fdc855d
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at jdk.internal.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy9.executeScript(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:229)
+	at PageObjects.Categorypage.verifyArticles(Categorypage.java:397)
+	at SeleniumTesting.AEMhdfc.CategorypageTest.verifyArticlesSection(CategorypageTest.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+</pre></div></td>
+<td>12</td>
+<td>SeleniumTesting.AEMhdfc.CategorypageTest@3cce5371</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifyLetsCalculateBtn()'><b>verifyLetsCalculateBtn</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [https://onlineinsurance.hdfclife.com/buy-online-term-insurance-plans/saral-jeevan-bima/basic-details?source=NW_SJB_BuyOl&amp;agentcode=00399206&amp;language=en] but found [about:blank]
+	at PageObjects.Homepage.verifyLink(Homepage.java:627)
+	at SeleniumTesting.AEMhdfc.CategorypageTest.verifyLetsCalculateBtn(CategorypageTest.java:108)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace957846640", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace957846640'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [https://onlineinsurance.hdfclife.com/buy-online-term-insurance-plans/saral-jeevan-bima/basic-details?source=NW_SJB_BuyOl&amp;agentcode=00399206&amp;language=en] but found [about:blank]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at PageObjects.Homepage.verifyLink(Homepage.java:627)
+	at SeleniumTesting.AEMhdfc.CategorypageTest.verifyLetsCalculateBtn(CategorypageTest.java:108)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+</pre></div></td>
+<td>7</td>
+<td>SeleniumTesting.AEMhdfc.CategorypageTest@3cce5371</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifyContactUs()'><b>verifyContactUs</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [https://onlineinsurance.hdfclife.com/buy-online-term-insurance-plans/saral-jeevan-bima/basic-details?source=NW_SJB_BuyOl&amp;agentcode=00399206&amp;language=en] but found [about:blank]
+	at PageObjects.Homepage.verifyLink(Homepage.java:627)
+	at SeleniumTesting.AEMhdfc.CategorypageTest.verifyContactUs(CategorypageTest.java:157)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1501084178", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1501084178'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [https://onlineinsurance.hdfclife.com/buy-online-term-insurance-plans/saral-jeevan-bima/basic-details?source=NW_SJB_BuyOl&amp;agentcode=00399206&amp;language=en] but found [about:blank]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at PageObjects.Homepage.verifyLink(Homepage.java:627)
+	at SeleniumTesting.AEMhdfc.CategorypageTest.verifyContactUs(CategorypageTest.java:157)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+</pre></div></td>
+<td>10</td>
+<td>SeleniumTesting.AEMhdfc.CategorypageTest@3cce5371</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,117 +319,92 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifyRidersSection()'><b>verifyRidersSection</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
+<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyDisclaimer()'><b>verifyDisclaimer</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
 <td></td>
-<td>48</td>
-<td>SeleniumTesting.AEMhdfc.CategorypageTest@3cce5371</td></tr>
-<tr>
-<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyArrowButtonsOnBanner()'><b>verifyArrowButtonsOnBanner</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
-<td></td>
-<td>43</td>
+<td>6</td>
 <td>SeleniumTesting.AEMhdfc.HomepageTest@eadd4fb</td></tr>
 <tr>
-<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyBannerCarousel()'><b>verifyBannerCarousel</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
+<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyChildrenPlansOnBanner()'><b>verifyChildrenPlansOnBanner</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
 <td></td>
-<td>15</td>
+<td>10</td>
 <td>SeleniumTesting.AEMhdfc.HomepageTest@eadd4fb</td></tr>
 <tr>
-<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifySavingPlansOnBanner()'><b>verifySavingPlansOnBanner</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
+<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyCalculatorCloseBtn()'><b>verifyCalculatorCloseBtn</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
 <td></td>
 <td>9</td>
-<td>SeleniumTesting.AEMhdfc.HomepageTest@eadd4fb</td></tr>
-<tr>
-<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyschedulePopupWithValidData()'><b>verifyschedulePopupWithValidData</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest<br>Parameters: Amit Kundar, 9.768462054E9</td>
-<td></td>
-<td>8</td>
 <td>SeleniumTesting.AEMhdfc.HomepageTest@eadd4fb</td></tr>
 <tr>
 <td title='SeleniumTesting.AEMhdfc.HomepageTest.verifycalculatorWithValidData()'><b>verifycalculatorWithValidData</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
 <td></td>
-<td>42</td>
+<td>36</td>
 <td>SeleniumTesting.AEMhdfc.HomepageTest@eadd4fb</td></tr>
 <tr>
-<td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifyWhySection()'><b>verifyWhySection</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
+<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyULIPPlansOnBanner()'><b>verifyULIPPlansOnBanner</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
 <td></td>
-<td>9</td>
-<td>SeleniumTesting.AEMhdfc.CategorypageTest@3cce5371</td></tr>
-<tr>
-<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyProductAndPopularLinks()'><b>verifyProductAndPopularLinks</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
-<td></td>
-<td>6</td>
+<td>10</td>
 <td>SeleniumTesting.AEMhdfc.HomepageTest@eadd4fb</td></tr>
 <tr>
-<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyStayConnectedwithUs()'><b>verifyStayConnectedwithUs</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
+<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifySanchayPlusBuyNowBtn()'><b>verifySanchayPlusBuyNowBtn</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
 <td></td>
 <td>12</td>
 <td>SeleniumTesting.AEMhdfc.HomepageTest@eadd4fb</td></tr>
-<tr>
-<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyGroupWebsitesLinks()'><b>verifyGroupWebsitesLinks</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
-<td></td>
-<td>16</td>
-<td>SeleniumTesting.AEMhdfc.HomepageTest@eadd4fb</td></tr>
-<tr>
-<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyRetirementPlansOnBanner()'><b>verifyRetirementPlansOnBanner</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
-<td></td>
-<td>9</td>
-<td>SeleniumTesting.AEMhdfc.HomepageTest@eadd4fb</td></tr>
-<tr>
-<td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifyContactUs()'><b>verifyContactUs</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
-<td></td>
-<td>13</td>
-<td>SeleniumTesting.AEMhdfc.CategorypageTest@3cce5371</td></tr>
-<tr>
-<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyPosPlansOnBanner()'><b>verifyPosPlansOnBanner</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
-<td></td>
-<td>12</td>
-<td>SeleniumTesting.AEMhdfc.HomepageTest@eadd4fb</td></tr>
-<tr>
-<td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifyVideoOnCategoryPage()'><b>verifyVideoOnCategoryPage</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
-<td></td>
-<td>6</td>
-<td>SeleniumTesting.AEMhdfc.CategorypageTest@3cce5371</td></tr>
-<tr>
-<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyschedulepopupblankSubmit()'><b>verifyschedulepopupblankSubmit</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
-<td></td>
-<td>9</td>
-<td>SeleniumTesting.AEMhdfc.HomepageTest@eadd4fb</td></tr>
-<tr>
-<td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifyLetsCalculateWithValidData()'><b>verifyLetsCalculateWithValidData</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
-<td></td>
-<td>9</td>
-<td>SeleniumTesting.AEMhdfc.CategorypageTest@3cce5371</td></tr>
-<tr>
-<td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifyC2PLProduct()'><b>verifyC2PLProduct</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
-<td></td>
-<td>28</td>
-<td>SeleniumTesting.AEMhdfc.CategorypageTest@3cce5371</td></tr>
-<tr>
-<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyViewAllButton()'><b>verifyViewAllButton</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
-<td></td>
-<td>3</td>
-<td>SeleniumTesting.AEMhdfc.HomepageTest@eadd4fb</td></tr>
-<tr>
-<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyschedulePopupwithoutmindata()'><b>verifyschedulePopupwithoutmindata</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
-<td></td>
-<td>6</td>
-<td>SeleniumTesting.AEMhdfc.HomepageTest@eadd4fb</td></tr>
-<tr>
-<td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifyDisclaimer()'><b>verifyDisclaimer</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
-<td></td>
-<td>6</td>
-<td>SeleniumTesting.AEMhdfc.CategorypageTest@3cce5371</td></tr>
-<tr>
-<td title='SeleniumTesting.AEMhdfc.CategorypageTest.navigateToPage()'><b>navigateToPage</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
-<td></td>
-<td>8</td>
-<td>SeleniumTesting.AEMhdfc.CategorypageTest@3cce5371</td></tr>
 <tr>
 <td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifyTalkToAdvisor()'><b>verifyTalkToAdvisor</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
 <td></td>
 <td>6</td>
 <td>SeleniumTesting.AEMhdfc.CategorypageTest@3cce5371</td></tr>
 <tr>
-<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyDisclaimer()'><b>verifyDisclaimer</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
+<td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifyC2PLProduct()'><b>verifyC2PLProduct</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
+<td></td>
+<td>29</td>
+<td>SeleniumTesting.AEMhdfc.CategorypageTest@3cce5371</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyPosPlansOnBanner()'><b>verifyPosPlansOnBanner</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
+<td></td>
+<td>13</td>
+<td>SeleniumTesting.AEMhdfc.HomepageTest@eadd4fb</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifySavingPlansOnBanner()'><b>verifySavingPlansOnBanner</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
+<td></td>
+<td>11</td>
+<td>SeleniumTesting.AEMhdfc.HomepageTest@eadd4fb</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifyCalculatePremiumBtn()'><b>verifyCalculatePremiumBtn</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
+<td></td>
+<td>12</td>
+<td>SeleniumTesting.AEMhdfc.CategorypageTest@3cce5371</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifyDisclaimer()'><b>verifyDisclaimer</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
+<td></td>
+<td>6</td>
+<td>SeleniumTesting.AEMhdfc.CategorypageTest@3cce5371</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyArrowButtonsOnBanner()'><b>verifyArrowButtonsOnBanner</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
+<td></td>
+<td>45</td>
+<td>SeleniumTesting.AEMhdfc.HomepageTest@eadd4fb</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyFixedMaturityPlanOnBanner()'><b>verifyFixedMaturityPlanOnBanner</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
+<td></td>
+<td>14</td>
+<td>SeleniumTesting.AEMhdfc.HomepageTest@eadd4fb</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyViewAllButton()'><b>verifyViewAllButton</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
+<td></td>
+<td>3</td>
+<td>SeleniumTesting.AEMhdfc.HomepageTest@eadd4fb</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyGroupPlansOnBanner()'><b>verifyGroupPlansOnBanner</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
+<td></td>
+<td>33</td>
+<td>SeleniumTesting.AEMhdfc.HomepageTest@eadd4fb</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyDownloadLinks()'><b>verifyDownloadLinks</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
+<td></td>
+<td>12</td>
+<td>SeleniumTesting.AEMhdfc.HomepageTest@eadd4fb</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyProductAndPopularLinks()'><b>verifyProductAndPopularLinks</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
 <td></td>
 <td>6</td>
 <td>SeleniumTesting.AEMhdfc.HomepageTest@eadd4fb</td></tr>
@@ -195,19 +414,39 @@ function toggleAllBoxes() {
 <td>24</td>
 <td>SeleniumTesting.AEMhdfc.CategorypageTest@3cce5371</td></tr>
 <tr>
-<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyHealthPlansOnBanner()'><b>verifyHealthPlansOnBanner</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
+<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyTermPlanOnBanner()'><b>verifyTermPlanOnBanner</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
 <td></td>
-<td>12</td>
+<td>11</td>
 <td>SeleniumTesting.AEMhdfc.HomepageTest@eadd4fb</td></tr>
 <tr>
-<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyCalculatorCloseBtn()'><b>verifyCalculatorCloseBtn</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
+<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator()'><b>verifyMouseIndicator</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
 <td></td>
 <td>9</td>
 <td>SeleniumTesting.AEMhdfc.HomepageTest@eadd4fb</td></tr>
 <tr>
-<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifySanchayPlusBuyNowBtn()'><b>verifySanchayPlusBuyNowBtn</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
+<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyschedulePopupWithValidData()'><b>verifyschedulePopupWithValidData</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest<br>Parameters: Amit Kundar, 9.768462054E9</td>
 <td></td>
-<td>12</td>
+<td>8</td>
+<td>SeleniumTesting.AEMhdfc.HomepageTest@eadd4fb</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyStayConnectedwithUs()'><b>verifyStayConnectedwithUs</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
+<td></td>
+<td>17</td>
+<td>SeleniumTesting.AEMhdfc.HomepageTest@eadd4fb</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyschedulepopupblankSubmit()'><b>verifyschedulepopupblankSubmit</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
+<td></td>
+<td>10</td>
+<td>SeleniumTesting.AEMhdfc.HomepageTest@eadd4fb</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.CategorypageTest.navigateToPage()'><b>navigateToPage</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
+<td></td>
+<td>9</td>
+<td>SeleniumTesting.AEMhdfc.CategorypageTest@3cce5371</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyRetirementPlansOnBanner()'><b>verifyRetirementPlansOnBanner</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
+<td></td>
+<td>10</td>
 <td>SeleniumTesting.AEMhdfc.HomepageTest@eadd4fb</td></tr>
 <tr>
 <td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifyTalkToAdvisorPopup()'><b>verifyTalkToAdvisorPopup</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
@@ -215,70 +454,171 @@ function toggleAllBoxes() {
 <td>9</td>
 <td>SeleniumTesting.AEMhdfc.CategorypageTest@3cce5371</td></tr>
 <tr>
-<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyTermPlanOnBanner()'><b>verifyTermPlanOnBanner</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
+<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyBannerCarousel()'><b>verifyBannerCarousel</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
 <td></td>
-<td>10</td>
+<td>16</td>
 <td>SeleniumTesting.AEMhdfc.HomepageTest@eadd4fb</td></tr>
 <tr>
-<td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifyCalculatePremiumBtn()'><b>verifyCalculatePremiumBtn</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
+<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyGroupWebsitesLinks()'><b>verifyGroupWebsitesLinks</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
 <td></td>
-<td>12</td>
-<td>SeleniumTesting.AEMhdfc.CategorypageTest@3cce5371</td></tr>
-<tr>
-<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator()'><b>verifyMouseIndicator</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
-<td></td>
-<td>9</td>
+<td>14</td>
 <td>SeleniumTesting.AEMhdfc.HomepageTest@eadd4fb</td></tr>
 <tr>
-<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyULIPPlansOnBanner()'><b>verifyULIPPlansOnBanner</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
+<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyschedulePopupwithoutmindata()'><b>verifyschedulePopupwithoutmindata</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
 <td></td>
-<td>9</td>
+<td>6</td>
 <td>SeleniumTesting.AEMhdfc.HomepageTest@eadd4fb</td></tr>
 <tr>
-<td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifyArticlesSection()'><b>verifyArticlesSection</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
-<td></td>
-<td>15</td>
-<td>SeleniumTesting.AEMhdfc.CategorypageTest@3cce5371</td></tr>
-<tr>
-<td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifyTermInsuranceGuideFaqSection()'><b>verifyTermInsuranceGuideFaqSection</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
-<td></td>
-<td>21</td>
-<td>SeleniumTesting.AEMhdfc.CategorypageTest@3cce5371</td></tr>
-<tr>
-<td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifyHomeIconInBreadCrumb()'><b>verifyHomeIconInBreadCrumb</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
-<td></td>
-<td>9</td>
-<td>SeleniumTesting.AEMhdfc.CategorypageTest@3cce5371</td></tr>
-<tr>
-<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyComboPlansOnBanner()'><b>verifyComboPlansOnBanner</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
-<td></td>
-<td>17</td>
-<td>SeleniumTesting.AEMhdfc.HomepageTest@eadd4fb</td></tr>
-<tr>
-<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyGroupPlansOnBanner()'><b>verifyGroupPlansOnBanner</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
-<td></td>
-<td>31</td>
-<td>SeleniumTesting.AEMhdfc.HomepageTest@eadd4fb</td></tr>
-<tr>
-<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyDownloadLinks()'><b>verifyDownloadLinks</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
+<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyHealthPlansOnBanner()'><b>verifyHealthPlansOnBanner</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
 <td></td>
 <td>13</td>
 <td>SeleniumTesting.AEMhdfc.HomepageTest@eadd4fb</td></tr>
 <tr>
-<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifySubscribeOptionWithValidData()'><b>verifySubscribeOptionWithValidData</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
-<td></td>
-<td>9</td>
-<td>SeleniumTesting.AEMhdfc.HomepageTest@eadd4fb</td></tr>
-<tr>
-<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyFixedMaturityPlanOnBanner()'><b>verifyFixedMaturityPlanOnBanner</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
-<td></td>
-<td>12</td>
-<td>SeleniumTesting.AEMhdfc.HomepageTest@eadd4fb</td></tr>
-<tr>
-<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyChildrenPlansOnBanner()'><b>verifyChildrenPlansOnBanner</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
+<td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifyHomeIconInBreadCrumb()'><b>verifyHomeIconInBreadCrumb</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
 <td></td>
 <td>8</td>
+<td>SeleniumTesting.AEMhdfc.CategorypageTest@3cce5371</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyComboPlansOnBanner()'><b>verifyComboPlansOnBanner</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
+<td></td>
+<td>19</td>
 <td>SeleniumTesting.AEMhdfc.HomepageTest@eadd4fb</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifyVideoOnCategoryPage()'><b>verifyVideoOnCategoryPage</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
+<td><div><pre>java.lang.Throwable: Method CategorypageTest.verifyVideoOnCategoryPage()[pri:9, instance:SeleniumTesting.AEMhdfc.CategorypageTest@3cce5371] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1055932985", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1055932985'><pre>java.lang.Throwable: Method CategorypageTest.verifyVideoOnCategoryPage()[pri:9, instance:SeleniumTesting.AEMhdfc.CategorypageTest@3cce5371] depends on not successfully finished methods
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+</pre></div></td>
+<td>0</td>
+<td>SeleniumTesting.AEMhdfc.CategorypageTest@3cce5371</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifyRidersSection()'><b>verifyRidersSection</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
+<td><div><pre>java.lang.Throwable: Method CategorypageTest.verifyRidersSection()[pri:12, instance:SeleniumTesting.AEMhdfc.CategorypageTest@3cce5371] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace27796563", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace27796563'><pre>java.lang.Throwable: Method CategorypageTest.verifyRidersSection()[pri:12, instance:SeleniumTesting.AEMhdfc.CategorypageTest@3cce5371] depends on not successfully finished methods
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+</pre></div></td>
+<td>0</td>
+<td>SeleniumTesting.AEMhdfc.CategorypageTest@3cce5371</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifyWhySection()'><b>verifyWhySection</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
+<td><div><pre>java.lang.Throwable: Method CategorypageTest.verifyWhySection()[pri:10, instance:SeleniumTesting.AEMhdfc.CategorypageTest@3cce5371] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace610844900", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace610844900'><pre>java.lang.Throwable: Method CategorypageTest.verifyWhySection()[pri:10, instance:SeleniumTesting.AEMhdfc.CategorypageTest@3cce5371] depends on not successfully finished methods
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+</pre></div></td>
+<td>0</td>
+<td>SeleniumTesting.AEMhdfc.CategorypageTest@3cce5371</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifyTermInsuranceGuideFaqSection()'><b>verifyTermInsuranceGuideFaqSection</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
+<td><div><pre>java.lang.Throwable: Method CategorypageTest.verifyTermInsuranceGuideFaqSection()[pri:11, instance:SeleniumTesting.AEMhdfc.CategorypageTest@3cce5371] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace77173924", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace77173924'><pre>java.lang.Throwable: Method CategorypageTest.verifyTermInsuranceGuideFaqSection()[pri:11, instance:SeleniumTesting.AEMhdfc.CategorypageTest@3cce5371] depends on not successfully finished methods
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+</pre></div></td>
+<td>0</td>
+<td>SeleniumTesting.AEMhdfc.CategorypageTest@3cce5371</td></tr>
 </table><p>
 </body>
 </html>

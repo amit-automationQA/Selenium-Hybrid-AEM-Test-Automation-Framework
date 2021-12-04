@@ -6,11 +6,30 @@
   </listeners>
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
+      <class name="SeleniumTesting.AEMhdfc.CategorypageTest">
+        <methods>
+          <include name="verifyContactUs"/>
+          <include name="verifyRidersSection"/>
+          <include name="verifyTermInsuranceGuideFaqSection"/>
+          <include name="verifyC2PLProduct"/>
+          <include name="setUp"/>
+          <include name="verifyArticlesSection"/>
+          <include name="verifyWhySection"/>
+          <include name="verifyVideoOnCategoryPage"/>
+          <include name="tear"/>
+          <include name="verifySJBProduct"/>
+          <include name="verifyLetsCalculateBtn"/>
+        </methods>
+      </class> <!-- SeleniumTesting.AEMhdfc.CategorypageTest -->
       <class name="SeleniumTesting.AEMhdfc.HomepageTest">
         <methods>
+          <include name="verifyStayConnectedwithUs"/>
+          <include name="verifyMouseIndicator"/>
           <include name="tear"/>
+          <include name="verifyDisclaimer"/>
+          <include name="verifySubscribeOptionWithValidData"/>
           <include name="setUp"/>
-          <include name="verifyGroupWebsitesLinks"/>
+          <include name="verifycalculatorWithValidData"/>
         </methods>
       </class> <!-- SeleniumTesting.AEMhdfc.HomepageTest -->
     </classes>

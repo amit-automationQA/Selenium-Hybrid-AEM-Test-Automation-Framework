@@ -85,18 +85,24 @@ public class Categorypage extends BaseClass{
 
 	@FindBy(how=How.CSS,using=".siteButton.outlinedBtn")
 	List<WebElement> allbuttons;
-	
+
 	@FindBy(xpath="(//a[@class='bannerAdBtn siteButton'])[2]")
-WebElement contactusbtn;
+	WebElement contactusbtn;
 
 	@FindBy(xpath="//button[normalize-space()='VIEW MORE']")
 	WebElement articlesviewmorebtn;
 
-@FindBy(xpath="//a[@href='/content/dam/hdfclifeinsurancecompany/products-page/brochure-links/HDFC-Life-Protect-Plus-Rider.pdf']")
-WebElement thirdrider;
+	@FindBy(xpath="//a[@href='/content/dam/hdfclifeinsurancecompany/products-page/brochure-links/HDFC-Life-Protect-Plus-Rider.pdf']")
+	WebElement thirdrider;
 
-@FindBy(xpath="(//ul[@class='insuranceBenList'])[1]")
-WebElement riderdownloadbuttons;
+	@FindBy(xpath="(//ul[@class='insuranceBenList'])[1]")
+	WebElement firstrowriderdownloadbuttons;
+
+	@FindBy(xpath="(//ul[@class='insuranceBenList'])[2]")
+	WebElement secondrowriderdownloadbuttons;
+	
+	@FindBy(xpath="(//div[@class='row'])[12]")
+	WebElement articleblocks;
 
 	public void clickheaderAllLink()
 	{
@@ -311,26 +317,23 @@ WebElement riderdownloadbuttons;
 		}	
 	}
 
-	public void clickDownloadBtn() throws InterruptedException
+	public void firstRowClickDownloadBtn() throws InterruptedException
 	{
 		Thread.sleep(3000);
 		System.out.println("Verification for download button in rider section started");
-		//WebElement header1 = driver.findElement(By.xpath("(//ul[@class='insuranceBenList'])[1]"));
-		List<WebElement> lin = riderdownloadbuttons.findElements(By.tagName("a"));
-		int nooflinks = lin.size();
-		System.out.println(" the number of buttons in download riders section : " +nooflinks);
-		//int count=0;
-		for(int i=0; i<nooflinks; i++) {
-			//WebElement footer1New = driver.findElement(By.xpath("(//ul[@class='insuranceBenList'])[1]"));
-			List<WebElement> linNew = riderdownloadbuttons.findElements(By.tagName("a"));
+		List<WebElement> lin = firstrowriderdownloadbuttons.findElements(By.tagName("a"));
+		int nooflinksinfirstrow = lin.size();
+		System.out.println(" the number of buttons in download riders section : " +nooflinksinfirstrow);;
+		for(int i=0; i<nooflinksinfirstrow; i++) {
+			//List<WebElement> linNew = firstrowriderdownloadbuttons.findElements(By.tagName("a"));
 			JavascriptExecutor js=(JavascriptExecutor)driver;
-			WebElement linkss = linNew.get(i);
-			js.executeScript("arguments[0].scrollIntoView(true);",linkss);
+			WebElement firstrowdowloadbutton = lin.get(i);
+			js.executeScript("arguments[0].scrollIntoView(true);",firstrowdowloadbutton);
 			Thread.sleep(3000);		
 			//String pageName = linkss.getAttribute("innerText");
 			//String href = linkss.getAttribute("href");
 			JavascriptExecutor executor = (JavascriptExecutor) driver;
-			executor.executeScript("arguments[0].click();", linkss);
+			executor.executeScript("arguments[0].click();", firstrowdowloadbutton);
 			Thread.sleep(3000);
 			Set<String> windows = driver.getWindowHandles();
 			Iterator<String>it2=windows.iterator();
@@ -343,14 +346,38 @@ WebElement riderdownloadbuttons;
 			driver.switchTo().window(parentId);
 			softAssertion.assertEquals(driver.getCurrentUrl(), "https://www.hdfclife.com/term-insurance-plans");
 			Thread.sleep(3000);
+			softAssertion.assertAll();
 		}
-		thirdrider.click();
-		Thread.sleep(3000);
-		Homepage hp = new Homepage(driver);
-		hp.verifyLinkOpenedInNewWindow("https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/products-page/brochure-links/HDFC-Life-Protect-Plus-Rider.pdf", 
-				"https://www.hdfclife.com/term-insurance-plans");
 	}
-	
+	public void secondRowClickDownloadBtn() throws InterruptedException
+	{
+		List<WebElement> linnew1= secondrowriderdownloadbuttons.findElements(By.tagName("a"));
+		int nooflinksinsecondrow=linnew1.size();
+		System.out.println(" the number of buttons in second row in download riders section : " +nooflinksinsecondrow);
+		for(int j=0; j<nooflinksinsecondrow; j++) {
+			JavascriptExecutor js=(JavascriptExecutor)driver;
+			WebElement secondrowdownloadbutton = linnew1.get(j);
+			js.executeScript("arguments[0].scrollIntoView(true);",secondrowdownloadbutton);
+			Thread.sleep(3000);		
+			JavascriptExecutor executor = (JavascriptExecutor) driver;
+			executor.executeScript("arguments[0].click();", secondrowdownloadbutton);
+			Thread.sleep(3000);
+			Set<String> windows1 = driver.getWindowHandles();
+			Iterator<String>it3=windows1.iterator();
+			String parentId1= it3.next();
+			String childId1=it3.next();
+			driver.switchTo().window(childId1);
+			Thread.sleep(3000);
+			driver.close();
+			driver.switchTo().window(parentId1);
+			softAssertion.assertEquals(driver.getCurrentUrl(), "https://www.hdfclife.com/term-insurance-plans");
+			Thread.sleep(3000);
+			softAssertion.assertAll();
+		}
+	}
+
+
+
 	public void clickContactUsBtn() throws InterruptedException
 	{
 		Thread.sleep(3000);
@@ -358,23 +385,35 @@ WebElement riderdownloadbuttons;
 		contactusbtn.click();
 		Thread.sleep(3000);
 	}
-	
-	public void verifyArticles()
+
+	public void verifyArticles() throws InterruptedException
 	{
-		List<WebElement> linklist= driver.findElements(By.className("abtboxRt bg1"));
-		for(int z=1; z<=linklist.size();z++)
-		{
-			
+		List<WebElement> linnew2= articleblocks.findElements(By.tagName("a"));
+		int totalarticles=linnew2.size();
+		System.out.println(" the number of buttons in second row in download riders section : " +totalarticles);
+		for(int k=0; k<totalarticles; k++) {
+			JavascriptExecutor js=(JavascriptExecutor)driver;
+			WebElement articlesbtn = linnew2.get(k);
+			js.executeScript("arguments[0].scrollIntoView(true);",articlesbtn);
+			Thread.sleep(3000);		
+			JavascriptExecutor executor = (JavascriptExecutor) driver;
+			executor.executeScript("arguments[0].click();", articlesbtn);
+			Thread.sleep(3000);
+			driver.navigate().back();
+			Thread.sleep(3000);
+			softAssertion.assertEquals(driver.getCurrentUrl(), "https://www.hdfclife.com/term-insurance-plans");
+
 		}
+		softAssertion.assertAll();
 	}
-	
+
 	public void clickViewMoreBtn() throws InterruptedException
 	{
 		Thread.sleep(3000);
 		softAssertion.assertTrue(articlesviewmorebtn.isDisplayed());
 		articlesviewmorebtn.click();
 	}
-	
+
 }
 
 

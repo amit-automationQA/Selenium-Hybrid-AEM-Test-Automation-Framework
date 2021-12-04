@@ -101,14 +101,14 @@ public class CategorypageTest extends BaseClass{
 	}
 
 	@Test(priority=8, dependsOnMethods = { "verifyC2PLProduct", "verifySJBProduct" })
-	public void verifyLetsCalculateWithValidData() throws InterruptedException
+	public void verifyLetsCalculateBtn() throws InterruptedException
 	{
 		js.executeScript("window.scrollBy(0,-500)");
 		cp.clickLetsCalculateBtn();
 		hp.verifyLink("https://www.hdfclife.com/financial-tools-calculators/human-life-value-calculator");		
 	}
 
-	@Test(priority=9, dependsOnMethods = { "verifyC2PLProduct", "verifySJBProduct", "verifyLetsCalculateWithValidData" })
+	@Test(priority=9, dependsOnMethods = { "verifyC2PLProduct", "verifySJBProduct", "verifyLetsCalculateBtn" })
 	public void verifyVideoOnCategoryPage() throws InterruptedException // Youtube implementation is pending
 	{
 		Thread.sleep(3000);
@@ -144,13 +144,12 @@ public class CategorypageTest extends BaseClass{
 		cp.verifyViewMoreOnLoad();
 		js.executeScript("window.scrollBy(0,-100)");
 		Thread.sleep(3000);
-		cp.clickDownloadBtn();
+		cp.firstRowClickDownloadBtn();
+		cp.secondRowClickDownloadBtn();
 		Thread.sleep(3000);
-		//driver.findElement(By.xpath("(//a[@class='siteButton outlinedBtn'])[5]")).click();
-		//hp.verifyLinkOpenedInNewWindow(URL, URL)
 	}
 	
-	@Test(priority=13,dependsOnMethods={"verifyRidersSection"} )
+	@Test(priority=13)
 	public void verifyContactUs() throws InterruptedException
 	{
 		js.executeScript("window.scrollBy(0,200)");
@@ -163,7 +162,7 @@ public class CategorypageTest extends BaseClass{
 	{
 		js.executeScript("window.scrollBy(0,1000)");
 		Thread.sleep(3000);
-		//cp.verifyArticles();
+		cp.verifyArticles();
 		js.executeScript("window.scrollBy(0,600)");
 		Thread.sleep(3000);
 		cp.clickViewMoreBtn();

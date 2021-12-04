@@ -621,6 +621,7 @@ public class Homepage extends BaseClass{
 
 	public void verifyLink(String pageurl) throws InterruptedException
 	{
+		Thread.sleep(3000);
 		softAssertion.assertEquals(driver.getCurrentUrl(), pageurl);
 		driver.navigate().back();
 		softAssertion.assertAll();
