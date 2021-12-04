@@ -1,5 +1,8 @@
 package SeleniumTesting.AEMhdfc;
 import java.io.IOException;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterClass;
@@ -17,6 +20,7 @@ public class HomepageTest extends BaseClass {
 	private SoftAssert softAssertion = new SoftAssert();
 	JavascriptExecutor js;
 	Homepage hp;
+	public static Logger log=LogManager.getLogger(HomepageTest.class.getName());
 	String calculatedamount;
 	public HomepageTest() {
 		super();
@@ -31,7 +35,7 @@ public class HomepageTest extends BaseClass {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		this.js=js;
 		ts = (TakesScreenshot) driver;
-		System.out.println("Homepage test cases started");
+		log.info("Homepage test cases started");
 	}
 
 

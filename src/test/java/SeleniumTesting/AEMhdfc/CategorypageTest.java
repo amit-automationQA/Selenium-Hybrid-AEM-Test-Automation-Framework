@@ -2,6 +2,8 @@ package SeleniumTesting.AEMhdfc;
 
 import java.io.IOException;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.support.PageFactory;
@@ -18,6 +20,7 @@ public class CategorypageTest extends BaseClass{
 	Categorypage cp;
 	HomepageTest ht;
 	JavascriptExecutor js;
+	public static Logger log=LogManager.getLogger(CategorypageTest.class.getName());
 	public CategorypageTest() {
 		super();
 	}
@@ -40,6 +43,7 @@ public class CategorypageTest extends BaseClass{
 	public void navigateToPage() throws InterruptedException
 	{	
 		cp.navigateToTermCategoryPage();
+		log.info("Test one passed");
 		//driver.get("https://www.hdfclife.com/term-insurance-plans"); //incase where sauce labs is started need to uncomment the code due to saucelabs resolution issue
 		//Thread.sleep(3000);
 	}

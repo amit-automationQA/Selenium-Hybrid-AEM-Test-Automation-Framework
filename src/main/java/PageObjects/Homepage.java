@@ -7,6 +7,9 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 import javax.net.ssl.HttpsURLConnection;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -18,11 +21,14 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.asserts.SoftAssert;
+
+import SeleniumTesting.AEMhdfc.HomepageTest;
 import base.BaseClass;
 
 public class Homepage extends BaseClass{
 
 	SoftAssert softAssertion = new SoftAssert();
+	public static Logger log=LogManager.getLogger(Homepage.class.getName());
 
 	public Homepage(WebDriver driver) { //Called WebDriver instance to avoid null pointer exception
 		// TODO Auto-generated constructor stub
