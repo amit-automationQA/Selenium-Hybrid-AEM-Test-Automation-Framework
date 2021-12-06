@@ -1,8 +1,12 @@
 package PageObjects;
+
 import java.io.File;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -16,7 +20,11 @@ import org.testng.asserts.SoftAssert;
 import base.BaseClass;
 
 public class Categorypage extends BaseClass{
+	
 	static SoftAssert softAssertion = new SoftAssert();
+	public static Logger log=LogManager.getLogger(Categorypage.class.getName());
+	
+	//Constructor for avoiding null pointer exception on driver
 	public Categorypage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 		this.driver=driver;
@@ -103,6 +111,7 @@ public class Categorypage extends BaseClass{
 	@FindBy(xpath="(//div[@class='row'])[12]")
 	WebElement articleblocks;
 
+	//Initialized objects
 	public void clickheaderAllLink()
 	{
 		headeralllink.click();
@@ -125,7 +134,6 @@ public class Categorypage extends BaseClass{
 		softAssertion.assertTrue(calculatepremiumbtn.isDisplayed());
 		calculatepremiumbtn.click();
 		Thread.sleep(3000);
-
 	}
 
 	public void clickTalkToAdvisorBtn() throws InterruptedException
@@ -158,7 +166,6 @@ public class Categorypage extends BaseClass{
 		wait.until(ExpectedConditions.elementToBeClickable(c2pllearnmorebtn));
 		c2pllearnmorebtn.isDisplayed();
 		c2pllearnmorebtn.click();
-
 		Thread.sleep(3000);
 	}
 
@@ -184,10 +191,10 @@ public class Categorypage extends BaseClass{
 		} else {
 			for (File listFile : listOfFiles) {
 				if (listFile.getName().contains(fileName)) {
-					System.out.println(fileName + " is present");
+					log.info(fileName + " is present");
 				}
 				else {
-					System.out.println(fileName + " is incorrect");	
+					log.error(fileName + " is incorrect");	
 				}
 				flag = true;
 			}
@@ -247,6 +254,7 @@ public class Categorypage extends BaseClass{
 		}
 		else {
 			softAssertion.fail("View Less button is not getting displayed in Why section after clicking on view more");
+			log.error("View Less button is not getting displayed in Why section after clicking on view more");
 			softAssertion.assertAll();
 		}
 
@@ -259,11 +267,13 @@ public class Categorypage extends BaseClass{
 		if(openaccordionclassname.contains("tabAccordMenu opened"))
 		{
 			softAssertion.assertTrue(true, "First FAQ accordion is open on page load");
+			log.info("First FAQ accordion is open on page load");
 			System.out.println("");
 			openedfaqaccordion.click();
 		}
 		else {
 			softAssertion.assertTrue(false, "First FAQ accordion is not open bydefault");
+			log.error("First FAQ accordion is not open bydefault");
 		}
 		softAssertion.assertAll();
 	}
@@ -278,10 +288,12 @@ public class Categorypage extends BaseClass{
 		if(openaccordionclassname1.contains("tabAccordMenu opened"))
 		{
 			softAssertion.assertTrue(true, "Second FAQ accordion is opened on click");
+			log.info("Second FAQ accordion is opened on click");
 			openedfaqaccordion.click();
 		}
 		else {
 			softAssertion.assertTrue(false, "Second FAQ accordion is not opened on click");
+			log.error("Second FAQ accordion is not opened on click");
 		}
 		softAssertion.assertAll();
 	}
@@ -302,6 +314,7 @@ public class Categorypage extends BaseClass{
 		}
 		else {
 			softAssertion.assertTrue(false, "View more button for term insurance buying guide is not visible on page load");
+			log.error("View more button for term insurance buying guide is not visible on page load");
 		}
 		softAssertion.assertAll();
 	}
@@ -319,10 +332,10 @@ public class Categorypage extends BaseClass{
 	public void firstRowClickDownloadBtn() throws InterruptedException
 	{
 		Thread.sleep(3000);
-		System.out.println("Verification for download button in rider section started");
+log.info("Verification for download button in rider section started");
 		List<WebElement> lin = firstrowriderdownloadbuttons.findElements(By.tagName("a"));
 		int nooflinksinfirstrow = lin.size();
-		System.out.println(" the number of buttons in download riders section : " +nooflinksinfirstrow);;
+		log.info(" the number of buttons in download riders section : " +nooflinksinfirstrow);;
 		for(int i=0; i<nooflinksinfirstrow; i++) {
 			//List<WebElement> linNew = firstrowriderdownloadbuttons.findElements(By.tagName("a"));
 			JavascriptExecutor js=(JavascriptExecutor)driver;
@@ -352,7 +365,7 @@ public class Categorypage extends BaseClass{
 	{
 		List<WebElement> linnew1= secondrowriderdownloadbuttons.findElements(By.tagName("a"));
 		int nooflinksinsecondrow=linnew1.size();
-		System.out.println(" the number of buttons in second row in download riders section : " +nooflinksinsecondrow);
+		log.info(" the number of buttons in second row in download riders section : " +nooflinksinsecondrow);
 		for(int j=0; j<nooflinksinsecondrow; j++) {
 			JavascriptExecutor js=(JavascriptExecutor)driver;
 			WebElement secondrowdownloadbutton = linnew1.get(j);
@@ -389,7 +402,7 @@ public class Categorypage extends BaseClass{
 	{
 		List<WebElement> linnew2= articleblocks.findElements(By.tagName("a"));
 		int totalarticles=linnew2.size();
-		System.out.println(" the number of buttons in second row in download riders section : " +totalarticles);
+		log.info(" the number of tiles in articles section are : " +totalarticles);
 		for(int k=0; k<totalarticles; k++) {
 			JavascriptExecutor js=(JavascriptExecutor)driver;
 			WebElement articlesbtn = linnew2.get(k);
@@ -401,7 +414,6 @@ public class Categorypage extends BaseClass{
 			driver.navigate().back();
 			Thread.sleep(3000);
 			softAssertion.assertEquals(driver.getCurrentUrl(), "https://www.hdfclife.com/term-insurance-plans");
-
 		}
 		softAssertion.assertAll();
 	}

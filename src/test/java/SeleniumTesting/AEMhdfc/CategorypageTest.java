@@ -1,7 +1,6 @@
 package SeleniumTesting.AEMhdfc;
 
 import java.io.IOException;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.JavascriptExecutor;
@@ -10,7 +9,6 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
 import PageObjects.Categorypage;
 import PageObjects.Homepage;
 import base.BaseClass;
@@ -21,6 +19,7 @@ public class CategorypageTest extends BaseClass{
 	HomepageTest ht;
 	JavascriptExecutor js;
 	public static Logger log=LogManager.getLogger(CategorypageTest.class.getName());
+	
 	public CategorypageTest() {
 		super();
 	}
@@ -35,7 +34,7 @@ public class CategorypageTest extends BaseClass{
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		this.js=js;
 		ts = (TakesScreenshot) driver;
-		System.out.println("Category page test cases started");
+		log.info("Category page test cases started");
 		folder.mkdir();
 	}
 
@@ -43,7 +42,6 @@ public class CategorypageTest extends BaseClass{
 	public void navigateToPage() throws InterruptedException
 	{	
 		cp.navigateToTermCategoryPage();
-		log.info("Test one passed");
 		//driver.get("https://www.hdfclife.com/term-insurance-plans"); //incase where sauce labs is started need to uncomment the code due to saucelabs resolution issue
 		//Thread.sleep(3000);
 	}
@@ -186,8 +184,8 @@ public class CategorypageTest extends BaseClass{
 	public void tear()
 	{
 		driver.quit();
-		System.out.println("Category page test cases executed");
+		log.info("Category page test cases executed");
 		cp.deleteFolder();
-		System.out.println("Folder deleted for Category downloads");
+		log.info("Folder deleted for Category downloads");
 	}
 }

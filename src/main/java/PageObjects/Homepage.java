@@ -1,4 +1,5 @@
 package PageObjects;
+
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -7,7 +8,6 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 import javax.net.ssl.HttpsURLConnection;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
@@ -21,8 +21,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.asserts.SoftAssert;
-
-import SeleniumTesting.AEMhdfc.HomepageTest;
 import base.BaseClass;
 
 public class Homepage extends BaseClass{
@@ -30,13 +28,14 @@ public class Homepage extends BaseClass{
 	SoftAssert softAssertion = new SoftAssert();
 	public static Logger log=LogManager.getLogger(Homepage.class.getName());
 
+	//Constructor
 	public Homepage(WebDriver driver) { //Called WebDriver instance to avoid null pointer exception
 		// TODO Auto-generated constructor stub
 		this.driver=driver; // created driver instance in constructor for this class
 		PageFactory.initElements(driver, this);
 	}
 
-
+//@FindBy and By
 	By bannercarouseldot0 =By.xpath("//li[@data-slide-to='0']");
 	By bannercarouseldot1= By.xpath("//li[@data-slide-to='1']");
 	By bannercarouseldot2= By.xpath("//li[@data-slide-to='2']");
@@ -118,7 +117,6 @@ public class Homepage extends BaseClass{
 	List<WebElement> groupwebsites;
 
 	//Initialized objects
-
 	public void verifyBannerCarouselDot0() throws InterruptedException
 	{
 		driver.findElement(bannercarouseldot0).click();
@@ -545,7 +543,7 @@ public class Homepage extends BaseClass{
 
 	public void PopularandProductLinks() throws IOException
 	{
-		System.out.println("Popular and Product Listing Footer link check started");
+		log.info("Popular and Product Listing Footer link check started");
 		List<WebElement> links= driver.findElements(allfootercss);
 		List<WebElement> activelinks = new ArrayList<WebElement>();
 		for(int i=0; i<links.size();i++)
@@ -560,14 +558,14 @@ public class Homepage extends BaseClass{
 			connection.connect();
 			String response = connection.getResponseMessage();
 			connection.disconnect();
-			System.out.println(activelinks.get(j).getAttribute("href")+ "------>"+response);
+			log.info(activelinks.get(j).getAttribute("href")+ "------>"+response);
 		}	
-		System.out.println("Popular and Product Listing Footer link check ended");
+		log.info("Popular and Product Listing Footer link check ended");
 	}
 
 	public void stayConnectedFooter() throws IOException
 	{
-		System.out.println("Stay Connected With Us Footer link check started");
+		log.info("Stay Connected With Us Footer link check started");
 		List<WebElement> stayconnected= stayconnectedlinks; 
 		List<WebElement> activestayconnected = new ArrayList<WebElement>();
 		for(int sociallink=0; sociallink<stayconnected.size();sociallink++)
@@ -582,14 +580,14 @@ public class Homepage extends BaseClass{
 			connection1.connect();
 			String response = connection1.getResponseMessage();
 			connection1.disconnect();
-			System.out.println(activestayconnected.get(k).getAttribute("href")+ "------>"+response);
+			log.info(activestayconnected.get(k).getAttribute("href")+ "------>"+response);
 		}	
-		System.out.println("Stay Connected With Us Footer link check ended");
+		log.info("Stay Connected With Us Footer link check ended");
 	}
 
 	public void groupWebsiteLinks() throws IOException
 	{
-		System.out.println("Group Websites link check started");	
+		log.info("Group Websites link check started");	
 		List<WebElement> groupwebsite= groupwebsites; 
 		List<WebElement> activegw = new ArrayList<WebElement>();
 		for(int websitelink=0; websitelink<groupwebsite.size();websitelink++)
@@ -605,7 +603,7 @@ public class Homepage extends BaseClass{
 			connection2.connect();
 			String response = connection2.getResponseMessage();
 			connection2.disconnect();
-			System.out.println(activegw.get(l).getAttribute("href")+ "------>"+response);
+			log.info(activegw.get(l).getAttribute("href")+ "------>"+response);
 		}	
 		System.out.println("Group Websites link check ended");
 	}
@@ -656,7 +654,7 @@ public class Homepage extends BaseClass{
 		else
 		{
 			softAssertion.fail();
-			System.out.println("Consent checkbox is not checked when popup opens for first time");
+			log.error("Consent checkbox is not checked when popup opens for first time");
 			softAssertion.assertTrue(driver.findElement(checkboxerrorvalidation).isDisplayed());
 		}
 		softAssertion.assertAll();
