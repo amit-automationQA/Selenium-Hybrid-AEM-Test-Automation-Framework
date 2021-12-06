@@ -3,13 +3,21 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="SeleniumTesting.AEMhdfc.ProductpageTest">
+      <class name="SeleniumTesting.AEMhdfc.CategorypageTest">
         <methods>
+          <include name="verifyLetsCalculateBtn"/>
+          <include name="verifyTermInsuranceGuideFaqSection"/>
           <include name="setUp"/>
+          <include name="verifyContactUs"/>
+          <include name="verifyC2PLProduct"/>
+          <include name="verifyArticlesSection"/>
+          <include name="verifyRidersSection"/>
+          <include name="verifyVideoOnCategoryPage"/>
+          <include name="verifyWhySection"/>
           <include name="tear"/>
-          <include name="verifyTandCOption"/>
+          <include name="verifySJBProduct"/>
         </methods>
-      </class> <!-- SeleniumTesting.AEMhdfc.ProductpageTest -->
+      </class> <!-- SeleniumTesting.AEMhdfc.CategorypageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

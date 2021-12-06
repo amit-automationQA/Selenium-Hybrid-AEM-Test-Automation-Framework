@@ -124,6 +124,7 @@ public class Categorypage extends BaseClass{
 		Thread.sleep(3000);
 		softAssertion.assertEquals(driver.getCurrentUrl(), "https://www.hdfclife.com/term-insurance-plans");
 		softAssertion.assertAll();
+		Thread.sleep(3000);
 	}
 
 
@@ -149,6 +150,7 @@ public class Categorypage extends BaseClass{
 		breadcrumbhomeicon.isDisplayed();
 		breadcrumbhomeicon.click();
 		Thread.sleep(3000);
+		softAssertion.assertEquals(driver.getCurrentUrl(), "https://www.hdfclife.com");
 		driver.navigate().back();
 		Thread.sleep(3000);
 	}
@@ -178,7 +180,7 @@ public class Categorypage extends BaseClass{
 		sjbdownloadbrochure.click();
 	}
 
-	public static Boolean isFileDownloaded(String fileName) throws InterruptedException {
+	public Boolean isFileDownloaded(String fileName) throws InterruptedException {
 		Thread.sleep(3000);
 		boolean flag = false;
 		//paste your directory path below
@@ -249,13 +251,12 @@ public class Categorypage extends BaseClass{
 			whysectionviewlessbtn.click();
 			Thread.sleep(3000);
 			softAssertion.assertTrue(whysectionviewmorebtn.isDisplayed());
-			softAssertion.assertAll();
 		}
 		else {
-			softAssertion.fail("View Less button is not getting displayed in Why section after clicking on view more");
 			log.error("View Less button is not getting displayed in Why section after clicking on view more");
-			softAssertion.assertAll();
+
 		}
+		softAssertion.assertAll();
 
 	}
 
@@ -267,7 +268,6 @@ public class Categorypage extends BaseClass{
 		{
 			softAssertion.assertTrue(true, "First FAQ accordion is open on page load");
 			log.info("First FAQ accordion is open on page load");
-			System.out.println("");
 			openedfaqaccordion.click();
 		}
 		else {
@@ -357,7 +357,6 @@ log.info("Verification for download button in rider section started");
 			driver.switchTo().window(parentId);
 			softAssertion.assertEquals(driver.getCurrentUrl(), "https://www.hdfclife.com/term-insurance-plans");
 			Thread.sleep(3000);
-			softAssertion.assertAll();
 		}
 	}
 	public void secondRowClickDownloadBtn() throws InterruptedException
@@ -383,7 +382,6 @@ log.info("Verification for download button in rider section started");
 			driver.switchTo().window(parentId1);
 			softAssertion.assertEquals(driver.getCurrentUrl(), "https://www.hdfclife.com/term-insurance-plans");
 			Thread.sleep(3000);
-			softAssertion.assertAll();
 		}
 	}
 

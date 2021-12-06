@@ -79,11 +79,11 @@ public class CategorypageTest extends BaseClass{
 	@Test(priority=6, retryAnalyzer = Analyzer.RetryAnalyzer.class)
 	public void verifyC2PLProduct() throws InterruptedException
 	{
-		js.executeScript("window.scrollBy(0,2700)");
+		js.executeScript("window.scrollBy(0,2900)");
 		cp.clickC2plLearnMoreBtn();
 		hp.verifyLink("https://www.hdfclife.com/term-insurance-plans/click-2-protect-life");
 		cp.downloadBrochure();
-		Categorypage.isFileDownloaded("MC062124237-V01-HDFC-Life-Click-2-Protect-Life-Retail-Brochure.pdf");
+		cp.isFileDownloaded("MC062124237-V01-HDFC-Life-Click-2-Protect-Life-Retail-Brochure.pdf");
 		cp.clickC2plBuyNowBtn();
 		hp.verifyLinkOpenedInNewWindow("https://onlineinsurance.hdfclife.com/buy-online-term-insurance-plans/click-2-protect-life/basic-details?source=NW_C2PL_Bestseller_BuyOl&agentcode=00399206&language=en"
 				, "https://www.hdfclife.com/term-insurance-plans");
@@ -96,7 +96,7 @@ public class CategorypageTest extends BaseClass{
 		cp.clickSJBLearnMorebtn();
 		hp.verifyLink("https://www.hdfclife.com/term-insurance-plans/saral-jeevan-bima");
 		cp.sjbDownloadBrochure();
-		Categorypage.isFileDownloaded("saral-jeevan-brochure.pdf");
+		cp.isFileDownloaded("saral-jeevan-brochure.pdf");
 		cp.clickSJBBuyOnlineBtn();
 		hp.verifyLinkOpenedInNewWindow("https://onlineinsurance.hdfclife.com/buy-online-term-insurance-plans/saral-jeevan-bima/basic-details?source=NW_SJB_BuyOl&agentcode=00399206&language=en"
 				,"https://www.hdfclife.com/term-insurance-plans");
@@ -128,7 +128,7 @@ public class CategorypageTest extends BaseClass{
 		cp.verifyWhyViewMoreAndViewLess();
 	}
 
-	@Test(priority=11, dependsOnMethods = {"verifyWhySection"})
+	@Test(priority=11)
 	public void verifyTermInsuranceGuideFaqSection() throws InterruptedException
 	{
 		js.executeScript("window.scrollBy(0,2300)");
@@ -139,7 +139,7 @@ public class CategorypageTest extends BaseClass{
 		cp.verifyTermGuideViewMoreBtn();
 	}
 	
-	@Test(priority=12, dependsOnMethods={"verifyTermInsuranceGuideFaqSection"})
+	@Test(priority=12)
 	public void verifyRidersSection() throws InterruptedException //Implementation of for loop for clickdownloadbtnmethod is pending
 	{
 		js.executeScript("window.scrollBy(0,900)");
@@ -154,7 +154,7 @@ public class CategorypageTest extends BaseClass{
 	@Test(priority=13)
 	public void verifyContactUs() throws InterruptedException
 	{
-		js.executeScript("window.scrollBy(0,200)");
+		js.executeScript("window.scrollBy(0,3700)");
 		cp.clickContactUsBtn();
 		hp.verifyLink("https://www.hdfclife.com/contact-us");
 	}

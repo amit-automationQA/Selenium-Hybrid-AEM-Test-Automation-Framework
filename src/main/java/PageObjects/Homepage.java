@@ -55,7 +55,7 @@ public class Homepage extends BaseClass{
 	By groupplansblock = By.xpath("//a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-9']");
 	By disablednextarrow= By.xpath("//div[@class='swiper-button-next swiper-button-disabled']");
 	By disabledpreviousarrow = By.xpath("//div[@class='swiper-button-prev swiper-button-disabled']");
-	By mouseindicator= By.xpath("(//a[@href='javascript:void(0)'])[3]");
+	By mouseindicator= By.xpath("//img[@src='/content/dam/hdfclifeinsurancecompany/home/banner/mc.svg']");
 	By brandLogo = By.xpath("//div[@class='headerWrap']//div[@class='logo']//a");
 	By scheduleacallbutton = By.xpath("//button[@class='btn btn-primary btnred schedule-btn scb-data-layer']");
 	By schedulecallpopupclosebutton = By.xpath("//span[@class='close-icon1']");
