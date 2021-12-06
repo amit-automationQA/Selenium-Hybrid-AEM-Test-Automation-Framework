@@ -483,15 +483,17 @@ public class Homepage extends BaseClass{
 		return driver.findElement(disclaimeraccordioncollapsed);
 	}
 
-	public void openCloseDisclaimer()
+	public void openCloseDisclaimer() throws InterruptedException
 	{
 		if(driver.findElement(disclaimeraccordionexpanded).isDisplayed())
 		{
 			driver.findElement(disclaimeraccordionexpanded).click();
+			Thread.sleep(3000);
 		}
 		else
 		{
 			driver.findElement(disclaimeraccordioncollapsed).click();
+			Thread.sleep(3000);
 		}
 	}
 

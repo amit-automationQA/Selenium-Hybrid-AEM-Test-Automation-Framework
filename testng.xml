@@ -8,6 +8,7 @@
 		<classes>
 			<class name="SeleniumTesting.AEMhdfc.HomepageTest" />
 			<class name="SeleniumTesting.AEMhdfc.CategorypageTest" />
+			<class name="SeleniumTesting.AEMhdfc.ProductpageTest" />
 		</classes>
 	</test>
 </suite> <!-- Suite -->
