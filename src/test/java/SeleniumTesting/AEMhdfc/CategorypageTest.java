@@ -163,22 +163,15 @@ public class CategorypageTest extends BaseClass{
 	public void verifyArticlesSection() throws InterruptedException //Implementation of loop is pending
 	{
 		js.executeScript("window.scrollBy(0,1000)");
-		Thread.sleep(3000);
 		cp.verifyArticles();
-		js.executeScript("window.scrollBy(0,600)");
-		Thread.sleep(3000);
-		cp.clickViewMoreBtn();
-		hp.verifyLink("https://www.hdfclife.com/insurance-knowledge-centre");
 	}
 	
-	/*@Test(priority=15)
+	@Test(priority=15)
 	public void verifyDisclaimer() throws InterruptedException
 	{
-		js.executeScript("window.scrollBy(0,700)");
-		Thread.sleep(3000);
+		js.executeScript("window.scrollBy(0,100)");
 		hp.openCloseDisclaimer();
-		Thread.sleep(3000);
-	}*/
+	}
 
 	@AfterClass(alwaysRun=true)
 	public void tear()

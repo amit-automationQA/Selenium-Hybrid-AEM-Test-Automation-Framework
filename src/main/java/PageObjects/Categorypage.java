@@ -397,49 +397,35 @@ log.info("Verification for download button in rider section started");
 
 	public void verifyArticles() throws InterruptedException
 	{
-		/*List<WebElement> linnew2= articleblocks.findElements(By.tagName("a"));
-		int totalarticles=linnew2.size();
-		log.info(" the number of tiles in articles section are : " +totalarticles);
-		for(int k=0; k<totalarticles; k++) {
-			JavascriptExecutor js=(JavascriptExecutor)driver;
-			WebElement articlesbtn = linnew2.get(k);
-			js.executeScript("arguments[0].scrollIntoView(true);",articlesbtn);
-			Thread.sleep(3000);		
-			JavascriptExecutor executor = (JavascriptExecutor) driver;
-			executor.executeScript("arguments[0].click();", articlesbtn);
-			Thread.sleep(3000);
-			driver.navigate().back();
-			Thread.sleep(3000);
-			softAssertion.assertEquals(driver.getCurrentUrl(), "https://www.hdfclife.com/term-insurance-plans");
-		}
-		softAssertion.assertAll();*/
+		Thread.sleep(3000);
+		log.info("Article section verification started");
 		WebElement article = driver.findElement(By.xpath("//div[@class='container aboutus-sec']"));
-		List<WebElement> lin = article.findElements(By.tagName("a"));
+		List<WebElement> articletileswithlinks = article.findElements(By.tagName("a"));
 		
-		int nooflinks = lin.size();
-		System.out.println(" the number of link in article section : " +nooflinks);
+		int noofarticlelinks = articletileswithlinks.size();
+		log.info(" the number of link in article section : " +noofarticlelinks);
 		
 		int count=0;
-		for(int i=0; i<nooflinks; i++) {
+		for(int i=0; i<noofarticlelinks; i++) {
 			WebElement articleNew = driver.findElement(By.xpath("//div[@class='container aboutus-sec']"));
-			List<WebElement> linNew = articleNew.findElements(By.tagName("a"));
+			List<WebElement> articletileswithlinks1 = articleNew.findElements(By.tagName("a"));
 			
 			JavascriptExecutor js=(JavascriptExecutor)driver;
-			WebElement linkss = linNew.get(i);
+			WebElement articletile = articletileswithlinks1.get(i);
 			
-			js.executeScript("arguments[0].scrollIntoView(true);",linkss);
+			js.executeScript("arguments[0].scrollIntoView(true);",articletile);
 			Thread.sleep(3000);		
-			String pageName = linkss.getAttribute("innerText");
-			String href = linkss.getAttribute("href");
+			String pageName = articletile.getAttribute("innerText");
+			String href = articletile.getAttribute("href");
 			JavascriptExecutor executor = (JavascriptExecutor) driver;
-			executor.executeScript("arguments[0].click();", linkss);
+			executor.executeScript("arguments[0].click();", articletile);
 			Thread.sleep(3000);
 			String title =driver.getTitle();
 			
-			System.out.println(pageName+" and URL is: "+href);
+			log.info(pageName+" and URL is: "+href);
 			 if(title.contains("404")) 
 			 { 
-				 System.out.println("Broken link found"); count++;
+				 log.error("Broken link found"); count++;
 			 }
 			 
 			String originalWindow = driver.getWindowHandle();
@@ -453,9 +439,11 @@ log.info("Verification for download button in rider section started");
 			Thread.sleep(3000);	
 		}	
 		if(count==0) {
-			System.out.println("No Broken link found");
+			log.info("No Broken link found");
 		}
 		
+		log.info("Article section test case ended");
+		Thread.sleep(3000);
 	}
 
 	public void clickViewMoreBtn() throws InterruptedException

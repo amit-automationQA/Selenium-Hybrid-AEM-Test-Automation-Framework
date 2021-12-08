@@ -485,6 +485,7 @@ public class Homepage extends BaseClass{
 
 	public void openCloseDisclaimer() throws InterruptedException
 	{
+		Thread.sleep(3000);
 		if(driver.findElement(disclaimeraccordionexpanded).isDisplayed())
 		{
 			driver.findElement(disclaimeraccordionexpanded).click();
@@ -495,6 +496,7 @@ public class Homepage extends BaseClass{
 			driver.findElement(disclaimeraccordioncollapsed).click();
 			Thread.sleep(3000);
 		}
+		Thread.sleep(3000);
 	}
 
 	public WebElement subscribeEmailField()
