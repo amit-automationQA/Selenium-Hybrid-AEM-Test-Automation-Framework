@@ -154,7 +154,7 @@ public class CategorypageTest extends BaseClass{
 	@Test(priority=13)
 	public void verifyContactUs() throws InterruptedException
 	{
-		js.executeScript("window.scrollBy(0,3700)");
+		//js.executeScript("window.scrollBy(0,3700)");
 		cp.clickContactUsBtn();
 		hp.verifyLink("https://www.hdfclife.com/contact-us");
 	}
@@ -171,14 +171,14 @@ public class CategorypageTest extends BaseClass{
 		hp.verifyLink("https://www.hdfclife.com/insurance-knowledge-centre");
 	}
 	
-	@Test(priority=15)
+	/*@Test(priority=15)
 	public void verifyDisclaimer() throws InterruptedException
 	{
-		js.executeScript("window.scrollBy(0,400)");
+		js.executeScript("window.scrollBy(0,700)");
 		Thread.sleep(3000);
 		hp.openCloseDisclaimer();
 		Thread.sleep(3000);
-	}
+	}*/
 
 	@AfterClass(alwaysRun=true)
 	public void tear()

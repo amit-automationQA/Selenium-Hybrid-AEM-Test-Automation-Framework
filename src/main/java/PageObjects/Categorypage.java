@@ -8,8 +8,10 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
@@ -256,8 +258,6 @@ public class Categorypage extends BaseClass{
 			log.error("View Less button is not getting displayed in Why section after clicking on view more");
 
 		}
-		softAssertion.assertAll();
-
 	}
 
 	public void verifyFirstOpenFAQ() throws InterruptedException
@@ -274,7 +274,7 @@ public class Categorypage extends BaseClass{
 			softAssertion.assertTrue(false, "First FAQ accordion is not open bydefault");
 			log.error("First FAQ accordion is not open bydefault");
 		}
-		softAssertion.assertAll();
+		//softAssertion.assertAll();
 	}
 
 	public void verifysecondFAQ() throws InterruptedException
@@ -294,7 +294,7 @@ public class Categorypage extends BaseClass{
 			softAssertion.assertTrue(false, "Second FAQ accordion is not opened on click");
 			log.error("Second FAQ accordion is not opened on click");
 		}
-		softAssertion.assertAll();
+		//softAssertion.assertAll();
 	}
 
 	public void verifyTermGuideViewMoreBtn() throws InterruptedException
@@ -312,10 +312,10 @@ public class Categorypage extends BaseClass{
 			softAssertion.assertTrue(termguideviewmorebtn.isDisplayed());
 		}
 		else {
-			softAssertion.assertTrue(false, "View more button for term insurance buying guide is not visible on page load");
+			//softAssertion.assertTrue(false, "View more button for term insurance buying guide is not visible on page load");
 			log.error("View more button for term insurance buying guide is not visible on page load");
 		}
-		softAssertion.assertAll();
+		//softAssertion.assertAll();
 	}
 
 	public void verifyViewMoreOnLoad() throws InterruptedException
@@ -397,7 +397,7 @@ log.info("Verification for download button in rider section started");
 
 	public void verifyArticles() throws InterruptedException
 	{
-		List<WebElement> linnew2= articleblocks.findElements(By.tagName("a"));
+		/*List<WebElement> linnew2= articleblocks.findElements(By.tagName("a"));
 		int totalarticles=linnew2.size();
 		log.info(" the number of tiles in articles section are : " +totalarticles);
 		for(int k=0; k<totalarticles; k++) {
@@ -412,7 +412,50 @@ log.info("Verification for download button in rider section started");
 			Thread.sleep(3000);
 			softAssertion.assertEquals(driver.getCurrentUrl(), "https://www.hdfclife.com/term-insurance-plans");
 		}
-		softAssertion.assertAll();
+		softAssertion.assertAll();*/
+		WebElement article = driver.findElement(By.xpath("//div[@class='container aboutus-sec']"));
+		List<WebElement> lin = article.findElements(By.tagName("a"));
+		
+		int nooflinks = lin.size();
+		System.out.println(" the number of link in article section : " +nooflinks);
+		
+		int count=0;
+		for(int i=0; i<nooflinks; i++) {
+			WebElement articleNew = driver.findElement(By.xpath("//div[@class='container aboutus-sec']"));
+			List<WebElement> linNew = articleNew.findElements(By.tagName("a"));
+			
+			JavascriptExecutor js=(JavascriptExecutor)driver;
+			WebElement linkss = linNew.get(i);
+			
+			js.executeScript("arguments[0].scrollIntoView(true);",linkss);
+			Thread.sleep(3000);		
+			String pageName = linkss.getAttribute("innerText");
+			String href = linkss.getAttribute("href");
+			JavascriptExecutor executor = (JavascriptExecutor) driver;
+			executor.executeScript("arguments[0].click();", linkss);
+			Thread.sleep(3000);
+			String title =driver.getTitle();
+			
+			System.out.println(pageName+" and URL is: "+href);
+			 if(title.contains("404")) 
+			 { 
+				 System.out.println("Broken link found"); count++;
+			 }
+			 
+			String originalWindow = driver.getWindowHandle();
+			driver.switchTo().window(originalWindow);
+			Actions action= new Actions(driver);
+			action.keyDown(Keys.CONTROL).keyDown(Keys.SHIFT).sendKeys(Keys.TAB).build().perform();
+			driver.navigate().forward();	
+			driver.navigate().back();	
+			driver.navigate().refresh();
+			 
+			Thread.sleep(3000);	
+		}	
+		if(count==0) {
+			System.out.println("No Broken link found");
+		}
+		
 	}
 
 	public void clickViewMoreBtn() throws InterruptedException

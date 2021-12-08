@@ -104,7 +104,7 @@ public class BaseClass {
 			driver.get(prop.getProperty("url"));
 			fis.close();
 		}
-		else if(browsername.equals("edge"))
+		else if(browsername.equals("edge")) //https://docs.microsoft.com/en-us/microsoft-edge/webdriver-chromium/?tabs=java
 		{
 			System.setProperty("webdriver.edge.driver",System.getProperty("user.dir") + "\\Driver\\msedgedriver.exe");
 			EdgeOptions options= new EdgeOptions();

@@ -1,0 +1,6 @@
+14:12:42.226 [main] INFO  PageObjects.Homepage - Stay Connected With Us Footer link check started
+14:12:45.381 [main] INFO  PageObjects.Homepage - https://www.facebook.com/HDFClife------>OK
+14:12:55.521 [main] INFO  PageObjects.Homepage - https://www.linkedin.com/company/hdfc-life------>Request denied
+14:12:56.328 [main] INFO  PageObjects.Homepage - https://twitter.com/HDFClife------>OK
+14:12:57.528 [main] INFO  PageObjects.Homepage - https://www.youtube.com/user/hdfclife10------>OK
+14:13:03.676 [main] INFO  PageObjects.Homepage - https://www.instagram.com/hdfclife/------>OK
