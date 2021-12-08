@@ -164,7 +164,7 @@ public class Productpage extends BaseClass{
 		Homepage hp = new Homepage(driver);
 		Thread.sleep(3000);
 		softAssertion.assertTrue(twittersharebtn.isDisplayed());
-		facebooksharebtn.click();
+		twittersharebtn.click();
 		Thread.sleep(3000);
 		hp.verifyLinkOpenedInNewWindow("https://twitter.com/intent/tweet?&url=https://www.hdfclife.com/term-insurance-plans/click-2-protect-life#discPopup", 
 				"https://www.hdfclife.com/term-insurance-plans/click-2-protect-life#discPopup");
@@ -174,8 +174,8 @@ public class Productpage extends BaseClass{
 	{
 		Homepage hp = new Homepage(driver);
 		Thread.sleep(3000);
-		softAssertion.assertTrue(twittersharebtn.isDisplayed());
-		facebooksharebtn.click();
+		softAssertion.assertTrue(linkedinsharebtn.isDisplayed());
+		linkedinsharebtn.click();
 		Thread.sleep(3000);
 		hp.verifyLinkOpenedInNewWindow("https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2FshareArticle%2F%3Furl%3Dhttps%3A%2F%2Fwww%2Ehdfclife%2Ecom%2Fterm-insurance-plans%2Fclick-2-protect-life&trk=login_reg_redirect#discPopup", 
 				"https://www.hdfclife.com/term-insurance-plans/click-2-protect-life#discPopup");

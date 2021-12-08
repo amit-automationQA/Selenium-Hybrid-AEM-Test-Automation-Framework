@@ -109,7 +109,7 @@ public class Categorypage extends BaseClass{
 	@FindBy(xpath="(//ul[@class='insuranceBenList'])[2]")
 	WebElement secondrowriderdownloadbuttons;
 	
-	@FindBy(xpath="(//div[@class='row'])[12]")
+	@FindBy(xpath="//div[@class='container aboutus-sec']")
 	WebElement articleblocks;
 
 	//Initialized objects
@@ -399,20 +399,20 @@ log.info("Verification for download button in rider section started");
 	{
 		Thread.sleep(3000);
 		log.info("Article section verification started");
-		WebElement article = driver.findElement(By.xpath("//div[@class='container aboutus-sec']"));
-		List<WebElement> articletileswithlinks = article.findElements(By.tagName("a"));
+		//WebElement article = driver.findElement(By.xpath("//div[@class='container aboutus-sec']"));
+		List<WebElement> articletileswithlinks = articleblocks.findElements(By.tagName("a"));
 		
 		int noofarticlelinks = articletileswithlinks.size();
 		log.info(" the number of link in article section : " +noofarticlelinks);
 		
 		int count=0;
 		for(int i=0; i<noofarticlelinks; i++) {
-			WebElement articleNew = driver.findElement(By.xpath("//div[@class='container aboutus-sec']"));
-			List<WebElement> articletileswithlinks1 = articleNew.findElements(By.tagName("a"));
+			//WebElement articleNew = driver.findElement(By.xpath("//div[@class='container aboutus-sec']"));
+			List<WebElement> articletileswithlinks1 = articleblocks.findElements(By.tagName("a"));
 			
 			JavascriptExecutor js=(JavascriptExecutor)driver;
 			WebElement articletile = articletileswithlinks1.get(i);
-			
+
 			js.executeScript("arguments[0].scrollIntoView(true);",articletile);
 			Thread.sleep(3000);		
 			String pageName = articletile.getAttribute("innerText");

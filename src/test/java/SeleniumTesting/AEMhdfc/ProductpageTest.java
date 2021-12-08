@@ -126,6 +126,19 @@ public class ProductpageTest extends BaseClass{
 				"https://www.hdfclife.com/term-insurance-plans/click-2-protect-life#discPopup");
 	}
 
+	/*@Test(priority=11, retryAnalyzer = Analyzer.RetryAnalyzer.class)
+	public void verifyDownloadsSectionAfterScroll() throws InterruptedException
+	{
+		log.info("Download section verification after scroll started");
+		js.executeScript("window.scrollBy(0,1000)");
+		Thread.sleep(3000);
+		verifyPrintBtn();	
+		verifyShareOption();
+		verifyRatingsFromAPI();
+		verifyDownloadBrochure();
+		verifyCalculatePremiumBtn();
+		verifyBuyNowBtn();
+	}*/
 	@AfterClass(alwaysRun=true)
 	public void tear()
 	{
