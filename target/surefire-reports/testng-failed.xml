@@ -8,26 +8,12 @@
     <classes>
       <class name="SeleniumTesting.AEMhdfc.ProductpageTest">
         <methods>
-          <include name="verifyShareOption"/>
-          <include name="verifyBuyNowBtn"/>
-          <include name="verifyRatingsFromAPI"/>
+          <include name="verifyDownloadsSectionAfterScroll"/>
           <include name="setUp"/>
           <include name="navigateToProductPage"/>
-          <include name="verifyDownloadBrochure"/>
-          <include name="verifyProductPageBreadcrumb"/>
-          <include name="verifyTandCOption"/>
-          <include name="tear"/>
-          <include name="verifyPrintBtn"/>
-          <include name="verifyCalculatePremiumBtn"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- SeleniumTesting.AEMhdfc.ProductpageTest -->
-      <class name="SeleniumTesting.AEMhdfc.CategorypageTest">
-        <methods>
-          <include name="verifyRidersSection"/>
-          <include name="setUp"/>
-          <include name="tear"/>
-        </methods>
-      </class> <!-- SeleniumTesting.AEMhdfc.CategorypageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

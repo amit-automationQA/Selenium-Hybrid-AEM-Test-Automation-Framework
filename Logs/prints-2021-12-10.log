@@ -1,17 +1,15 @@
-10:10:33.627 [main] INFO  SeleniumTesting.AEMhdfc.HomepageTest - Homepage test cases executed
-10:10:43.502 [main] INFO  SeleniumTesting.AEMhdfc.CategorypageTest - Category page test cases started
-10:12:58.123 [main] INFO  PageObjects.Categorypage - First FAQ accordion is open on page load
-10:13:05.235 [main] INFO  PageObjects.Categorypage - Second FAQ accordion is opened on click
-10:13:31.629 [main] INFO  PageObjects.Categorypage - Verification for download button in rider section started
-10:13:31.641 [main] INFO  PageObjects.Categorypage -  the number of buttons in download riders section : 2
-10:13:56.392 [main] INFO  PageObjects.Categorypage - Article section verification started
-10:13:56.407 [main] INFO  PageObjects.Categorypage -  the number of link in article section : 7
-10:14:02.602 [main] INFO  PageObjects.Categorypage -  and URL is: https://www.hdfclife.com/insurance-knowledge-centre/about-life-insurance/what-is-term-insurance
-10:14:15.714 [main] INFO  PageObjects.Categorypage - What is Term Insurance? - Meaning of Term Plan | HDFC Life
+23:30:10.575 [main] INFO  PageObjects.Categorypage - What is Term Insurance? - Meaning of Term Plan | HDFC Life
 
 "Before making a financial plan for yourself, it is very important to know the meaning of term insurance. Read this blog to know the details about term plan!" and URL is: https://www.hdfclife.com/insurance-knowledge-centre/about-life-insurance/what-is-term-insurance
-10:14:29.109 [main] INFO  PageObjects.Categorypage - Why Is Term Insurance Important For Everyone - HDFC Life and URL is: https://www.hdfclife.com/insurance-knowledge-centre/about-life-insurance/why-term-insurance-is-important.html
-10:14:41.978 [main] INFO  PageObjects.Categorypage - Term Insurance FAQs - Answers to All Your Questions | HDFC Life and URL is: https://www.hdfclife.com/insurance-knowledge-centre/about-life-insurance/faqs-on-term-insurance
-10:14:54.924 [main] INFO  PageObjects.Categorypage - Ultimate Guide - Buy Term Insurance Plans Online | HDFC Life
+23:30:24.521 [main] INFO  PageObjects.Categorypage - Why Is Term Insurance Important For Everyone - HDFC Life and URL is: https://www.hdfclife.com/insurance-knowledge-centre/about-life-insurance/why-term-insurance-is-important.html
+23:30:38.112 [main] INFO  PageObjects.Categorypage - Term Insurance FAQs - Answers to All Your Questions | HDFC Life and URL is: https://www.hdfclife.com/insurance-knowledge-centre/about-life-insurance/faqs-on-term-insurance
+23:30:51.411 [main] INFO  PageObjects.Categorypage - Ultimate Guide - Buy Term Insurance Plans Online | HDFC Life
 
 "Buying insurance is seen as time-consuming even cumbersome. So while individuals appreciate the importance of taking insurance, the formalities can be a put-off, making them postpone the decision......" and URL is: https://www.hdfclife.com/insurance-knowledge-centre/about-life-insurance/how-to-buy-term-insurance-online
+23:31:05.974 [main] INFO  PageObjects.Categorypage -  and URL is: https://www.hdfclife.com/insurance-knowledge-centre/about-life-insurance/how-to-buy-term-insurance-online
+23:31:20.741 [main] INFO  PageObjects.Categorypage - VIEW MORE and URL is: https://www.hdfclife.com/insurance-knowledge-centre
+23:31:27.822 [main] INFO  PageObjects.Categorypage - No Broken link found
+23:31:27.822 [main] INFO  PageObjects.Categorypage - Article section test case ended
+23:31:40.406 [main] INFO  SeleniumTesting.AEMhdfc.CategorypageTest - Category page test cases executed
+23:31:40.408 [main] INFO  SeleniumTesting.AEMhdfc.CategorypageTest - Folder deleted for Category downloads
+23:31:44.632 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Product page test cases started

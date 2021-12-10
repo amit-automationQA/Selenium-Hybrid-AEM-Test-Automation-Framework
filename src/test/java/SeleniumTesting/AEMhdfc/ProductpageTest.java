@@ -41,7 +41,7 @@ public class ProductpageTest extends BaseClass{
 		this.js=js;
 		ts = (TakesScreenshot) driver;
 		log.info("Product page test cases started");
-		folder.mkdir();
+		
 	}
 
 	@Test(priority=1, retryAnalyzer = Analyzer.RetryAnalyzer.class)
@@ -71,12 +71,12 @@ public class ProductpageTest extends BaseClass{
 		pp.verifyCategoryPageLinkInBreadcrumb();
 	}
 
-	/*@Test(priority=4, retryAnalyzer = Analyzer.RetryAnalyzer.class, dependsOnMethods={"navigateToProductPage"})
+	@Test(priority=4, retryAnalyzer = Analyzer.RetryAnalyzer.class, dependsOnMethods={"navigateToProductPage"})
 	public void verifyRatingOption() throws InterruptedException
 	{
 		js.executeScript("window.scrollBy(0,300)");
 		pp.provideRatings();
-	}*/
+	}
 
 	@Test(priority=5, retryAnalyzer = Analyzer.RetryAnalyzer.class)
 	public void verifyPrintBtn() throws InterruptedException
@@ -106,8 +106,10 @@ public class ProductpageTest extends BaseClass{
 	@Test(priority=8, retryAnalyzer = Analyzer.RetryAnalyzer.class , dependsOnMethods={"verifyPrintBtn"})
 	public void verifyDownloadBrochure() throws InterruptedException
 	{
+		folder.mkdir();
 		pp.verifyDownloadingBrochure();
 		cp.isFileDownloaded("MC062124237-V01-HDFC-Life-Click-2-Protect-Life-Retail-Brochure.pdf");
+		cp.deleteFolder();
 	}
 
 	@Test(priority=9, retryAnalyzer = Analyzer.RetryAnalyzer.class , dependsOnMethods={"verifyPrintBtn"})
@@ -124,13 +126,17 @@ public class ProductpageTest extends BaseClass{
 		pp.clickBuyNow();
 		hp.verifyLinkOpenedInNewWindow("https://onlineinsurance.hdfclife.com/buy-online-term-insurance-plans/click-2-protect-life/basic-details?source=NW_C2PL_BuyNow&agentcode=00399206&language=en",
 				"https://www.hdfclife.com/term-insurance-plans/click-2-protect-life#discPopup");
+		driver.navigate().refresh();
 	}
 
-	@Test(priority=11, retryAnalyzer = Analyzer.RetryAnalyzer.class)
+	@Test(priority=11, retryAnalyzer = Analyzer.RetryAnalyzer.class, dependsOnMethods= {"navigateToProductPage"})
 	public void verifyDownloadsSectionAfterScroll() throws InterruptedException
 	{
+		driver.navigate().refresh();
 		log.info("Download section verification after scroll started");
 		js.executeScript("window.scrollBy(0,1000)");
+		Thread.sleep(3000);
+		verifyRatingOption();
 		Thread.sleep(3000);
 		verifyPrintBtn();	
 		verifyShareOption();
@@ -140,12 +146,12 @@ public class ProductpageTest extends BaseClass{
 		verifyBuyNowBtn();
 	}
 	@AfterClass(alwaysRun=true)
-	public void tear()
+	public void tearDown()
 	{
 		driver.quit();
 		log.info("Product page test cases executed");
-		cp.deleteFolder();
-		log.info("Folder deleted for Category downloads");
+		//cp.deleteFolder();
+		//log.info("Folder deleted for Category downloads");
 	}
 
 }

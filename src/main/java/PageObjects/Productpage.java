@@ -14,7 +14,7 @@ public class Productpage extends BaseClass{
 
 	//static SoftAssert softAssertion = new SoftAssert();
 	//https://stackoverflow.com/questions/59083170/single-soft-assertion-error-is-failing-subsequent-passed-scenarios
-		//Reason why the above code was commented and softAssert is not declared globally
+	//Reason why the above code was commented and softAssert is not declared globally
 	/*Your dataprovider powered @Test method is basically using one SoftAssert instance and then invoking an assertAll() for all data provider data set iterations using the same instance.
 	SoftAssert is designed to remember all assertions that have been recorded so far via calls to assertXXX.
 	To fix this problem you should be instantiating the SoftAssert object inside the @Test method*/
@@ -65,10 +65,15 @@ public class Productpage extends BaseClass{
 
 	@FindBy(xpath="//a[@class='product-calculate-btn outlined-button-hover dataLayerBtnClick']")
 	WebElement calculatepremiumbtn;
-	
+
 	@FindBy(xpath="//a[@class='product-buynow-btn btnred dataLayerBtnClick']")
 	WebElement buynowbtn;
+
+	@FindBy(css="#rate-msg")
+	WebElement ratetext;
 	
+	@FindBy(xpath="(//*[name()='svg'][@class='starttest'])[2]")
+	WebElement twostarrating;
 	//Initialized methods
 	public void verifyOnlyPageUrl(String onlycurrenturl) 
 	{
@@ -106,16 +111,16 @@ public class Productpage extends BaseClass{
 		softAssertion.assertTrue(rateicon.isDisplayed());
 		Thread.sleep(3000);
 		Actions action = new Actions(driver); // Reference link: https://www.browserstack.com/guide/action-class-in-selenium
-		action.moveToElement(rateicon);
+		//Performing the mouse hover action on the target element.
+		action.moveToElement(rateicon).perform();
+		String productratetext = ratetext.getAttribute("innerText");
+		softAssertion.assertEquals(productratetext, "Rate this product");
+		twostarrating.click();
 		Thread.sleep(3000);
-		softAssertion.assertEquals(ratingtext.getText(), "Rate this product");
+		action.moveToElement(rateicon).perform();
 		Thread.sleep(3000);
-		action.moveToElement(threestarrating).click(threestarrating);
-		Thread.sleep(3000);
-		//Thread.sleep(3000);
-		//action.moveToElement(rateicon);
-		Thread.sleep(3000);
-		//softAssertion.assertEquals(ratingtext.getText(), "PRODUCT RATED");
+		String productratetext1 = ratetext.getAttribute("innerText");
+		softAssertion.assertEquals(productratetext1, "PRODUCT RATED");
 		softAssertion.assertAll();
 	}
 
@@ -213,7 +218,7 @@ public class Productpage extends BaseClass{
 		calculatepremiumbtn.click();
 		Thread.sleep(2000);
 	}
-	
+
 	public void clickBuyNow() throws InterruptedException
 	{
 		SoftAssert softAssertion = new SoftAssert();
