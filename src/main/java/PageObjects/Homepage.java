@@ -25,7 +25,12 @@ import base.BaseClass;
 
 public class Homepage extends BaseClass{
 
-	SoftAssert softAssertion = new SoftAssert();
+	//SoftAssert softAssertion = new SoftAssert();
+	//https://stackoverflow.com/questions/59083170/single-soft-assertion-error-is-failing-subsequent-passed-scenarios
+	//Reason why the above code was commented and softAssert is not declared globally
+/*Your dataprovider powered @Test method is basically using one SoftAssert instance and then invoking an assertAll() for all data provider data set iterations using the same instance.
+SoftAssert is designed to remember all assertions that have been recorded so far via calls to assertXXX.
+To fix this problem you should be instantiating the SoftAssert object inside the @Test method*/
 	public static Logger log=LogManager.getLogger(Homepage.class.getName());
 
 	//Constructor
@@ -119,6 +124,7 @@ public class Homepage extends BaseClass{
 	//Initialized objects
 	public void verifyBannerCarouselDot0() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		driver.findElement(bannercarouseldot0).click();
 		Thread.sleep(3000);
 		softAssertion.assertTrue(driver.findElement(bannercarouselactiveimage).isDisplayed());
@@ -131,6 +137,7 @@ public class Homepage extends BaseClass{
 	}
 	public void verifyBannerCarouselDot1() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		driver.findElement(bannercarouseldot1).click();
 		Thread.sleep(3000);
 		softAssertion.assertTrue(driver.findElement(bannercarouselactiveimage).isDisplayed());
@@ -139,6 +146,7 @@ public class Homepage extends BaseClass{
 	
 	public void verifyBannerCarouselDot2() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		driver.findElement(bannercarouseldot2).click();
 		Thread.sleep(3000);
 		softAssertion.assertTrue(driver.findElement(bannercarouselactiveimage).isDisplayed());
@@ -147,6 +155,7 @@ public class Homepage extends BaseClass{
 
 	public void verifyBannerCarouselDot3() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		driver.findElement(bannercarouseldot3).click();
 		Thread.sleep(3000);
 		softAssertion.assertTrue(driver.findElement(bannercarouselactiveimage).isDisplayed());
@@ -155,6 +164,7 @@ public class Homepage extends BaseClass{
 
 	public void verifyBannerCarouselDot4() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		driver.findElement(bannercarouseldot4).click();
 		Thread.sleep(3000);
 		softAssertion.assertTrue(driver.findElement(bannercarouselactiveimage).isDisplayed());
@@ -169,6 +179,7 @@ public class Homepage extends BaseClass{
 
 	public void clickFixedMaturityPlanBlock() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		Thread.sleep(3000);
 		softAssertion.assertTrue(driver.findElement(fixedmaturityplanblock).isDisplayed());
 		driver.findElement(fixedmaturityplanblock).click();
@@ -177,6 +188,7 @@ public class Homepage extends BaseClass{
 
 	public void clickSavingPlansBlock() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		Thread.sleep(3000);
 		softAssertion.assertTrue(driver.findElement(savingplansblock).isDisplayed());
 		driver.findElement(savingplansblock).click();
@@ -185,6 +197,7 @@ public class Homepage extends BaseClass{
 
 	public void clickRetirementPlansBlock() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		Thread.sleep(3000);
 		softAssertion.assertTrue(driver.findElement(retirementplansblock).isDisplayed());
 		driver.findElement(retirementplansblock).click();
@@ -193,6 +206,7 @@ public class Homepage extends BaseClass{
 
 	public void clickUlipPlansBlock() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		Thread.sleep(3000);
 		softAssertion.assertTrue(driver.findElement(ulipplansblock).isDisplayed());
 		driver.findElement(ulipplansblock).click();
@@ -202,6 +216,7 @@ public class Homepage extends BaseClass{
 
 	public void clickViewAllBtn() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		softAssertion.assertTrue(driver.findElement(viewallbutton).isDisplayed());
 		driver.findElement(viewallbutton).click();
 		Thread.sleep(3000);
@@ -210,6 +225,7 @@ public class Homepage extends BaseClass{
 
 	public void clickChildrenPlansBlock() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		softAssertion.assertTrue(driver.findElement(childrenplansblock).isDisplayed());
 		driver.findElement(childrenplansblock).click();
 		Thread.sleep(3000);
@@ -218,6 +234,7 @@ public class Homepage extends BaseClass{
 
 	public void clickHealthPlansBlock() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		softAssertion.assertTrue(driver.findElement(healthplansblock).isDisplayed());
 		driver.findElement(healthplansblock).click();
 		Thread.sleep(3000);
@@ -227,6 +244,7 @@ public class Homepage extends BaseClass{
 
 	public void clickPosPlansBlock() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		softAssertion.assertTrue(driver.findElement(posplansblock).isDisplayed());
 		driver.findElement(posplansblock).click();
 		Thread.sleep(3000);
@@ -246,6 +264,7 @@ public class Homepage extends BaseClass{
 
 	public void clickComboPlansBlock() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		softAssertion.assertTrue(driver.findElement(comboplansblock).isDisplayed());
 		driver.findElement(comboplansblock).click();
 		Thread.sleep(3000);
@@ -266,6 +285,7 @@ public class Homepage extends BaseClass{
 	}
 	public void clickGroupPlansBlock() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		softAssertion.assertTrue(driver.findElement(groupplansblock).isDisplayed());
 		driver.findElement(groupplansblock).click();
 		Thread.sleep(3000);
@@ -307,6 +327,7 @@ public class Homepage extends BaseClass{
 	
 	public void clickMouseIndicator() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		Thread.sleep(3000);
 		softAssertion.assertTrue(driver.findElement(mouseindicator).isDisplayed());
 		Thread.sleep(3000);
@@ -379,6 +400,7 @@ public class Homepage extends BaseClass{
 
 	public void invalidDataValidationErrorForNameAndNumber() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		WebDriverWait wait = new WebDriverWait(driver,30);
 		wait.until(ExpectedConditions.elementToBeClickable(minimumnamevalidationerror));
 		softAssertion.assertTrue(driver.findElement(minimumnamevalidationerror).isDisplayed());
@@ -424,6 +446,7 @@ public class Homepage extends BaseClass{
 
 	public void verifyResultSection()
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		String totalresult = result.getText();
 		softAssertion.assertEquals(totalresult, "₹ 12,39,952");
 		softAssertion.assertTrue(driver.findElement(resultlifecoverrequiredtext).isDisplayed());
@@ -433,6 +456,7 @@ public class Homepage extends BaseClass{
 
 	public void verifyC2PLProductResult() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		softAssertion.assertTrue(driver.findElement(c2pl).isDisplayed());
 		driver.findElement(c2pl).click();;
 		softAssertion.assertEquals(driver.getCurrentUrl(),
@@ -443,7 +467,8 @@ public class Homepage extends BaseClass{
 	}
 
 	public void verifyLearnMorebtn(String learnmoreurl) throws InterruptedException
-	{		
+	{
+		SoftAssert softAssertion = new SoftAssert();
 	driver.findElement(learnmorebutton).click();
 	softAssertion.assertEquals(driver.getCurrentUrl(),learnmoreurl);
 	driver.navigate().back();
@@ -453,6 +478,7 @@ public class Homepage extends BaseClass{
 	
 	public void clickCalculatorCloseBtn() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		softAssertion.assertTrue(driver.findElement(calculatorclosebtn).isDisplayed());
 		driver.findElement(calculatorclosebtn).click();
 		Thread.sleep(3000);
@@ -461,6 +487,7 @@ public class Homepage extends BaseClass{
 
 	public void clickSanchayPlusBuyNow() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		softAssertion.assertTrue(driver.findElement(sanchayplusbuynow).isDisplayed());
 		driver.findElement(sanchayplusbuynow).click();	
 		softAssertion.assertAll();
@@ -516,6 +543,7 @@ public class Homepage extends BaseClass{
 	
 	public void verifySubScribeBtnOnClickOfField() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		driver.findElement(subscribeemailfield).click();
 		softAssertion.assertTrue(driver.findElement(subscribebtn).isEnabled());
 		Thread.sleep(3000);
@@ -523,12 +551,14 @@ public class Homepage extends BaseClass{
 	
 	public void emailPlaceholder()
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		softAssertion.assertEquals(driver.findElement(subscribeemailfield).getAttribute("placeholder"),"Enter your email id");
 		softAssertion.assertAll();
 	}
 	
 	public void verifyEmailSubscriptionSuccessfulMessage() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		softAssertion.assertTrue(driver.findElement(emailsubscribemessage).isDisplayed());
 		softAssertion.assertEquals(driver.findElement(emailsubscribemessage).getText(), "Thank you for subscribing to us.");
 		Thread.sleep(3000);
@@ -614,6 +644,7 @@ public class Homepage extends BaseClass{
 
 	public void verifyLinkOpenedInNewWindow(String childurl, String parenturl) throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		Set<String> windows = driver.getWindowHandles();
 		Iterator<String>it2=windows.iterator();
 		String parentId= it2.next();
@@ -629,6 +660,7 @@ public class Homepage extends BaseClass{
 
 	public void verifyLink(String pageurl) throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		Thread.sleep(3000);
 		softAssertion.assertEquals(driver.getCurrentUrl(), pageurl);
 		driver.navigate().back();
@@ -638,6 +670,7 @@ public class Homepage extends BaseClass{
 
 	public void verifyValidationErrorForBlankSubmit()
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		softAssertion.assertTrue(driver.findElement(namevalidationerror).isDisplayed());
 		softAssertion.assertEquals(driver.findElement(namevalidationerror).getText(), "Please enter valid name");
 		softAssertion.assertTrue(driver.findElement(mobilenumbervalidationerror).isDisplayed());
@@ -649,6 +682,7 @@ public class Homepage extends BaseClass{
 
 	public void verifyConsentCheckbox() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		if(driver.findElement(schedulepopupcheckbox).isSelected())
 		{
 			driver.findElement(schedulepopupcheckbox).click();

@@ -12,7 +12,12 @@ import base.BaseClass;
 
 public class Productpage extends BaseClass{
 
-	static SoftAssert softAssertion = new SoftAssert();
+	//static SoftAssert softAssertion = new SoftAssert();
+	//https://stackoverflow.com/questions/59083170/single-soft-assertion-error-is-failing-subsequent-passed-scenarios
+		//Reason why the above code was commented and softAssert is not declared globally
+	/*Your dataprovider powered @Test method is basically using one SoftAssert instance and then invoking an assertAll() for all data provider data set iterations using the same instance.
+	SoftAssert is designed to remember all assertions that have been recorded so far via calls to assertXXX.
+	To fix this problem you should be instantiating the SoftAssert object inside the @Test method*/
 	public static Logger log=LogManager.getLogger(Productpage.class.getName());
 
 	//Constructor for avoiding null pointer exception on driver
@@ -67,12 +72,14 @@ public class Productpage extends BaseClass{
 	//Initialized methods
 	public void verifyOnlyPageUrl(String onlycurrenturl) 
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		softAssertion.assertEquals(driver.getCurrentUrl(),onlycurrenturl);
 		softAssertion.assertAll();
 	}
 
 	public void TandC() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		Thread.sleep(3000);
 		softAssertion.assertTrue(tandcpopup.isDisplayed());
 		Thread.sleep(3000);
@@ -83,6 +90,7 @@ public class Productpage extends BaseClass{
 
 	public void verifyCategoryPageLinkInBreadcrumb() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		Thread.sleep(3000);
 		softAssertion.assertTrue(categorypagebreadcrumb.isDisplayed());
 		categorypagebreadcrumb.click();
@@ -94,6 +102,7 @@ public class Productpage extends BaseClass{
 
 	public void provideRatings() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		softAssertion.assertTrue(rateicon.isDisplayed());
 		Thread.sleep(3000);
 		Actions action = new Actions(driver); // Reference link: https://www.browserstack.com/guide/action-class-in-selenium
@@ -112,6 +121,7 @@ public class Productpage extends BaseClass{
 
 	public void viewProductRatingsFromApi() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		Thread.sleep(3000);
 		softAssertion.assertTrue(ratingsacquiredfromapi.isDisplayed());
 		softAssertion.assertAll();
@@ -119,6 +129,7 @@ public class Productpage extends BaseClass{
 
 	public void clickPrintBtn() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		Thread.sleep(3000);
 		softAssertion.assertTrue(printbtn.isDisplayed());
 		printbtn.click();
@@ -126,6 +137,7 @@ public class Productpage extends BaseClass{
 
 	public void verifyLinkOpeningInNewWindow() throws InterruptedException
 	{ 
+		SoftAssert softAssertion = new SoftAssert();
 		//https://stackoverflow.com/questions/9588827/how-to-switch-to-the-new-browser-window-which-opens-after-click-on-the-button
 		Thread.sleep(3000);
 		String winHandleBefore = driver.getWindowHandle();
@@ -133,7 +145,7 @@ public class Productpage extends BaseClass{
 			driver.switchTo().window(winHandle);
 		}
 		softAssertion.assertEquals(driver.getCurrentUrl(), 
-				"https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/products-page/brochure-pdf/MC062124237-V01-HDFC-Life-Click-2-Protect-Life-Retail-Brochure.pdf");
+				"https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/products-page/term-insurance-plan/click-2-protect-life/HDFC-Life-Click-2-Protect-Life-101N139V02-Brochure.pdf");
 		driver.close();
 		driver.switchTo().window(winHandleBefore);
 		Thread.sleep(3000);
@@ -142,6 +154,7 @@ public class Productpage extends BaseClass{
 
 	public void verifySharePopup() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		Thread.sleep(3000);
 		softAssertion.assertTrue(sharebtn.isDisplayed());
 		Actions action = new Actions(driver);
@@ -151,6 +164,7 @@ public class Productpage extends BaseClass{
 	}
 	public void verifyFacebookShareBtn() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		Homepage hp = new Homepage(driver);
 		softAssertion.assertTrue(facebooksharebtn.isDisplayed());
 		facebooksharebtn.click();
@@ -161,6 +175,7 @@ public class Productpage extends BaseClass{
 
 	public void verifyTwitterShareBtn() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		Homepage hp = new Homepage(driver);
 		Thread.sleep(3000);
 		softAssertion.assertTrue(twittersharebtn.isDisplayed());
@@ -172,6 +187,7 @@ public class Productpage extends BaseClass{
 
 	public void verifyLinkedInShareBtn() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		Homepage hp = new Homepage(driver);
 		Thread.sleep(3000);
 		softAssertion.assertTrue(linkedinsharebtn.isDisplayed());
@@ -183,6 +199,7 @@ public class Productpage extends BaseClass{
 
 	public void verifyDownloadingBrochure() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		Thread.sleep(3000);
 		softAssertion.assertTrue(downloadbrochurebtn.isDisplayed());
 		downloadbrochurebtn.click();
@@ -190,6 +207,7 @@ public class Productpage extends BaseClass{
 
 	public void clickCalculatePremiumBtn() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		Thread.sleep(3000);
 		softAssertion.assertTrue(calculatepremiumbtn.isDisplayed());
 		calculatepremiumbtn.click();
@@ -198,6 +216,7 @@ public class Productpage extends BaseClass{
 	
 	public void clickBuyNow() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		softAssertion.assertTrue(buynowbtn.isDisplayed());
 		buynowbtn.click();
 		Thread.sleep(3000);

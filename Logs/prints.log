@@ -1,5 +1,9 @@
-17:05:30.886 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/insurance-knowledge-centre/glossary------>OK
-17:05:31.076 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/life-insurance-solutions------>OK
-17:05:31.329 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/hdfc-life-mobile-app------>OK
-17:05:31.550 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/life-insurance-plans------>OK
-17:05:31.804 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/customer-service/testimonials------>OK
+10:15:07.474 [main] INFO  PageObjects.Categorypage -  and URL is: https://www.hdfclife.com/insurance-knowledge-centre/about-life-insurance/how-to-buy-term-insurance-online
+10:15:20.642 [main] INFO  PageObjects.Categorypage - VIEW MORE and URL is: https://www.hdfclife.com/insurance-knowledge-centre
+10:15:27.631 [main] INFO  PageObjects.Categorypage - No Broken link found
+10:15:27.631 [main] INFO  PageObjects.Categorypage - Article section test case ended
+10:15:43.015 [main] INFO  SeleniumTesting.AEMhdfc.CategorypageTest - Category page test cases executed
+10:15:43.016 [main] INFO  SeleniumTesting.AEMhdfc.CategorypageTest - Folder deleted for Category downloads
+10:15:48.443 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Product page test cases started
+10:19:35.626 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Product page test cases executed
+10:19:35.628 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Folder deleted for Category downloads

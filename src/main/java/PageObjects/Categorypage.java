@@ -22,7 +22,13 @@ import base.BaseClass;
 
 public class Categorypage extends BaseClass{
 	
-	static SoftAssert softAssertion = new SoftAssert();
+	//static SoftAssert softAssertion = new SoftAssert();
+	//https://stackoverflow.com/questions/59083170/single-soft-assertion-error-is-failing-subsequent-passed-scenarios
+	//Reason why the above code was commented and softAssert is not declared globally
+/*Your dataprovider powered @Test method is basically using one SoftAssert instance and then invoking an assertAll() for all data provider data set iterations using the same instance.
+SoftAssert is designed to remember all assertions that have been recorded so far via calls to assertXXX.
+To fix this problem you should be instantiating the SoftAssert object inside the @Test method*/
+	
 	public static Logger log=LogManager.getLogger(Categorypage.class.getName());
 	
 	//Constructor for avoiding null pointer exception on driver
@@ -120,6 +126,7 @@ public class Categorypage extends BaseClass{
 
 	public void navigateToTermCategoryPage() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		headeralllink.click();
 		Thread.sleep(3000);
 		termpagelink.click();
@@ -132,6 +139,7 @@ public class Categorypage extends BaseClass{
 
 	public void verifyCalculatePremiumbtn() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		Thread.sleep(3000);
 		softAssertion.assertTrue(calculatepremiumbtn.isDisplayed());
 		calculatepremiumbtn.click();
@@ -140,6 +148,7 @@ public class Categorypage extends BaseClass{
 
 	public void clickTalkToAdvisorBtn() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		softAssertion.assertTrue(talktoadvisorbtn.isDisplayed());
 		softAssertion.assertTrue(talktoadvisorbtn.isEnabled());
 		talktoadvisorbtn.click();
@@ -149,10 +158,11 @@ public class Categorypage extends BaseClass{
 
 	public void clickHomeIconInBreadcrumb() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		breadcrumbhomeicon.isDisplayed();
 		breadcrumbhomeicon.click();
 		Thread.sleep(3000);
-		softAssertion.assertEquals(driver.getCurrentUrl(), "https://www.hdfclife.com");
+		softAssertion.assertEquals(driver.getCurrentUrl(), "https://www.hdfclife.com/");
 		driver.navigate().back();
 		Thread.sleep(3000);
 	}
@@ -217,6 +227,7 @@ public class Categorypage extends BaseClass{
 
 	public void clickC2plBuyNowBtn() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		Thread.sleep(3000);
 		softAssertion.assertTrue(c2plbuyonlinebtn.isDisplayed());
 		c2plbuyonlinebtn.click();
@@ -224,6 +235,7 @@ public class Categorypage extends BaseClass{
 
 	public void clickSJBLearnMorebtn() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		Thread.sleep(3000);
 		softAssertion.assertTrue(sjblearnmorebtn.isDisplayed());
 		sjblearnmorebtn.click();
@@ -231,6 +243,7 @@ public class Categorypage extends BaseClass{
 
 	public void clickSJBBuyOnlineBtn() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		Thread.sleep(3000);
 		softAssertion.assertTrue(sjbbuyonlinebtn.isDisplayed());
 		sjbbuyonlinebtn.click();
@@ -238,6 +251,7 @@ public class Categorypage extends BaseClass{
 
 	public void clickLetsCalculateBtn() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		Thread.sleep(3000);
 		softAssertion.assertTrue(letscalculate.isDisplayed());
 		letscalculate.click();
@@ -245,6 +259,7 @@ public class Categorypage extends BaseClass{
 
 	public void verifyWhyViewMoreAndViewLess() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		Thread.sleep(3000);
 		softAssertion.assertTrue(whysectionviewmorebtn.isDisplayed()); // verify on page load
 		whysectionviewmorebtn.click();
@@ -262,6 +277,7 @@ public class Categorypage extends BaseClass{
 
 	public void verifyFirstOpenFAQ() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		Thread.sleep(3000);
 		String openaccordionclassname = openedfaqaccordion.getAttribute("class");
 		if(openaccordionclassname.contains("tabAccordMenu opened"))
@@ -279,6 +295,7 @@ public class Categorypage extends BaseClass{
 
 	public void verifysecondFAQ() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		Thread.sleep(3000);
 		softAssertion.assertTrue(closedsecondfaqaccordion.isDisplayed());
 		closedsecondfaqaccordion.click();
@@ -299,6 +316,7 @@ public class Categorypage extends BaseClass{
 
 	public void verifyTermGuideViewMoreBtn() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		Thread.sleep(3000);
 		if(termguideviewmorebtn.isDisplayed())
 		{
@@ -330,6 +348,7 @@ public class Categorypage extends BaseClass{
 
 	public void firstRowClickDownloadBtn() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		Thread.sleep(3000);
 log.info("Verification for download button in rider section started");
 		List<WebElement> lin = firstrowriderdownloadbuttons.findElements(By.tagName("a"));
@@ -361,6 +380,7 @@ log.info("Verification for download button in rider section started");
 	}
 	public void secondRowClickDownloadBtn() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		List<WebElement> linnew1= secondrowriderdownloadbuttons.findElements(By.tagName("a"));
 		int nooflinksinsecondrow=linnew1.size();
 		log.info(" the number of buttons in second row in download riders section : " +nooflinksinsecondrow);
@@ -389,6 +409,7 @@ log.info("Verification for download button in rider section started");
 
 	public void clickContactUsBtn() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		Thread.sleep(3000);
 		softAssertion.assertTrue(contactusbtn.isDisplayed());
 		contactusbtn.click();
@@ -448,6 +469,7 @@ log.info("Verification for download button in rider section started");
 
 	public void clickViewMoreBtn() throws InterruptedException
 	{
+		SoftAssert softAssertion = new SoftAssert();
 		Thread.sleep(3000);
 		softAssertion.assertTrue(articlesviewmorebtn.isDisplayed());
 		articlesviewmorebtn.click();

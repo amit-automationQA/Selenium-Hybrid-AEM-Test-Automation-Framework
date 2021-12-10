@@ -1,77 +1,32 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 67, Failures: 8, Errors: 0, Skipped: 48, Time elapsed: 714.526 s <<< FAILURE! - in TestSuite
-SeleniumTesting.AEMhdfc.HomepageTest.verifyGroupPlansOnBanner  Time elapsed: 30.582 s  <<< FAILURE!
+Tests run: 56, Failures: 3, Errors: 0, Skipped: 13, Time elapsed: 928.493 s <<< FAILURE! - in TestSuite
+SeleniumTesting.AEMhdfc.CategorypageTest.verifyRidersSection  Time elapsed: 18.687 s  <<< FAILURE!
+java.util.NoSuchElementException
+	at SeleniumTesting.AEMhdfc.CategorypageTest.verifyRidersSection(CategorypageTest.java:149)
+
+SeleniumTesting.AEMhdfc.ProductpageTest.navigateToProductPage  Time elapsed: 30.279 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='viewall']"}
-  (Session info: chrome=96.0.4664.45)
+Unable to locate element: //a[@class='megaMenuLink']
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LIN24007907', ip: '192.168.100.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Akundar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50395}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9af095308c7971584d47577313e864aa
-*** Element info: {Using=xpath, value=//div[@class='viewall']}
-	at SeleniumTesting.AEMhdfc.HomepageTest.verifyGroupPlansOnBanner(HomepageTest.java:132)
+System info: host: 'LIN24007907', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211129150630, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 16104, moz:profile: C:\Users\Akundar\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0caa769b-5af3-43d5-b96d-1a62a0625022
+*** Element info: {Using=xpath, value=//a[@class='megaMenuLink']}
+	at SeleniumTesting.AEMhdfc.ProductpageTest.navigateToProductPage(ProductpageTest.java:50)
 
-SeleniumTesting.AEMhdfc.HomepageTest.verifyArrowButtonsOnBanner  Time elapsed: 30.225 s  <<< FAILURE!
+SeleniumTesting.AEMhdfc.ProductpageTest.verifyPrintBtn  Time elapsed: 33.293 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='viewall']"}
-  (Session info: chrome=96.0.4664.45)
+Unable to locate element: //div[@class='icon-wrap print']
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LIN24007907', ip: '192.168.100.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Akundar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50395}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9af095308c7971584d47577313e864aa
-*** Element info: {Using=xpath, value=//div[@class='viewall']}
-	at SeleniumTesting.AEMhdfc.HomepageTest.verifyArrowButtonsOnBanner(HomepageTest.java:141)
-
-SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator  Time elapsed: 30.184 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//li[@data-slide-to='0']"}
-  (Session info: chrome=96.0.4664.45)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LIN24007907', ip: '192.168.100.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Akundar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50395}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9af095308c7971584d47577313e864aa
-*** Element info: {Using=xpath, value=//li[@data-slide-to='0']}
-	at SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator(HomepageTest.java:155)
-
-SeleniumTesting.AEMhdfc.HomepageTest.verifyGroupWebsitesLinks  Time elapsed: 25.564 s  <<< FAILURE!
-java.net.UnknownHostException: www.hdbfs.com
-	at SeleniumTesting.AEMhdfc.HomepageTest.verifyGroupWebsitesLinks(HomepageTest.java:286)
-
-SeleniumTesting.AEMhdfc.CategorypageTest.setUp  Time elapsed: 35.412 s  <<< FAILURE!
-org.openqa.selenium.WebDriverException: 
-unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: chrome=96.0.4664.45)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LIN24007907', ip: '192.168.100.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Akundar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51147}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 32554a65af4686f2f010be203c0e631a
-	at SeleniumTesting.AEMhdfc.CategorypageTest.setUp(CategorypageTest.java:29)
-
-SeleniumTesting.AEMhdfc.CategorypageTest.tear  Time elapsed: 0.221 s  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "PageObjects.Categorypage.deleteFolder()" because "this.cp" is null
-	at SeleniumTesting.AEMhdfc.CategorypageTest.tear(CategorypageTest.java:181)
-
-SeleniumTesting.AEMhdfc.ProductpageTest.setUp  Time elapsed: 2.735 s  <<< FAILURE!
-org.openqa.selenium.WebDriverException: 
-unknown error: net::ERR_NAME_NOT_RESOLVED
-  (Session info: chrome=96.0.4664.45)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LIN24007907', ip: '192.168.100.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Akundar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51187}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 775f9c20b2ba0023e06752ffd54e26e7
-	at SeleniumTesting.AEMhdfc.ProductpageTest.setUp(ProductpageTest.java:34)
-
-SeleniumTesting.AEMhdfc.ProductpageTest.tear  Time elapsed: 0.157 s  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "PageObjects.Categorypage.deleteFolder()" because "this.cp" is null
-	at SeleniumTesting.AEMhdfc.ProductpageTest.tear(ProductpageTest.java:147)
+System info: host: 'LIN24007907', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211129150630, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 16104, moz:profile: C:\Users\Akundar\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0caa769b-5af3-43d5-b96d-1a62a0625022
+*** Element info: {Using=xpath, value=//div[@class='icon-wrap print']}
+	at SeleniumTesting.AEMhdfc.ProductpageTest.verifyPrintBtn(ProductpageTest.java:85)
 
