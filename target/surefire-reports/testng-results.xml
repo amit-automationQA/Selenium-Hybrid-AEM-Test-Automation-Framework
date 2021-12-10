@@ -1,73 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="3" ignored="0" total="55" passed="51" failed="1" skipped="0">
+<testng-results ignored="0" total="52" passed="52" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-10T23:19:05 IST" name="Suite" finished-at="2021-12-10T23:36:48 IST" duration-ms="1062778">
+  <suite started-at="2021-12-10T23:58:08 IST" name="Suite" finished-at="2021-12-11T00:15:32 IST" duration-ms="1043309">
     <groups>
     </groups>
-    <test started-at="2021-12-10T23:19:05 IST" name="Test" finished-at="2021-12-10T23:36:48 IST" duration-ms="1062778">
+    <test started-at="2021-12-10T23:58:08 IST" name="Test" finished-at="2021-12-11T00:15:32 IST" duration-ms="1043309">
       <class name="SeleniumTesting.AEMhdfc.HomepageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTesting.AEMhdfc.HomepageTest@2a39fe6a]" started-at="2021-12-10T23:19:05 IST" name="setUp" finished-at="2021-12-10T23:19:10 IST" duration-ms="4751" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTesting.AEMhdfc.HomepageTest@319988b0]" started-at="2021-12-10T23:58:08 IST" name="setUp" finished-at="2021-12-10T23:58:13 IST" duration-ms="4818" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyBannerCarousel()[pri:1, instance:SeleniumTesting.AEMhdfc.HomepageTest@2a39fe6a]" started-at="2021-12-10T23:19:10 IST" name="verifyBannerCarousel" finished-at="2021-12-10T23:19:26 IST" duration-ms="15685" status="PASS">
+        <test-method signature="verifyBannerCarousel()[pri:1, instance:SeleniumTesting.AEMhdfc.HomepageTest@319988b0]" started-at="2021-12-10T23:58:13 IST" name="verifyBannerCarousel" finished-at="2021-12-10T23:58:29 IST" duration-ms="15704" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBannerCarousel -->
-        <test-method signature="verifyTermPlanOnBanner()[pri:2, instance:SeleniumTesting.AEMhdfc.HomepageTest@2a39fe6a]" started-at="2021-12-10T23:19:26 IST" name="verifyTermPlanOnBanner" finished-at="2021-12-10T23:19:39 IST" duration-ms="13339" status="PASS">
+        <test-method signature="verifyTermPlanOnBanner()[pri:2, instance:SeleniumTesting.AEMhdfc.HomepageTest@319988b0]" started-at="2021-12-10T23:58:29 IST" name="verifyTermPlanOnBanner" finished-at="2021-12-10T23:58:42 IST" duration-ms="13426" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTermPlanOnBanner -->
-        <test-method signature="verifySavingPlansOnBanner()[pri:3, instance:SeleniumTesting.AEMhdfc.HomepageTest@2a39fe6a]" started-at="2021-12-10T23:19:39 IST" name="verifySavingPlansOnBanner" finished-at="2021-12-10T23:19:51 IST" duration-ms="12121" status="PASS">
+        <test-method signature="verifySavingPlansOnBanner()[pri:3, instance:SeleniumTesting.AEMhdfc.HomepageTest@319988b0]" started-at="2021-12-10T23:58:42 IST" name="verifySavingPlansOnBanner" finished-at="2021-12-10T23:58:55 IST" duration-ms="12278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySavingPlansOnBanner -->
-        <test-method signature="verifyChildrenPlansOnBanner()[pri:4, instance:SeleniumTesting.AEMhdfc.HomepageTest@2a39fe6a]" started-at="2021-12-10T23:19:51 IST" name="verifyChildrenPlansOnBanner" finished-at="2021-12-10T23:20:03 IST" duration-ms="11891" status="PASS">
+        <test-method signature="verifyChildrenPlansOnBanner()[pri:4, instance:SeleniumTesting.AEMhdfc.HomepageTest@319988b0]" started-at="2021-12-10T23:58:55 IST" name="verifyChildrenPlansOnBanner" finished-at="2021-12-10T23:59:07 IST" duration-ms="12006" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyChildrenPlansOnBanner -->
-        <test-method signature="verifyRetirementPlansOnBanner()[pri:5, instance:SeleniumTesting.AEMhdfc.HomepageTest@2a39fe6a]" started-at="2021-12-10T23:20:03 IST" name="verifyRetirementPlansOnBanner" finished-at="2021-12-10T23:20:15 IST" duration-ms="12156" status="PASS">
+        <test-method signature="verifyRetirementPlansOnBanner()[pri:5, instance:SeleniumTesting.AEMhdfc.HomepageTest@319988b0]" started-at="2021-12-10T23:59:07 IST" name="verifyRetirementPlansOnBanner" finished-at="2021-12-10T23:59:19 IST" duration-ms="12234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRetirementPlansOnBanner -->
-        <test-method signature="verifyViewAllButton()[pri:6, instance:SeleniumTesting.AEMhdfc.HomepageTest@2a39fe6a]" started-at="2021-12-10T23:20:15 IST" name="verifyViewAllButton" finished-at="2021-12-10T23:20:19 IST" duration-ms="3274" status="PASS">
+        <test-method signature="verifyViewAllButton()[pri:6, instance:SeleniumTesting.AEMhdfc.HomepageTest@319988b0]" started-at="2021-12-10T23:59:19 IST" name="verifyViewAllButton" finished-at="2021-12-10T23:59:22 IST" duration-ms="3406" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyViewAllButton -->
-        <test-method signature="verifyULIPPlansOnBanner()[pri:7, instance:SeleniumTesting.AEMhdfc.HomepageTest@2a39fe6a]" started-at="2021-12-10T23:20:19 IST" name="verifyULIPPlansOnBanner" finished-at="2021-12-10T23:20:31 IST" duration-ms="12128" status="PASS">
+        <test-method signature="verifyULIPPlansOnBanner()[pri:7, instance:SeleniumTesting.AEMhdfc.HomepageTest@319988b0]" started-at="2021-12-10T23:59:22 IST" name="verifyULIPPlansOnBanner" finished-at="2021-12-10T23:59:34 IST" duration-ms="12021" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyULIPPlansOnBanner -->
-        <test-method signature="verifyFixedMaturityPlanOnBanner()[pri:8, instance:SeleniumTesting.AEMhdfc.HomepageTest@2a39fe6a]" started-at="2021-12-10T23:20:31 IST" name="verifyFixedMaturityPlanOnBanner" finished-at="2021-12-10T23:20:47 IST" duration-ms="15784" status="PASS">
+        <test-method signature="verifyFixedMaturityPlanOnBanner()[pri:8, instance:SeleniumTesting.AEMhdfc.HomepageTest@319988b0]" started-at="2021-12-10T23:59:34 IST" name="verifyFixedMaturityPlanOnBanner" finished-at="2021-12-10T23:59:50 IST" duration-ms="16084" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFixedMaturityPlanOnBanner -->
-        <test-method signature="verifyHealthPlansOnBanner()[pri:9, instance:SeleniumTesting.AEMhdfc.HomepageTest@2a39fe6a]" started-at="2021-12-10T23:20:47 IST" name="verifyHealthPlansOnBanner" finished-at="2021-12-10T23:21:02 IST" duration-ms="15326" status="PASS">
+        <test-method signature="verifyHealthPlansOnBanner()[pri:9, instance:SeleniumTesting.AEMhdfc.HomepageTest@319988b0]" started-at="2021-12-10T23:59:50 IST" name="verifyHealthPlansOnBanner" finished-at="2021-12-11T00:00:06 IST" duration-ms="15323" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHealthPlansOnBanner -->
-        <test-method signature="verifyPosPlansOnBanner()[pri:10, instance:SeleniumTesting.AEMhdfc.HomepageTest@2a39fe6a]" started-at="2021-12-10T23:21:02 IST" name="verifyPosPlansOnBanner" finished-at="2021-12-10T23:21:17 IST" duration-ms="14819" status="PASS">
+        <test-method signature="verifyPosPlansOnBanner()[pri:10, instance:SeleniumTesting.AEMhdfc.HomepageTest@319988b0]" started-at="2021-12-11T00:00:06 IST" name="verifyPosPlansOnBanner" finished-at="2021-12-11T00:00:21 IST" duration-ms="15511" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPosPlansOnBanner -->
-        <test-method signature="verifyComboPlansOnBanner()[pri:11, instance:SeleniumTesting.AEMhdfc.HomepageTest@2a39fe6a]" started-at="2021-12-10T23:21:17 IST" name="verifyComboPlansOnBanner" finished-at="2021-12-10T23:21:37 IST" duration-ms="20433" status="PASS">
+        <test-method signature="verifyComboPlansOnBanner()[pri:11, instance:SeleniumTesting.AEMhdfc.HomepageTest@319988b0]" started-at="2021-12-11T00:00:21 IST" name="verifyComboPlansOnBanner" finished-at="2021-12-11T00:00:42 IST" duration-ms="21087" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyComboPlansOnBanner -->
-        <test-method signature="verifyGroupPlansOnBanner()[pri:12, instance:SeleniumTesting.AEMhdfc.HomepageTest@2a39fe6a]" started-at="2021-12-10T23:21:37 IST" name="verifyGroupPlansOnBanner" finished-at="2021-12-10T23:22:11 IST" duration-ms="33963" status="PASS">
+        <test-method signature="verifyGroupPlansOnBanner()[pri:12, instance:SeleniumTesting.AEMhdfc.HomepageTest@319988b0]" started-at="2021-12-11T00:00:42 IST" name="verifyGroupPlansOnBanner" finished-at="2021-12-11T00:01:16 IST" duration-ms="33662" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGroupPlansOnBanner -->
-        <test-method signature="verifyArrowButtonsOnBanner()[pri:13, instance:SeleniumTesting.AEMhdfc.HomepageTest@2a39fe6a]" started-at="2021-12-10T23:22:11 IST" name="verifyArrowButtonsOnBanner" finished-at="2021-12-10T23:22:55 IST" duration-ms="43543" status="PASS">
+        <test-method signature="verifyArrowButtonsOnBanner()[pri:13, instance:SeleniumTesting.AEMhdfc.HomepageTest@319988b0]" started-at="2021-12-11T00:01:16 IST" name="verifyArrowButtonsOnBanner" finished-at="2021-12-11T00:02:00 IST" duration-ms="43496" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyArrowButtonsOnBanner -->
-        <test-method signature="verifyMouseIndicator()[pri:14, instance:SeleniumTesting.AEMhdfc.HomepageTest@2a39fe6a]" started-at="2021-12-10T23:22:55 IST" name="verifyMouseIndicator" finished-at="2021-12-10T23:23:04 IST" duration-ms="9165" status="PASS">
+        <test-method signature="verifyMouseIndicator()[pri:14, instance:SeleniumTesting.AEMhdfc.HomepageTest@319988b0]" started-at="2021-12-11T00:02:00 IST" name="verifyMouseIndicator" finished-at="2021-12-11T00:02:09 IST" duration-ms="9143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMouseIndicator -->
-        <test-method signature="verifyschedulePopupWithValidData(java.lang.String,java.lang.String)[pri:15, instance:SeleniumTesting.AEMhdfc.HomepageTest@2a39fe6a]" started-at="2021-12-10T23:23:04 IST" name="verifyschedulePopupWithValidData" data-provider="getscheduleformData" finished-at="2021-12-10T23:23:13 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator" duration-ms="8741" status="PASS">
+        <test-method signature="verifyschedulePopupWithValidData(java.lang.String,java.lang.String)[pri:15, instance:SeleniumTesting.AEMhdfc.HomepageTest@319988b0]" started-at="2021-12-11T00:02:09 IST" name="verifyschedulePopupWithValidData" data-provider="getscheduleformData" finished-at="2021-12-11T00:02:18 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator" duration-ms="8597" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -83,478 +83,175 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyschedulePopupWithValidData -->
-        <test-method signature="verifyschedulepopupblankSubmit()[pri:16, instance:SeleniumTesting.AEMhdfc.HomepageTest@2a39fe6a]" started-at="2021-12-10T23:23:13 IST" name="verifyschedulepopupblankSubmit" finished-at="2021-12-10T23:23:23 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator" duration-ms="9704" status="PASS">
+        <test-method signature="verifyschedulepopupblankSubmit()[pri:16, instance:SeleniumTesting.AEMhdfc.HomepageTest@319988b0]" started-at="2021-12-11T00:02:18 IST" name="verifyschedulepopupblankSubmit" finished-at="2021-12-11T00:02:28 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator" duration-ms="9734" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyschedulepopupblankSubmit -->
-        <test-method signature="verifyschedulePopupwithoutmindata()[pri:17, instance:SeleniumTesting.AEMhdfc.HomepageTest@2a39fe6a]" started-at="2021-12-10T23:23:23 IST" name="verifyschedulePopupwithoutmindata" finished-at="2021-12-10T23:23:29 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator" duration-ms="6632" status="PASS">
+        <test-method signature="verifyschedulePopupwithoutmindata()[pri:17, instance:SeleniumTesting.AEMhdfc.HomepageTest@319988b0]" started-at="2021-12-11T00:02:28 IST" name="verifyschedulePopupwithoutmindata" finished-at="2021-12-11T00:02:34 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator" duration-ms="6580" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyschedulePopupwithoutmindata -->
-        <test-method signature="verifycalculatorWithValidData()[pri:18, instance:SeleniumTesting.AEMhdfc.HomepageTest@2a39fe6a]" started-at="2021-12-10T23:23:29 IST" name="verifycalculatorWithValidData" finished-at="2021-12-10T23:24:12 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator" duration-ms="42643" status="PASS">
+        <test-method signature="verifycalculatorWithValidData()[pri:18, instance:SeleniumTesting.AEMhdfc.HomepageTest@319988b0]" started-at="2021-12-11T00:02:34 IST" name="verifycalculatorWithValidData" finished-at="2021-12-11T00:03:17 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator" duration-ms="42699" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifycalculatorWithValidData -->
-        <test-method signature="verifyCalculatorCloseBtn()[pri:19, instance:SeleniumTesting.AEMhdfc.HomepageTest@2a39fe6a]" started-at="2021-12-10T23:24:12 IST" name="verifyCalculatorCloseBtn" finished-at="2021-12-10T23:24:21 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator, SeleniumTesting.AEMhdfc.HomepageTest.verifycalculatorWithValidData" duration-ms="9334" status="PASS">
+        <test-method signature="verifyCalculatorCloseBtn()[pri:19, instance:SeleniumTesting.AEMhdfc.HomepageTest@319988b0]" started-at="2021-12-11T00:03:17 IST" name="verifyCalculatorCloseBtn" finished-at="2021-12-11T00:03:26 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator, SeleniumTesting.AEMhdfc.HomepageTest.verifycalculatorWithValidData" duration-ms="9302" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCalculatorCloseBtn -->
-        <test-method signature="verifySanchayPlusBuyNowBtn()[pri:20, instance:SeleniumTesting.AEMhdfc.HomepageTest@2a39fe6a]" started-at="2021-12-10T23:24:21 IST" name="verifySanchayPlusBuyNowBtn" finished-at="2021-12-10T23:24:34 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator, SeleniumTesting.AEMhdfc.HomepageTest.verifycalculatorWithValidData" duration-ms="12766" status="PASS">
+        <test-method signature="verifySanchayPlusBuyNowBtn()[pri:20, instance:SeleniumTesting.AEMhdfc.HomepageTest@319988b0]" started-at="2021-12-11T00:03:26 IST" name="verifySanchayPlusBuyNowBtn" finished-at="2021-12-11T00:03:39 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator, SeleniumTesting.AEMhdfc.HomepageTest.verifycalculatorWithValidData" duration-ms="12772" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySanchayPlusBuyNowBtn -->
-        <test-method signature="verifyDisclaimer()[pri:21, instance:SeleniumTesting.AEMhdfc.HomepageTest@2a39fe6a]" started-at="2021-12-10T23:24:34 IST" name="verifyDisclaimer" finished-at="2021-12-10T23:24:50 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator, SeleniumTesting.AEMhdfc.HomepageTest.verifycalculatorWithValidData" duration-ms="15328" status="PASS">
+        <test-method signature="verifyDisclaimer()[pri:21, instance:SeleniumTesting.AEMhdfc.HomepageTest@319988b0]" started-at="2021-12-11T00:03:39 IST" name="verifyDisclaimer" finished-at="2021-12-11T00:03:54 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator, SeleniumTesting.AEMhdfc.HomepageTest.verifycalculatorWithValidData" duration-ms="15186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDisclaimer -->
-        <test-method signature="verifyProductAndPopularLinks()[pri:22, instance:SeleniumTesting.AEMhdfc.HomepageTest@2a39fe6a]" started-at="2021-12-10T23:24:50 IST" name="verifyProductAndPopularLinks" finished-at="2021-12-10T23:24:56 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyDisclaimer, SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator, SeleniumTesting.AEMhdfc.HomepageTest.verifycalculatorWithValidData" duration-ms="6874" status="PASS">
+        <test-method signature="verifyProductAndPopularLinks()[pri:22, instance:SeleniumTesting.AEMhdfc.HomepageTest@319988b0]" started-at="2021-12-11T00:03:54 IST" name="verifyProductAndPopularLinks" finished-at="2021-12-11T00:04:01 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyDisclaimer, SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator, SeleniumTesting.AEMhdfc.HomepageTest.verifycalculatorWithValidData" duration-ms="6529" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductAndPopularLinks -->
-        <test-method signature="verifyStayConnectedwithUs()[pri:23, instance:SeleniumTesting.AEMhdfc.HomepageTest@2a39fe6a]" started-at="2021-12-10T23:24:56 IST" name="verifyStayConnectedwithUs" finished-at="2021-12-10T23:25:12 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyDisclaimer, SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator, SeleniumTesting.AEMhdfc.HomepageTest.verifycalculatorWithValidData" duration-ms="15216" status="PASS">
+        <test-method signature="verifyStayConnectedwithUs()[pri:23, instance:SeleniumTesting.AEMhdfc.HomepageTest@319988b0]" started-at="2021-12-11T00:04:01 IST" name="verifyStayConnectedwithUs" finished-at="2021-12-11T00:04:12 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyDisclaimer, SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator, SeleniumTesting.AEMhdfc.HomepageTest.verifycalculatorWithValidData" duration-ms="11355" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyStayConnectedwithUs -->
-        <test-method signature="verifyDownloadLinks()[pri:24, instance:SeleniumTesting.AEMhdfc.HomepageTest@2a39fe6a]" started-at="2021-12-10T23:25:12 IST" name="verifyDownloadLinks" finished-at="2021-12-10T23:25:25 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyStayConnectedwithUs" duration-ms="13626" status="PASS">
+        <test-method signature="verifyDownloadLinks()[pri:24, instance:SeleniumTesting.AEMhdfc.HomepageTest@319988b0]" started-at="2021-12-11T00:04:12 IST" name="verifyDownloadLinks" finished-at="2021-12-11T00:04:25 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyStayConnectedwithUs" duration-ms="12559" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDownloadLinks -->
-        <test-method signature="verifySubscribeOptionWithValidData()[pri:25, instance:SeleniumTesting.AEMhdfc.HomepageTest@2a39fe6a]" started-at="2021-12-10T23:25:25 IST" name="verifySubscribeOptionWithValidData" finished-at="2021-12-10T23:25:35 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyStayConnectedwithUs" duration-ms="9344" status="PASS">
+        <test-method signature="verifySubscribeOptionWithValidData()[pri:25, instance:SeleniumTesting.AEMhdfc.HomepageTest@319988b0]" started-at="2021-12-11T00:04:25 IST" name="verifySubscribeOptionWithValidData" finished-at="2021-12-11T00:04:34 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyStayConnectedwithUs" duration-ms="9326" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySubscribeOptionWithValidData -->
-        <test-method signature="verifyGroupWebsitesLinks()[pri:26, instance:SeleniumTesting.AEMhdfc.HomepageTest@2a39fe6a]" started-at="2021-12-10T23:25:35 IST" name="verifyGroupWebsitesLinks" finished-at="2021-12-10T23:25:52 IST" duration-ms="16962" status="PASS">
+        <test-method signature="verifyGroupWebsitesLinks()[pri:26, instance:SeleniumTesting.AEMhdfc.HomepageTest@319988b0]" started-at="2021-12-11T00:04:34 IST" name="verifyGroupWebsitesLinks" finished-at="2021-12-11T00:04:50 IST" duration-ms="16093" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGroupWebsitesLinks -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumTesting.AEMhdfc.HomepageTest@2a39fe6a]" started-at="2021-12-10T23:25:52 IST" name="tearDown" finished-at="2021-12-10T23:25:52 IST" duration-ms="396" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumTesting.AEMhdfc.HomepageTest@319988b0]" started-at="2021-12-11T00:04:50 IST" name="tearDown" finished-at="2021-12-11T00:04:51 IST" duration-ms="493" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- SeleniumTesting.AEMhdfc.HomepageTest -->
       <class name="SeleniumTesting.AEMhdfc.CategorypageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTesting.AEMhdfc.CategorypageTest@423e4cbb]" started-at="2021-12-10T23:25:52 IST" name="setUp" finished-at="2021-12-10T23:25:57 IST" duration-ms="4932" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTesting.AEMhdfc.CategorypageTest@43b4fe19]" started-at="2021-12-11T00:04:51 IST" name="setUp" finished-at="2021-12-11T00:04:55 IST" duration-ms="4667" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="navigateToPage()[pri:1, instance:SeleniumTesting.AEMhdfc.CategorypageTest@423e4cbb]" started-at="2021-12-10T23:25:57 IST" name="navigateToPage" finished-at="2021-12-10T23:26:09 IST" duration-ms="12079" status="PASS">
+        <test-method signature="navigateToPage()[pri:1, instance:SeleniumTesting.AEMhdfc.CategorypageTest@43b4fe19]" started-at="2021-12-11T00:04:55 IST" name="navigateToPage" finished-at="2021-12-11T00:05:07 IST" duration-ms="11939" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToPage -->
-        <test-method signature="verifyCalculatePremiumBtn()[pri:2, instance:SeleniumTesting.AEMhdfc.CategorypageTest@423e4cbb]" started-at="2021-12-10T23:26:09 IST" name="verifyCalculatePremiumBtn" finished-at="2021-12-10T23:26:22 IST" duration-ms="12486" status="PASS">
+        <test-method signature="verifyCalculatePremiumBtn()[pri:2, instance:SeleniumTesting.AEMhdfc.CategorypageTest@43b4fe19]" started-at="2021-12-11T00:05:07 IST" name="verifyCalculatePremiumBtn" finished-at="2021-12-11T00:05:20 IST" duration-ms="12679" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCalculatePremiumBtn -->
-        <test-method signature="verifyTalkToAdvisor()[pri:3, instance:SeleniumTesting.AEMhdfc.CategorypageTest@423e4cbb]" started-at="2021-12-10T23:26:22 IST" name="verifyTalkToAdvisor" finished-at="2021-12-10T23:26:28 IST" duration-ms="6366" status="PASS">
+        <test-method signature="verifyTalkToAdvisor()[pri:3, instance:SeleniumTesting.AEMhdfc.CategorypageTest@43b4fe19]" started-at="2021-12-11T00:05:20 IST" name="verifyTalkToAdvisor" finished-at="2021-12-11T00:05:26 IST" duration-ms="6354" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTalkToAdvisor -->
-        <test-method signature="verifyTalkToAdvisorPopup()[pri:4, instance:SeleniumTesting.AEMhdfc.CategorypageTest@423e4cbb]" started-at="2021-12-10T23:26:28 IST" name="verifyTalkToAdvisorPopup" finished-at="2021-12-10T23:26:38 IST" duration-ms="9650" status="PASS">
+        <test-method signature="verifyTalkToAdvisorPopup()[pri:4, instance:SeleniumTesting.AEMhdfc.CategorypageTest@43b4fe19]" started-at="2021-12-11T00:05:26 IST" name="verifyTalkToAdvisorPopup" finished-at="2021-12-11T00:05:36 IST" duration-ms="9658" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTalkToAdvisorPopup -->
-        <test-method signature="verifyHomeIconInBreadCrumb()[pri:5, instance:SeleniumTesting.AEMhdfc.CategorypageTest@423e4cbb]" started-at="2021-12-10T23:26:38 IST" name="verifyHomeIconInBreadCrumb" finished-at="2021-12-10T23:26:48 IST" duration-ms="10518" status="PASS">
+        <test-method signature="verifyHomeIconInBreadCrumb()[pri:5, instance:SeleniumTesting.AEMhdfc.CategorypageTest@43b4fe19]" started-at="2021-12-11T00:05:36 IST" name="verifyHomeIconInBreadCrumb" finished-at="2021-12-11T00:05:46 IST" duration-ms="9896" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomeIconInBreadCrumb -->
-        <test-method signature="verifyC2PLProduct()[pri:6, instance:SeleniumTesting.AEMhdfc.CategorypageTest@423e4cbb]" started-at="2021-12-10T23:26:48 IST" name="verifyC2PLProduct" finished-at="2021-12-10T23:27:21 IST" duration-ms="32816" status="PASS">
+        <test-method signature="verifyC2PLProduct()[pri:6, instance:SeleniumTesting.AEMhdfc.CategorypageTest@43b4fe19]" started-at="2021-12-11T00:05:46 IST" name="verifyC2PLProduct" finished-at="2021-12-11T00:06:17 IST" duration-ms="31616" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyC2PLProduct -->
-        <test-method signature="verifySJBProduct()[pri:7, instance:SeleniumTesting.AEMhdfc.CategorypageTest@423e4cbb]" started-at="2021-12-10T23:27:21 IST" name="verifySJBProduct" finished-at="2021-12-10T23:27:47 IST" depends-on-methods="SeleniumTesting.AEMhdfc.CategorypageTest.verifyC2PLProduct" duration-ms="25884" status="PASS">
+        <test-method signature="verifySJBProduct()[pri:7, instance:SeleniumTesting.AEMhdfc.CategorypageTest@43b4fe19]" started-at="2021-12-11T00:06:17 IST" name="verifySJBProduct" finished-at="2021-12-11T00:06:44 IST" depends-on-methods="SeleniumTesting.AEMhdfc.CategorypageTest.verifyC2PLProduct" duration-ms="26396" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySJBProduct -->
-        <test-method signature="verifyLetsCalculateBtn()[pri:8, instance:SeleniumTesting.AEMhdfc.CategorypageTest@423e4cbb]" started-at="2021-12-10T23:27:47 IST" name="verifyLetsCalculateBtn" finished-at="2021-12-10T23:27:59 IST" depends-on-methods="SeleniumTesting.AEMhdfc.CategorypageTest.verifySJBProduct, SeleniumTesting.AEMhdfc.CategorypageTest.verifyC2PLProduct" duration-ms="12560" status="PASS">
+        <test-method signature="verifyLetsCalculateBtn()[pri:8, instance:SeleniumTesting.AEMhdfc.CategorypageTest@43b4fe19]" started-at="2021-12-11T00:06:44 IST" name="verifyLetsCalculateBtn" finished-at="2021-12-11T00:06:56 IST" depends-on-methods="SeleniumTesting.AEMhdfc.CategorypageTest.verifySJBProduct, SeleniumTesting.AEMhdfc.CategorypageTest.verifyC2PLProduct" duration-ms="12002" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLetsCalculateBtn -->
-        <test-method signature="verifyVideoOnCategoryPage()[pri:9, instance:SeleniumTesting.AEMhdfc.CategorypageTest@423e4cbb]" started-at="2021-12-10T23:27:59 IST" name="verifyVideoOnCategoryPage" finished-at="2021-12-10T23:28:05 IST" depends-on-methods="SeleniumTesting.AEMhdfc.CategorypageTest.verifySJBProduct, SeleniumTesting.AEMhdfc.CategorypageTest.verifyLetsCalculateBtn, SeleniumTesting.AEMhdfc.CategorypageTest.verifyC2PLProduct" duration-ms="6028" status="PASS">
+        <test-method signature="verifyVideoOnCategoryPage()[pri:9, instance:SeleniumTesting.AEMhdfc.CategorypageTest@43b4fe19]" started-at="2021-12-11T00:06:56 IST" name="verifyVideoOnCategoryPage" finished-at="2021-12-11T00:07:02 IST" depends-on-methods="SeleniumTesting.AEMhdfc.CategorypageTest.verifySJBProduct, SeleniumTesting.AEMhdfc.CategorypageTest.verifyLetsCalculateBtn, SeleniumTesting.AEMhdfc.CategorypageTest.verifyC2PLProduct" duration-ms="6028" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyVideoOnCategoryPage -->
-        <test-method signature="verifyWhySection()[pri:10, instance:SeleniumTesting.AEMhdfc.CategorypageTest@423e4cbb]" started-at="2021-12-10T23:28:05 IST" name="verifyWhySection" finished-at="2021-12-10T23:28:15 IST" depends-on-methods="SeleniumTesting.AEMhdfc.CategorypageTest.verifyVideoOnCategoryPage" duration-ms="9366" status="PASS">
+        <test-method signature="verifyWhySection()[pri:10, instance:SeleniumTesting.AEMhdfc.CategorypageTest@43b4fe19]" started-at="2021-12-11T00:07:02 IST" name="verifyWhySection" finished-at="2021-12-11T00:07:11 IST" depends-on-methods="SeleniumTesting.AEMhdfc.CategorypageTest.verifyVideoOnCategoryPage" duration-ms="9451" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWhySection -->
-        <test-method signature="verifyTermInsuranceGuideFaqSection()[pri:11, instance:SeleniumTesting.AEMhdfc.CategorypageTest@423e4cbb]" started-at="2021-12-10T23:28:15 IST" name="verifyTermInsuranceGuideFaqSection" finished-at="2021-12-10T23:28:37 IST" duration-ms="21981" status="PASS">
+        <test-method signature="verifyTermInsuranceGuideFaqSection()[pri:11, instance:SeleniumTesting.AEMhdfc.CategorypageTest@43b4fe19]" started-at="2021-12-11T00:07:11 IST" name="verifyTermInsuranceGuideFaqSection" finished-at="2021-12-11T00:07:33 IST" duration-ms="21826" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTermInsuranceGuideFaqSection -->
-        <test-method signature="verifyRidersSection()[pri:12, instance:SeleniumTesting.AEMhdfc.CategorypageTest@423e4cbb]" started-at="2021-12-10T23:28:37 IST" name="verifyRidersSection" finished-at="2021-12-10T23:29:29 IST" duration-ms="51956" status="PASS">
+        <test-method signature="verifyRidersSection()[pri:12, instance:SeleniumTesting.AEMhdfc.CategorypageTest@43b4fe19]" started-at="2021-12-11T00:07:33 IST" name="verifyRidersSection" finished-at="2021-12-11T00:08:25 IST" duration-ms="52064" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRidersSection -->
-        <test-method signature="verifyContactUs()[pri:13, instance:SeleniumTesting.AEMhdfc.CategorypageTest@423e4cbb]" started-at="2021-12-10T23:29:29 IST" name="verifyContactUs" finished-at="2021-12-10T23:29:45 IST" duration-ms="16818" status="PASS">
+        <test-method signature="verifyContactUs()[pri:13, instance:SeleniumTesting.AEMhdfc.CategorypageTest@43b4fe19]" started-at="2021-12-11T00:08:25 IST" name="verifyContactUs" finished-at="2021-12-11T00:08:42 IST" duration-ms="16574" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyContactUs -->
-        <test-method signature="verifyArticlesSection()[pri:14, instance:SeleniumTesting.AEMhdfc.CategorypageTest@423e4cbb]" started-at="2021-12-10T23:29:45 IST" name="verifyArticlesSection" finished-at="2021-12-10T23:31:30 IST" duration-ms="104875" status="PASS">
+        <test-method signature="verifyArticlesSection()[pri:14, instance:SeleniumTesting.AEMhdfc.CategorypageTest@43b4fe19]" started-at="2021-12-11T00:08:42 IST" name="verifyArticlesSection" finished-at="2021-12-11T00:10:24 IST" duration-ms="102175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyArticlesSection -->
-        <test-method signature="verifyDisclaimer()[pri:15, instance:SeleniumTesting.AEMhdfc.CategorypageTest@423e4cbb]" started-at="2021-12-10T23:31:30 IST" name="verifyDisclaimer" finished-at="2021-12-10T23:31:40 IST" duration-ms="9189" status="PASS">
+        <test-method signature="verifyDisclaimer()[pri:15, instance:SeleniumTesting.AEMhdfc.CategorypageTest@43b4fe19]" started-at="2021-12-11T00:10:24 IST" name="verifyDisclaimer" finished-at="2021-12-11T00:10:33 IST" duration-ms="9157" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDisclaimer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumTesting.AEMhdfc.CategorypageTest@423e4cbb]" started-at="2021-12-10T23:31:40 IST" name="tearDown" finished-at="2021-12-10T23:31:40 IST" duration-ms="384" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumTesting.AEMhdfc.CategorypageTest@43b4fe19]" started-at="2021-12-11T00:10:33 IST" name="tearDown" finished-at="2021-12-11T00:10:33 IST" duration-ms="347" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- SeleniumTesting.AEMhdfc.CategorypageTest -->
       <class name="SeleniumTesting.AEMhdfc.ProductpageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTesting.AEMhdfc.ProductpageTest@6e16b8b5]" started-at="2021-12-10T23:31:40 IST" name="setUp" finished-at="2021-12-10T23:31:44 IST" duration-ms="4224" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTesting.AEMhdfc.ProductpageTest@25ddbbbb]" started-at="2021-12-11T00:10:33 IST" name="setUp" finished-at="2021-12-11T00:10:38 IST" duration-ms="4856" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="navigateToProductPage()[pri:1, instance:SeleniumTesting.AEMhdfc.ProductpageTest@6e16b8b5]" started-at="2021-12-10T23:31:44 IST" name="navigateToProductPage" finished-at="2021-12-10T23:32:06 IST" duration-ms="22355" status="PASS">
+        <test-method signature="navigateToProductPage()[pri:1, instance:SeleniumTesting.AEMhdfc.ProductpageTest@25ddbbbb]" started-at="2021-12-11T00:10:38 IST" name="navigateToProductPage" finished-at="2021-12-11T00:11:01 IST" duration-ms="22642" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToProductPage -->
-        <test-method signature="verifyTandCOption()[pri:2, instance:SeleniumTesting.AEMhdfc.ProductpageTest@6e16b8b5]" started-at="2021-12-10T23:32:06 IST" name="verifyTandCOption" finished-at="2021-12-10T23:32:31 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.navigateToProductPage" duration-ms="24420" status="PASS">
+        <test-method signature="verifyTandCOption()[pri:2, instance:SeleniumTesting.AEMhdfc.ProductpageTest@25ddbbbb]" started-at="2021-12-11T00:11:01 IST" name="verifyTandCOption" finished-at="2021-12-11T00:11:25 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.navigateToProductPage" duration-ms="24367" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTandCOption -->
-        <test-method signature="verifyProductPageBreadcrumb()[pri:3, instance:SeleniumTesting.AEMhdfc.ProductpageTest@6e16b8b5]" started-at="2021-12-10T23:32:31 IST" name="verifyProductPageBreadcrumb" finished-at="2021-12-10T23:32:54 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.navigateToProductPage" duration-ms="22952" status="PASS">
+        <test-method signature="verifyProductPageBreadcrumb()[pri:3, instance:SeleniumTesting.AEMhdfc.ProductpageTest@25ddbbbb]" started-at="2021-12-11T00:11:25 IST" name="verifyProductPageBreadcrumb" finished-at="2021-12-11T00:11:49 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.navigateToProductPage" duration-ms="23683" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductPageBreadcrumb -->
-        <test-method signature="verifyRatingOption()[pri:4, instance:SeleniumTesting.AEMhdfc.ProductpageTest@6e16b8b5]" started-at="2021-12-10T23:32:54 IST" name="verifyRatingOption" finished-at="2021-12-10T23:33:03 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.navigateToProductPage" duration-ms="9498" status="PASS">
+        <test-method signature="verifyRatingOption()[pri:4, instance:SeleniumTesting.AEMhdfc.ProductpageTest@25ddbbbb]" started-at="2021-12-11T00:11:49 IST" name="verifyRatingOption" finished-at="2021-12-11T00:11:58 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.navigateToProductPage" duration-ms="9604" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRatingOption -->
-        <test-method signature="verifyPrintBtn()[pri:5, instance:SeleniumTesting.AEMhdfc.ProductpageTest@6e16b8b5]" started-at="2021-12-10T23:33:03 IST" name="verifyPrintBtn" finished-at="2021-12-10T23:33:13 IST" duration-ms="9633" status="PASS">
+        <test-method signature="verifyPrintBtn()[pri:5, instance:SeleniumTesting.AEMhdfc.ProductpageTest@25ddbbbb]" started-at="2021-12-11T00:11:58 IST" name="verifyPrintBtn" finished-at="2021-12-11T00:12:08 IST" duration-ms="9450" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPrintBtn -->
-        <test-method signature="verifyShareOption()[pri:6, instance:SeleniumTesting.AEMhdfc.ProductpageTest@6e16b8b5]" started-at="2021-12-10T23:33:13 IST" name="verifyShareOption" finished-at="2021-12-10T23:34:15 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyPrintBtn" duration-ms="61637" status="PASS">
+        <test-method signature="verifyShareOption()[pri:6, instance:SeleniumTesting.AEMhdfc.ProductpageTest@25ddbbbb]" started-at="2021-12-11T00:12:08 IST" name="verifyShareOption" finished-at="2021-12-11T00:13:13 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyPrintBtn" duration-ms="65054" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyShareOption -->
-        <test-method signature="verifyRatingsFromAPI()[pri:7, instance:SeleniumTesting.AEMhdfc.ProductpageTest@6e16b8b5]" started-at="2021-12-10T23:34:15 IST" name="verifyRatingsFromAPI" finished-at="2021-12-10T23:34:18 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyPrintBtn" duration-ms="3075" status="PASS">
+        <test-method signature="verifyRatingsFromAPI()[pri:7, instance:SeleniumTesting.AEMhdfc.ProductpageTest@25ddbbbb]" started-at="2021-12-11T00:13:13 IST" name="verifyRatingsFromAPI" finished-at="2021-12-11T00:13:16 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyPrintBtn" duration-ms="3059" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRatingsFromAPI -->
-        <test-method signature="verifyDownloadBrochure()[pri:8, instance:SeleniumTesting.AEMhdfc.ProductpageTest@6e16b8b5]" started-at="2021-12-10T23:34:18 IST" name="verifyDownloadBrochure" finished-at="2021-12-10T23:34:24 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyPrintBtn" duration-ms="6160" status="PASS">
+        <test-method signature="verifyDownloadBrochure()[pri:8, instance:SeleniumTesting.AEMhdfc.ProductpageTest@25ddbbbb]" started-at="2021-12-11T00:13:16 IST" name="verifyDownloadBrochure" finished-at="2021-12-11T00:13:22 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyPrintBtn" duration-ms="6180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDownloadBrochure -->
-        <test-method signature="verifyCalculatePremiumBtn()[pri:9, instance:SeleniumTesting.AEMhdfc.ProductpageTest@6e16b8b5]" started-at="2021-12-10T23:34:24 IST" name="verifyCalculatePremiumBtn" finished-at="2021-12-10T23:34:35 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyPrintBtn" duration-ms="11476" status="PASS">
+        <test-method signature="verifyCalculatePremiumBtn()[pri:9, instance:SeleniumTesting.AEMhdfc.ProductpageTest@25ddbbbb]" started-at="2021-12-11T00:13:22 IST" name="verifyCalculatePremiumBtn" finished-at="2021-12-11T00:13:34 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyPrintBtn" duration-ms="11447" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCalculatePremiumBtn -->
-        <test-method signature="verifyBuyNowBtn()[pri:10, instance:SeleniumTesting.AEMhdfc.ProductpageTest@6e16b8b5]" started-at="2021-12-10T23:34:35 IST" name="verifyBuyNowBtn" finished-at="2021-12-10T23:34:45 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyPrintBtn" duration-ms="9526" status="PASS">
+        <test-method signature="verifyBuyNowBtn()[pri:10, instance:SeleniumTesting.AEMhdfc.ProductpageTest@25ddbbbb]" started-at="2021-12-11T00:13:34 IST" name="verifyBuyNowBtn" finished-at="2021-12-11T00:13:43 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyPrintBtn" duration-ms="9499" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBuyNowBtn -->
-        <test-method retried="true" signature="verifyDownloadsSectionAfterScroll()[pri:11, instance:SeleniumTesting.AEMhdfc.ProductpageTest@6e16b8b5]" started-at="2021-12-10T23:34:45 IST" name="verifyDownloadsSectionAfterScroll" finished-at="2021-12-10T23:34:57 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.navigateToProductPage" duration-ms="12544" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [Rate this product] but found [PRODUCT RATED]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [Rate this product] but found [PRODUCT RATED]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-at PageObjects.Productpage.provideRatings(Productpage.java:130)
-at SeleniumTesting.AEMhdfc.ProductpageTest.verifyRatingOption(ProductpageTest.java:78)
-at SeleniumTesting.AEMhdfc.ProductpageTest.verifyDownloadsSectionAfterScroll(ProductpageTest.java:137)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="verifyDownloadsSectionAfterScroll()[pri:11, instance:SeleniumTesting.AEMhdfc.ProductpageTest@25ddbbbb]" started-at="2021-12-11T00:13:43 IST" name="verifyDownloadsSectionAfterScroll" finished-at="2021-12-11T00:15:31 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.navigateToProductPage" duration-ms="108120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDownloadsSectionAfterScroll -->
-        <test-method retried="true" signature="verifyDownloadsSectionAfterScroll()[pri:11, instance:SeleniumTesting.AEMhdfc.ProductpageTest@6e16b8b5]" started-at="2021-12-10T23:34:57 IST" name="verifyDownloadsSectionAfterScroll" finished-at="2021-12-10T23:35:35 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.navigateToProductPage" duration-ms="37600" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//*[name()='svg'][@class='starttest'])[2]"}
-  (Session info: chrome=96.0.4664.93)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LIN24007907', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Akundar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58764}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 40e3aab6c4b895747bf98333aa97cb58
-*** Element info: {Using=xpath, value=(//*[name()='svg'][@class='starttest'])[2]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[name()='svg'][@class='starttest'])[2]"}
-  (Session info: chrome=96.0.4664.93)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LIN24007907', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Akundar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58764}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 40e3aab6c4b895747bf98333aa97cb58
-*** Element info: {Using=xpath, value=(//*[name()='svg'][@class='starttest'])[2]}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-at jdk.proxy2/jdk.proxy2.$Proxy25.findElement(Unknown Source)
-at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-at PageObjects.Productpage.provideRatings(Productpage.java:124)
-at SeleniumTesting.AEMhdfc.ProductpageTest.verifyRatingOption(ProductpageTest.java:78)
-at SeleniumTesting.AEMhdfc.ProductpageTest.verifyDownloadsSectionAfterScroll(ProductpageTest.java:137)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyDownloadsSectionAfterScroll -->
-        <test-method retried="true" signature="verifyDownloadsSectionAfterScroll()[pri:11, instance:SeleniumTesting.AEMhdfc.ProductpageTest@6e16b8b5]" started-at="2021-12-10T23:35:35 IST" name="verifyDownloadsSectionAfterScroll" finished-at="2021-12-10T23:36:11 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.navigateToProductPage" duration-ms="36307" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//*[name()='svg'][@class='starttest'])[2]"}
-  (Session info: chrome=96.0.4664.93)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LIN24007907', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Akundar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58764}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 40e3aab6c4b895747bf98333aa97cb58
-*** Element info: {Using=xpath, value=(//*[name()='svg'][@class='starttest'])[2]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[name()='svg'][@class='starttest'])[2]"}
-  (Session info: chrome=96.0.4664.93)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LIN24007907', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Akundar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58764}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 40e3aab6c4b895747bf98333aa97cb58
-*** Element info: {Using=xpath, value=(//*[name()='svg'][@class='starttest'])[2]}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-at jdk.proxy2/jdk.proxy2.$Proxy25.findElement(Unknown Source)
-at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-at PageObjects.Productpage.provideRatings(Productpage.java:124)
-at SeleniumTesting.AEMhdfc.ProductpageTest.verifyRatingOption(ProductpageTest.java:78)
-at SeleniumTesting.AEMhdfc.ProductpageTest.verifyDownloadsSectionAfterScroll(ProductpageTest.java:137)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyDownloadsSectionAfterScroll -->
-        <test-method signature="verifyDownloadsSectionAfterScroll()[pri:11, instance:SeleniumTesting.AEMhdfc.ProductpageTest@6e16b8b5]" started-at="2021-12-10T23:36:11 IST" name="verifyDownloadsSectionAfterScroll" finished-at="2021-12-10T23:36:48 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.navigateToProductPage" duration-ms="36316" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//*[name()='svg'][@class='starttest'])[2]"}
-  (Session info: chrome=96.0.4664.93)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LIN24007907', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Akundar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58764}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 40e3aab6c4b895747bf98333aa97cb58
-*** Element info: {Using=xpath, value=(//*[name()='svg'][@class='starttest'])[2]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//*[name()='svg'][@class='starttest'])[2]"}
-  (Session info: chrome=96.0.4664.93)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LIN24007907', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Akundar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58764}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 40e3aab6c4b895747bf98333aa97cb58
-*** Element info: {Using=xpath, value=(//*[name()='svg'][@class='starttest'])[2]}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-at jdk.proxy2/jdk.proxy2.$Proxy25.findElement(Unknown Source)
-at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-at PageObjects.Productpage.provideRatings(Productpage.java:124)
-at SeleniumTesting.AEMhdfc.ProductpageTest.verifyRatingOption(ProductpageTest.java:78)
-at SeleniumTesting.AEMhdfc.ProductpageTest.verifyDownloadsSectionAfterScroll(ProductpageTest.java:137)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyDownloadsSectionAfterScroll -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumTesting.AEMhdfc.ProductpageTest@6e16b8b5]" started-at="2021-12-10T23:36:48 IST" name="tearDown" finished-at="2021-12-10T23:36:48 IST" duration-ms="310" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumTesting.AEMhdfc.ProductpageTest@25ddbbbb]" started-at="2021-12-11T00:15:31 IST" name="tearDown" finished-at="2021-12-11T00:15:32 IST" duration-ms="445" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

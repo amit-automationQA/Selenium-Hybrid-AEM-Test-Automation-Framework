@@ -1,18 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 55, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 1,064.393 s <<< FAILURE! - in TestSuite
-SeleniumTesting.AEMhdfc.ProductpageTest.verifyDownloadsSectionAfterScroll  Time elapsed: 36.506 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"(//*[name()='svg'][@class='starttest'])[2]"}
-  (Session info: chrome=96.0.4664.93)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LIN24007907', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Akundar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58764}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 40e3aab6c4b895747bf98333aa97cb58
-*** Element info: {Using=xpath, value=(//*[name()='svg'][@class='starttest'])[2]}
-	at SeleniumTesting.AEMhdfc.ProductpageTest.verifyRatingOption(ProductpageTest.java:78)
-	at SeleniumTesting.AEMhdfc.ProductpageTest.verifyDownloadsSectionAfterScroll(ProductpageTest.java:137)
-
+Tests run: 52, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1,044.86 s - in TestSuite
