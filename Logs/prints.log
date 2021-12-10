@@ -7,3 +7,10 @@
 10:15:48.443 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Product page test cases started
 10:19:35.626 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Product page test cases executed
 10:19:35.628 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Folder deleted for Category downloads
+21:28:37.120 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Product page test cases started
+21:31:08.324 [main] INFO  PageObjects.Categorypage - MC062124237-V01-HDFC-Life-Click-2-Protect-Life-Retail-Brochure.pdf is present
+21:31:29.172 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Download section verification after scroll started
+21:34:22.077 [main] ERROR PageObjects.Categorypage - MC062124237-V01-HDFC-Life-Click-2-Protect-Life-Retail-Brochure.pdf is incorrect
+21:34:22.078 [main] INFO  PageObjects.Categorypage - MC062124237-V01-HDFC-Life-Click-2-Protect-Life-Retail-Brochure.pdf is present
+21:35:03.039 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Product page test cases executed
+21:35:03.043 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Folder deleted for Category downloads
