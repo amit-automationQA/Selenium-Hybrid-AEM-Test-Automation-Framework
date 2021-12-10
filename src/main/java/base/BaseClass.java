@@ -113,8 +113,8 @@ public class BaseClass {
 			edgeprefs.put("profile.default_content_settings.popups", 0);
 			edgeprefs.put("download.default_directory", folder.getAbsolutePath());// to download any file in project directory only
 			options.addArguments("--no-sandbox");
-			//options.addArguments("-start-in-incognito");
-			options.addArguments("-inprivate");
+			options.addArguments("-inprivate"); 
+			//https://stackoverflow.com/questions/61735197/cant-open-private-window-in-edge-browser-using-selenium
 			options.addArguments("--disable-notifications");
 	        options.addArguments("disable-infobars"); // disabling infobars
 	        options.addArguments("--disable-extensions"); // disabling extensions
