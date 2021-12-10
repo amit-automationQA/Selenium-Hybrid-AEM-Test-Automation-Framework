@@ -287,7 +287,7 @@ public class HomepageTest extends BaseClass {
 	}
 	
 	@AfterClass(alwaysRun=true)
-	public void tear()
+	public void tearDown()
 	{
 		log.info("Homepage test cases executed");
 		driver.quit();

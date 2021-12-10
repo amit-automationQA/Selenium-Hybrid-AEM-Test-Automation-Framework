@@ -174,7 +174,7 @@ public class CategorypageTest extends BaseClass{
 	}
 
 	@AfterClass(alwaysRun=true)
-	public void tear()
+	public void tearDown()
 	{
 		driver.quit();
 		log.info("Category page test cases executed");

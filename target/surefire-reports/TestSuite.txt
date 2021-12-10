@@ -1,32 +1,18 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 56, Failures: 3, Errors: 0, Skipped: 13, Time elapsed: 928.493 s <<< FAILURE! - in TestSuite
-SeleniumTesting.AEMhdfc.CategorypageTest.verifyRidersSection  Time elapsed: 18.687 s  <<< FAILURE!
-java.util.NoSuchElementException
-	at SeleniumTesting.AEMhdfc.CategorypageTest.verifyRidersSection(CategorypageTest.java:149)
-
-SeleniumTesting.AEMhdfc.ProductpageTest.navigateToProductPage  Time elapsed: 30.279 s  <<< FAILURE!
+Tests run: 55, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 1,064.393 s <<< FAILURE! - in TestSuite
+SeleniumTesting.AEMhdfc.ProductpageTest.verifyDownloadsSectionAfterScroll  Time elapsed: 36.506 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: //a[@class='megaMenuLink']
+no such element: Unable to locate element: {"method":"xpath","selector":"(//*[name()='svg'][@class='starttest'])[2]"}
+  (Session info: chrome=96.0.4664.93)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LIN24007907', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211129150630, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 16104, moz:profile: C:\Users\Akundar\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0caa769b-5af3-43d5-b96d-1a62a0625022
-*** Element info: {Using=xpath, value=//a[@class='megaMenuLink']}
-	at SeleniumTesting.AEMhdfc.ProductpageTest.navigateToProductPage(ProductpageTest.java:50)
-
-SeleniumTesting.AEMhdfc.ProductpageTest.verifyPrintBtn  Time elapsed: 33.293 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-Unable to locate element: //div[@class='icon-wrap print']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LIN24007907', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211129150630, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 16104, moz:profile: C:\Users\Akundar\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 0caa769b-5af3-43d5-b96d-1a62a0625022
-*** Element info: {Using=xpath, value=//div[@class='icon-wrap print']}
-	at SeleniumTesting.AEMhdfc.ProductpageTest.verifyPrintBtn(ProductpageTest.java:85)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Akundar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58764}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 40e3aab6c4b895747bf98333aa97cb58
+*** Element info: {Using=xpath, value=(//*[name()='svg'][@class='starttest'])[2]}
+	at SeleniumTesting.AEMhdfc.ProductpageTest.verifyRatingOption(ProductpageTest.java:78)
+	at SeleniumTesting.AEMhdfc.ProductpageTest.verifyDownloadsSectionAfterScroll(ProductpageTest.java:137)
 

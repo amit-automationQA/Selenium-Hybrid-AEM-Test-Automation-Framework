@@ -188,8 +188,8 @@ public class BaseClass {
 		driver.get(prop.getProperty("url"));
 	}
 
-	public void tearDown()
+	/*public void tearDown()
 	{
 		driver.quit();
-	}
+	}*/
 }
