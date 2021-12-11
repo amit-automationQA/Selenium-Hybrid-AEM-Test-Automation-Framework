@@ -7,6 +7,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.asserts.SoftAssert;
 import base.BaseClass;
 
@@ -71,9 +74,34 @@ public class Productpage extends BaseClass{
 
 	@FindBy(css="#rate-msg")
 	WebElement ratetext;
-	
+
 	@FindBy(xpath="(//*[name()='svg'][@class='starttest'])[2]")
 	WebElement twostarrating;
+
+	@FindBy(xpath="(//a[@class='talk-to-advisor-link outlined-button-hover product-benefits-cards-data-layer'])[1]")
+	WebElement benefitstalktoadvisorbtn;
+
+	@FindBy(id="view-eligibility-table")
+	WebElement eligibilitycriteriabtn;
+
+	@FindBy(className="close-table")
+	WebElement eligibilitycriteriaclosebtn;
+
+	@FindBy(xpath="(//a[@class='viewMoreBtn'])[3]")
+	WebElement ridersectionviewmorebtn;
+
+	@FindBy(xpath="//div[@id='myModal']//input[@placeholder='Name']")
+	WebElement scheduleacallname;
+
+	@FindBy(xpath="//div[@id='myModal']//input[@placeholder='Mobile Number']")
+	WebElement scheduleacallnumber;
+
+	@FindBy(xpath="(//select[@id='insurance_category'])[5]")
+	WebElement plansdropdown;	
+	
+	@FindBy(xpath="(//span[@class='close-icon1'])[5]")
+	WebElement scheduleacallclosebtn;
+
 	//Initialized methods
 	public void verifyOnlyPageUrl(String onlycurrenturl) 
 	{
@@ -103,6 +131,7 @@ public class Productpage extends BaseClass{
 		softAssertion.assertEquals(driver.getCurrentUrl(), "https://www.hdfclife.com/term-insurance-plans");
 		driver.navigate().back();
 		Thread.sleep(3000);
+		softAssertion.assertAll();
 	}
 
 	public void provideRatings() throws InterruptedException
@@ -138,6 +167,7 @@ public class Productpage extends BaseClass{
 		Thread.sleep(3000);
 		softAssertion.assertTrue(printbtn.isDisplayed());
 		printbtn.click();
+		softAssertion.assertAll();
 	}
 
 	public void verifyLinkOpeningInNewWindow() throws InterruptedException
@@ -154,6 +184,7 @@ public class Productpage extends BaseClass{
 		driver.close();
 		driver.switchTo().window(winHandleBefore);
 		Thread.sleep(3000);
+		softAssertion.assertAll();
 
 	}
 
@@ -165,6 +196,7 @@ public class Productpage extends BaseClass{
 		Actions action = new Actions(driver);
 		action.moveToElement(sharebtn).build().perform();
 		Thread.sleep(2000);
+		softAssertion.assertAll();
 
 	}
 	public void verifyFacebookShareBtn() throws InterruptedException
@@ -176,6 +208,7 @@ public class Productpage extends BaseClass{
 		Thread.sleep(3000);
 		hp.verifyLinkOpenedInNewWindow("https://www.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fwww.hdfclife.com%252Fterm-insurance-plans%252Fclick-2-protect-life&cancel_url=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=popup&locale=en_GB#discPopup", 
 				"https://www.hdfclife.com/term-insurance-plans/click-2-protect-life#discPopup");
+		softAssertion.assertAll();
 	}
 
 	public void verifyTwitterShareBtn() throws InterruptedException
@@ -188,6 +221,7 @@ public class Productpage extends BaseClass{
 		Thread.sleep(3000);
 		hp.verifyLinkOpenedInNewWindow("https://twitter.com/intent/tweet?&url=https://www.hdfclife.com/term-insurance-plans/click-2-protect-life#discPopup", 
 				"https://www.hdfclife.com/term-insurance-plans/click-2-protect-life#discPopup");
+		softAssertion.assertAll();
 	}
 
 	public void verifyLinkedInShareBtn() throws InterruptedException
@@ -200,6 +234,7 @@ public class Productpage extends BaseClass{
 		Thread.sleep(3000);
 		hp.verifyLinkOpenedInNewWindow("https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2FshareArticle%2F%3Furl%3Dhttps%3A%2F%2Fwww%2Ehdfclife%2Ecom%2Fterm-insurance-plans%2Fclick-2-protect-life&trk=login_reg_redirect#discPopup", 
 				"https://www.hdfclife.com/term-insurance-plans/click-2-protect-life#discPopup");
+		softAssertion.assertAll();
 	}
 
 	public void verifyDownloadingBrochure() throws InterruptedException
@@ -208,6 +243,7 @@ public class Productpage extends BaseClass{
 		Thread.sleep(3000);
 		softAssertion.assertTrue(downloadbrochurebtn.isDisplayed());
 		downloadbrochurebtn.click();
+		softAssertion.assertAll();
 	}
 
 	public void clickCalculatePremiumBtn() throws InterruptedException
@@ -217,6 +253,7 @@ public class Productpage extends BaseClass{
 		softAssertion.assertTrue(calculatepremiumbtn.isDisplayed());
 		calculatepremiumbtn.click();
 		Thread.sleep(2000);
+		softAssertion.assertAll();
 	}
 
 	public void clickBuyNow() throws InterruptedException
@@ -225,7 +262,71 @@ public class Productpage extends BaseClass{
 		softAssertion.assertTrue(buynowbtn.isDisplayed());
 		buynowbtn.click();
 		Thread.sleep(3000);
+		softAssertion.assertAll();
 	}
+
+	public void clickBenefitsTalkToAdvisorBtn() throws InterruptedException
+	{
+		Thread.sleep(3000);
+		SoftAssert softAssertion = new SoftAssert();
+		softAssertion.assertTrue(benefitstalktoadvisorbtn.isDisplayed());
+		benefitstalktoadvisorbtn.click();
+		softAssertion.assertAll();
+	}
+
+	public void openAndCloseEligibilityCriteria() throws InterruptedException
+	{
+		Thread.sleep(3000);
+		SoftAssert softAssertion = new SoftAssert();
+		softAssertion.assertTrue(eligibilitycriteriabtn.isDisplayed());
+		eligibilitycriteriabtn.click();
+		Thread.sleep(2000);
+		WebDriverWait wait = new WebDriverWait(driver,30);
+		wait.until(ExpectedConditions.elementToBeClickable(eligibilitycriteriaclosebtn));
+		eligibilitycriteriaclosebtn.click();
+		Thread.sleep(2000);
+		softAssertion.assertTrue(eligibilitycriteriabtn.isDisplayed());
+		softAssertion.assertAll();
+		Thread.sleep(2000);
+	}
+
+	public void verifyProductPageViewMoreOnLoad() throws InterruptedException
+	{
+		Thread.sleep(3000);
+		if(ridersectionviewmorebtn.isDisplayed())
+		{
+			ridersectionviewmorebtn.click();
+			Thread.sleep(3000);
+		}	
+	}
+
+	public void clickScheduleACallClosePopup()
+	{
+		SoftAssert softAssertion = new SoftAssert();
+		softAssertion.assertTrue(scheduleacallclosebtn.isDisplayed());
+		scheduleacallclosebtn.click();
+		softAssertion.assertAll();
+	}
+	public void verifywithData(String fullname, String contactnumber, String plantype) throws InterruptedException
+	{
+		Thread.sleep(2000);
+		scheduleacallname.sendKeys(fullname);
+		scheduleacallnumber.sendKeys(contactnumber);
+		Select plndropdown = new Select(plansdropdown);
+		plndropdown.selectByValue(plantype);
+		Thread.sleep(3000);
+		clickScheduleACallClosePopup();
+		Thread.sleep(3000);
+	}
+	
+	public void verifyScheduleAPopupWithInvalidData(String fullname1, String contactnumber1) throws InterruptedException
+	{
+		Thread.sleep(2000);
+		scheduleacallname.sendKeys(fullname1);
+		scheduleacallnumber.sendKeys(contactnumber1);
+		Thread.sleep(3000);
+	}
+
 }
 
 
