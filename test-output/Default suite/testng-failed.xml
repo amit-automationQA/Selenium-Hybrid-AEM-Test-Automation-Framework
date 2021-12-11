@@ -5,10 +5,14 @@
     <classes>
       <class name="SeleniumTesting.AEMhdfc.ProductpageTest">
         <methods>
-          <include name="verifyPrintBtn"/>
-          <include name="verifyRatingsFromAPI"/>
+          <include name="verifyScheduleACallOnProductPage"/>
+          <include name="verifyDownloadsSectionAfterScroll"/>
+          <include name="tearDown"/>
+          <include name="verifyRidersSection"/>
+          <include name="verifyYourPlanYourBenefitsSection"/>
           <include name="setUp"/>
-          <include name="tear"/>
+          <include name="navigateToProductPage"/>
+          <include name="verifyVideoOnCategoryPage"/>
         </methods>
       </class> <!-- SeleniumTesting.AEMhdfc.ProductpageTest -->
     </classes>

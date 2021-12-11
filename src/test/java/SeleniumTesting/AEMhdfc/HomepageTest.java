@@ -161,14 +161,14 @@ public class HomepageTest extends BaseClass {
 	}
 
 	@DataProvider
-	public Object[][] getscheduleformData()
+	public Object[][] getscheduleformData1()
 	{
 		Object data[][]=ExcelUtil.getTestData("Sheet1");
 		return data;
 	}
 
-	@Test(priority=15, dataProvider="getscheduleformData", dependsOnMethods = { "verifyMouseIndicator" })
-	public void verifyschedulePopupWithValidData(String fname, String number) throws InterruptedException
+	@Test(priority=15, dataProvider="getscheduleformData1", dependsOnMethods = { "verifyMouseIndicator" })
+	public void verifyschedulePopupWithValidDataProductPage(String fname, String number) throws InterruptedException
 	{
 		hp.clickScheduleACallButton().click();
 		Thread.sleep(2000);
@@ -287,7 +287,7 @@ public class HomepageTest extends BaseClass {
 	{
 		js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
 		Thread.sleep(3000);
-		//hp.groupWebsiteLinks();
+		hp.groupWebsiteLinks();
 	}
 	
 	@Test(priority=27, dependsOnMethods= {"verifyGroupWebsitesLinks"})

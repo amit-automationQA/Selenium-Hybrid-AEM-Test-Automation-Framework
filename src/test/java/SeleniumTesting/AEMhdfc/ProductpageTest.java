@@ -145,6 +145,55 @@ public class ProductpageTest extends BaseClass{
 		verifyCalculatePremiumBtn();
 		verifyBuyNowBtn();
 	}
+	
+	@Test(priority=12, dependsOnMethods= {"verifyDownloadsSectionAfterScroll"})
+	public void verifyYourPlanYourBenefitsSection() throws InterruptedException
+	{
+		//js.executeScript("window.scrollBy(0,500)");
+		pp.clickBenefitsTalkToAdvisorBtn();
+		hp.schedulepopupdata("Ajit Kumar", "7021416004");
+		hp.closeScheduleCallPopup();	
+	}
+	
+	@Test(priority=13, dependsOnMethods= {"verifyYourPlanYourBenefitsSection"})
+	public void verifyEligibilityCriteria() throws InterruptedException
+	{
+		pp.openAndCloseEligibilityCriteria();
+	}
+	
+	@Test(priority=14, dependsOnMethods= {"verifyYourPlanYourBenefitsSection"})
+	public void verifyVideoOnCategoryPage() throws InterruptedException
+	{
+		js.executeScript("window.scrollBy(0,100)");
+		Thread.sleep(3000);
+	}
+	
+	@Test(priority=15, dependsOnMethods= {"verifyVideoOnCategoryPage"})
+	public void verifyRidersSection() throws InterruptedException
+	{
+		js.executeScript("window.scrollBy(0,1100)");
+		Thread.sleep(3000);
+		pp.verifyProductPageViewMoreOnLoad();
+		Thread.sleep(3000);
+		js.executeScript("window.scrollBy(0,-100)");
+		Thread.sleep(3000);
+		cp.firstRowClickDownloadBtn();
+		cp.secondRowClickDownloadBtn();
+		Thread.sleep(3000);
+	}
+	
+	@Test(priority=16, dependsOnMethods= {"verifyRidersSection"} )
+	public void verifyScheduleACallOnProductPage() throws InterruptedException
+	{
+		hp.clickScheduleACallButton().click();
+		pp.verifywithData("Amit K", "9768462054", "Investment Plans");
+		hp.clickScheduleACallButton().click();
+		pp.verifyScheduleAPopupWithInvalidData("Am", "976846205");
+		hp.invalidDataValidationErrorForNameAndNumber();
+		pp.clickScheduleACallClosePopup();
+	}
+	
+	
 	@AfterClass(alwaysRun=true)
 	public void tearDown()
 	{
