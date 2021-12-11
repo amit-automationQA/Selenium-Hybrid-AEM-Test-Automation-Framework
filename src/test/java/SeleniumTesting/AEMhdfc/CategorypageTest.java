@@ -23,6 +23,7 @@ public class CategorypageTest extends BaseClass{
 	public CategorypageTest() {
 		super();
 	}
+	
 
 	@BeforeClass(alwaysRun = true)
 	public void setUp() throws IOException {
