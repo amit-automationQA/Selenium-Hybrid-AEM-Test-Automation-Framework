@@ -10,6 +10,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
+
+import PageObjects.Categorypage;
 import PageObjects.Homepage;
 import base.BaseClass;
 import util.ExcelUtil;
@@ -20,6 +22,7 @@ public class HomepageTest extends BaseClass {
 	private SoftAssert softAssertion = new SoftAssert();
 	JavascriptExecutor js;
 	Homepage hp;
+	Categorypage cp;
 	public static Logger log=LogManager.getLogger(HomepageTest.class.getName());
 	String calculatedamount;
 	
@@ -33,6 +36,7 @@ public class HomepageTest extends BaseClass {
 		//SauceLabs_Invocation(); //uncomment if cross browser testing needs to be done
 		hp = new Homepage(driver);
 		PageFactory.initElements(driver, hp);
+		cp = new Categorypage(driver);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		this.js=js;
 		ts = (TakesScreenshot) driver;
@@ -283,9 +287,15 @@ public class HomepageTest extends BaseClass {
 	{
 		js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
 		Thread.sleep(3000);
-		hp.groupWebsiteLinks();
+		//hp.groupWebsiteLinks();
 	}
 	
+	@Test(priority=27, dependsOnMethods= {"verifyGroupWebsitesLinks"})
+	public void verifyArticlesOnHomePage() throws InterruptedException
+	{
+		js.executeScript("window.scrollBy(0,-2000)");
+		cp.verifyArticles();
+	}
 	@AfterClass(alwaysRun=true)
 	public void tearDown()
 	{
