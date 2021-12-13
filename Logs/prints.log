@@ -220,3 +220,24 @@
 13:59:51.812 [main] INFO  PageObjects.Categorypage - Second FAQ accordion is opened on click
 13:59:54.944 [main] ERROR PageObjects.Productpage - View more button for FAQ is not visible on page load
 13:59:59.437 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Product page test cases executed
+15:47:08.140 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Product page test cases started
+15:49:34.741 [main] INFO  PageObjects.Categorypage - MC062124237-V01-HDFC-Life-Click-2-Protect-Life-Retail-Brochure.pdf is present
+15:49:56.288 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Download section verification after scroll started
+15:51:22.472 [main] INFO  PageObjects.Categorypage - MC062124237-V01-HDFC-Life-Click-2-Protect-Life-Retail-Brochure.pdf is present
+15:52:22.943 [main] INFO  PageObjects.Categorypage - Verification for download button in rider section started
+15:52:22.965 [main] INFO  PageObjects.Categorypage -  the number of buttons in download riders section : 2
+15:52:47.418 [main] INFO  PageObjects.Categorypage -  the number of buttons in second row in download riders section : 1
+15:53:22.546 [main] INFO  PageObjects.Categorypage - First FAQ accordion is open on page load
+15:53:28.821 [main] INFO  PageObjects.Categorypage - Second FAQ accordion is opened on click
+15:53:31.946 [main] ERROR PageObjects.Productpage - View more button for FAQ is not visible on page load
+15:54:39.074 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Product page test cases started
+15:57:05.202 [main] INFO  PageObjects.Categorypage - MC062124237-V01-HDFC-Life-Click-2-Protect-Life-Retail-Brochure.pdf is present
+15:57:25.987 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Download section verification after scroll started
+15:58:52.073 [main] INFO  PageObjects.Categorypage - MC062124237-V01-HDFC-Life-Click-2-Protect-Life-Retail-Brochure.pdf is present
+15:59:52.552 [main] INFO  PageObjects.Categorypage - Verification for download button in rider section started
+15:59:52.605 [main] INFO  PageObjects.Categorypage -  the number of buttons in download riders section : 2
+16:00:16.995 [main] INFO  PageObjects.Categorypage -  the number of buttons in second row in download riders section : 1
+16:00:52.125 [main] INFO  PageObjects.Categorypage - First FAQ accordion is open on page load
+16:00:58.407 [main] INFO  PageObjects.Categorypage - Second FAQ accordion is opened on click
+16:01:01.552 [main] ERROR PageObjects.Productpage - View more button for FAQ is not visible on page load
+16:01:25.798 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Product page test cases executed

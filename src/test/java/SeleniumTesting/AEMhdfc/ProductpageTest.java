@@ -204,20 +204,18 @@ public class ProductpageTest extends BaseClass{
 		pp.verifyFAQViewMoreBtn();
 	}
 	
-	/*@Test(priority=18, dependsOnMethods= {"verifyFAQSection"})
+	@Test(priority=18, dependsOnMethods= {"verifyFAQSection"})
 	public void verifyDisclaimerOnProductPage() throws InterruptedException
 	{
-		js.executeScript("window.scrollBy(0,50)");
+		js.executeScript("window.scrollBy(0,150)");
 		hp.openCloseDisclaimer();
-	}*/
+	}
 	
 	@AfterClass(alwaysRun=true)
 	public void tearDown()
 	{
 		driver.quit();
 		log.info("Product page test cases executed");
-		cp.deleteFolder();
-		log.info("Folder deleted for Category downloads");
 	}
 
 }
