@@ -12,6 +12,8 @@
           <include name="verifyYourPlanYourBenefitsSection"/>
           <include name="setUp"/>
           <include name="navigateToProductPage"/>
+          <include name="verifyDisclaimerOnProductPage"/>
+          <include name="verifyFAQSection"/>
           <include name="verifyVideoOnCategoryPage"/>
         </methods>
       </class> <!-- SeleniumTesting.AEMhdfc.ProductpageTest -->
