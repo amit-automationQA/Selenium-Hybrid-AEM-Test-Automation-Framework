@@ -216,8 +216,8 @@ public class ProductpageTest extends BaseClass{
 	{
 		driver.quit();
 		log.info("Product page test cases executed");
-		//cp.deleteFolder();
-		//log.info("Folder deleted for Category downloads");
+		cp.deleteFolder();
+		log.info("Folder deleted for Category downloads");
 	}
 
 }
