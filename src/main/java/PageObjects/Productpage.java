@@ -2,6 +2,7 @@ package PageObjects;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -109,6 +110,11 @@ public class Productpage extends BaseClass{
 	@FindBy(xpath="//a[@class='viewMoreBtn viewLessBtn']")
 	WebElement viewlessbtn;
 	
+	@FindBy(xpath="(//button[@class='btn btnwhite dataLayerBtnClick'])[1]")
+	WebElement viewexamplbtn;
+	
+	@FindBy(xpath="(//span[@class='close-iconprod'])[1]")
+	WebElement examplepopupclosebtn;
 	
 	//Initialized methods
 	public void verifyOnlyPageUrl(String onlycurrenturl) 
@@ -356,6 +362,56 @@ public class Productpage extends BaseClass{
 		}
 		softAssertion.assertAll();
 	}
-}
+	
+	public void verifyCarouselNextArrow() throws InterruptedException {
+		for(int narrow = 0; narrow<=2;narrow++)
+		{
+			if((driver.findElement(By.xpath("(//button[@class='owl-next'])[1]"))).isDisplayed())
+			{
+				(driver.findElement(By.xpath("(//button[@class='owl-next'])[1]"))).click();
+				Thread.sleep(3000);
+			}
+		}
+		Thread.sleep(3000);
+	}
+	
+	public void verifyCarouselPreviousArrow() throws InterruptedException
+	{
+		for(int parrow = 0; parrow<=1;parrow++)
+		{
+			if(driver.findElement(By.xpath("(//button[@class='owl-prev'])[1]")).isDisplayed())
+			{
+				driver.findElement(By.xpath("(//button[@class='owl-prev'])[1]")).click();
+				Thread.sleep(3000);
+			}
+		}
+		Thread.sleep(3000);
+	}
+	
+	public void verifyBenefitsSection() throws InterruptedException
+	{
+		
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("document.querySelector('.product-info-card').scrollTop=500");
+		Thread.sleep(3000);
+		viewexamplbtn.click();
+		Thread.sleep(3000);
+		examplepopupclosebtn.click();
+		Thread.sleep(3000);
+		//js.executeScript("window.scrollBy(0,0)");
+		Thread.sleep(2000);	
+		verifyCarouselNextArrow();
+		SoftAssert softAssertion = new SoftAssert();
+		softAssertion.assertTrue(driver.findElement(By.xpath("(//button[@class='owl-next disabled'])[1]")).isDisplayed());
+		Thread.sleep(3000);
+		verifyCarouselPreviousArrow();
+		softAssertion.assertTrue(driver.findElement(By.xpath("(//button[@class='owl-prev disabled'])[1]")).isDisplayed());
+		
+	}	
+	
+	
+
+	}
+
 
 
