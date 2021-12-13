@@ -145,81 +145,83 @@ public class ProductpageTest extends BaseClass{
 		verifyCalculatePremiumBtn();
 		verifyBuyNowBtn();
 	}
-	
-	 @Test(priority=12, dependsOnMethods= {"verifyDownloadsSectionAfterScroll"})
-	 public void verifyYourPlanYourBenefitsSection() throws InterruptedException
-	 {
-		js.executeScript("window.scrollBy(0,-200)");
-		 Thread.sleep(3000);
-		 pp.verifyBenefitsSection();
-		 js.executeScript("window.scrollBy(0,200)");
-		 pp.clickBenefitsTalkToAdvisorBtn();
-		 hp.schedulepopupdata("Ajit Kumar", "7021416004");
-		 hp.closeScheduleCallPopup();	
-	 }
 
-	 @Test(priority=13, dependsOnMethods= {"verifyYourPlanYourBenefitsSection"})
-	 public void verifyEligibilityCriteria() throws InterruptedException
-	 {
-		 js.executeScript("window.scrollBy(0,100)");
-		 pp.openAndCloseEligibilityCriteria();
-	 }
+	@Test(priority=12, dependsOnMethods= {"verifyDownloadsSectionAfterScroll"})
+	public void verifyYourPlanYourBenefitsSection() throws InterruptedException
+	{
+		js.executeScript("window.scrollTo(0, -document.body.scrollHeight)");
+		Thread.sleep(3000);
+		js.executeScript("window.scrollBy(0,2000)");
+		Thread.sleep(3000);
+		pp.verifyBenefitsSection();
+		js.executeScript("window.scrollBy(0,200)");
+		pp.clickBenefitsTalkToAdvisorBtn();
+		hp.schedulepopupdata("Ajit Kumar", "7021416004");
+		hp.closeScheduleCallPopup();	
+	}
 
-	 @Test(priority=14, dependsOnMethods= {"verifyYourPlanYourBenefitsSection"})
-	 public void verifyVideoOnCategoryPage() throws InterruptedException
-	 {
-		 js.executeScript("window.scrollBy(0,100)");
-		 Thread.sleep(3000);
-	 }
+	@Test(priority=13, dependsOnMethods= {})
+	public void verifyEligibilityCriteria() throws InterruptedException
+	{
+		js.executeScript("window.scrollBy(0,100)");
+		pp.openAndCloseEligibilityCriteria();
+	}
 
-	 @Test(priority=15, dependsOnMethods= {"verifyVideoOnCategoryPage"})
-	 public void verifyRidersSection() throws InterruptedException
-	 {
-		 js.executeScript("window.scrollBy(0,1100)");
-		 Thread.sleep(3000);
-		 pp.verifyProductPageViewMoreOnLoad();
-		 Thread.sleep(3000);
-		 js.executeScript("window.scrollBy(0,-100)");
-		 Thread.sleep(3000);
-		 cp.firstRowClickDownloadBtn();
-		 cp.secondRowClickDownloadBtn();
-		 Thread.sleep(3000);
-	 }
+	@Test(priority=14, dependsOnMethods= {})
+	public void verifyVideoOnCategoryPage() throws InterruptedException
+	{
+		js.executeScript("window.scrollBy(0,100)");
+		Thread.sleep(3000);
+	}
 
-	 @Test(priority=16, dependsOnMethods= {"verifyRidersSection"} )
-	 public void verifyScheduleACallOnProductPage() throws InterruptedException
-	 {
-		 hp.clickScheduleACallButton().click();
-		 pp.verifywithData("Amit K", "9768462054", "Investment Plans");
-		 hp.clickScheduleACallButton().click();
-		 pp.verifyScheduleAPopupWithInvalidData("Am", "976846205");
-		 hp.invalidDataValidationErrorForNameAndNumber();
-		 pp.clickScheduleACallClosePopup();
-	 }
+	@Test(priority=15, dependsOnMethods= {"verifyVideoOnCategoryPage"})
+	public void verifyRidersSection() throws InterruptedException
+	{
+		js.executeScript("window.scrollBy(0,1100)");
+		Thread.sleep(3000);
+		pp.verifyProductPageViewMoreOnLoad();
+		Thread.sleep(3000);
+		js.executeScript("window.scrollBy(0,-100)");
+		Thread.sleep(3000);
+		cp.firstRowClickDownloadBtn();
+		cp.secondRowClickDownloadBtn();
+		Thread.sleep(3000);
+	}
 
-	 @Test(priority=17, dependsOnMethods= {"verifyScheduleACallOnProductPage"})
-	 public void verifyFAQSection() throws InterruptedException
-	 {
-		 js.executeScript("window.scrollBy(0,500)");
-		 cp.verifyFirstOpenFAQ();
-		 js.executeScript("window.scrollBy(0,200)");
-		 cp.verifysecondFAQ();
-		 js.executeScript("window.scrollBy(0,300)");
-		 pp.verifyFAQViewMoreBtn();
-	 }
+	@Test(priority=16, dependsOnMethods= {"verifyRidersSection"} )
+	public void verifyScheduleACallOnProductPage() throws InterruptedException
+	{
+		hp.clickScheduleACallButton().click();
+		pp.verifywithData("Amit K", "9768462054", "Investment Plans");
+		hp.clickScheduleACallButton().click();
+		pp.verifyScheduleAPopupWithInvalidData("Am", "976846205");
+		hp.invalidDataValidationErrorForNameAndNumber();
+		pp.clickScheduleACallClosePopup();
+	}
 
-	 @Test(priority=18, dependsOnMethods= {"verifyFAQSection"})
-	 public void verifyDisclaimerOnProductPage() throws InterruptedException
-	 {
-		 js.executeScript("window.scrollBy(0,150)");
-		 hp.openCloseDisclaimer();
-	 }
+	@Test(priority=17, dependsOnMethods= {"verifyScheduleACallOnProductPage"})
+	public void verifyFAQSection() throws InterruptedException
+	{
+		js.executeScript("window.scrollBy(0,500)");
+		cp.verifyFirstOpenFAQ();
+		js.executeScript("window.scrollBy(0,200)");
+		cp.verifysecondFAQ();
+		js.executeScript("window.scrollBy(0,300)");
+		pp.verifyFAQViewMoreBtn();
+	}
 
-	 @AfterClass(alwaysRun=true)
-	 public void tearDown()
-	 {
-		 driver.quit();
-		 log.info("Product page test cases executed");
-	 }
+	@Test(priority=18, dependsOnMethods= {"verifyFAQSection"})
+	public void verifyDisclaimerOnProductPage() throws InterruptedException
+	{
+		js.executeScript("window.scrollBy(0,150)");
+		hp.openCloseDisclaimer();
+	}
+
+	@AfterClass(alwaysRun=true)
+	public void tearDown()
+	{
+		driver.quit();
+		log.info("Product page test cases executed");
+	}
 
 }
