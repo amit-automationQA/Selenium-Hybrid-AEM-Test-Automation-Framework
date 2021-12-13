@@ -132,7 +132,7 @@ public class ProductpageTest extends BaseClass{
 	@Test(priority=11, retryAnalyzer = Analyzer.RetryAnalyzer.class, dependsOnMethods= {"navigateToProductPage"})
 	public void verifyDownloadsSectionAfterScroll() throws InterruptedException
 	{
-		driver.navigate().refresh();
+		//driver.navigate().refresh();
 		log.info("Download section verification after scroll started");
 		js.executeScript("window.scrollBy(0,1000)");
 		Thread.sleep(3000);
@@ -149,7 +149,7 @@ public class ProductpageTest extends BaseClass{
 	@Test(priority=12, dependsOnMethods= {"verifyDownloadsSectionAfterScroll"})
 	public void verifyYourPlanYourBenefitsSection() throws InterruptedException
 	{
-		//js.executeScript("window.scrollBy(0,500)");
+		js.executeScript("window.scrollBy(0,200)");
 		pp.clickBenefitsTalkToAdvisorBtn();
 		hp.schedulepopupdata("Ajit Kumar", "7021416004");
 		hp.closeScheduleCallPopup();	
@@ -193,6 +193,23 @@ public class ProductpageTest extends BaseClass{
 		pp.clickScheduleACallClosePopup();
 	}
 	
+	@Test(priority=17, dependsOnMethods= {"verifyScheduleACallOnProductPage"})
+	public void verifyFAQSection() throws InterruptedException
+	{
+		js.executeScript("window.scrollBy(0,500)");
+		cp.verifyFirstOpenFAQ();
+		js.executeScript("window.scrollBy(0,200)");
+		cp.verifysecondFAQ();
+		js.executeScript("window.scrollBy(0,300)");
+		pp.verifyFAQViewMoreBtn();
+	}
+	
+	/*@Test(priority=18, dependsOnMethods= {"verifyFAQSection"})
+	public void verifyDisclaimerOnProductPage() throws InterruptedException
+	{
+		js.executeScript("window.scrollBy(0,50)");
+		hp.openCloseDisclaimer();
+	}*/
 	
 	@AfterClass(alwaysRun=true)
 	public void tearDown()

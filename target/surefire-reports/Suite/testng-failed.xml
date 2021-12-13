@@ -9,9 +9,17 @@
       <class name="SeleniumTesting.AEMhdfc.ProductpageTest">
         <methods>
           <include name="verifyDownloadsSectionAfterScroll"/>
+          <include name="verifyShareOption"/>
+          <include name="verifyFAQSection"/>
+          <include name="verifyRidersSection"/>
+          <include name="verifyYourPlanYourBenefitsSection"/>
           <include name="setUp"/>
           <include name="navigateToProductPage"/>
           <include name="tearDown"/>
+          <include name="verifyDisclaimerOnProductPage"/>
+          <include name="verifyPrintBtn"/>
+          <include name="verifyVideoOnCategoryPage"/>
+          <include name="verifyScheduleACallOnProductPage"/>
         </methods>
       </class> <!-- SeleniumTesting.AEMhdfc.ProductpageTest -->
     </classes>

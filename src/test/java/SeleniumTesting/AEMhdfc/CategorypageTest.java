@@ -179,7 +179,7 @@ public class CategorypageTest extends BaseClass{
 	{
 		driver.quit();
 		log.info("Category page test cases executed");
-		cp.deleteFolder();
-		log.info("Folder deleted for Category downloads");
+		//cp.deleteFolder();
+		//log.info("Folder deleted for Category downloads");
 	}
 }

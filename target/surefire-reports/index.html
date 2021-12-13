@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,35 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">58 methods,   58 passed</span>
+                    <span class="method-stats">21 methods, 1 failed,  1 skipped,  19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.ProductpageTest" class="method navigator-link" hash-for-method="verifyDisclaimerOnProductPage">verifyDisclaimerOnProductPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.ProductpageTest" class="method navigator-link" hash-for-method="verifyShareOption">verifyShareOption</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -114,21 +142,6 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.HomepageTest" class="method navigator-link" hash-for-method="verifyArrowButtonsOnBanner">verifyArrowButtonsOnBanner</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.HomepageTest" class="method navigator-link" hash-for-method="verifyArticlesOnHomePage">verifyArticlesOnHomePage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CategorypageTest" class="method navigator-link" hash-for-method="verifyArticlesSection">verifyArticlesSection</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.HomepageTest" class="method navigator-link" hash-for-method="verifyBannerCarousel">verifyBannerCarousel</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -139,57 +152,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CategorypageTest" class="method navigator-link" hash-for-method="verifyC2PLProduct">verifyC2PLProduct</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.ProductpageTest" class="method navigator-link" hash-for-method="verifyCalculatePremiumBtn">verifyCalculatePremiumBtn</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CategorypageTest" class="method navigator-link" hash-for-method="verifyCalculatePremiumBtn">verifyCalculatePremiumBtn</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.HomepageTest" class="method navigator-link" hash-for-method="verifyCalculatorCloseBtn">verifyCalculatorCloseBtn</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.HomepageTest" class="method navigator-link" hash-for-method="verifyChildrenPlansOnBanner">verifyChildrenPlansOnBanner</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.HomepageTest" class="method navigator-link" hash-for-method="verifyComboPlansOnBanner">verifyComboPlansOnBanner</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CategorypageTest" class="method navigator-link" hash-for-method="verifyContactUs">verifyContactUs</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CategorypageTest" class="method navigator-link" hash-for-method="verifyDisclaimer">verifyDisclaimer</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.HomepageTest" class="method navigator-link" hash-for-method="verifyDisclaimer">verifyDisclaimer</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.ProductpageTest" class="method navigator-link" hash-for-method="verifyDownloadBrochure">verifyDownloadBrochure</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.HomepageTest" class="method navigator-link" hash-for-method="verifyDownloadLinks">verifyDownloadLinks</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -204,52 +172,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.HomepageTest" class="method navigator-link" hash-for-method="verifyFixedMaturityPlanOnBanner">verifyFixedMaturityPlanOnBanner</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.HomepageTest" class="method navigator-link" hash-for-method="verifyGroupPlansOnBanner">verifyGroupPlansOnBanner</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.HomepageTest" class="method navigator-link" hash-for-method="verifyGroupWebsitesLinks">verifyGroupWebsitesLinks</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.HomepageTest" class="method navigator-link" hash-for-method="verifyHealthPlansOnBanner">verifyHealthPlansOnBanner</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CategorypageTest" class="method navigator-link" hash-for-method="verifyHomeIconInBreadCrumb">verifyHomeIconInBreadCrumb</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CategorypageTest" class="method navigator-link" hash-for-method="verifyLetsCalculateBtn">verifyLetsCalculateBtn</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.HomepageTest" class="method navigator-link" hash-for-method="verifyMouseIndicator">verifyMouseIndicator</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.HomepageTest" class="method navigator-link" hash-for-method="verifyPosPlansOnBanner">verifyPosPlansOnBanner</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.ProductpageTest" class="method navigator-link" hash-for-method="verifyFAQSection">verifyFAQSection</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.ProductpageTest" class="method navigator-link" hash-for-method="verifyPrintBtn">verifyPrintBtn</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.HomepageTest" class="method navigator-link" hash-for-method="verifyProductAndPopularLinks">verifyProductAndPopularLinks</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -269,32 +197,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.HomepageTest" class="method navigator-link" hash-for-method="verifyRetirementPlansOnBanner">verifyRetirementPlansOnBanner</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.ProductpageTest" class="method navigator-link" hash-for-method="verifyRidersSection">verifyRidersSection</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CategorypageTest" class="method navigator-link" hash-for-method="verifyRidersSection">verifyRidersSection</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CategorypageTest" class="method navigator-link" hash-for-method="verifySJBProduct">verifySJBProduct</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.HomepageTest" class="method navigator-link" hash-for-method="verifySanchayPlusBuyNowBtn">verifySanchayPlusBuyNowBtn</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.HomepageTest" class="method navigator-link" hash-for-method="verifySavingPlansOnBanner">verifySavingPlansOnBanner</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -309,42 +212,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.HomepageTest" class="method navigator-link" hash-for-method="verifyStayConnectedwithUs">verifyStayConnectedwithUs</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.HomepageTest" class="method navigator-link" hash-for-method="verifySubscribeOptionWithValidData">verifySubscribeOptionWithValidData</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CategorypageTest" class="method navigator-link" hash-for-method="verifyTalkToAdvisor">verifyTalkToAdvisor</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CategorypageTest" class="method navigator-link" hash-for-method="verifyTalkToAdvisorPopup">verifyTalkToAdvisorPopup</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.ProductpageTest" class="method navigator-link" hash-for-method="verifyTandCOption">verifyTandCOption</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CategorypageTest" class="method navigator-link" hash-for-method="verifyTermInsuranceGuideFaqSection">verifyTermInsuranceGuideFaqSection</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.HomepageTest" class="method navigator-link" hash-for-method="verifyTermPlanOnBanner">verifyTermPlanOnBanner</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.HomepageTest" class="method navigator-link" hash-for-method="verifyULIPPlansOnBanner">verifyULIPPlansOnBanner</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -354,42 +222,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CategorypageTest" class="method navigator-link" hash-for-method="verifyVideoOnCategoryPage">verifyVideoOnCategoryPage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.HomepageTest" class="method navigator-link" hash-for-method="verifyViewAllButton">verifyViewAllButton</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CategorypageTest" class="method navigator-link" hash-for-method="verifyWhySection">verifyWhySection</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.ProductpageTest" class="method navigator-link" hash-for-method="verifyYourPlanYourBenefitsSection">verifyYourPlanYourBenefitsSection</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.HomepageTest" class="method navigator-link" hash-for-method="verifycalculatorWithValidData">verifycalculatorWithValidData</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.HomepageTest" class="method navigator-link" hash-for-method="verifyschedulePopupWithValidDataProductPage(Amit Kundar, 9.768462054E9)">verifyschedulePopupWithValidDataProductPage(Amit Kundar, 9.768462054E9)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.HomepageTest" class="method navigator-link" hash-for-method="verifyschedulePopupwithoutmindata">verifyschedulePopupwithoutmindata</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.HomepageTest" class="method navigator-link" hash-for-method="verifyschedulepopupblankSubmit">verifyschedulepopupblankSubmit</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -404,6 +237,84 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">SeleniumTesting.AEMhdfc.ProductpageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDisclaimerOnProductPage">
+                  </a> <!-- verifyDisclaimerOnProductPage -->
+                  <span class="method-name">verifyDisclaimerOnProductPage</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (765, 694)
+  (Session info: chrome=96.0.4664.93)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LIN24007907&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Akundar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51584}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: aaa06c9289d587cbcba1d3229543df40
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at PageObjects.Homepage.openCloseDisclaimer(Homepage.java:518)
+	at SeleniumTesting.AEMhdfc.ProductpageTest.verifyDisclaimerOnProductPage(ProductpageTest.java:211)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 39 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">SeleniumTesting.AEMhdfc.ProductpageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyShareOption">
+                  </a> <!-- verifyShareOption -->
+                  <span class="method-name">verifyShareOption</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;li class=&quot;share_social&quot; data-medium=&quot;facebook&quot;&gt;...&lt;/li&gt; is not clickable at point (220, 164). Other element would receive the click: &lt;section class=&quot;downloads-section&quot;&gt;...&lt;/section&gt;
+  (Session info: chrome=96.0.4664.93)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LIN24007907&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Akundar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51584}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: aaa06c9289d587cbcba1d3229543df40
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+	at PageObjects.Productpage.verifyFacebookShareBtn(Productpage.java:215)
+	at SeleniumTesting.AEMhdfc.ProductpageTest.verifyShareOption(ProductpageTest.java:93)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 42 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -450,6 +361,13 @@
                   <a name="verifyEligibilityCriteria">
                   </a> <!-- verifyEligibilityCriteria -->
                   <span class="method-name">verifyEligibilityCriteria</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFAQSection">
+                  </a> <!-- verifyFAQSection -->
+                  <span class="method-name">verifyFAQSection</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -532,192 +450,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyArrowButtonsOnBanner">
-                  </a> <!-- verifyArrowButtonsOnBanner -->
-                  <span class="method-name">verifyArrowButtonsOnBanner</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyArticlesOnHomePage">
-                  </a> <!-- verifyArticlesOnHomePage -->
-                  <span class="method-name">verifyArticlesOnHomePage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="verifyBannerCarousel">
                   </a> <!-- verifyBannerCarousel -->
                   <span class="method-name">verifyBannerCarousel</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyCalculatorCloseBtn">
-                  </a> <!-- verifyCalculatorCloseBtn -->
-                  <span class="method-name">verifyCalculatorCloseBtn</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyChildrenPlansOnBanner">
-                  </a> <!-- verifyChildrenPlansOnBanner -->
-                  <span class="method-name">verifyChildrenPlansOnBanner</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyComboPlansOnBanner">
-                  </a> <!-- verifyComboPlansOnBanner -->
-                  <span class="method-name">verifyComboPlansOnBanner</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyDisclaimer">
-                  </a> <!-- verifyDisclaimer -->
-                  <span class="method-name">verifyDisclaimer</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyDownloadLinks">
-                  </a> <!-- verifyDownloadLinks -->
-                  <span class="method-name">verifyDownloadLinks</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyFixedMaturityPlanOnBanner">
-                  </a> <!-- verifyFixedMaturityPlanOnBanner -->
-                  <span class="method-name">verifyFixedMaturityPlanOnBanner</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyGroupPlansOnBanner">
-                  </a> <!-- verifyGroupPlansOnBanner -->
-                  <span class="method-name">verifyGroupPlansOnBanner</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyGroupWebsitesLinks">
-                  </a> <!-- verifyGroupWebsitesLinks -->
-                  <span class="method-name">verifyGroupWebsitesLinks</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyHealthPlansOnBanner">
-                  </a> <!-- verifyHealthPlansOnBanner -->
-                  <span class="method-name">verifyHealthPlansOnBanner</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyMouseIndicator">
-                  </a> <!-- verifyMouseIndicator -->
-                  <span class="method-name">verifyMouseIndicator</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyPosPlansOnBanner">
-                  </a> <!-- verifyPosPlansOnBanner -->
-                  <span class="method-name">verifyPosPlansOnBanner</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyProductAndPopularLinks">
-                  </a> <!-- verifyProductAndPopularLinks -->
-                  <span class="method-name">verifyProductAndPopularLinks</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyRetirementPlansOnBanner">
-                  </a> <!-- verifyRetirementPlansOnBanner -->
-                  <span class="method-name">verifyRetirementPlansOnBanner</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifySanchayPlusBuyNowBtn">
-                  </a> <!-- verifySanchayPlusBuyNowBtn -->
-                  <span class="method-name">verifySanchayPlusBuyNowBtn</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifySavingPlansOnBanner">
-                  </a> <!-- verifySavingPlansOnBanner -->
-                  <span class="method-name">verifySavingPlansOnBanner</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyStayConnectedwithUs">
-                  </a> <!-- verifyStayConnectedwithUs -->
-                  <span class="method-name">verifyStayConnectedwithUs</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifySubscribeOptionWithValidData">
-                  </a> <!-- verifySubscribeOptionWithValidData -->
-                  <span class="method-name">verifySubscribeOptionWithValidData</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyTermPlanOnBanner">
-                  </a> <!-- verifyTermPlanOnBanner -->
-                  <span class="method-name">verifyTermPlanOnBanner</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyULIPPlansOnBanner">
-                  </a> <!-- verifyULIPPlansOnBanner -->
-                  <span class="method-name">verifyULIPPlansOnBanner</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyViewAllButton">
-                  </a> <!-- verifyViewAllButton -->
-                  <span class="method-name">verifyViewAllButton</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifycalculatorWithValidData">
-                  </a> <!-- verifycalculatorWithValidData -->
-                  <span class="method-name">verifycalculatorWithValidData</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyschedulePopupWithValidDataProductPage(Amit Kundar, 9.768462054E9)">
-                  </a> <!-- verifyschedulePopupWithValidDataProductPage(Amit Kundar, 9.768462054E9) -->
-                  <span class="method-name">verifyschedulePopupWithValidDataProductPage</span>
-                  <span class="parameters">(Amit Kundar, 9.768462054E9)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyschedulePopupwithoutmindata">
-                  </a> <!-- verifyschedulePopupwithoutmindata -->
-                  <span class="method-name">verifyschedulePopupwithoutmindata</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyschedulepopupblankSubmit">
-                  </a> <!-- verifyschedulepopupblankSubmit -->
-                  <span class="method-name">verifyschedulepopupblankSubmit</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -733,104 +468,6 @@
                   <a name="navigateToPage">
                   </a> <!-- navigateToPage -->
                   <span class="method-name">navigateToPage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyArticlesSection">
-                  </a> <!-- verifyArticlesSection -->
-                  <span class="method-name">verifyArticlesSection</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyC2PLProduct">
-                  </a> <!-- verifyC2PLProduct -->
-                  <span class="method-name">verifyC2PLProduct</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyCalculatePremiumBtn">
-                  </a> <!-- verifyCalculatePremiumBtn -->
-                  <span class="method-name">verifyCalculatePremiumBtn</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyContactUs">
-                  </a> <!-- verifyContactUs -->
-                  <span class="method-name">verifyContactUs</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyDisclaimer">
-                  </a> <!-- verifyDisclaimer -->
-                  <span class="method-name">verifyDisclaimer</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyHomeIconInBreadCrumb">
-                  </a> <!-- verifyHomeIconInBreadCrumb -->
-                  <span class="method-name">verifyHomeIconInBreadCrumb</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyLetsCalculateBtn">
-                  </a> <!-- verifyLetsCalculateBtn -->
-                  <span class="method-name">verifyLetsCalculateBtn</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyRidersSection">
-                  </a> <!-- verifyRidersSection -->
-                  <span class="method-name">verifyRidersSection</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifySJBProduct">
-                  </a> <!-- verifySJBProduct -->
-                  <span class="method-name">verifySJBProduct</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyTalkToAdvisor">
-                  </a> <!-- verifyTalkToAdvisor -->
-                  <span class="method-name">verifyTalkToAdvisor</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyTalkToAdvisorPopup">
-                  </a> <!-- verifyTalkToAdvisorPopup -->
-                  <span class="method-name">verifyTalkToAdvisorPopup</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyTermInsuranceGuideFaqSection">
-                  </a> <!-- verifyTermInsuranceGuideFaqSection -->
-                  <span class="method-name">verifyTermInsuranceGuideFaqSection</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyVideoOnCategoryPage">
-                  </a> <!-- verifyVideoOnCategoryPage -->
-                  <span class="method-name">verifyVideoOnCategoryPage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyWhySection">
-                  </a> <!-- verifyWhySection -->
-                  <span class="method-name">verifyWhySection</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -892,244 +529,96 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(58);
+data.addRows(21);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyDownloadsSectionAfterScroll')
 data.setCell(0, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
-data.setCell(0, 3, 108137);
+data.setCell(0, 3, 107907);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyArticlesSection')
-data.setCell(1, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
-data.setCell(1, 3, 99233);
+data.setCell(1, 1, 'verifyRidersSection')
+data.setCell(1, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
+data.setCell(1, 3, 57849);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyArticlesOnHomePage')
-data.setCell(2, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(2, 3, 92893);
+data.setCell(2, 1, 'verifyShareOption')
+data.setCell(2, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
+data.setCell(2, 3, 49640);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyRidersSection')
+data.setCell(3, 1, 'verifyProductPageBreadcrumb')
 data.setCell(3, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
-data.setCell(3, 3, 58136);
+data.setCell(3, 3, 28432);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifyRidersSection')
-data.setCell(4, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
-data.setCell(4, 3, 51742);
+data.setCell(4, 1, 'verifyYourPlanYourBenefitsSection')
+data.setCell(4, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
+data.setCell(4, 3, 27660);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifyShareOption')
+data.setCell(5, 1, 'navigateToProductPage')
 data.setCell(5, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
-data.setCell(5, 3, 49848);
+data.setCell(5, 3, 24336);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'verifyArrowButtonsOnBanner')
-data.setCell(6, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(6, 3, 43311);
+data.setCell(6, 1, 'verifyTandCOption')
+data.setCell(6, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
+data.setCell(6, 3, 24335);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'verifycalculatorWithValidData')
-data.setCell(7, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(7, 3, 42059);
+data.setCell(7, 1, 'verifyScheduleACallOnProductPage')
+data.setCell(7, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
+data.setCell(7, 3, 16741);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'verifyGroupPlansOnBanner')
+data.setCell(8, 1, 'verifyBannerCarousel')
 data.setCell(8, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(8, 3, 33922);
+data.setCell(8, 3, 15677);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'verifyC2PLProduct')
+data.setCell(9, 1, 'navigateToPage')
 data.setCell(9, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
-data.setCell(9, 3, 31599);
+data.setCell(9, 3, 12688);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'verifySJBProduct')
-data.setCell(10, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
-data.setCell(10, 3, 25588);
+data.setCell(10, 1, 'verifyFAQSection')
+data.setCell(10, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
+data.setCell(10, 3, 12439);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'verifyTandCOption')
+data.setCell(11, 1, 'verifyCalculatePremiumBtn')
 data.setCell(11, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
-data.setCell(11, 3, 24392);
+data.setCell(11, 3, 11363);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'verifyProductPageBreadcrumb')
+data.setCell(12, 1, 'verifyRatingOption')
 data.setCell(12, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
-data.setCell(12, 3, 22650);
+data.setCell(12, 3, 9505);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'navigateToProductPage')
+data.setCell(13, 1, 'verifyPrintBtn')
 data.setCell(13, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
-data.setCell(13, 3, 22425);
+data.setCell(13, 3, 9408);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'verifyTermInsuranceGuideFaqSection')
-data.setCell(14, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
-data.setCell(14, 3, 21883);
+data.setCell(14, 1, 'verifyBuyNowBtn')
+data.setCell(14, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
+data.setCell(14, 3, 9378);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'verifyComboPlansOnBanner')
-data.setCell(15, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(15, 3, 20453);
+data.setCell(15, 1, 'verifyEligibilityCriteria')
+data.setCell(15, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
+data.setCell(15, 3, 9270);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'verifyScheduleACallOnProductPage')
+data.setCell(16, 1, 'verifyShareOption')
 data.setCell(16, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
-data.setCell(16, 3, 17166);
+data.setCell(16, 3, 6308);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'verifyGroupWebsitesLinks')
-data.setCell(17, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(17, 3, 16857);
+data.setCell(17, 1, 'verifyDownloadBrochure')
+data.setCell(17, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
+data.setCell(17, 3, 6133);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'verifyContactUs')
-data.setCell(18, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
-data.setCell(18, 3, 16144);
+data.setCell(18, 1, 'verifyDisclaimerOnProductPage')
+data.setCell(18, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
+data.setCell(18, 3, 4130);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'verifyBannerCarousel')
-data.setCell(19, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(19, 3, 15685);
+data.setCell(19, 1, 'verifyRatingsFromAPI')
+data.setCell(19, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
+data.setCell(19, 3, 3052);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'verifyFixedMaturityPlanOnBanner')
-data.setCell(20, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(20, 3, 15442);
-data.setCell(21, 0, 21)
-data.setCell(21, 1, 'verifyHealthPlansOnBanner')
-data.setCell(21, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(21, 3, 15290);
-data.setCell(22, 0, 22)
-data.setCell(22, 1, 'verifyPosPlansOnBanner')
-data.setCell(22, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(22, 3, 15218);
-data.setCell(23, 0, 23)
-data.setCell(23, 1, 'verifyDisclaimer')
-data.setCell(23, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(23, 3, 15176);
-data.setCell(24, 0, 24)
-data.setCell(24, 1, 'verifyDownloadLinks')
-data.setCell(24, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(24, 3, 14484);
-data.setCell(25, 0, 25)
-data.setCell(25, 1, 'verifyTermPlanOnBanner')
-data.setCell(25, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(25, 3, 13151);
-data.setCell(26, 0, 26)
-data.setCell(26, 1, 'verifyCalculatePremiumBtn')
-data.setCell(26, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
-data.setCell(26, 3, 13091);
-data.setCell(27, 0, 27)
-data.setCell(27, 1, 'verifySanchayPlusBuyNowBtn')
-data.setCell(27, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(27, 3, 12701);
-data.setCell(28, 0, 28)
-data.setCell(28, 1, 'verifyULIPPlansOnBanner')
-data.setCell(28, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(28, 3, 12243);
-data.setCell(29, 0, 29)
-data.setCell(29, 1, 'verifyRetirementPlansOnBanner')
-data.setCell(29, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(29, 3, 11994);
-data.setCell(30, 0, 30)
-data.setCell(30, 1, 'verifyLetsCalculateBtn')
-data.setCell(30, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
-data.setCell(30, 3, 11838);
-data.setCell(31, 0, 31)
-data.setCell(31, 1, 'navigateToPage')
-data.setCell(31, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
-data.setCell(31, 3, 11827);
-data.setCell(32, 0, 32)
-data.setCell(32, 1, 'verifySavingPlansOnBanner')
-data.setCell(32, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(32, 3, 11791);
-data.setCell(33, 0, 33)
-data.setCell(33, 1, 'verifyChildrenPlansOnBanner')
-data.setCell(33, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(33, 3, 11637);
-data.setCell(34, 0, 34)
-data.setCell(34, 1, 'verifyCalculatePremiumBtn')
-data.setCell(34, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
-data.setCell(34, 3, 11392);
-data.setCell(35, 0, 35)
-data.setCell(35, 1, 'verifyStayConnectedwithUs')
-data.setCell(35, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(35, 3, 11071);
-data.setCell(36, 0, 36)
-data.setCell(36, 1, 'verifyschedulepopupblankSubmit')
-data.setCell(36, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(36, 3, 9680);
-data.setCell(37, 0, 37)
-data.setCell(37, 1, 'verifyRatingOption')
-data.setCell(37, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
-data.setCell(37, 3, 9654);
-data.setCell(38, 0, 38)
-data.setCell(38, 1, 'verifyBuyNowBtn')
-data.setCell(38, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
-data.setCell(38, 3, 9538);
-data.setCell(39, 0, 39)
-data.setCell(39, 1, 'verifyHomeIconInBreadCrumb')
-data.setCell(39, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
-data.setCell(39, 3, 9494);
-data.setCell(40, 0, 40)
-data.setCell(40, 1, 'verifyTalkToAdvisorPopup')
-data.setCell(40, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
-data.setCell(40, 3, 9440);
-data.setCell(41, 0, 41)
-data.setCell(41, 1, 'verifySubscribeOptionWithValidData')
-data.setCell(41, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(41, 3, 9370);
-data.setCell(42, 0, 42)
-data.setCell(42, 1, 'verifyEligibilityCriteria')
-data.setCell(42, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
-data.setCell(42, 3, 9361);
-data.setCell(43, 0, 43)
-data.setCell(43, 1, 'verifyPrintBtn')
-data.setCell(43, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
-data.setCell(43, 3, 9329);
-data.setCell(44, 0, 44)
-data.setCell(44, 1, 'verifyWhySection')
-data.setCell(44, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
-data.setCell(44, 3, 9302);
-data.setCell(45, 0, 45)
-data.setCell(45, 1, 'verifyCalculatorCloseBtn')
-data.setCell(45, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(45, 3, 9257);
-data.setCell(46, 0, 46)
-data.setCell(46, 1, 'verifyMouseIndicator')
-data.setCell(46, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(46, 3, 9150);
-data.setCell(47, 0, 47)
-data.setCell(47, 1, 'verifyDisclaimer')
-data.setCell(47, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
-data.setCell(47, 3, 9126);
-data.setCell(48, 0, 48)
-data.setCell(48, 1, 'verifyschedulePopupWithValidDataProductPage')
-data.setCell(48, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(48, 3, 8449);
-data.setCell(49, 0, 49)
-data.setCell(49, 1, 'verifyYourPlanYourBenefitsSection')
-data.setCell(49, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
-data.setCell(49, 3, 7786);
-data.setCell(50, 0, 50)
-data.setCell(50, 1, 'verifyschedulePopupwithoutmindata')
-data.setCell(50, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(50, 3, 6512);
-data.setCell(51, 0, 51)
-data.setCell(51, 1, 'verifyTalkToAdvisor')
-data.setCell(51, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
-data.setCell(51, 3, 6250);
-data.setCell(52, 0, 52)
-data.setCell(52, 1, 'verifyProductAndPopularLinks')
-data.setCell(52, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(52, 3, 6236);
-data.setCell(53, 0, 53)
-data.setCell(53, 1, 'verifyDownloadBrochure')
-data.setCell(53, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
-data.setCell(53, 3, 6137);
-data.setCell(54, 0, 54)
-data.setCell(54, 1, 'verifyVideoOnCategoryPage')
-data.setCell(54, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
-data.setCell(54, 3, 6017);
-data.setCell(55, 0, 55)
-data.setCell(55, 1, 'verifyViewAllButton')
-data.setCell(55, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(55, 3, 3218);
-data.setCell(56, 0, 56)
-data.setCell(56, 1, 'verifyRatingsFromAPI')
-data.setCell(56, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
-data.setCell(56, 3, 3073);
-data.setCell(57, 0, 57)
-data.setCell(57, 1, 'verifyVideoOnCategoryPage')
-data.setCell(57, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
-data.setCell(57, 3, 3026);
+data.setCell(20, 1, 'verifyVideoOnCategoryPage')
+data.setCell(20, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
+data.setCell(20, 3, 3009);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 19 minutes</span>
+              <span class="suite-total-time">Total running time: 7 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -1162,261 +651,115 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyBannerCarousel</span>
-                <span class="method-start">3946 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyTermPlanOnBanner</span>
-                <span class="method-start">19640 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifySavingPlansOnBanner</span>
-                <span class="method-start">32791 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyChildrenPlansOnBanner</span>
-                <span class="method-start">44583 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyRetirementPlansOnBanner</span>
-                <span class="method-start">56221 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyViewAllButton</span>
-                <span class="method-start">68216 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyULIPPlansOnBanner</span>
-                <span class="method-start">71436 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyFixedMaturityPlanOnBanner</span>
-                <span class="method-start">83681 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyHealthPlansOnBanner</span>
-                <span class="method-start">99124 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyPosPlansOnBanner</span>
-                <span class="method-start">114414 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyComboPlansOnBanner</span>
-                <span class="method-start">129632 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyGroupPlansOnBanner</span>
-                <span class="method-start">150086 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyArrowButtonsOnBanner</span>
-                <span class="method-start">184009 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyMouseIndicator</span>
-                <span class="method-start">227320 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyschedulePopupWithValidDataProductPage(Amit Kundar, 9.768462054E9)</span>
-                <span class="method-start">236898 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyschedulepopupblankSubmit</span>
-                <span class="method-start">245348 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyschedulePopupwithoutmindata</span>
-                <span class="method-start">255029 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifycalculatorWithValidData</span>
-                <span class="method-start">261542 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyCalculatorCloseBtn</span>
-                <span class="method-start">303601 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifySanchayPlusBuyNowBtn</span>
-                <span class="method-start">312858 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyDisclaimer</span>
-                <span class="method-start">325559 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyProductAndPopularLinks</span>
-                <span class="method-start">340736 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyStayConnectedwithUs</span>
-                <span class="method-start">346973 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyDownloadLinks</span>
-                <span class="method-start">358044 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifySubscribeOptionWithValidData</span>
-                <span class="method-start">372529 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyGroupWebsitesLinks</span>
-                <span class="method-start">381900 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyArticlesOnHomePage</span>
-                <span class="method-start">398758 ms</span>
+                <span class="method-start">5665 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">491652 ms</span>
+                <span class="method-start">21347 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">SeleniumTesting.AEMhdfc.CategorypageTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">491903 ms</span>
+                <span class="method-start">21525 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">navigateToPage</span>
-                <span class="method-start">495550 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyCalculatePremiumBtn</span>
-                <span class="method-start">507378 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyTalkToAdvisor</span>
-                <span class="method-start">520470 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyTalkToAdvisorPopup</span>
-                <span class="method-start">526720 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyHomeIconInBreadCrumb</span>
-                <span class="method-start">536160 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyC2PLProduct</span>
-                <span class="method-start">545656 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifySJBProduct</span>
-                <span class="method-start">577255 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyLetsCalculateBtn</span>
-                <span class="method-start">602843 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyVideoOnCategoryPage</span>
-                <span class="method-start">614682 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyWhySection</span>
-                <span class="method-start">620700 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyTermInsuranceGuideFaqSection</span>
-                <span class="method-start">630002 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyRidersSection</span>
-                <span class="method-start">651885 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyContactUs</span>
-                <span class="method-start">703627 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyArticlesSection</span>
-                <span class="method-start">719771 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyDisclaimer</span>
-                <span class="method-start">819004 ms</span>
+                <span class="method-start">26912 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">828131 ms</span>
+                <span class="method-start">39600 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">SeleniumTesting.AEMhdfc.ProductpageTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">828433 ms</span>
+                <span class="method-start">39805 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">navigateToProductPage</span>
-                <span class="method-start">832341 ms</span>
+                <span class="method-start">48031 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyTandCOption</span>
-                <span class="method-start">854767 ms</span>
+                <span class="method-start">72368 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyProductPageBreadcrumb</span>
-                <span class="method-start">879160 ms</span>
+                <span class="method-start">96704 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyRatingOption</span>
-                <span class="method-start">901811 ms</span>
+                <span class="method-start">125138 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyPrintBtn</span>
-                <span class="method-start">911466 ms</span>
+                <span class="method-start">134643 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyShareOption</span>
-                <span class="method-start">920795 ms</span>
+                <span class="method-start">144051 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyShareOption</span>
+                <span class="method-start">150359 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyRatingsFromAPI</span>
-                <span class="method-start">970644 ms</span>
+                <span class="method-start">199999 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyDownloadBrochure</span>
-                <span class="method-start">973718 ms</span>
+                <span class="method-start">203051 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyCalculatePremiumBtn</span>
-                <span class="method-start">979855 ms</span>
+                <span class="method-start">209185 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyBuyNowBtn</span>
-                <span class="method-start">991248 ms</span>
+                <span class="method-start">220550 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyDownloadsSectionAfterScroll</span>
-                <span class="method-start">1000786 ms</span>
+                <span class="method-start">229930 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyYourPlanYourBenefitsSection</span>
-                <span class="method-start">1108925 ms</span>
+                <span class="method-start">337839 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyEligibilityCriteria</span>
-                <span class="method-start">1116712 ms</span>
+                <span class="method-start">365500 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyVideoOnCategoryPage</span>
-                <span class="method-start">1126073 ms</span>
+                <span class="method-start">374770 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyRidersSection</span>
-                <span class="method-start">1129099 ms</span>
+                <span class="method-start">377780 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyScheduleACallOnProductPage</span>
-                <span class="method-start">1187236 ms</span>
+                <span class="method-start">435629 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyFAQSection</span>
+                <span class="method-start">452371 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyDisclaimerOnProductPage</span>
+                <span class="method-start">464811 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">1204403 ms</span>
+                <span class="method-start">469067 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

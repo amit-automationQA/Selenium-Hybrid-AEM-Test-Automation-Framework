@@ -2,6 +2,7 @@ package PageObjects;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -102,6 +103,13 @@ public class Productpage extends BaseClass{
 	@FindBy(xpath="(//span[@class='close-icon1'])[5]")
 	WebElement scheduleacallclosebtn;
 
+	@FindBy(xpath="(//a[@class='viewMoreBtn'])[4]")
+	WebElement faqviewmorebtn;
+	
+	@FindBy(xpath="//a[@class='viewMoreBtn viewLessBtn']")
+	WebElement viewlessbtn;
+	
+	
 	//Initialized methods
 	public void verifyOnlyPageUrl(String onlycurrenturl) 
 	{
@@ -327,6 +335,27 @@ public class Productpage extends BaseClass{
 		Thread.sleep(3000);
 	}
 
+	public void verifyFAQViewMoreBtn() throws InterruptedException
+	{
+		SoftAssert softAssertion = new SoftAssert();
+		Thread.sleep(3000);
+		if(faqviewmorebtn.isDisplayed())
+		{
+			faqviewmorebtn.click();
+			Thread.sleep(3000);
+			JavascriptExecutor js = (JavascriptExecutor) driver;
+			js.executeScript("window.scrollBy(0,900)");
+			Thread.sleep(3000);
+			viewlessbtn.click();
+			Thread.sleep(3000);
+			softAssertion.assertTrue(faqviewmorebtn.isDisplayed());	
+		}
+		else {
+			//softAssertion.assertTrue(false, "View more button for term insurance buying guide is not visible on page load");
+			log.error("View more button for FAQ is not visible on page load");
+		}
+		softAssertion.assertAll();
+	}
 }
 
 
