@@ -44,6 +44,11 @@ public class HomepageTest extends BaseClass {
 	}
 
 
+	/*@Test(priority=1)
+	public void verifyHeader() throws IOException, InterruptedException
+	{
+		hp.verifyHeaderLinks();
+	}*/
 	@Test(priority=1,retryAnalyzer = Analyzer.RetryAnalyzer.class)
 	public void verifyBannerCarousel() throws IOException, InterruptedException
 	{  
@@ -54,7 +59,7 @@ public class HomepageTest extends BaseClass {
 		hp.verifyBannerCarouselDot0();
 	}
 
-	@Test(priority=2,retryAnalyzer = Analyzer.RetryAnalyzer.class)
+	/*@Test(priority=2,retryAnalyzer = Analyzer.RetryAnalyzer.class)
 	public void verifyTermPlanOnBanner() throws InterruptedException
 	{
 		hp.clickTermPlanBlock();
@@ -295,7 +300,7 @@ public class HomepageTest extends BaseClass {
 	{
 		js.executeScript("window.scrollBy(0,-2000)");
 		cp.verifyArticles();
-	}
+	}*/
 	@AfterClass(alwaysRun=true)
 	public void tearDown()
 	{

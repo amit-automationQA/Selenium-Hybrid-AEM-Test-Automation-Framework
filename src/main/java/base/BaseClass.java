@@ -188,9 +188,4 @@ public class BaseClass {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get(prop.getProperty("url"));
 	}
-
-	/*public void tearDown()
-	{
-		driver.quit();
-	}*/
 }

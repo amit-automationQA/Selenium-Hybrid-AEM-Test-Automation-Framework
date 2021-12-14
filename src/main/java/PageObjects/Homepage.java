@@ -120,6 +120,10 @@ To fix this problem you should be instantiating the SoftAssert object inside the
 
 	@FindBy(how=How.CSS,using=".wrapper.externalLinks a")
 	List<WebElement> groupwebsites;
+	
+	@FindBy(how=How.CSS,using=".deskTopHeader a")
+	List<WebElement> headerlinks;
+	
 
 	//Initialized objects
 	public void verifyBannerCarouselDot0() throws InterruptedException
@@ -697,6 +701,33 @@ To fix this problem you should be instantiating the SoftAssert object inside the
 		}
 		softAssertion.assertAll();
 	}
+	
+	public void verifyHeaderLinks() throws IOException, InterruptedException
+	{
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		// softAssertion = new SoftAssert();
+		js.executeScript("window.scrollTo(0,-document.body.scrollHeight)");
+		Thread.sleep(3000);
+		log.info("Header link check started");
+		List<WebElement> headerlink= headerlinks; 
+		List<WebElement> activeheaderlink = new ArrayList<WebElement>();
+		for(int hlink=0; hlink<headerlink.size();hlink++)
+		{
+			if(headerlink.get(hlink).getAttribute("href") !=null && (! headerlink.get(hlink).getAttribute("href").contains("javascript"))){
+				activeheaderlink.add(headerlink.get(hlink));
+			}
+		}	
+		for(int m=0;m<activeheaderlink.size();m++)
+		{
+			HttpsURLConnection connection1= (HttpsURLConnection)new URL(activeheaderlink.get(m).getAttribute("href")).openConnection();
+			connection1.connect();
+			String response = connection1.getResponseMessage();
+			connection1.disconnect();
+			log.info(activeheaderlink.get(m).getAttribute("innerText")+"with link"+activeheaderlink.get(m).getAttribute("href")+ "------>"+response);
+		}	
+		log.info("Header link check ended");
+	}
+
 }
 
 

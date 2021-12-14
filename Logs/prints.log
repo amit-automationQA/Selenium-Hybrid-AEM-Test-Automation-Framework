@@ -1314,3 +1314,132 @@
 00:36:57.444 [main] INFO  PageObjects.Categorypage - Second FAQ accordion is opened on click
 00:37:00.544 [main] ERROR PageObjects.Productpage - View more button for FAQ is not visible on page load
 00:37:09.907 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Product page test cases executed
+09:23:08.156 [main] INFO  SeleniumTesting.AEMhdfc.HomepageTest - Homepage test cases started
+09:24:15.570 [main] INFO  SeleniumTesting.AEMhdfc.HomepageTest - Homepage test cases executed
+12:30:04.487 [main] INFO  SeleniumTesting.AEMhdfc.HomepageTest - Homepage test cases started
+12:30:07.517 [main] INFO  PageObjects.Homepage - Header link check started
+12:30:14.265 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/------>OK
+12:30:14.359 [main] INFO  PageObjects.Homepage - All Planswith linkhttps://www.hdfclife.com/#------>OK
+12:30:14.457 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/term-insurance-plans------>OK
+12:30:14.537 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/term-insurance-plans/click-2-protect-life------>OK
+12:30:14.667 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/term-insurance-plans/saral-jeevan-bima------>OK
+12:30:14.776 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/term-insurance-plans------>OK
+12:30:14.859 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/savings-plans------>OK
+12:30:14.951 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/content/hdfclifeinsurancecompany/in/en/savings-plans/sanchay-fixed-maturity-plan------>Moved Permanently
+12:30:15.031 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/savings-plans/sanchay-plus------>OK
+12:30:15.112 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/savings-plans/sanchay-par-advantage------>OK
+12:30:15.190 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/savings-plans------>OK
+12:30:15.260 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/ulip-plans------>OK
+12:30:15.339 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/ulip-plans/click-2-wealth-ulip-plan------>OK
+12:30:15.463 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/ulip-plans/click-2-invest-ulip-plan------>OK
+12:30:15.573 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/ulip-plans/progrowth-plus-ulip-plan------>OK
+12:30:15.650 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/ulip-plans------>OK
+12:30:15.715 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/retirement-and-pension-plans------>OK
+12:30:15.787 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/retirement-and-pension-plans/click-2-retire------>OK
+12:30:15.905 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/products/retirement-and-pension-plans/pension-guaranteed-plan------>Moved Permanently
+12:30:16.000 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/retirement-and-pension-plans/saral-pension-plan------>OK
+12:30:16.087 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/retirement-and-pension-plans------>OK
+12:30:16.227 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/health-insurance-plans------>OK
+12:30:16.289 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/health-insurance-plans/cardiac-care------>OK
+12:30:16.375 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/health-insurance-plans/cancer-care-insurance------>OK
+12:30:16.447 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/health-insurance-plans/click-2-protect-health-plan------>OK
+12:30:16.512 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/health-insurance-plans------>OK
+12:30:16.594 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/children-insurance-plans------>OK
+12:30:16.698 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/children-insurance-plans/youngstar-udaan------>OK
+12:30:16.782 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/children-insurance-plans/youngstar-super-premium------>OK
+12:30:16.864 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/children-insurance-plans------>OK
+12:30:16.932 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/sanchay-maximiser------>OK
+12:30:17.031 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/group-insurance-plans------>OK
+12:30:17.105 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/group-insurance-plans/protection-plans/group-poorna-suraksha------>OK
+12:30:17.207 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/group-insurance-plans/credit-protect-plus-insurance-plan------>OK
+12:30:17.289 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/group-insurance-plans/protection-plans/group-term-insurance------>OK
+12:30:17.357 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/group-insurance-plans------>OK
+12:30:17.430 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/savings-plans/pos-guaranteed-savings-plan------>OK
+12:30:17.493 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/term-insurance-plans/click-2-protect-life------>OK
+12:30:17.561 [main] INFO  PageObjects.Homepage - Claimswith linkhttps://www.hdfclife.com/claims------>OK
+12:30:17.672 [main] INFO  PageObjects.Homepage - Customer Servicewith linkhttps://www.hdfclife.com/customer-service------>OK
+12:30:17.785 [main] INFO  PageObjects.Homepage - PAY PREMIUMwith linkhttps://onlinepayments.hdfclife.com/HDFCLife/quick_pay.html------>OK
+12:30:17.856 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/#------>OK
+12:30:17.936 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/#------>OK
+12:30:18.023 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/#------>OK
+12:30:18.212 [main] INFO  PageObjects.Homepage - 
+
+
+
+
+ Individual
+with linkhttps://myaccount.hdfclife.com/------>OK
+12:30:18.339 [main] INFO  PageObjects.Homepage - 
+
+
+
+
+ NRI
+with linkhttps://myaccount.hdfclife.com/------>OK
+12:30:18.544 [main] INFO  PageObjects.Homepage - 
+
+
+
+
+ Group
+with linkhttps://cp.hdfclife.com/CPWeb/login.aspx?GP_F=GP_Login------>OK
+12:30:18.623 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/#------>OK
+12:30:19.226 [main] INFO  PageObjects.Homepage - 
+
+
+
+
+ Mail
+with linkhttps://webmail.rediffmailpro.com/action/login/hdfclife.in------>OK
+12:30:19.338 [main] INFO  PageObjects.Homepage - 
+
+
+
+
+ CRM
+with linkhttps://auth.hdfclife.com/auth/CRM_login.html?contextType=external&username=string&contextValue=%2Foam&password=sercure_string&challenge_url=https%3A%2F%2Fauth.hdfclife.com%2Fauth%2FCRM_login.html&request_id=-528495782147182463&authn_try_count=0&locale=en_US&resource_url=https%253A%252F%252Fcrm.hdfclife.com%252FfinsAD_enu%252Fstart.swe------>OK
+12:30:20.252 [main] INFO  PageObjects.Homepage - 
+
+
+
+
+ Goal
+with linkhttps://mygoal.hdfclife.com/index.php?q=MULNLogin/hdfcllogin------>OK
+12:30:21.792 [main] INFO  PageObjects.Homepage - 
+
+
+
+
+ ESS
+with linkhttps://ess.hdfclife.com:1443/irj/portal------>Unauthorized
+12:30:21.898 [main] INFO  PageObjects.Homepage - 
+
+
+
+
+ eSparsh
+with linkhttps://esparsh.hdfclife.com/------>OK
+12:30:21.961 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/#------>OK
+12:30:23.456 [main] INFO  PageObjects.Homepage - 
+
+
+
+
+ Goal
+with linkhttps://mygoal.hdfclife.com/------>OK
+12:30:23.664 [main] INFO  PageObjects.Homepage - 
+
+
+
+
+ Consultants
+with linkhttps://hslcc.hdfclife.com/ams/ams/presentation/view/login.aspx------>OK
+12:30:23.789 [main] INFO  PageObjects.Homepage - 
+
+
+
+
+ Partner Portal-FC
+with linkhttps://partner.hdfclife.com/------>OK
+12:30:23.885 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/#------>OK
+12:30:23.897 [main] INFO  SeleniumTesting.AEMhdfc.HomepageTest - Homepage test cases executed
