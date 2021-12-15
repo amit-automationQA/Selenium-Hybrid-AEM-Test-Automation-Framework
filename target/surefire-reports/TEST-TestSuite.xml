@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1,205.444" tests="60" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1,663.005" tests="65" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="webdriver.chrome.driver" value="C:\Users\Akundar\eclipse-workspace\AEMhdfc\Driver\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Users\Akundar\Installers\openjdk-17_windows-x64_bin (1)\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\Akundar\AppData\Local\Temp\surefire4960343042707522417\surefirebooter16979439404672237189.jar C:\Users\Akundar\AppData\Local\Temp\surefire4960343042707522417 2021-12-14T00-17-04_118-jvmRun1 surefire12032965414127063334tmp surefire_01184536392903523461tmp"/>
+    <property name="sun.java.command" value="C:\Users\Akundar\AppData\Local\Temp\surefire8597077066562831668\surefirebooter4034991762086218328.jar C:\Users\Akundar\AppData\Local\Temp\surefire8597077066562831668 2021-12-15T20-24-53_347-jvmRun1 surefire14084092478426574606tmp surefire_09793168742584660861tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Akundar\eclipse-workspace\AEMhdfc\target\test-classes;C:\Users\Akundar\eclipse-workspace\AEMhdfc\target\classes;C:\Users\Akundar\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Akundar\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Akundar\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Akundar\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Akundar\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Akundar\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Akundar\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Akundar\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Akundar\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Akundar\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Akundar\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Akundar\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Akundar\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Akundar\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Akundar\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Akundar\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\Akundar\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\Akundar\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Akundar\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Akundar\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Akundar\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Akundar\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Akundar\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\poi\5.0.0\poi-5.0.0.jar;C:\Users\Akundar\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Akundar\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Akundar\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Akundar\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Akundar\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Akundar\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\poi-ooxml\5.0.0\poi-ooxml-5.0.0.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\poi-ooxml-lite\5.0.0\poi-ooxml-lite-5.0.0.jar;C:\Users\Akundar\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\Akundar\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Akundar\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.68\bcpkix-jdk15on-1.68.jar;C:\Users\Akundar\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.68\bcprov-jdk15on-1.68.jar;C:\Users\Akundar\.m2\repository\org\apache\santuario\xmlsec\2.2.1\xmlsec-2.2.1.jar;C:\Users\Akundar\.m2\repository\com\fasterxml\woodstox\woodstox-core\5.2.1\woodstox-core-5.2.1.jar;C:\Users\Akundar\.m2\repository\org\codehaus\woodstox\stax2-api\4.2\stax2-api-4.2.jar;C:\Users\Akundar\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar;C:\Users\Akundar\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-all\1.13\batik-all-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-anim\1.13\batik-anim-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-shared-resources\1.13\batik-shared-resources-1.13.jar;C:\Users\Akundar\.m2\repository\xml-apis\xml-apis-ext\1.3.04\xml-apis-ext-1.3.04.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-awt-util\1.13\batik-awt-util-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\xmlgraphics-commons\2.4\xmlgraphics-commons-2.4.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-bridge\1.13\batik-bridge-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-codec\1.13\batik-codec-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-constants\1.13\batik-constants-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-css\1.13\batik-css-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-dom\1.13\batik-dom-1.13.jar;C:\Users\Akundar\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\Akundar\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\Akundar\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-ext\1.13\batik-ext-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-extension\1.13\batik-extension-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-gui-util\1.13\batik-gui-util-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-gvt\1.13\batik-gvt-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-i18n\1.13\batik-i18n-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-parser\1.13\batik-parser-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-rasterizer-ext\1.13\batik-rasterizer-ext-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-rasterizer\1.13\batik-rasterizer-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-script\1.13\batik-script-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-slideshow\1.13\batik-slideshow-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-squiggle-ext\1.13\batik-squiggle-ext-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-squiggle\1.13\batik-squiggle-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-svg-dom\1.13\batik-svg-dom-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-svgbrowser\1.13\batik-svgbrowser-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-svggen\1.13\batik-svggen-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-svgpp\1.13\batik-svgpp-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-svgrasterizer\1.13\batik-svgrasterizer-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-swing\1.13\batik-swing-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-transcoder\1.13\batik-transcoder-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-util\1.13\batik-util-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-ttf2svg\1.13\batik-ttf2svg-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-xml\1.13\batik-xml-1.13.jar;C:\Users\Akundar\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\Akundar\.m2\repository\org\apache\pdfbox\pdfbox\2.0.22\pdfbox-2.0.22.jar;C:\Users\Akundar\.m2\repository\org\apache\pdfbox\fontbox\2.0.22\fontbox-2.0.22.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\poi-scratchpad\5.0.0\poi-scratchpad-5.0.0.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\poi-excelant\5.0.0\poi-excelant-5.0.0.jar;C:\Users\Akundar\.m2\repository\org\apache\ant\ant\1.10.9\ant-1.10.9.jar;C:\Users\Akundar\.m2\repository\org\apache\ant\ant-launcher\1.10.9\ant-launcher-1.10.9.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\ooxml-schemas\1.4\ooxml-schemas-1.4.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.1\xmlbeans-5.0.1.jar;C:\Users\Akundar\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\Akundar\.m2\repository\com\microsoft\edge\msedge-selenium-tools-java\3.141.0\msedge-selenium-tools-java-3.141.0.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-all\4.1.70.Final\netty-all-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-buffer\4.1.70.Final\netty-buffer-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec\4.1.70.Final\netty-codec-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-dns\4.1.70.Final\netty-codec-dns-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-haproxy\4.1.70.Final\netty-codec-haproxy-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-http\4.1.70.Final\netty-codec-http-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-http2\4.1.70.Final\netty-codec-http2-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-memcache\4.1.70.Final\netty-codec-memcache-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-mqtt\4.1.70.Final\netty-codec-mqtt-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-redis\4.1.70.Final\netty-codec-redis-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-smtp\4.1.70.Final\netty-codec-smtp-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-socks\4.1.70.Final\netty-codec-socks-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-stomp\4.1.70.Final\netty-codec-stomp-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-xml\4.1.70.Final\netty-codec-xml-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-common\4.1.70.Final\netty-common-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-handler\4.1.70.Final\netty-handler-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-handler-proxy\4.1.70.Final\netty-handler-proxy-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-resolver\4.1.70.Final\netty-resolver-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-resolver-dns\4.1.70.Final\netty-resolver-dns-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport\4.1.70.Final\netty-transport-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-rxtx\4.1.70.Final\netty-transport-rxtx-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-sctp\4.1.70.Final\netty-transport-sctp-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-udt\4.1.70.Final\netty-transport-udt-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.70.Final\netty-transport-classes-epoll-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.70.Final\netty-transport-native-unix-common-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.70.Final\netty-transport-classes-kqueue-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.70.Final\netty-resolver-dns-classes-macos-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-native-epoll\4.1.70.Final\netty-transport-native-epoll-4.1.70.Final-linux-x86_64.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-native-epoll\4.1.70.Final\netty-transport-native-epoll-4.1.70.Final-linux-aarch_64.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.70.Final\netty-transport-native-kqueue-4.1.70.Final-osx-x86_64.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.70.Final\netty-transport-native-kqueue-4.1.70.Final-osx-aarch_64.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.70.Final\netty-resolver-dns-native-macos-4.1.70.Final-osx-x86_64.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.70.Final\netty-resolver-dns-native-macos-4.1.70.Final-osx-aarch_64.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Akundar\AppData\Local\Temp\surefire4960343042707522417\surefirebooter16979439404672237189.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Akundar\AppData\Local\Temp\surefire8597077066562831668\surefirebooter4034991762086218328.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17+35-2724"/>
@@ -57,330 +57,330 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="verifyBannerCarousel" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="15.524">
+  <testcase name="verifyBannerCarousel" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="15.973">
     <system-out><![CDATA[Before navigating to: 'https://www.hdfclife.com/'
 Navigated to:'https://www.hdfclife.com/'
 Trying to find Element By : By.xpath: //li[@data-slide-to='1']
 Found Element By : By.xpath: //li[@data-slide-to='1']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //li[@data-slide-to='1']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //li[@data-slide-to='1']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //li[@data-slide-to='1']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //li[@data-slide-to='1']]
 Trying to find Element By : By.xpath: //div[@class='carousel-item active']//img[@class='bg-align']
 Found Element By : By.xpath: //div[@class='carousel-item active']//img[@class='bg-align']
 Trying to find Element By : By.xpath: //li[@data-slide-to='2']
 Found Element By : By.xpath: //li[@data-slide-to='2']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //li[@data-slide-to='2']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //li[@data-slide-to='2']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //li[@data-slide-to='2']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //li[@data-slide-to='2']]
 Trying to find Element By : By.xpath: //div[@class='carousel-item active']//img[@class='bg-align']
 Found Element By : By.xpath: //div[@class='carousel-item active']//img[@class='bg-align']
 Trying to find Element By : By.xpath: //li[@data-slide-to='3']
 Found Element By : By.xpath: //li[@data-slide-to='3']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //li[@data-slide-to='3']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //li[@data-slide-to='3']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //li[@data-slide-to='3']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //li[@data-slide-to='3']]
 Trying to find Element By : By.xpath: //div[@class='carousel-item active']//img[@class='bg-align']
 Found Element By : By.xpath: //div[@class='carousel-item active']//img[@class='bg-align']
 Trying to find Element By : By.xpath: //li[@data-slide-to='4']
 Found Element By : By.xpath: //li[@data-slide-to='4']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //li[@data-slide-to='4']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //li[@data-slide-to='4']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //li[@data-slide-to='4']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //li[@data-slide-to='4']]
 Trying to find Element By : By.xpath: //div[@class='carousel-item active']//img[@class='bg-align']
 Found Element By : By.xpath: //div[@class='carousel-item active']//img[@class='bg-align']
 Trying to find Element By : By.xpath: //li[@data-slide-to='0']
 Found Element By : By.xpath: //li[@data-slide-to='0']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //li[@data-slide-to='0']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //li[@data-slide-to='0']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //li[@data-slide-to='0']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //li[@data-slide-to='0']]
 Trying to find Element By : By.xpath: //div[@class='carousel-item active']//img[@class='bg-align']
 Found Element By : By.xpath: //div[@class='carousel-item active']//img[@class='bg-align']
 ]]></system-out>
-    <system-err><![CDATA[Dec 14, 2021 12:17:05 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+    <system-err><![CDATA[Dec 15, 2021 8:24:55 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 17464
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 32070
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1639421226.384][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-[1639421226.384][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-Dec 14, 2021 12:17:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1639580096.295][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1639580096.295][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+Dec 15, 2021 8:24:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="verifyTermPlanOnBanner" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="11.559">
+  <testcase name="verifyTermPlanOnBanner" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="13.669">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //a[@onclick='categoryBox(this)'][1]
 Found Element By : By.xpath: //a[@onclick='categoryBox(this)'][1]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //a[@onclick='categoryBox(this)'][1]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //a[@onclick='categoryBox(this)'][1]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //a[@onclick='categoryBox(this)'][1]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //a[@onclick='categoryBox(this)'][1]]
 Navigating back to previous page
 Navigated back to previous page
 ]]></system-out>
   </testcase>
-  <testcase name="verifySavingPlansOnBanner" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="10.73">
+  <testcase name="verifySavingPlansOnBanner" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="12.271">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //a[@href='/savings-plans']//div
 Found Element By : By.xpath: //a[@href='/savings-plans']//div
 Trying to find Element By : By.xpath: //a[@href='/savings-plans']//div
 Found Element By : By.xpath: //a[@href='/savings-plans']//div
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //a[@href='/savings-plans']//div]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //a[@href='/savings-plans']//div]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //a[@href='/savings-plans']//div]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //a[@href='/savings-plans']//div]
 Navigating back to previous page
 Navigated back to previous page
 ]]></system-out>
   </testcase>
-  <testcase name="verifyChildrenPlansOnBanner" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="11.071">
+  <testcase name="verifyChildrenPlansOnBanner" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="11.791">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //a[@href='/children-insurance-plans']//div
 Found Element By : By.xpath: //a[@href='/children-insurance-plans']//div
 Trying to find Element By : By.xpath: //a[@href='/children-insurance-plans']//div
 Found Element By : By.xpath: //a[@href='/children-insurance-plans']//div
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //a[@href='/children-insurance-plans']//div]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //a[@href='/children-insurance-plans']//div]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //a[@href='/children-insurance-plans']//div]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //a[@href='/children-insurance-plans']//div]
 Navigating back to previous page
 Navigated back to previous page
 ]]></system-out>
   </testcase>
-  <testcase name="verifyRetirementPlansOnBanner" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="10.8">
+  <testcase name="verifyRetirementPlansOnBanner" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="11.913">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //a[@href='/retirement-and-pension-plans']//div//h2[@class='h5']
 Found Element By : By.xpath: //a[@href='/retirement-and-pension-plans']//div//h2[@class='h5']
 Trying to find Element By : By.xpath: //a[@href='/retirement-and-pension-plans']//div//h2[@class='h5']
 Found Element By : By.xpath: //a[@href='/retirement-and-pension-plans']//div//h2[@class='h5']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //a[@href='/retirement-and-pension-plans']//div//h2[@class='h5']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //a[@href='/retirement-and-pension-plans']//div//h2[@class='h5']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //a[@href='/retirement-and-pension-plans']//div//h2[@class='h5']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //a[@href='/retirement-and-pension-plans']//div//h2[@class='h5']]
 Navigating back to previous page
 Navigated back to previous page
 ]]></system-out>
   </testcase>
-  <testcase name="verifyViewAllButton" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="3.19">
+  <testcase name="verifyViewAllButton" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="3.279">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //div[@class='viewall']
 Found Element By : By.xpath: //div[@class='viewall']
 Trying to find Element By : By.xpath: //div[@class='viewall']
 Found Element By : By.xpath: //div[@class='viewall']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='viewall']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='viewall']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='viewall']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='viewall']]
 ]]></system-out>
   </testcase>
-  <testcase name="verifyULIPPlansOnBanner" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="10.721">
+  <testcase name="verifyULIPPlansOnBanner" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="12.236">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-4']
 Found Element By : By.xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-4']
 Trying to find Element By : By.xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-4']
 Found Element By : By.xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-4']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-4']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-4']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-4']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-4']]
 Navigating back to previous page
 Navigated back to previous page
 ]]></system-out>
   </testcase>
-  <testcase name="verifyFixedMaturityPlanOnBanner" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="14.504">
+  <testcase name="verifyFixedMaturityPlanOnBanner" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="16.362">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //div[@class='viewall']
 Found Element By : By.xpath: //div[@class='viewall']
 Trying to find Element By : By.xpath: //div[@class='viewall']
 Found Element By : By.xpath: //div[@class='viewall']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='viewall']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='viewall']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='viewall']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='viewall']]
 Trying to find Element By : By.xpath: //a[@href='/savings-plans/sanchay-fixed-maturity-plan']//div
 Found Element By : By.xpath: //a[@href='/savings-plans/sanchay-fixed-maturity-plan']//div
 Trying to find Element By : By.xpath: //a[@href='/savings-plans/sanchay-fixed-maturity-plan']//div
 Found Element By : By.xpath: //a[@href='/savings-plans/sanchay-fixed-maturity-plan']//div
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //a[@href='/savings-plans/sanchay-fixed-maturity-plan']//div]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //a[@href='/savings-plans/sanchay-fixed-maturity-plan']//div]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //a[@href='/savings-plans/sanchay-fixed-maturity-plan']//div]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //a[@href='/savings-plans/sanchay-fixed-maturity-plan']//div]
 Navigating back to previous page
 Navigated back to previous page
 ]]></system-out>
   </testcase>
-  <testcase name="verifyHealthPlansOnBanner" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="14.035">
+  <testcase name="verifyHealthPlansOnBanner" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="15.064">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //div[@class='viewall']
 Found Element By : By.xpath: //div[@class='viewall']
 Trying to find Element By : By.xpath: //div[@class='viewall']
 Found Element By : By.xpath: //div[@class='viewall']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='viewall']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='viewall']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='viewall']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='viewall']]
 Trying to find Element By : By.xpath: //a[@href='/health-insurance-plans']//div//h2[@class='h5']
 Found Element By : By.xpath: //a[@href='/health-insurance-plans']//div//h2[@class='h5']
 Trying to find Element By : By.xpath: //a[@href='/health-insurance-plans']//div//h2[@class='h5']
 Found Element By : By.xpath: //a[@href='/health-insurance-plans']//div//h2[@class='h5']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //a[@href='/health-insurance-plans']//div//h2[@class='h5']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //a[@href='/health-insurance-plans']//div//h2[@class='h5']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //a[@href='/health-insurance-plans']//div//h2[@class='h5']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //a[@href='/health-insurance-plans']//div//h2[@class='h5']]
 Navigating back to previous page
 Navigated back to previous page
 ]]></system-out>
   </testcase>
-  <testcase name="verifyPosPlansOnBanner" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="13.713">
+  <testcase name="verifyPosPlansOnBanner" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="14.762">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //div[@class='viewall']
 Found Element By : By.xpath: //div[@class='viewall']
 Trying to find Element By : By.xpath: //div[@class='viewall']
 Found Element By : By.xpath: //div[@class='viewall']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='viewall']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='viewall']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='viewall']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='viewall']]
 Trying to find Element By : By.xpath: //a[@href='/savings-plans/pos-guaranteed-savings-plan']//div//h2[@class='h5']
 Found Element By : By.xpath: //a[@href='/savings-plans/pos-guaranteed-savings-plan']//div//h2[@class='h5']
 Trying to find Element By : By.xpath: //a[@href='/savings-plans/pos-guaranteed-savings-plan']//div//h2[@class='h5']
 Found Element By : By.xpath: //a[@href='/savings-plans/pos-guaranteed-savings-plan']//div//h2[@class='h5']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //a[@href='/savings-plans/pos-guaranteed-savings-plan']//div//h2[@class='h5']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //a[@href='/savings-plans/pos-guaranteed-savings-plan']//div//h2[@class='h5']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //a[@href='/savings-plans/pos-guaranteed-savings-plan']//div//h2[@class='h5']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //a[@href='/savings-plans/pos-guaranteed-savings-plan']//div//h2[@class='h5']]
 Navigating back to previous page
 Navigated back to previous page
 ]]></system-out>
   </testcase>
-  <testcase name="verifyComboPlansOnBanner" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="19.434">
+  <testcase name="verifyComboPlansOnBanner" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="20.501">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //div[@class='viewall']
 Found Element By : By.xpath: //div[@class='viewall']
 Trying to find Element By : By.xpath: //div[@class='viewall']
 Found Element By : By.xpath: //div[@class='viewall']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='viewall']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='viewall']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='viewall']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='viewall']]
 Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
 Found Element By : By.xpath: //div[@class='swiper-button-next']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='swiper-button-next']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='swiper-button-next']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='swiper-button-next']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='swiper-button-next']]
 Trying to find Element By : By.xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-8']
 Found Element By : By.xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-8']
 Trying to find Element By : By.xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-8']
 Found Element By : By.xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-8']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-8']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-8']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-8']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-8']]
 Navigating back to previous page
 Navigated back to previous page
 ]]></system-out>
   </testcase>
-  <testcase name="verifyGroupPlansOnBanner" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="32.494">
+  <testcase name="verifyGroupPlansOnBanner" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="33.465">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //div[@class='viewall']
 Found Element By : By.xpath: //div[@class='viewall']
 Trying to find Element By : By.xpath: //div[@class='viewall']
 Found Element By : By.xpath: //div[@class='viewall']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='viewall']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='viewall']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='viewall']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='viewall']]
 Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
 Found Element By : By.xpath: //div[@class='swiper-button-next']
 Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
 Found Element By : By.xpath: //div[@class='swiper-button-next']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='swiper-button-next']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='swiper-button-next']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='swiper-button-next']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='swiper-button-next']]
 Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
 Found Element By : By.xpath: //div[@class='swiper-button-next']
 Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
 Found Element By : By.xpath: //div[@class='swiper-button-next']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='swiper-button-next']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='swiper-button-next']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='swiper-button-next']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='swiper-button-next']]
 Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
 Found Element By : By.xpath: //div[@class='swiper-button-next']
 Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
 Found Element By : By.xpath: //div[@class='swiper-button-next']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='swiper-button-next']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='swiper-button-next']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='swiper-button-next']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='swiper-button-next']]
 Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
 Found Element By : By.xpath: //div[@class='swiper-button-next']
 Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
 Found Element By : By.xpath: //div[@class='swiper-button-next']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='swiper-button-next']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='swiper-button-next']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='swiper-button-next']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='swiper-button-next']]
 Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
 Found Element By : By.xpath: //div[@class='swiper-button-next']
 Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
 Found Element By : By.xpath: //div[@class='swiper-button-next']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='swiper-button-next']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='swiper-button-next']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='swiper-button-next']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='swiper-button-next']]
 Trying to find Element By : By.xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-9']
 Found Element By : By.xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-9']
 Trying to find Element By : By.xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-9']
 Found Element By : By.xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-9']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-9']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-9']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-9']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-9']]
 Navigating back to previous page
 Navigated back to previous page
 ]]></system-out>
   </testcase>
-  <testcase name="verifyArrowButtonsOnBanner" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="43.106">
+  <testcase name="verifyArrowButtonsOnBanner" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="43.573">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //div[@class='viewall']
 Found Element By : By.xpath: //div[@class='viewall']
 Trying to find Element By : By.xpath: //div[@class='viewall']
 Found Element By : By.xpath: //div[@class='viewall']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='viewall']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='viewall']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='viewall']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='viewall']]
 Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
 Found Element By : By.xpath: //div[@class='swiper-button-next']
 Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
 Found Element By : By.xpath: //div[@class='swiper-button-next']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='swiper-button-next']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='swiper-button-next']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='swiper-button-next']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='swiper-button-next']]
 Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
 Found Element By : By.xpath: //div[@class='swiper-button-next']
 Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
 Found Element By : By.xpath: //div[@class='swiper-button-next']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='swiper-button-next']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='swiper-button-next']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='swiper-button-next']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='swiper-button-next']]
 Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
 Found Element By : By.xpath: //div[@class='swiper-button-next']
 Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
 Found Element By : By.xpath: //div[@class='swiper-button-next']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='swiper-button-next']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='swiper-button-next']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='swiper-button-next']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='swiper-button-next']]
 Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
 Found Element By : By.xpath: //div[@class='swiper-button-next']
 Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
 Found Element By : By.xpath: //div[@class='swiper-button-next']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='swiper-button-next']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='swiper-button-next']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='swiper-button-next']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='swiper-button-next']]
 Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
 Found Element By : By.xpath: //div[@class='swiper-button-next']
 Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
 Found Element By : By.xpath: //div[@class='swiper-button-next']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='swiper-button-next']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='swiper-button-next']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='swiper-button-next']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='swiper-button-next']]
 Trying to find Element By : By.xpath: //div[@class='swiper-button-next swiper-button-disabled']
 Found Element By : By.xpath: //div[@class='swiper-button-next swiper-button-disabled']
 Trying to find Element By : By.xpath: //div[@class='swiper-button-prev']
 Found Element By : By.xpath: //div[@class='swiper-button-prev']
 Trying to find Element By : By.xpath: //div[@class='swiper-button-prev']
 Found Element By : By.xpath: //div[@class='swiper-button-prev']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='swiper-button-prev']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='swiper-button-prev']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='swiper-button-prev']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='swiper-button-prev']]
 Trying to find Element By : By.xpath: //div[@class='swiper-button-prev']
 Found Element By : By.xpath: //div[@class='swiper-button-prev']
 Trying to find Element By : By.xpath: //div[@class='swiper-button-prev']
 Found Element By : By.xpath: //div[@class='swiper-button-prev']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='swiper-button-prev']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='swiper-button-prev']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='swiper-button-prev']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='swiper-button-prev']]
 Trying to find Element By : By.xpath: //div[@class='swiper-button-prev']
 Found Element By : By.xpath: //div[@class='swiper-button-prev']
 Trying to find Element By : By.xpath: //div[@class='swiper-button-prev']
 Found Element By : By.xpath: //div[@class='swiper-button-prev']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='swiper-button-prev']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='swiper-button-prev']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='swiper-button-prev']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='swiper-button-prev']]
 Trying to find Element By : By.xpath: //div[@class='swiper-button-prev']
 Found Element By : By.xpath: //div[@class='swiper-button-prev']
 Trying to find Element By : By.xpath: //div[@class='swiper-button-prev']
 Found Element By : By.xpath: //div[@class='swiper-button-prev']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='swiper-button-prev']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='swiper-button-prev']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='swiper-button-prev']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='swiper-button-prev']]
 Trying to find Element By : By.xpath: //div[@class='swiper-button-prev']
 Found Element By : By.xpath: //div[@class='swiper-button-prev']
 Trying to find Element By : By.xpath: //div[@class='swiper-button-prev']
 Found Element By : By.xpath: //div[@class='swiper-button-prev']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='swiper-button-prev']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='swiper-button-prev']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='swiper-button-prev']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='swiper-button-prev']]
 Trying to find Element By : By.xpath: //div[@class='swiper-button-prev swiper-button-disabled']
 Found Element By : By.xpath: //div[@class='swiper-button-prev swiper-button-disabled']
 Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
 Found Element By : By.xpath: //div[@class='swiper-button-next']
 Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
 Found Element By : By.xpath: //div[@class='swiper-button-next']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='swiper-button-next']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='swiper-button-next']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='swiper-button-next']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='swiper-button-next']]
 Trying to find Element By : By.xpath: //div[@class='swiper-button-prev']
 Found Element By : By.xpath: //div[@class='swiper-button-prev']
 ]]></system-out>
   </testcase>
-  <testcase name="verifyMouseIndicator" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="9.079">
+  <testcase name="verifyMouseIndicator" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="9.268">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //li[@data-slide-to='0']
 Found Element By : By.xpath: //li[@data-slide-to='0']
 Trying to find Element By : By.xpath: //img[@src='/content/dam/hdfclifeinsurancecompany/home/banner/mc.svg']
 Found Element By : By.xpath: //img[@src='/content/dam/hdfclifeinsurancecompany/home/banner/mc.svg']
 Trying to find Element By : By.xpath: //img[@src='/content/dam/hdfclifeinsurancecompany/home/banner/mc.svg']
 Found Element By : By.xpath: //img[@src='/content/dam/hdfclifeinsurancecompany/home/banner/mc.svg']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //img[@src='/content/dam/hdfclifeinsurancecompany/home/banner/mc.svg']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //img[@src='/content/dam/hdfclifeinsurancecompany/home/banner/mc.svg']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //img[@src='/content/dam/hdfclifeinsurancecompany/home/banner/mc.svg']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //img[@src='/content/dam/hdfclifeinsurancecompany/home/banner/mc.svg']]
 ]]></system-out>
   </testcase>
-  <testcase name="verifyschedulePopupWithValidDataProductPage[Amit Kundar, 9.768462054E9](1)" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="8.475">
+  <testcase name="verifyschedulePopupWithValidDataProductPage[Amit Kundar, 9.768462054E9](1)" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="8.61">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']
 Found Element By : By.xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']]
 Trying to find Element By : By.xpath: //input[@class='first-name']
 Found Element By : By.xpath: //input[@class='first-name']
 Trying to find Element By : By.xpath: //input[@class='modilewidth']
@@ -393,25 +393,25 @@ Trying to find Element By : By.id: insurance_category
 Found Element By : By.id: insurance_category
 Trying to find Element By : By.xpath: .//option[@value = "Health Plans"]
 Found Element By : By.xpath: .//option[@value = "Health Plans"]
-Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> id: insurance_category]] -> xpath: .//option[@value = "Health Plans"]]
-Clicked on: [[[[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> id: insurance_category]] -> xpath: .//option[@value = "Health Plans"]]
+Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> id: insurance_category]] -> xpath: .//option[@value = "Health Plans"]]
+Clicked on: [[[[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> id: insurance_category]] -> xpath: .//option[@value = "Health Plans"]]
 Trying to find Element By : By.xpath: //span[@class='close-icon1']
 Found Element By : By.xpath: //span[@class='close-icon1']
 Trying to find Element By : By.xpath: //span[@class='close-icon1']
 Found Element By : By.xpath: //span[@class='close-icon1']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //span[@class='close-icon1']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //span[@class='close-icon1']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //span[@class='close-icon1']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //span[@class='close-icon1']]
 ]]></system-out>
   </testcase>
-  <testcase name="verifyschedulepopupblankSubmit" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="9.65">
+  <testcase name="verifyschedulepopupblankSubmit" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="9.886">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']
 Found Element By : By.xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']]
 Trying to find Element By : By.id: scheduleCallBtn
 Found Element By : By.id: scheduleCallBtn
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> id: scheduleCallBtn]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> id: scheduleCallBtn]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> id: scheduleCallBtn]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> id: scheduleCallBtn]
 Trying to find Element By : By.xpath: //span[contains(text(),'Please enter valid name')]
 Found Element By : By.xpath: //span[contains(text(),'Please enter valid name')]
 Trying to find Element By : By.xpath: //span[contains(text(),'Please enter valid name')]
@@ -428,23 +428,23 @@ Trying to find Element By : By.className: scb-checkbox
 Found Element By : By.className: scb-checkbox
 Trying to find Element By : By.className: scb-checkbox
 Found Element By : By.className: scb-checkbox
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> class name: scb-checkbox]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> class name: scb-checkbox]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> class name: scb-checkbox]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> class name: scb-checkbox]
 Trying to find Element By : By.xpath: //span[@class='scb-checkbox-error error-txt']
 Found Element By : By.xpath: //span[@class='scb-checkbox-error error-txt']
 Trying to find Element By : By.xpath: //span[@class='close-icon1']
 Found Element By : By.xpath: //span[@class='close-icon1']
 Trying to find Element By : By.xpath: //span[@class='close-icon1']
 Found Element By : By.xpath: //span[@class='close-icon1']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //span[@class='close-icon1']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //span[@class='close-icon1']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //span[@class='close-icon1']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //span[@class='close-icon1']]
 ]]></system-out>
   </testcase>
-  <testcase name="verifyschedulePopupwithoutmindata" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="6.534">
+  <testcase name="verifyschedulePopupwithoutmindata" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="6.634">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']
 Found Element By : By.xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']]
 Trying to find Element By : By.xpath: //input[@class='first-name']
 Found Element By : By.xpath: //input[@class='first-name']
 Trying to find Element By : By.xpath: //input[@class='modilewidth']
@@ -461,17 +461,17 @@ Trying to find Element By : By.xpath: //span[@class='close-icon1']
 Found Element By : By.xpath: //span[@class='close-icon1']
 Trying to find Element By : By.xpath: //span[@class='close-icon1']
 Found Element By : By.xpath: //span[@class='close-icon1']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //span[@class='close-icon1']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //span[@class='close-icon1']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //span[@class='close-icon1']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //span[@class='close-icon1']]
 ]]></system-out>
   </testcase>
-  <testcase name="verifycalculatorWithValidData" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="46.509">
+  <testcase name="verifycalculatorWithValidData" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="42.744">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //h5[contains(text(),'How Much Life Insurance')]
 Found Element By : By.xpath: //h5[contains(text(),'How Much Life Insurance')]
 Trying to find Element By : By.xpath: //button[@class='calculate-btn btn btn-primary btnred cal-data-layer']
 Found Element By : By.xpath: //button[@class='calculate-btn btn btn-primary btnred cal-data-layer']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //button[@class='calculate-btn btn btn-primary btnred cal-data-layer']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //button[@class='calculate-btn btn btn-primary btnred cal-data-layer']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //button[@class='calculate-btn btn btn-primary btnred cal-data-layer']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //button[@class='calculate-btn btn btn-primary btnred cal-data-layer']]
 Trying to find Element By : By.xpath: (//input[@class='years'])[1]
 Found Element By : By.xpath: (//input[@class='years'])[1]
 Trying to find Element By : By.xpath: (//input[@class='years'])[2]
@@ -492,8 +492,8 @@ Trying to find Element By : By.xpath: .//option[@value = "0"]
 Found Element By : By.xpath: .//option[@value = "0"]
 Trying to find Element By : By.id: calculateHlv
 Found Element By : By.id: calculateHlv
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> id: calculateHlv]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> id: calculateHlv]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> id: calculateHlv]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> id: calculateHlv]
 Trying to find Element By : By.xpath: //section[@class='calculator-section calculateSection']//h2[1]
 Found Element By : By.xpath: //section[@class='calculator-section calculateSection']//h2[1]
 Trying to find Element By : By.xpath: //p[contains(text(),'Your Required life cover to protect your family’s ')]
@@ -504,14 +504,14 @@ Trying to find Element By : By.xpath: //div[@class='recomendPlans']//a[1]
 Found Element By : By.xpath: //div[@class='recomendPlans']//a[1]
 Trying to find Element By : By.xpath: //div[@class='recomendPlans']//a[1]
 Found Element By : By.xpath: //div[@class='recomendPlans']//a[1]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='recomendPlans']//a[1]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //div[@class='recomendPlans']//a[1]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='recomendPlans']//a[1]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //div[@class='recomendPlans']//a[1]]
 Navigating back to previous page
 Navigated back to previous page
 Trying to find Element By : By.xpath: //button[@class='calculate-btn btn btn-primary btnred cal-data-layer']
 Found Element By : By.xpath: //button[@class='calculate-btn btn btn-primary btnred cal-data-layer']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //button[@class='calculate-btn btn btn-primary btnred cal-data-layer']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //button[@class='calculate-btn btn btn-primary btnred cal-data-layer']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //button[@class='calculate-btn btn btn-primary btnred cal-data-layer']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //button[@class='calculate-btn btn btn-primary btnred cal-data-layer']]
 Trying to find Element By : By.xpath: (//input[@class='years'])[1]
 Found Element By : By.xpath: (//input[@class='years'])[1]
 Trying to find Element By : By.xpath: (//input[@class='years'])[2]
@@ -532,55 +532,55 @@ Trying to find Element By : By.xpath: .//option[@value = "0"]
 Found Element By : By.xpath: .//option[@value = "0"]
 Trying to find Element By : By.id: calculateHlv
 Found Element By : By.id: calculateHlv
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> id: calculateHlv]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> id: calculateHlv]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> id: calculateHlv]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> id: calculateHlv]
 Trying to find Element By : By.xpath: //a[@class='siteButton btnred']
 Found Element By : By.xpath: //a[@class='siteButton btnred']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //a[@class='siteButton btnred']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //a[@class='siteButton btnred']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //a[@class='siteButton btnred']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //a[@class='siteButton btnred']]
 Navigating back to previous page
 Navigated back to previous page
 ]]></system-out>
   </testcase>
-  <testcase name="verifyCalculatorCloseBtn" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="9.191">
+  <testcase name="verifyCalculatorCloseBtn" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="9.536">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //button[@class='calculate-btn btn btn-primary btnred cal-data-layer']
 Found Element By : By.xpath: //button[@class='calculate-btn btn btn-primary btnred cal-data-layer']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //button[@class='calculate-btn btn btn-primary btnred cal-data-layer']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //button[@class='calculate-btn btn btn-primary btnred cal-data-layer']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //button[@class='calculate-btn btn btn-primary btnred cal-data-layer']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //button[@class='calculate-btn btn btn-primary btnred cal-data-layer']]
 Trying to find Element By : By.xpath: //span[@class='close-icon calculateClose']
 Found Element By : By.xpath: //span[@class='close-icon calculateClose']
 Trying to find Element By : By.xpath: //span[@class='close-icon calculateClose']
 Found Element By : By.xpath: //span[@class='close-icon calculateClose']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //span[@class='close-icon calculateClose']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //span[@class='close-icon calculateClose']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //span[@class='close-icon calculateClose']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //span[@class='close-icon calculateClose']]
 ]]></system-out>
   </testcase>
-  <testcase name="verifySanchayPlusBuyNowBtn" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="12.696">
+  <testcase name="verifySanchayPlusBuyNowBtn" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="12.749">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //a[@data-button-name='BUY NOW']
 Found Element By : By.xpath: //a[@data-button-name='BUY NOW']
 Trying to find Element By : By.xpath: //a[@data-button-name='BUY NOW']
 Found Element By : By.xpath: //a[@data-button-name='BUY NOW']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //a[@data-button-name='BUY NOW']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //a[@data-button-name='BUY NOW']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //a[@data-button-name='BUY NOW']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //a[@data-button-name='BUY NOW']]
 ]]></system-out>
   </testcase>
-  <testcase name="verifyDisclaimer" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="15.192">
+  <testcase name="verifyDisclaimer" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="15.201">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //a[@data-toggle='collapse']
 Found Element By : By.xpath: //a[@data-toggle='collapse']
 Trying to find Element By : By.xpath: //a[@data-toggle='collapse']
 Found Element By : By.xpath: //a[@data-toggle='collapse']
 Trying to find Element By : By.xpath: //a[@data-toggle='collapse']
 Found Element By : By.xpath: //a[@data-toggle='collapse']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //a[@data-toggle='collapse']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //a[@data-toggle='collapse']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //a[@data-toggle='collapse']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //a[@data-toggle='collapse']]
 ]]></system-out>
   </testcase>
-  <testcase name="verifyProductAndPopularLinks" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="6.093">
+  <testcase name="verifyProductAndPopularLinks" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="6.872">
     <system-out><![CDATA[Trying to find Element By : By.cssSelector: .wrapper.footerMenuSec a
 Found Element By : By.cssSelector: .wrapper.footerMenuSec a
 ]]></system-out>
   </testcase>
-  <testcase name="verifyStayConnectedwithUs" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="9.174">
+  <testcase name="verifyStayConnectedwithUs" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="9.852">
     <system-out><![CDATA[Trying to find Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
 Found Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
 Trying to find Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
@@ -633,39 +633,39 @@ Trying to find Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
 Found Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
 ]]></system-out>
   </testcase>
-  <testcase name="verifyDownloadLinks" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="12.634">
+  <testcase name="verifyDownloadLinks" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="12.55">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //a[@class='appleIcon']
 Found Element By : By.xpath: //a[@class='appleIcon']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //a[@class='appleIcon']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: //a[@class='appleIcon']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //a[@class='appleIcon']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: //a[@class='appleIcon']]
 Trying to find Element By : By.xpath: (//a[@data-position='Download App Icon'])[2]
 Found Element By : By.xpath: (//a[@data-position='Download App Icon'])[2]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: (//a[@data-position='Download App Icon'])[2]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> xpath: (//a[@data-position='Download App Icon'])[2]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: (//a[@data-position='Download App Icon'])[2]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> xpath: (//a[@data-position='Download App Icon'])[2]]
 ]]></system-out>
   </testcase>
-  <testcase name="verifySubscribeOptionWithValidData" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="9.281">
+  <testcase name="verifySubscribeOptionWithValidData" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="9.425">
     <system-out><![CDATA[Trying to find Element By : By.className: emailAddress
 Found Element By : By.className: emailAddress
 Trying to find Element By : By.className: emailAddress
 Found Element By : By.className: emailAddress
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> class name: emailAddress]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> class name: emailAddress]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> class name: emailAddress]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> class name: emailAddress]
 Trying to find Element By : By.id: subscribeButton
 Found Element By : By.id: subscribeButton
 Trying to find Element By : By.className: emailAddress
 Found Element By : By.className: emailAddress
 Trying to find Element By : By.id: subscribeButton
 Found Element By : By.id: subscribeButton
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> id: subscribeButton]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (26c812814b1f75e9f4121dd9f24a1a4b)] -> id: subscribeButton]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> id: subscribeButton]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (028dc6233cf0dcb8a31326c2e75872cd)] -> id: subscribeButton]
 Trying to find Element By : By.xpath: //span[@class='message-success-subscribe']
 Found Element By : By.xpath: //span[@class='message-success-subscribe']
 Trying to find Element By : By.xpath: //span[@class='message-success-subscribe']
 Found Element By : By.xpath: //span[@class='message-success-subscribe']
 ]]></system-out>
   </testcase>
-  <testcase name="verifyGroupWebsitesLinks" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="13.992">
+  <testcase name="verifyGroupWebsitesLinks" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="157.144">
     <system-out><![CDATA[Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
 Found Element By : By.cssSelector: .wrapper.externalLinks a
 Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
@@ -999,7 +999,7 @@ Found Element By : By.cssSelector: .wrapper.externalLinks a
 Group Websites link check ended
 ]]></system-out>
   </testcase>
-  <testcase name="verifyArticlesOnHomePage" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="80.222">
+  <testcase name="verifyArticlesOnHomePage" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="89.411">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //div[@class='container aboutus-sec']
 Found Element By : By.xpath: //div[@class='container aboutus-sec']
 Trying to find Element By : By.tagName: a
@@ -1062,65 +1062,65 @@ Navigating back to previous page
 Navigated back to previous page
 ]]></system-out>
   </testcase>
-  <testcase name="navigateToPage" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="10.916">
+  <testcase name="navigateToPage" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="11.775">
     <system-out><![CDATA[Before navigating to: 'https://www.hdfclife.com/'
 Navigated to:'https://www.hdfclife.com/'
 Trying to find Element By : By.xpath: //a[@class='megaMenuLink']
 Found Element By : By.xpath: //a[@class='megaMenuLink']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: //a[@class='megaMenuLink']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: //a[@class='megaMenuLink']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: //a[@class='megaMenuLink']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: //a[@class='megaMenuLink']]
 Trying to find Element By : By.xpath: (//a[@class='moreMenuLink gtm-moreMenuLink'])[1]
 Found Element By : By.xpath: (//a[@class='moreMenuLink gtm-moreMenuLink'])[1]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: (//a[@class='moreMenuLink gtm-moreMenuLink'])[1]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: (//a[@class='moreMenuLink gtm-moreMenuLink'])[1]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: (//a[@class='moreMenuLink gtm-moreMenuLink'])[1]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: (//a[@class='moreMenuLink gtm-moreMenuLink'])[1]]
 ]]></system-out>
-    <system-err><![CDATA[Dec 14, 2021 12:24:50 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+    <system-err><![CDATA[Dec 15, 2021 8:35:26 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 2383
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 23714
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1639421691.001][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-[1639421691.001][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-Dec 14, 2021 12:24:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1639580726.405][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1639580726.405][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+Dec 15, 2021 8:35:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="verifyCalculatePremiumBtn" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="12.374">
+  <testcase name="verifyCalculatePremiumBtn" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="12.947">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //a[@class='siteButton dataLayerBtnClick']
 Found Element By : By.xpath: //a[@class='siteButton dataLayerBtnClick']
 Trying to find Element By : By.xpath: //a[@class='siteButton dataLayerBtnClick']
 Found Element By : By.xpath: //a[@class='siteButton dataLayerBtnClick']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: //a[@class='siteButton dataLayerBtnClick']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: //a[@class='siteButton dataLayerBtnClick']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: //a[@class='siteButton dataLayerBtnClick']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: //a[@class='siteButton dataLayerBtnClick']]
 ]]></system-out>
   </testcase>
-  <testcase name="verifyTalkToAdvisor" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="6.212">
+  <testcase name="verifyTalkToAdvisor" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="6.336">
     <system-out><![CDATA[Trying to find Element By : By.xpath: (//a[@class='siteButton outlinedBtn'])[4]
 Found Element By : By.xpath: (//a[@class='siteButton outlinedBtn'])[4]
 Trying to find Element By : By.xpath: (//a[@class='siteButton outlinedBtn'])[4]
 Found Element By : By.xpath: (//a[@class='siteButton outlinedBtn'])[4]
 Trying to find Element By : By.xpath: (//a[@class='siteButton outlinedBtn'])[4]
 Found Element By : By.xpath: (//a[@class='siteButton outlinedBtn'])[4]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: (//a[@class='siteButton outlinedBtn'])[4]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: (//a[@class='siteButton outlinedBtn'])[4]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: (//a[@class='siteButton outlinedBtn'])[4]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: (//a[@class='siteButton outlinedBtn'])[4]]
 Trying to find Element By : By.xpath: //span[@class='close-icon1']
 Found Element By : By.xpath: //span[@class='close-icon1']
 Trying to find Element By : By.xpath: //span[@class='close-icon1']
 Found Element By : By.xpath: //span[@class='close-icon1']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: //span[@class='close-icon1']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: //span[@class='close-icon1']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: //span[@class='close-icon1']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: //span[@class='close-icon1']]
 ]]></system-out>
   </testcase>
-  <testcase name="verifyTalkToAdvisorPopup" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="9.392">
+  <testcase name="verifyTalkToAdvisorPopup" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="9.592">
     <system-out><![CDATA[Trying to find Element By : By.xpath: (//a[@class='siteButton outlinedBtn'])[4]
 Found Element By : By.xpath: (//a[@class='siteButton outlinedBtn'])[4]
 Trying to find Element By : By.xpath: (//a[@class='siteButton outlinedBtn'])[4]
 Found Element By : By.xpath: (//a[@class='siteButton outlinedBtn'])[4]
 Trying to find Element By : By.xpath: (//a[@class='siteButton outlinedBtn'])[4]
 Found Element By : By.xpath: (//a[@class='siteButton outlinedBtn'])[4]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: (//a[@class='siteButton outlinedBtn'])[4]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: (//a[@class='siteButton outlinedBtn'])[4]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: (//a[@class='siteButton outlinedBtn'])[4]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: (//a[@class='siteButton outlinedBtn'])[4]]
 Trying to find Element By : By.xpath: //input[@class='first-name']
 Found Element By : By.xpath: //input[@class='first-name']
 Trying to find Element By : By.xpath: //input[@class='modilewidth']
@@ -1137,22 +1137,22 @@ Trying to find Element By : By.xpath: //span[@class='close-icon1']
 Found Element By : By.xpath: //span[@class='close-icon1']
 Trying to find Element By : By.xpath: //span[@class='close-icon1']
 Found Element By : By.xpath: //span[@class='close-icon1']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: //span[@class='close-icon1']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: //span[@class='close-icon1']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: //span[@class='close-icon1']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: //span[@class='close-icon1']]
 ]]></system-out>
   </testcase>
-  <testcase name="verifyHomeIconInBreadCrumb" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="7.771">
+  <testcase name="verifyHomeIconInBreadCrumb" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="9.473">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //img[@class='homeIconImg']
 Found Element By : By.xpath: //img[@class='homeIconImg']
 Trying to find Element By : By.xpath: //img[@class='homeIconImg']
 Found Element By : By.xpath: //img[@class='homeIconImg']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: //img[@class='homeIconImg']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: //img[@class='homeIconImg']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: //img[@class='homeIconImg']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: //img[@class='homeIconImg']]
 Navigating back to previous page
 Navigated back to previous page
 ]]></system-out>
   </testcase>
-  <testcase name="verifyC2PLProduct" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="29.063">
+  <testcase name="verifyC2PLProduct" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="31.887">
     <system-out><![CDATA[Trying to find Element By : By.xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[1]
 Found Element By : By.xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[1]
 Trying to find Element By : By.xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[1]
@@ -1161,112 +1161,112 @@ Trying to find Element By : By.xpath: (//a[@class='siteButton outlinedBtn learMo
 Found Element By : By.xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[1]
 Trying to find Element By : By.xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[1]
 Found Element By : By.xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[1]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[1]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[1]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[1]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[1]]
 Navigating back to previous page
 Navigated back to previous page
 Trying to find Element By : By.xpath: (//a[@class='dwnldLink dataLayerBtnClick'])[1]
 Found Element By : By.xpath: (//a[@class='dwnldLink dataLayerBtnClick'])[1]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: (//a[@class='dwnldLink dataLayerBtnClick'])[1]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: (//a[@class='dwnldLink dataLayerBtnClick'])[1]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: (//a[@class='dwnldLink dataLayerBtnClick'])[1]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: (//a[@class='dwnldLink dataLayerBtnClick'])[1]]
 Trying to find Element By : By.xpath: (//a[@class='siteButton buyOnlineBtn dataLayerBtnClick'])[1]
 Found Element By : By.xpath: (//a[@class='siteButton buyOnlineBtn dataLayerBtnClick'])[1]
 Trying to find Element By : By.xpath: (//a[@class='siteButton buyOnlineBtn dataLayerBtnClick'])[1]
 Found Element By : By.xpath: (//a[@class='siteButton buyOnlineBtn dataLayerBtnClick'])[1]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: (//a[@class='siteButton buyOnlineBtn dataLayerBtnClick'])[1]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: (//a[@class='siteButton buyOnlineBtn dataLayerBtnClick'])[1]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: (//a[@class='siteButton buyOnlineBtn dataLayerBtnClick'])[1]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: (//a[@class='siteButton buyOnlineBtn dataLayerBtnClick'])[1]]
 ]]></system-out>
   </testcase>
-  <testcase name="verifySJBProduct" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="23.968">
+  <testcase name="verifySJBProduct" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="26.244">
     <system-out><![CDATA[Trying to find Element By : By.xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[2]
 Found Element By : By.xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[2]
 Trying to find Element By : By.xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[2]
 Found Element By : By.xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[2]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[2]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[2]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[2]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[2]]
 Navigating back to previous page
 Navigated back to previous page
 Trying to find Element By : By.xpath: (//a[@class='dwnldLink dataLayerBtnClick'])[2]
 Found Element By : By.xpath: (//a[@class='dwnldLink dataLayerBtnClick'])[2]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: (//a[@class='dwnldLink dataLayerBtnClick'])[2]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: (//a[@class='dwnldLink dataLayerBtnClick'])[2]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: (//a[@class='dwnldLink dataLayerBtnClick'])[2]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: (//a[@class='dwnldLink dataLayerBtnClick'])[2]]
 Trying to find Element By : By.xpath: (//a[@class='siteButton buyOnlineBtn dataLayerBtnClick'])[2]
 Found Element By : By.xpath: (//a[@class='siteButton buyOnlineBtn dataLayerBtnClick'])[2]
 Trying to find Element By : By.xpath: (//a[@class='siteButton buyOnlineBtn dataLayerBtnClick'])[2]
 Found Element By : By.xpath: (//a[@class='siteButton buyOnlineBtn dataLayerBtnClick'])[2]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: (//a[@class='siteButton buyOnlineBtn dataLayerBtnClick'])[2]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: (//a[@class='siteButton buyOnlineBtn dataLayerBtnClick'])[2]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: (//a[@class='siteButton buyOnlineBtn dataLayerBtnClick'])[2]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: (//a[@class='siteButton buyOnlineBtn dataLayerBtnClick'])[2]]
 ]]></system-out>
   </testcase>
-  <testcase name="verifyLetsCalculateBtn" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="10.458">
+  <testcase name="verifyLetsCalculateBtn" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="12.129">
     <system-out><![CDATA[Trying to find Element By : By.xpath: (//a[@class='bannerAdBtn siteButton'])[1]
 Found Element By : By.xpath: (//a[@class='bannerAdBtn siteButton'])[1]
 Trying to find Element By : By.xpath: (//a[@class='bannerAdBtn siteButton'])[1]
 Found Element By : By.xpath: (//a[@class='bannerAdBtn siteButton'])[1]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: (//a[@class='bannerAdBtn siteButton'])[1]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: (//a[@class='bannerAdBtn siteButton'])[1]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: (//a[@class='bannerAdBtn siteButton'])[1]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: (//a[@class='bannerAdBtn siteButton'])[1]]
 Navigating back to previous page
 Navigated back to previous page
 ]]></system-out>
   </testcase>
-  <testcase name="verifyVideoOnCategoryPage" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="6.081"/>
-  <testcase name="verifyWhySection" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="9.23">
+  <testcase name="verifyVideoOnCategoryPage" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="6"/>
+  <testcase name="verifyWhySection" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="9.484">
     <system-out><![CDATA[Trying to find Element By : By.xpath: (//a[@class='viewMoreBtn'])[1]
 Found Element By : By.xpath: (//a[@class='viewMoreBtn'])[1]
 Trying to find Element By : By.xpath: (//a[@class='viewMoreBtn'])[1]
 Found Element By : By.xpath: (//a[@class='viewMoreBtn'])[1]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: (//a[@class='viewMoreBtn'])[1]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: (//a[@class='viewMoreBtn'])[1]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: (//a[@class='viewMoreBtn'])[1]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: (//a[@class='viewMoreBtn'])[1]]
 Trying to find Element By : By.xpath: (//a[@class='viewMoreBtn viewLessBtn'])[1]
 Found Element By : By.xpath: (//a[@class='viewMoreBtn viewLessBtn'])[1]
 Trying to find Element By : By.xpath: (//a[@class='viewMoreBtn viewLessBtn'])[1]
 Found Element By : By.xpath: (//a[@class='viewMoreBtn viewLessBtn'])[1]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: (//a[@class='viewMoreBtn viewLessBtn'])[1]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: (//a[@class='viewMoreBtn viewLessBtn'])[1]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: (//a[@class='viewMoreBtn viewLessBtn'])[1]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: (//a[@class='viewMoreBtn viewLessBtn'])[1]]
 Trying to find Element By : By.xpath: (//a[@class='viewMoreBtn'])[1]
 Found Element By : By.xpath: (//a[@class='viewMoreBtn'])[1]
 ]]></system-out>
   </testcase>
-  <testcase name="verifyTermInsuranceGuideFaqSection" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="21.539">
+  <testcase name="verifyTermInsuranceGuideFaqSection" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="21.998">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //h2[@class='tabAccordMenu opened']
 Found Element By : By.xpath: //h2[@class='tabAccordMenu opened']
 Trying to find Element By : By.xpath: //h2[@class='tabAccordMenu opened']
 Found Element By : By.xpath: //h2[@class='tabAccordMenu opened']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: //h2[@class='tabAccordMenu opened']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: //h2[@class='tabAccordMenu opened']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: //h2[@class='tabAccordMenu opened']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: //h2[@class='tabAccordMenu opened']]
 Trying to find Element By : By.xpath: (//h2[@class='tabAccordMenu'])[2]
 Found Element By : By.xpath: (//h2[@class='tabAccordMenu'])[2]
 Trying to find Element By : By.xpath: (//h2[@class='tabAccordMenu'])[2]
 Found Element By : By.xpath: (//h2[@class='tabAccordMenu'])[2]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: (//h2[@class='tabAccordMenu'])[2]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: (//h2[@class='tabAccordMenu'])[2]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: (//h2[@class='tabAccordMenu'])[2]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: (//h2[@class='tabAccordMenu'])[2]]
 Trying to find Element By : By.xpath: //h2[@class='tabAccordMenu opened']
 Found Element By : By.xpath: //h2[@class='tabAccordMenu opened']
 Trying to find Element By : By.xpath: //h2[@class='tabAccordMenu opened']
 Found Element By : By.xpath: //h2[@class='tabAccordMenu opened']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: //h2[@class='tabAccordMenu opened']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: //h2[@class='tabAccordMenu opened']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: //h2[@class='tabAccordMenu opened']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: //h2[@class='tabAccordMenu opened']]
 Trying to find Element By : By.xpath: (//a[@class='viewMoreBtn'])[2]
 Found Element By : By.xpath: (//a[@class='viewMoreBtn'])[2]
 Trying to find Element By : By.xpath: (//a[@class='viewMoreBtn'])[2]
 Found Element By : By.xpath: (//a[@class='viewMoreBtn'])[2]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: (//a[@class='viewMoreBtn'])[2]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: (//a[@class='viewMoreBtn'])[2]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: (//a[@class='viewMoreBtn'])[2]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: (//a[@class='viewMoreBtn'])[2]]
 Trying to find Element By : By.xpath: //a[@class='viewMoreBtn viewLessBtn']
 Found Element By : By.xpath: //a[@class='viewMoreBtn viewLessBtn']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: //a[@class='viewMoreBtn viewLessBtn']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: //a[@class='viewMoreBtn viewLessBtn']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: //a[@class='viewMoreBtn viewLessBtn']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: //a[@class='viewMoreBtn viewLessBtn']]
 Trying to find Element By : By.xpath: (//a[@class='viewMoreBtn'])[2]
 Found Element By : By.xpath: (//a[@class='viewMoreBtn'])[2]
 ]]></system-out>
   </testcase>
-  <testcase name="verifyRidersSection" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="51.646">
+  <testcase name="verifyRidersSection" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="51.935">
     <system-out><![CDATA[Trying to find Element By : By.xpath: (//a[@class='viewMoreBtn'])[5]
 Found Element By : By.xpath: (//a[@class='viewMoreBtn'])[5]
 Trying to find Element By : By.xpath: (//a[@class='viewMoreBtn'])[5]
 Found Element By : By.xpath: (//a[@class='viewMoreBtn'])[5]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: (//a[@class='viewMoreBtn'])[5]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: (//a[@class='viewMoreBtn'])[5]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: (//a[@class='viewMoreBtn'])[5]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: (//a[@class='viewMoreBtn'])[5]]
 Trying to find Element By : By.xpath: (//ul[@class='insuranceBenList'])[1]
 Found Element By : By.xpath: (//ul[@class='insuranceBenList'])[1]
 Trying to find Element By : By.tagName: a
@@ -1277,18 +1277,18 @@ Trying to find Element By : By.tagName: a
 Found Element By : By.tagName: a
 ]]></system-out>
   </testcase>
-  <testcase name="verifyContactUs" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="14.23">
+  <testcase name="verifyContactUs" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="16.391">
     <system-out><![CDATA[Trying to find Element By : By.xpath: (//a[@class='bannerAdBtn siteButton'])[2]
 Found Element By : By.xpath: (//a[@class='bannerAdBtn siteButton'])[2]
 Trying to find Element By : By.xpath: (//a[@class='bannerAdBtn siteButton'])[2]
 Found Element By : By.xpath: (//a[@class='bannerAdBtn siteButton'])[2]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: (//a[@class='bannerAdBtn siteButton'])[2]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: (//a[@class='bannerAdBtn siteButton'])[2]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: (//a[@class='bannerAdBtn siteButton'])[2]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: (//a[@class='bannerAdBtn siteButton'])[2]]
 Navigating back to previous page
 Navigated back to previous page
 ]]></system-out>
   </testcase>
-  <testcase name="verifyArticlesSection" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="83.17">
+  <testcase name="verifyArticlesSection" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="102.369">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //div[@class='container aboutus-sec']
 Found Element By : By.xpath: //div[@class='container aboutus-sec']
 Trying to find Element By : By.tagName: a
@@ -1351,26 +1351,26 @@ Navigating back to previous page
 Navigated back to previous page
 ]]></system-out>
   </testcase>
-  <testcase name="verifyDisclaimer" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="9.117">
+  <testcase name="verifyDisclaimer" classname="SeleniumTesting.AEMhdfc.CategorypageTest" time="9.181">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //a[@data-toggle='collapse']
 Found Element By : By.xpath: //a[@data-toggle='collapse']
 Trying to find Element By : By.xpath: //a[@data-toggle='collapse']
 Found Element By : By.xpath: //a[@data-toggle='collapse']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: //a[@data-toggle='collapse']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (9161106824e8c5081062ee1580cb7451)] -> xpath: //a[@data-toggle='collapse']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: //a[@data-toggle='collapse']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (ba95da2e92a15cb036f2d93fbf8b9228)] -> xpath: //a[@data-toggle='collapse']]
 ]]></system-out>
   </testcase>
-  <testcase name="navigateToProductPage" classname="SeleniumTesting.AEMhdfc.ProductpageTest" time="20.973">
+  <testcase name="navigateToProductPage" classname="SeleniumTesting.AEMhdfc.ProductpageTest" time="22.033">
     <system-out><![CDATA[Before navigating to: 'https://www.hdfclife.com/'
 Navigated to:'https://www.hdfclife.com/'
 Trying to find Element By : By.xpath: //a[@class='megaMenuLink']
 Found Element By : By.xpath: //a[@class='megaMenuLink']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //a[@class='megaMenuLink']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //a[@class='megaMenuLink']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //a[@class='megaMenuLink']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //a[@class='megaMenuLink']]
 Trying to find Element By : By.xpath: (//a[@class='moreMenuLink gtm-moreMenuLink'])[1]
 Found Element By : By.xpath: (//a[@class='moreMenuLink gtm-moreMenuLink'])[1]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: (//a[@class='moreMenuLink gtm-moreMenuLink'])[1]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: (//a[@class='moreMenuLink gtm-moreMenuLink'])[1]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: (//a[@class='moreMenuLink gtm-moreMenuLink'])[1]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: (//a[@class='moreMenuLink gtm-moreMenuLink'])[1]]
 Trying to find Element By : By.xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[1]
 Found Element By : By.xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[1]
 Trying to find Element By : By.xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[1]
@@ -1379,56 +1379,56 @@ Trying to find Element By : By.xpath: (//a[@class='siteButton outlinedBtn learMo
 Found Element By : By.xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[1]
 Trying to find Element By : By.xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[1]
 Found Element By : By.xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[1]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[1]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[1]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[1]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: (//a[@class='siteButton outlinedBtn learMoreBtn dataLayerBtnClick'])[1]]
 ]]></system-out>
-    <system-err><![CDATA[Dec 14, 2021 12:29:59 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+    <system-err><![CDATA[Dec 15, 2021 8:41:10 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 25300
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 35144
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1639422000.183][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-[1639422000.183][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-Dec 14, 2021 12:30:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1639581070.468][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1639581070.468][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+Dec 15, 2021 8:41:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="verifyTandCOption" classname="SeleniumTesting.AEMhdfc.ProductpageTest" time="24.285">
+  <testcase name="verifyTandCOption" classname="SeleniumTesting.AEMhdfc.ProductpageTest" time="24.555">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //a[@class='popuptext']
 Found Element By : By.xpath: //a[@class='popuptext']
 Trying to find Element By : By.xpath: //a[@class='popuptext']
 Found Element By : By.xpath: //a[@class='popuptext']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //a[@class='popuptext']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //a[@class='popuptext']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //a[@class='popuptext']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //a[@class='popuptext']]
 Trying to find Element By : By.xpath: //a[@data-toggle='collapse']
 Found Element By : By.xpath: //a[@data-toggle='collapse']
 Trying to find Element By : By.xpath: //a[@data-toggle='collapse']
 Found Element By : By.xpath: //a[@data-toggle='collapse']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //a[@data-toggle='collapse']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //a[@data-toggle='collapse']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //a[@data-toggle='collapse']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //a[@data-toggle='collapse']]
 ]]></system-out>
   </testcase>
-  <testcase name="verifyProductPageBreadcrumb" classname="SeleniumTesting.AEMhdfc.ProductpageTest" time="19.993">
+  <testcase name="verifyProductPageBreadcrumb" classname="SeleniumTesting.AEMhdfc.ProductpageTest" time="23.607">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //img[@class='homeIconImg']
 Found Element By : By.xpath: //img[@class='homeIconImg']
 Trying to find Element By : By.xpath: //img[@class='homeIconImg']
 Found Element By : By.xpath: //img[@class='homeIconImg']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //img[@class='homeIconImg']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //img[@class='homeIconImg']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //img[@class='homeIconImg']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //img[@class='homeIconImg']]
 Navigating back to previous page
 Navigated back to previous page
 Trying to find Element By : By.xpath: //label[normalize-space()='Term Insurance Plans']
 Found Element By : By.xpath: //label[normalize-space()='Term Insurance Plans']
 Trying to find Element By : By.xpath: //label[normalize-space()='Term Insurance Plans']
 Found Element By : By.xpath: //label[normalize-space()='Term Insurance Plans']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //label[normalize-space()='Term Insurance Plans']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //label[normalize-space()='Term Insurance Plans']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //label[normalize-space()='Term Insurance Plans']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //label[normalize-space()='Term Insurance Plans']]
 Navigating back to previous page
 Navigated back to previous page
 ]]></system-out>
   </testcase>
-  <testcase name="verifyRatingOption" classname="SeleniumTesting.AEMhdfc.ProductpageTest" time="9.451">
+  <testcase name="verifyRatingOption" classname="SeleniumTesting.AEMhdfc.ProductpageTest" time="9.64">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //div[@class='icon-wrap rate']
 Found Element By : By.xpath: //div[@class='icon-wrap rate']
 Trying to find Element By : By.xpath: //div[@class='icon-wrap rate']
@@ -1437,24 +1437,24 @@ Trying to find Element By : By.cssSelector: #rate-msg
 Found Element By : By.cssSelector: #rate-msg
 Trying to find Element By : By.xpath: (//*[name()='svg'][@class='starttest'])[2]
 Found Element By : By.xpath: (//*[name()='svg'][@class='starttest'])[2]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: (//*[name()='svg'][@class='starttest'])[2]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: (//*[name()='svg'][@class='starttest'])[2]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: (//*[name()='svg'][@class='starttest'])[2]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: (//*[name()='svg'][@class='starttest'])[2]]
 Trying to find Element By : By.xpath: //div[@class='icon-wrap rate']
 Found Element By : By.xpath: //div[@class='icon-wrap rate']
 Trying to find Element By : By.cssSelector: #rate-msg
 Found Element By : By.cssSelector: #rate-msg
 ]]></system-out>
   </testcase>
-  <testcase name="verifyPrintBtn" classname="SeleniumTesting.AEMhdfc.ProductpageTest" time="9.328">
+  <testcase name="verifyPrintBtn" classname="SeleniumTesting.AEMhdfc.ProductpageTest" time="9.535">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //div[@class='icon-wrap print']
 Found Element By : By.xpath: //div[@class='icon-wrap print']
 Trying to find Element By : By.xpath: //div[@class='icon-wrap print']
 Found Element By : By.xpath: //div[@class='icon-wrap print']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //div[@class='icon-wrap print']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //div[@class='icon-wrap print']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //div[@class='icon-wrap print']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //div[@class='icon-wrap print']]
 ]]></system-out>
   </testcase>
-  <testcase name="verifyShareOption" classname="SeleniumTesting.AEMhdfc.ProductpageTest" time="49.677">
+  <testcase name="verifyShareOption" classname="SeleniumTesting.AEMhdfc.ProductpageTest" time="49.973">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //div[@class='icon-wrap share']
 Found Element By : By.xpath: //div[@class='icon-wrap share']
 Trying to find Element By : By.xpath: //div[@class='icon-wrap share']
@@ -1463,8 +1463,8 @@ Trying to find Element By : By.xpath: //li[@class='share_social'][@data-medium='
 Found Element By : By.xpath: //li[@class='share_social'][@data-medium='facebook']
 Trying to find Element By : By.xpath: //li[@class='share_social'][@data-medium='facebook']
 Found Element By : By.xpath: //li[@class='share_social'][@data-medium='facebook']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //li[@class='share_social'][@data-medium='facebook']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //li[@class='share_social'][@data-medium='facebook']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //li[@class='share_social'][@data-medium='facebook']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //li[@class='share_social'][@data-medium='facebook']]
 Trying to find Element By : By.xpath: //div[@class='icon-wrap share']
 Found Element By : By.xpath: //div[@class='icon-wrap share']
 Trying to find Element By : By.xpath: //div[@class='icon-wrap share']
@@ -1473,8 +1473,8 @@ Trying to find Element By : By.xpath: //li[@class='share_social'][@data-medium='
 Found Element By : By.xpath: //li[@class='share_social'][@data-medium='twitter']
 Trying to find Element By : By.xpath: //li[@class='share_social'][@data-medium='twitter']
 Found Element By : By.xpath: //li[@class='share_social'][@data-medium='twitter']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //li[@class='share_social'][@data-medium='twitter']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //li[@class='share_social'][@data-medium='twitter']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //li[@class='share_social'][@data-medium='twitter']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //li[@class='share_social'][@data-medium='twitter']]
 Trying to find Element By : By.xpath: //div[@class='icon-wrap share']
 Found Element By : By.xpath: //div[@class='icon-wrap share']
 Trying to find Element By : By.xpath: //div[@class='icon-wrap share']
@@ -1483,43 +1483,43 @@ Trying to find Element By : By.xpath: //li[@class='share_social'][@data-medium='
 Found Element By : By.xpath: //li[@class='share_social'][@data-medium='linkedin']
 Trying to find Element By : By.xpath: //li[@class='share_social'][@data-medium='linkedin']
 Found Element By : By.xpath: //li[@class='share_social'][@data-medium='linkedin']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //li[@class='share_social'][@data-medium='linkedin']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //li[@class='share_social'][@data-medium='linkedin']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //li[@class='share_social'][@data-medium='linkedin']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //li[@class='share_social'][@data-medium='linkedin']]
 ]]></system-out>
   </testcase>
-  <testcase name="verifyRatingsFromAPI" classname="SeleniumTesting.AEMhdfc.ProductpageTest" time="3.025">
+  <testcase name="verifyRatingsFromAPI" classname="SeleniumTesting.AEMhdfc.ProductpageTest" time="3.028">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //div[@class='five-star-wrapper'][@id='starRating']
 Found Element By : By.xpath: //div[@class='five-star-wrapper'][@id='starRating']
 ]]></system-out>
   </testcase>
-  <testcase name="verifyDownloadBrochure" classname="SeleniumTesting.AEMhdfc.ProductpageTest" time="6.093">
+  <testcase name="verifyDownloadBrochure" classname="SeleniumTesting.AEMhdfc.ProductpageTest" time="6.193">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //a[@class='product-download-btn downloadPdfClick']
 Found Element By : By.xpath: //a[@class='product-download-btn downloadPdfClick']
 Trying to find Element By : By.xpath: //a[@class='product-download-btn downloadPdfClick']
 Found Element By : By.xpath: //a[@class='product-download-btn downloadPdfClick']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //a[@class='product-download-btn downloadPdfClick']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //a[@class='product-download-btn downloadPdfClick']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //a[@class='product-download-btn downloadPdfClick']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //a[@class='product-download-btn downloadPdfClick']]
 ]]></system-out>
   </testcase>
-  <testcase name="verifyCalculatePremiumBtn" classname="SeleniumTesting.AEMhdfc.ProductpageTest" time="11.31">
+  <testcase name="verifyCalculatePremiumBtn" classname="SeleniumTesting.AEMhdfc.ProductpageTest" time="11.565">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //a[@class='product-calculate-btn outlined-button-hover dataLayerBtnClick']
 Found Element By : By.xpath: //a[@class='product-calculate-btn outlined-button-hover dataLayerBtnClick']
 Trying to find Element By : By.xpath: //a[@class='product-calculate-btn outlined-button-hover dataLayerBtnClick']
 Found Element By : By.xpath: //a[@class='product-calculate-btn outlined-button-hover dataLayerBtnClick']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //a[@class='product-calculate-btn outlined-button-hover dataLayerBtnClick']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //a[@class='product-calculate-btn outlined-button-hover dataLayerBtnClick']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //a[@class='product-calculate-btn outlined-button-hover dataLayerBtnClick']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //a[@class='product-calculate-btn outlined-button-hover dataLayerBtnClick']]
 ]]></system-out>
   </testcase>
-  <testcase name="verifyBuyNowBtn" classname="SeleniumTesting.AEMhdfc.ProductpageTest" time="9.345">
+  <testcase name="verifyBuyNowBtn" classname="SeleniumTesting.AEMhdfc.ProductpageTest" time="9.622">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //a[@class='product-buynow-btn btnred dataLayerBtnClick']
 Found Element By : By.xpath: //a[@class='product-buynow-btn btnred dataLayerBtnClick']
 Trying to find Element By : By.xpath: //a[@class='product-buynow-btn btnred dataLayerBtnClick']
 Found Element By : By.xpath: //a[@class='product-buynow-btn btnred dataLayerBtnClick']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //a[@class='product-buynow-btn btnred dataLayerBtnClick']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //a[@class='product-buynow-btn btnred dataLayerBtnClick']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //a[@class='product-buynow-btn btnred dataLayerBtnClick']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //a[@class='product-buynow-btn btnred dataLayerBtnClick']]
 ]]></system-out>
   </testcase>
-  <testcase name="verifyDownloadsSectionAfterScroll" classname="SeleniumTesting.AEMhdfc.ProductpageTest" time="106.741">
+  <testcase name="verifyDownloadsSectionAfterScroll" classname="SeleniumTesting.AEMhdfc.ProductpageTest" time="108.306">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //div[@class='icon-wrap rate']
 Found Element By : By.xpath: //div[@class='icon-wrap rate']
 Trying to find Element By : By.xpath: //div[@class='icon-wrap rate']
@@ -1528,8 +1528,8 @@ Trying to find Element By : By.cssSelector: #rate-msg
 Found Element By : By.cssSelector: #rate-msg
 Trying to find Element By : By.xpath: (//*[name()='svg'][@class='starttest'])[2]
 Found Element By : By.xpath: (//*[name()='svg'][@class='starttest'])[2]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: (//*[name()='svg'][@class='starttest'])[2]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: (//*[name()='svg'][@class='starttest'])[2]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: (//*[name()='svg'][@class='starttest'])[2]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: (//*[name()='svg'][@class='starttest'])[2]]
 Trying to find Element By : By.xpath: //div[@class='icon-wrap rate']
 Found Element By : By.xpath: //div[@class='icon-wrap rate']
 Trying to find Element By : By.cssSelector: #rate-msg
@@ -1538,8 +1538,8 @@ Trying to find Element By : By.xpath: //div[@class='icon-wrap print']
 Found Element By : By.xpath: //div[@class='icon-wrap print']
 Trying to find Element By : By.xpath: //div[@class='icon-wrap print']
 Found Element By : By.xpath: //div[@class='icon-wrap print']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //div[@class='icon-wrap print']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //div[@class='icon-wrap print']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //div[@class='icon-wrap print']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //div[@class='icon-wrap print']]
 Trying to find Element By : By.xpath: //div[@class='icon-wrap share']
 Found Element By : By.xpath: //div[@class='icon-wrap share']
 Trying to find Element By : By.xpath: //div[@class='icon-wrap share']
@@ -1548,8 +1548,8 @@ Trying to find Element By : By.xpath: //li[@class='share_social'][@data-medium='
 Found Element By : By.xpath: //li[@class='share_social'][@data-medium='facebook']
 Trying to find Element By : By.xpath: //li[@class='share_social'][@data-medium='facebook']
 Found Element By : By.xpath: //li[@class='share_social'][@data-medium='facebook']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //li[@class='share_social'][@data-medium='facebook']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //li[@class='share_social'][@data-medium='facebook']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //li[@class='share_social'][@data-medium='facebook']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //li[@class='share_social'][@data-medium='facebook']]
 Trying to find Element By : By.xpath: //div[@class='icon-wrap share']
 Found Element By : By.xpath: //div[@class='icon-wrap share']
 Trying to find Element By : By.xpath: //div[@class='icon-wrap share']
@@ -1558,8 +1558,8 @@ Trying to find Element By : By.xpath: //li[@class='share_social'][@data-medium='
 Found Element By : By.xpath: //li[@class='share_social'][@data-medium='twitter']
 Trying to find Element By : By.xpath: //li[@class='share_social'][@data-medium='twitter']
 Found Element By : By.xpath: //li[@class='share_social'][@data-medium='twitter']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //li[@class='share_social'][@data-medium='twitter']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //li[@class='share_social'][@data-medium='twitter']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //li[@class='share_social'][@data-medium='twitter']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //li[@class='share_social'][@data-medium='twitter']]
 Trying to find Element By : By.xpath: //div[@class='icon-wrap share']
 Found Element By : By.xpath: //div[@class='icon-wrap share']
 Trying to find Element By : By.xpath: //div[@class='icon-wrap share']
@@ -1568,51 +1568,51 @@ Trying to find Element By : By.xpath: //li[@class='share_social'][@data-medium='
 Found Element By : By.xpath: //li[@class='share_social'][@data-medium='linkedin']
 Trying to find Element By : By.xpath: //li[@class='share_social'][@data-medium='linkedin']
 Found Element By : By.xpath: //li[@class='share_social'][@data-medium='linkedin']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //li[@class='share_social'][@data-medium='linkedin']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //li[@class='share_social'][@data-medium='linkedin']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //li[@class='share_social'][@data-medium='linkedin']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //li[@class='share_social'][@data-medium='linkedin']]
 Trying to find Element By : By.xpath: //div[@class='five-star-wrapper'][@id='starRating']
 Found Element By : By.xpath: //div[@class='five-star-wrapper'][@id='starRating']
 Trying to find Element By : By.xpath: //a[@class='product-download-btn downloadPdfClick']
 Found Element By : By.xpath: //a[@class='product-download-btn downloadPdfClick']
 Trying to find Element By : By.xpath: //a[@class='product-download-btn downloadPdfClick']
 Found Element By : By.xpath: //a[@class='product-download-btn downloadPdfClick']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //a[@class='product-download-btn downloadPdfClick']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //a[@class='product-download-btn downloadPdfClick']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //a[@class='product-download-btn downloadPdfClick']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //a[@class='product-download-btn downloadPdfClick']]
 Trying to find Element By : By.xpath: //a[@class='product-calculate-btn outlined-button-hover dataLayerBtnClick']
 Found Element By : By.xpath: //a[@class='product-calculate-btn outlined-button-hover dataLayerBtnClick']
 Trying to find Element By : By.xpath: //a[@class='product-calculate-btn outlined-button-hover dataLayerBtnClick']
 Found Element By : By.xpath: //a[@class='product-calculate-btn outlined-button-hover dataLayerBtnClick']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //a[@class='product-calculate-btn outlined-button-hover dataLayerBtnClick']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //a[@class='product-calculate-btn outlined-button-hover dataLayerBtnClick']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //a[@class='product-calculate-btn outlined-button-hover dataLayerBtnClick']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //a[@class='product-calculate-btn outlined-button-hover dataLayerBtnClick']]
 Trying to find Element By : By.xpath: //a[@class='product-buynow-btn btnred dataLayerBtnClick']
 Found Element By : By.xpath: //a[@class='product-buynow-btn btnred dataLayerBtnClick']
 Trying to find Element By : By.xpath: //a[@class='product-buynow-btn btnred dataLayerBtnClick']
 Found Element By : By.xpath: //a[@class='product-buynow-btn btnred dataLayerBtnClick']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //a[@class='product-buynow-btn btnred dataLayerBtnClick']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //a[@class='product-buynow-btn btnred dataLayerBtnClick']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //a[@class='product-buynow-btn btnred dataLayerBtnClick']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //a[@class='product-buynow-btn btnred dataLayerBtnClick']]
 ]]></system-out>
   </testcase>
-  <testcase name="verifyYourPlanYourBenefitsSection" classname="SeleniumTesting.AEMhdfc.ProductpageTest" time="47.169">
+  <testcase name="verifyYourPlanYourBenefitsSection" classname="SeleniumTesting.AEMhdfc.ProductpageTest" time="48.398">
     <system-out><![CDATA[Trying to find Element By : By.xpath: (//button[@class='btn btnwhite dataLayerBtnClick'])[1]
 Found Element By : By.xpath: (//button[@class='btn btnwhite dataLayerBtnClick'])[1]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: (//button[@class='btn btnwhite dataLayerBtnClick'])[1]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: (//button[@class='btn btnwhite dataLayerBtnClick'])[1]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: (//button[@class='btn btnwhite dataLayerBtnClick'])[1]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: (//button[@class='btn btnwhite dataLayerBtnClick'])[1]]
 Trying to find Element By : By.xpath: (//span[@class='close-iconprod'])[1]
 Found Element By : By.xpath: (//span[@class='close-iconprod'])[1]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: (//span[@class='close-iconprod'])[1]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: (//span[@class='close-iconprod'])[1]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: (//span[@class='close-iconprod'])[1]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: (//span[@class='close-iconprod'])[1]]
 Trying to find Element By : By.xpath: (//button[@class='owl-next'])[1]
 Found Element By : By.xpath: (//button[@class='owl-next'])[1]
 Trying to find Element By : By.xpath: (//button[@class='owl-next'])[1]
 Found Element By : By.xpath: (//button[@class='owl-next'])[1]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: (//button[@class='owl-next'])[1]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: (//button[@class='owl-next'])[1]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: (//button[@class='owl-next'])[1]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: (//button[@class='owl-next'])[1]]
 Trying to find Element By : By.xpath: (//button[@class='owl-next'])[1]
 Found Element By : By.xpath: (//button[@class='owl-next'])[1]
 Trying to find Element By : By.xpath: (//button[@class='owl-next'])[1]
 Found Element By : By.xpath: (//button[@class='owl-next'])[1]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: (//button[@class='owl-next'])[1]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: (//button[@class='owl-next'])[1]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: (//button[@class='owl-next'])[1]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: (//button[@class='owl-next'])[1]]
 Trying to find Element By : By.xpath: (//button[@class='owl-next'])[1]
 Found Element By : By.xpath: (//button[@class='owl-next'])[1]
 Trying to find Element By : By.xpath: (//button[@class='owl-next disabled'])[1]
@@ -1621,22 +1621,22 @@ Trying to find Element By : By.xpath: (//button[@class='owl-prev'])[1]
 Found Element By : By.xpath: (//button[@class='owl-prev'])[1]
 Trying to find Element By : By.xpath: (//button[@class='owl-prev'])[1]
 Found Element By : By.xpath: (//button[@class='owl-prev'])[1]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: (//button[@class='owl-prev'])[1]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: (//button[@class='owl-prev'])[1]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: (//button[@class='owl-prev'])[1]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: (//button[@class='owl-prev'])[1]]
 Trying to find Element By : By.xpath: (//button[@class='owl-prev'])[1]
 Found Element By : By.xpath: (//button[@class='owl-prev'])[1]
 Trying to find Element By : By.xpath: (//button[@class='owl-prev'])[1]
 Found Element By : By.xpath: (//button[@class='owl-prev'])[1]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: (//button[@class='owl-prev'])[1]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: (//button[@class='owl-prev'])[1]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: (//button[@class='owl-prev'])[1]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: (//button[@class='owl-prev'])[1]]
 Trying to find Element By : By.xpath: (//button[@class='owl-prev disabled'])[1]
 Found Element By : By.xpath: (//button[@class='owl-prev disabled'])[1]
 Trying to find Element By : By.xpath: (//a[@class='talk-to-advisor-link outlined-button-hover product-benefits-cards-data-layer'])[1]
 Found Element By : By.xpath: (//a[@class='talk-to-advisor-link outlined-button-hover product-benefits-cards-data-layer'])[1]
 Trying to find Element By : By.xpath: (//a[@class='talk-to-advisor-link outlined-button-hover product-benefits-cards-data-layer'])[1]
 Found Element By : By.xpath: (//a[@class='talk-to-advisor-link outlined-button-hover product-benefits-cards-data-layer'])[1]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: (//a[@class='talk-to-advisor-link outlined-button-hover product-benefits-cards-data-layer'])[1]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: (//a[@class='talk-to-advisor-link outlined-button-hover product-benefits-cards-data-layer'])[1]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: (//a[@class='talk-to-advisor-link outlined-button-hover product-benefits-cards-data-layer'])[1]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: (//a[@class='talk-to-advisor-link outlined-button-hover product-benefits-cards-data-layer'])[1]]
 Trying to find Element By : By.xpath: //input[@class='first-name']
 Found Element By : By.xpath: //input[@class='first-name']
 Trying to find Element By : By.xpath: //input[@class='modilewidth']
@@ -1649,43 +1649,43 @@ Trying to find Element By : By.id: insurance_category
 Found Element By : By.id: insurance_category
 Trying to find Element By : By.xpath: .//option[@value = "Health Plans"]
 Found Element By : By.xpath: .//option[@value = "Health Plans"]
-Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> id: insurance_category]] -> xpath: .//option[@value = "Health Plans"]]
-Clicked on: [[[[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> id: insurance_category]] -> xpath: .//option[@value = "Health Plans"]]
+Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> id: insurance_category]] -> xpath: .//option[@value = "Health Plans"]]
+Clicked on: [[[[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> id: insurance_category]] -> xpath: .//option[@value = "Health Plans"]]
 Trying to find Element By : By.xpath: //span[@class='close-icon1']
 Found Element By : By.xpath: //span[@class='close-icon1']
 Trying to find Element By : By.xpath: //span[@class='close-icon1']
 Found Element By : By.xpath: //span[@class='close-icon1']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //span[@class='close-icon1']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //span[@class='close-icon1']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //span[@class='close-icon1']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //span[@class='close-icon1']]
 ]]></system-out>
   </testcase>
-  <testcase name="verifyEligibilityCriteria" classname="SeleniumTesting.AEMhdfc.ProductpageTest" time="9.243">
+  <testcase name="verifyEligibilityCriteria" classname="SeleniumTesting.AEMhdfc.ProductpageTest" time="9.323">
     <system-out><![CDATA[Trying to find Element By : By.id: view-eligibility-table
 Found Element By : By.id: view-eligibility-table
 Trying to find Element By : By.id: view-eligibility-table
 Found Element By : By.id: view-eligibility-table
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> id: view-eligibility-table]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> id: view-eligibility-table]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> id: view-eligibility-table]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> id: view-eligibility-table]
 Trying to find Element By : By.className: close-table
 Found Element By : By.className: close-table
 Trying to find Element By : By.className: close-table
 Found Element By : By.className: close-table
 Trying to find Element By : By.className: close-table
 Found Element By : By.className: close-table
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> class name: close-table]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> class name: close-table]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> class name: close-table]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> class name: close-table]
 Trying to find Element By : By.id: view-eligibility-table
 Found Element By : By.id: view-eligibility-table
 ]]></system-out>
   </testcase>
-  <testcase name="verifyVideoOnCategoryPage" classname="SeleniumTesting.AEMhdfc.ProductpageTest" time="3.017"/>
-  <testcase name="verifyRidersSection" classname="SeleniumTesting.AEMhdfc.ProductpageTest" time="57.759">
+  <testcase name="verifyVideoOnCategoryPage" classname="SeleniumTesting.AEMhdfc.ProductpageTest" time="3.005"/>
+  <testcase name="verifyRidersSection" classname="SeleniumTesting.AEMhdfc.ProductpageTest" time="58.365">
     <system-out><![CDATA[Trying to find Element By : By.xpath: (//a[@class='viewMoreBtn'])[3]
 Found Element By : By.xpath: (//a[@class='viewMoreBtn'])[3]
 Trying to find Element By : By.xpath: (//a[@class='viewMoreBtn'])[3]
 Found Element By : By.xpath: (//a[@class='viewMoreBtn'])[3]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: (//a[@class='viewMoreBtn'])[3]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: (//a[@class='viewMoreBtn'])[3]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: (//a[@class='viewMoreBtn'])[3]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: (//a[@class='viewMoreBtn'])[3]]
 Trying to find Element By : By.xpath: (//ul[@class='insuranceBenList'])[1]
 Found Element By : By.xpath: (//ul[@class='insuranceBenList'])[1]
 Trying to find Element By : By.tagName: a
@@ -1696,11 +1696,11 @@ Trying to find Element By : By.tagName: a
 Found Element By : By.tagName: a
 ]]></system-out>
   </testcase>
-  <testcase name="verifyScheduleACallOnProductPage" classname="SeleniumTesting.AEMhdfc.ProductpageTest" time="16.762">
+  <testcase name="verifyScheduleACallOnProductPage" classname="SeleniumTesting.AEMhdfc.ProductpageTest" time="16.969">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']
 Found Element By : By.xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']]
 Trying to find Element By : By.xpath: //div[@id='myModal']//input[@placeholder='Name']
 Found Element By : By.xpath: //div[@id='myModal']//input[@placeholder='Name']
 Trying to find Element By : By.xpath: //div[@id='myModal']//input[@placeholder='Mobile Number']
@@ -1713,18 +1713,18 @@ Trying to find Element By : By.xpath: (//select[@id='insurance_category'])[5]
 Found Element By : By.xpath: (//select[@id='insurance_category'])[5]
 Trying to find Element By : By.xpath: .//option[@value = "Investment Plans"]
 Found Element By : By.xpath: .//option[@value = "Investment Plans"]
-Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: (//select[@id='insurance_category'])[5]]] -> xpath: .//option[@value = "Investment Plans"]]
-Clicked on: [[[[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: (//select[@id='insurance_category'])[5]]] -> xpath: .//option[@value = "Investment Plans"]]
+Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: (//select[@id='insurance_category'])[5]]] -> xpath: .//option[@value = "Investment Plans"]]
+Clicked on: [[[[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: (//select[@id='insurance_category'])[5]]] -> xpath: .//option[@value = "Investment Plans"]]
 Trying to find Element By : By.xpath: (//span[@class='close-icon1'])[5]
 Found Element By : By.xpath: (//span[@class='close-icon1'])[5]
 Trying to find Element By : By.xpath: (//span[@class='close-icon1'])[5]
 Found Element By : By.xpath: (//span[@class='close-icon1'])[5]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: (//span[@class='close-icon1'])[5]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: (//span[@class='close-icon1'])[5]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: (//span[@class='close-icon1'])[5]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: (//span[@class='close-icon1'])[5]]
 Trying to find Element By : By.xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']
 Found Element By : By.xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']]
 Trying to find Element By : By.xpath: //div[@id='myModal']//input[@placeholder='Name']
 Found Element By : By.xpath: //div[@id='myModal']//input[@placeholder='Name']
 Trying to find Element By : By.xpath: //div[@id='myModal']//input[@placeholder='Mobile Number']
@@ -1741,40 +1741,316 @@ Trying to find Element By : By.xpath: (//span[@class='close-icon1'])[5]
 Found Element By : By.xpath: (//span[@class='close-icon1'])[5]
 Trying to find Element By : By.xpath: (//span[@class='close-icon1'])[5]
 Found Element By : By.xpath: (//span[@class='close-icon1'])[5]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: (//span[@class='close-icon1'])[5]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: (//span[@class='close-icon1'])[5]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: (//span[@class='close-icon1'])[5]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: (//span[@class='close-icon1'])[5]]
 ]]></system-out>
   </testcase>
-  <testcase name="verifyFAQSection" classname="SeleniumTesting.AEMhdfc.ProductpageTest" time="12.386">
+  <testcase name="verifyFAQSection" classname="SeleniumTesting.AEMhdfc.ProductpageTest" time="12.531">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //h2[@class='tabAccordMenu opened']
 Found Element By : By.xpath: //h2[@class='tabAccordMenu opened']
 Trying to find Element By : By.xpath: //h2[@class='tabAccordMenu opened']
 Found Element By : By.xpath: //h2[@class='tabAccordMenu opened']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //h2[@class='tabAccordMenu opened']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //h2[@class='tabAccordMenu opened']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //h2[@class='tabAccordMenu opened']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //h2[@class='tabAccordMenu opened']]
 Trying to find Element By : By.xpath: (//h2[@class='tabAccordMenu'])[2]
 Found Element By : By.xpath: (//h2[@class='tabAccordMenu'])[2]
 Trying to find Element By : By.xpath: (//h2[@class='tabAccordMenu'])[2]
 Found Element By : By.xpath: (//h2[@class='tabAccordMenu'])[2]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: (//h2[@class='tabAccordMenu'])[2]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: (//h2[@class='tabAccordMenu'])[2]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: (//h2[@class='tabAccordMenu'])[2]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: (//h2[@class='tabAccordMenu'])[2]]
 Trying to find Element By : By.xpath: //h2[@class='tabAccordMenu opened']
 Found Element By : By.xpath: //h2[@class='tabAccordMenu opened']
 Trying to find Element By : By.xpath: //h2[@class='tabAccordMenu opened']
 Found Element By : By.xpath: //h2[@class='tabAccordMenu opened']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //h2[@class='tabAccordMenu opened']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //h2[@class='tabAccordMenu opened']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //h2[@class='tabAccordMenu opened']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //h2[@class='tabAccordMenu opened']]
 Trying to find Element By : By.xpath: (//a[@class='viewMoreBtn'])[4]
 Found Element By : By.xpath: (//a[@class='viewMoreBtn'])[4]
 ]]></system-out>
   </testcase>
-  <testcase name="verifyDisclaimerOnProductPage" classname="SeleniumTesting.AEMhdfc.ProductpageTest" time="9.101">
+  <testcase name="verifyDisclaimerOnProductPage" classname="SeleniumTesting.AEMhdfc.ProductpageTest" time="9.146">
     <system-out><![CDATA[Trying to find Element By : By.xpath: //a[@data-toggle='collapse']
 Found Element By : By.xpath: //a[@data-toggle='collapse']
 Trying to find Element By : By.xpath: //a[@data-toggle='collapse']
 Found Element By : By.xpath: //a[@data-toggle='collapse']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //a[@data-toggle='collapse']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (cc716929c3199bcf1236c18ff7dd33e5)] -> xpath: //a[@data-toggle='collapse']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //a[@data-toggle='collapse']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (d1cc4e51f10270bec53ba77c7ea5bda7)] -> xpath: //a[@data-toggle='collapse']]
+]]></system-out>
+  </testcase>
+  <testcase name="navigateToCustomerServiceLandingPage" classname="SeleniumTesting.AEMhdfc.CustomerservicelandingTest" time="4.541">
+    <system-out><![CDATA[Before navigating to: 'https://www.hdfclife.com/'
+Navigated to:'https://www.hdfclife.com/'
+Trying to find Element By : By.xpath: //a[contains(text(),'Customer Service')]
+Found Element By : By.xpath: //a[contains(text(),'Customer Service')]
+Trying to find Element By : By.xpath: //a[contains(text(),'Customer Service')]
+Found Element By : By.xpath: //a[contains(text(),'Customer Service')]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //a[contains(text(),'Customer Service')]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //a[contains(text(),'Customer Service')]]
+]]></system-out>
+    <system-err><![CDATA[Dec 15, 2021 8:48:30 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 12428
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1639581511.034][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1639581511.035][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+Dec 15, 2021 8:48:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyCustomerServiceLandingPopup" classname="SeleniumTesting.AEMhdfc.CustomerservicelandingTest" time="12.576">
+    <system-out><![CDATA[Trying to find Element By : By.xpath: //img[@class='closeAll regulatorypopupAImg']
+Found Element By : By.xpath: //img[@class='closeAll regulatorypopupAImg']
+Trying to find Element By : By.xpath: //a[@class='download-a']
+Found Element By : By.xpath: //a[@class='download-a']
+Trying to find Element By : By.xpath: //a[@class='download-a']
+Found Element By : By.xpath: //a[@class='download-a']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //a[@class='download-a']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //a[@class='download-a']]
+Trying to find Element By : By.xpath: //img[@class='at-element-click-tracking']
+Found Element By : By.xpath: //img[@class='at-element-click-tracking']
+Trying to find Element By : By.xpath: //img[@class='at-element-click-tracking']
+Found Element By : By.xpath: //img[@class='at-element-click-tracking']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //img[@class='at-element-click-tracking']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //img[@class='at-element-click-tracking']]
+]]></system-out>
+  </testcase>
+  <testcase name="verifyBannerCarousel" classname="SeleniumTesting.AEMhdfc.CustomerservicelandingTest" time="35.73">
+    <system-out><![CDATA[Trying to find Element By : By.xpath: //li[@data-slide-to='0']
+Found Element By : By.xpath: //li[@data-slide-to='0']
+Trying to find Element By : By.xpath: //li[@data-slide-to='0']
+Found Element By : By.xpath: //li[@data-slide-to='0']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //li[@data-slide-to='0']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //li[@data-slide-to='0']]
+Trying to find Element By : By.xpath: //li[@data-slide-to='1']
+Found Element By : By.xpath: //li[@data-slide-to='1']
+Trying to find Element By : By.xpath: //li[@data-slide-to='1']
+Found Element By : By.xpath: //li[@data-slide-to='1']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //li[@data-slide-to='1']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //li[@data-slide-to='1']]
+Trying to find Element By : By.xpath: (//a[contains(text(),'Website')])[1]
+Found Element By : By.xpath: (//a[contains(text(),'Website')])[1]
+Trying to find Element By : By.xpath: (//a[contains(text(),'Website')])[1]
+Found Element By : By.xpath: (//a[contains(text(),'Website')])[1]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: (//a[contains(text(),'Website')])[1]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: (//a[contains(text(),'Website')])[1]]
+Trying to find Element By : By.xpath: (//a[contains(text(),'Mobile')])[1]
+Found Element By : By.xpath: (//a[contains(text(),'Mobile')])[1]
+Trying to find Element By : By.xpath: (//a[contains(text(),'Mobile')])[1]
+Found Element By : By.xpath: (//a[contains(text(),'Mobile')])[1]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: (//a[contains(text(),'Mobile')])[1]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: (//a[contains(text(),'Mobile')])[1]]
+Trying to find Element By : By.xpath: //li[@data-slide-to='2']
+Found Element By : By.xpath: //li[@data-slide-to='2']
+Trying to find Element By : By.xpath: //li[@data-slide-to='2']
+Found Element By : By.xpath: //li[@data-slide-to='2']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //li[@data-slide-to='2']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //li[@data-slide-to='2']]
+Trying to find Element By : By.xpath: (//a[contains(text(),'Click here')])[3]
+Found Element By : By.xpath: (//a[contains(text(),'Click here')])[3]
+Trying to find Element By : By.xpath: (//a[contains(text(),'Click here')])[3]
+Found Element By : By.xpath: (//a[contains(text(),'Click here')])[3]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: (//a[contains(text(),'Click here')])[3]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: (//a[contains(text(),'Click here')])[3]]
+Trying to find Element By : By.xpath: //li[@data-slide-to='3']
+Found Element By : By.xpath: //li[@data-slide-to='3']
+Trying to find Element By : By.xpath: //li[@data-slide-to='3']
+Found Element By : By.xpath: //li[@data-slide-to='3']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //li[@data-slide-to='3']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //li[@data-slide-to='3']]
+Trying to find Element By : By.xpath: (//a[contains(text(),'Click here')])[4]
+Found Element By : By.xpath: (//a[contains(text(),'Click here')])[4]
+Trying to find Element By : By.xpath: (//a[contains(text(),'Click here')])[4]
+Found Element By : By.xpath: (//a[contains(text(),'Click here')])[4]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: (//a[contains(text(),'Click here')])[4]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: (//a[contains(text(),'Click here')])[4]]
+Trying to find Element By : By.xpath: //li[@data-slide-to='4']
+Found Element By : By.xpath: //li[@data-slide-to='4']
+Trying to find Element By : By.xpath: //li[@data-slide-to='4']
+Found Element By : By.xpath: //li[@data-slide-to='4']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //li[@data-slide-to='4']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //li[@data-slide-to='4']]
+]]></system-out>
+  </testcase>
+  <testcase name="verifyBreadcrumb" classname="SeleniumTesting.AEMhdfc.CustomerservicelandingTest" time="12.65">
+    <system-out><![CDATA[Trying to find Element By : By.xpath: //img[@class='homeIconImg']
+Found Element By : By.xpath: //img[@class='homeIconImg']
+Trying to find Element By : By.xpath: //img[@class='homeIconImg']
+Found Element By : By.xpath: //img[@class='homeIconImg']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //img[@class='homeIconImg']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //img[@class='homeIconImg']]
+Navigating back to previous page
+Navigated back to previous page
+Trying to find Element By : By.xpath: //img[@class='at-element-click-tracking']
+Found Element By : By.xpath: //img[@class='at-element-click-tracking']
+Trying to find Element By : By.xpath: //img[@class='at-element-click-tracking']
+Found Element By : By.xpath: //img[@class='at-element-click-tracking']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //img[@class='at-element-click-tracking']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //img[@class='at-element-click-tracking']]
+]]></system-out>
+  </testcase>
+  <testcase name="verifyQuickLinksSection" classname="SeleniumTesting.AEMhdfc.CustomerservicelandingTest" time="175.876">
+    <system-out><![CDATA[Trying to find Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[1]
+Found Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[1]
+Trying to find Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[1]
+Found Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[1]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: (//div[@class='rt-blue-bg']//a)[1]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: (//div[@class='rt-blue-bg']//a)[1]]
+Navigating back to previous page
+Navigated back to previous page
+Trying to find Element By : By.xpath: //img[@class='at-element-click-tracking']
+Found Element By : By.xpath: //img[@class='at-element-click-tracking']
+Trying to find Element By : By.xpath: //img[@class='at-element-click-tracking']
+Found Element By : By.xpath: //img[@class='at-element-click-tracking']
+Trying to find Element By : By.xpath: //img[@class='at-element-click-tracking']
+Found Element By : By.xpath: //img[@class='at-element-click-tracking']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //img[@class='at-element-click-tracking']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //img[@class='at-element-click-tracking']]
+Trying to find Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[2]
+Found Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[2]
+Trying to find Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[2]
+Found Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[2]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: (//div[@class='rt-blue-bg']//a)[2]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: (//div[@class='rt-blue-bg']//a)[2]]
+Navigating back to previous page
+Navigated back to previous page
+Trying to find Element By : By.xpath: //img[@class='at-element-click-tracking']
+Found Element By : By.xpath: //img[@class='at-element-click-tracking']
+Trying to find Element By : By.xpath: //img[@class='at-element-click-tracking']
+Found Element By : By.xpath: //img[@class='at-element-click-tracking']
+Trying to find Element By : By.xpath: //img[@class='at-element-click-tracking']
+Found Element By : By.xpath: //img[@class='at-element-click-tracking']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //img[@class='at-element-click-tracking']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //img[@class='at-element-click-tracking']]
+Trying to find Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[3]
+Found Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[3]
+Trying to find Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[3]
+Found Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[3]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: (//div[@class='rt-blue-bg']//a)[3]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: (//div[@class='rt-blue-bg']//a)[3]]
+Navigating back to previous page
+Navigated back to previous page
+Trying to find Element By : By.xpath: //img[@class='at-element-click-tracking']
+Found Element By : By.xpath: //img[@class='at-element-click-tracking']
+Trying to find Element By : By.xpath: //img[@class='at-element-click-tracking']
+Found Element By : By.xpath: //img[@class='at-element-click-tracking']
+Trying to find Element By : By.xpath: //img[@class='at-element-click-tracking']
+Found Element By : By.xpath: //img[@class='at-element-click-tracking']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //img[@class='at-element-click-tracking']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //img[@class='at-element-click-tracking']]
+Trying to find Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[4]
+Found Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[4]
+Trying to find Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[4]
+Found Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[4]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: (//div[@class='rt-blue-bg']//a)[4]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: (//div[@class='rt-blue-bg']//a)[4]]
+Navigating back to previous page
+Navigated back to previous page
+Trying to find Element By : By.xpath: //img[@class='at-element-click-tracking']
+Found Element By : By.xpath: //img[@class='at-element-click-tracking']
+Trying to find Element By : By.xpath: //img[@class='at-element-click-tracking']
+Found Element By : By.xpath: //img[@class='at-element-click-tracking']
+Trying to find Element By : By.xpath: //img[@class='at-element-click-tracking']
+Found Element By : By.xpath: //img[@class='at-element-click-tracking']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //img[@class='at-element-click-tracking']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //img[@class='at-element-click-tracking']]
+Trying to find Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[5]
+Found Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[5]
+Trying to find Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[5]
+Found Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[5]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: (//div[@class='rt-blue-bg']//a)[5]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: (//div[@class='rt-blue-bg']//a)[5]]
+Navigating back to previous page
+Navigated back to previous page
+Trying to find Element By : By.xpath: //img[@class='at-element-click-tracking']
+Found Element By : By.xpath: //img[@class='at-element-click-tracking']
+Trying to find Element By : By.xpath: //img[@class='at-element-click-tracking']
+Found Element By : By.xpath: //img[@class='at-element-click-tracking']
+Trying to find Element By : By.xpath: //img[@class='at-element-click-tracking']
+Found Element By : By.xpath: //img[@class='at-element-click-tracking']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //img[@class='at-element-click-tracking']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //img[@class='at-element-click-tracking']]
+Trying to find Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[6]
+Found Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[6]
+Trying to find Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[6]
+Found Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[6]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: (//div[@class='rt-blue-bg']//a)[6]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: (//div[@class='rt-blue-bg']//a)[6]]
+Navigating back to previous page
+Navigated back to previous page
+Trying to find Element By : By.xpath: //img[@class='at-element-click-tracking']
+Found Element By : By.xpath: //img[@class='at-element-click-tracking']
+Trying to find Element By : By.xpath: //img[@class='at-element-click-tracking']
+Found Element By : By.xpath: //img[@class='at-element-click-tracking']
+Trying to find Element By : By.xpath: //img[@class='at-element-click-tracking']
+Found Element By : By.xpath: //img[@class='at-element-click-tracking']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //img[@class='at-element-click-tracking']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //img[@class='at-element-click-tracking']]
+Trying to find Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[7]
+Found Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[7]
+Trying to find Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[7]
+Found Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[7]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: (//div[@class='rt-blue-bg']//a)[7]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: (//div[@class='rt-blue-bg']//a)[7]]
+Navigating back to previous page
+Navigated back to previous page
+Trying to find Element By : By.xpath: //img[@class='at-element-click-tracking']
+Found Element By : By.xpath: //img[@class='at-element-click-tracking']
+Trying to find Element By : By.xpath: //img[@class='at-element-click-tracking']
+Found Element By : By.xpath: //img[@class='at-element-click-tracking']
+Trying to find Element By : By.xpath: //img[@class='at-element-click-tracking']
+Found Element By : By.xpath: //img[@class='at-element-click-tracking']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //img[@class='at-element-click-tracking']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //img[@class='at-element-click-tracking']]
+Trying to find Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[8]
+Found Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[8]
+Trying to find Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[8]
+Found Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[8]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: (//div[@class='rt-blue-bg']//a)[8]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: (//div[@class='rt-blue-bg']//a)[8]]
+Navigating back to previous page
+Navigated back to previous page
+Trying to find Element By : By.xpath: //img[@class='at-element-click-tracking']
+Found Element By : By.xpath: //img[@class='at-element-click-tracking']
+Trying to find Element By : By.xpath: //img[@class='at-element-click-tracking']
+Found Element By : By.xpath: //img[@class='at-element-click-tracking']
+Trying to find Element By : By.xpath: //img[@class='at-element-click-tracking']
+Found Element By : By.xpath: //img[@class='at-element-click-tracking']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //img[@class='at-element-click-tracking']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //img[@class='at-element-click-tracking']]
+Trying to find Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[9]
+Found Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[9]
+Trying to find Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[9]
+Found Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[9]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: (//div[@class='rt-blue-bg']//a)[9]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: (//div[@class='rt-blue-bg']//a)[9]]
+Navigating back to previous page
+Navigated back to previous page
+Trying to find Element By : By.xpath: //img[@class='at-element-click-tracking']
+Found Element By : By.xpath: //img[@class='at-element-click-tracking']
+Trying to find Element By : By.xpath: //img[@class='at-element-click-tracking']
+Found Element By : By.xpath: //img[@class='at-element-click-tracking']
+Trying to find Element By : By.xpath: //img[@class='at-element-click-tracking']
+Found Element By : By.xpath: //img[@class='at-element-click-tracking']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //img[@class='at-element-click-tracking']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //img[@class='at-element-click-tracking']]
+Trying to find Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[10]
+Found Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[10]
+Trying to find Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[10]
+Found Element By : By.xpath: (//div[@class='rt-blue-bg']//a)[10]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: (//div[@class='rt-blue-bg']//a)[10]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: (//div[@class='rt-blue-bg']//a)[10]]
+Navigating back to previous page
+Navigated back to previous page
+Trying to find Element By : By.xpath: //img[@class='at-element-click-tracking']
+Found Element By : By.xpath: //img[@class='at-element-click-tracking']
+Trying to find Element By : By.xpath: //img[@class='at-element-click-tracking']
+Found Element By : By.xpath: //img[@class='at-element-click-tracking']
+Trying to find Element By : By.xpath: //img[@class='at-element-click-tracking']
+Found Element By : By.xpath: //img[@class='at-element-click-tracking']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //img[@class='at-element-click-tracking']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (580d9c5341e9f69915609203def39f7b)] -> xpath: //img[@class='at-element-click-tracking']]
 ]]></system-out>
   </testcase>
 </testsuite>

@@ -134,6 +134,7 @@ public class ProductpageTest extends BaseClass{
 	{
 		//driver.navigate().refresh();
 		log.info("Download section verification after scroll started");
+		Thread.sleep(3000);
 		js.executeScript("window.scrollBy(0,1000)");
 		Thread.sleep(3000);
 		verifyRatingOption();

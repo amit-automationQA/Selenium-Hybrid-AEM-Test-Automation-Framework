@@ -1,73 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="60" passed="60" failed="0" skipped="0">
+<testng-results ignored="0" total="65" passed="65" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-14T00:17:05 IST" name="Suite" finished-at="2021-12-14T00:37:09 IST" duration-ms="1204115">
+  <suite started-at="2021-12-15T20:24:55 IST" name="Suite" finished-at="2021-12-15T20:52:36 IST" duration-ms="1661426">
     <groups>
     </groups>
-    <test started-at="2021-12-14T00:17:05 IST" name="Test" finished-at="2021-12-14T00:37:09 IST" duration-ms="1204115">
-      <class name="SeleniumTesting.AEMhdfc.HomepageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTesting.AEMhdfc.HomepageTest@1d1f7216]" started-at="2021-12-14T00:17:05 IST" name="setUp" finished-at="2021-12-14T00:17:10 IST" duration-ms="4258" status="PASS">
+    <test started-at="2021-12-15T20:24:55 IST" name="Test" finished-at="2021-12-15T20:52:36 IST" duration-ms="1661426">
+      <class name="SeleniumTesting.AEMhdfc.CustomerservicelandingTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@2c1b9e4b]" started-at="2021-12-15T20:48:30 IST" name="setUp" finished-at="2021-12-15T20:48:35 IST" duration-ms="4665" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyBannerCarousel()[pri:1, instance:SeleniumTesting.AEMhdfc.HomepageTest@1d1f7216]" started-at="2021-12-14T00:17:10 IST" name="verifyBannerCarousel" finished-at="2021-12-14T00:17:25 IST" duration-ms="15563" status="PASS">
+        <test-method signature="navigateToCustomerServiceLandingPage()[pri:1, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@2c1b9e4b]" started-at="2021-12-15T20:48:35 IST" name="navigateToCustomerServiceLandingPage" finished-at="2021-12-15T20:48:39 IST" duration-ms="4544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToCustomerServiceLandingPage -->
+        <test-method signature="verifyCustomerServiceLandingPopup()[pri:2, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@2c1b9e4b]" started-at="2021-12-15T20:48:39 IST" name="verifyCustomerServiceLandingPopup" finished-at="2021-12-15T20:48:52 IST" depends-on-methods="SeleniumTesting.AEMhdfc.CustomerservicelandingTest.navigateToCustomerServiceLandingPage" duration-ms="12574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCustomerServiceLandingPopup -->
+        <test-method signature="verifyBannerCarousel()[pri:3, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@2c1b9e4b]" started-at="2021-12-15T20:48:52 IST" name="verifyBannerCarousel" finished-at="2021-12-15T20:49:28 IST" depends-on-methods="SeleniumTesting.AEMhdfc.CustomerservicelandingTest.verifyCustomerServiceLandingPopup" duration-ms="35715" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBannerCarousel -->
-        <test-method signature="verifyTermPlanOnBanner()[pri:2, instance:SeleniumTesting.AEMhdfc.HomepageTest@1d1f7216]" started-at="2021-12-14T00:17:25 IST" name="verifyTermPlanOnBanner" finished-at="2021-12-14T00:17:37 IST" duration-ms="11568" status="PASS">
+        <test-method signature="verifyBreadcrumb()[pri:4, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@2c1b9e4b]" started-at="2021-12-15T20:49:28 IST" name="verifyBreadcrumb" finished-at="2021-12-15T20:49:40 IST" depends-on-methods="SeleniumTesting.AEMhdfc.CustomerservicelandingTest.verifyCustomerServiceLandingPopup" duration-ms="12664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBreadcrumb -->
+        <test-method signature="verifyQuickLinksSection()[pri:5, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@2c1b9e4b]" started-at="2021-12-15T20:49:40 IST" name="verifyQuickLinksSection" finished-at="2021-12-15T20:52:36 IST" depends-on-methods="SeleniumTesting.AEMhdfc.CustomerservicelandingTest.verifyCustomerServiceLandingPopup" duration-ms="175788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyQuickLinksSection -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@2c1b9e4b]" started-at="2021-12-15T20:52:36 IST" name="tearDown" finished-at="2021-12-15T20:52:36 IST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumTesting.AEMhdfc.CustomerservicelandingTest -->
+      <class name="SeleniumTesting.AEMhdfc.HomepageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTesting.AEMhdfc.HomepageTest@43b4fe19]" started-at="2021-12-15T20:24:55 IST" name="setUp" finished-at="2021-12-15T20:25:00 IST" duration-ms="4792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyBannerCarousel()[pri:1, instance:SeleniumTesting.AEMhdfc.HomepageTest@43b4fe19]" started-at="2021-12-15T20:25:00 IST" name="verifyBannerCarousel" finished-at="2021-12-15T20:25:16 IST" duration-ms="15963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBannerCarousel -->
+        <test-method signature="verifyTermPlanOnBanner()[pri:2, instance:SeleniumTesting.AEMhdfc.HomepageTest@43b4fe19]" started-at="2021-12-15T20:25:16 IST" name="verifyTermPlanOnBanner" finished-at="2021-12-15T20:25:29 IST" duration-ms="13693" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTermPlanOnBanner -->
-        <test-method signature="verifySavingPlansOnBanner()[pri:3, instance:SeleniumTesting.AEMhdfc.HomepageTest@1d1f7216]" started-at="2021-12-14T00:17:37 IST" name="verifySavingPlansOnBanner" finished-at="2021-12-14T00:17:47 IST" duration-ms="10731" status="PASS">
+        <test-method signature="verifySavingPlansOnBanner()[pri:3, instance:SeleniumTesting.AEMhdfc.HomepageTest@43b4fe19]" started-at="2021-12-15T20:25:29 IST" name="verifySavingPlansOnBanner" finished-at="2021-12-15T20:25:42 IST" duration-ms="12269" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySavingPlansOnBanner -->
-        <test-method signature="verifyChildrenPlansOnBanner()[pri:4, instance:SeleniumTesting.AEMhdfc.HomepageTest@1d1f7216]" started-at="2021-12-14T00:17:47 IST" name="verifyChildrenPlansOnBanner" finished-at="2021-12-14T00:17:59 IST" duration-ms="11071" status="PASS">
+        <test-method signature="verifyChildrenPlansOnBanner()[pri:4, instance:SeleniumTesting.AEMhdfc.HomepageTest@43b4fe19]" started-at="2021-12-15T20:25:42 IST" name="verifyChildrenPlansOnBanner" finished-at="2021-12-15T20:25:54 IST" duration-ms="11793" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyChildrenPlansOnBanner -->
-        <test-method signature="verifyRetirementPlansOnBanner()[pri:5, instance:SeleniumTesting.AEMhdfc.HomepageTest@1d1f7216]" started-at="2021-12-14T00:17:59 IST" name="verifyRetirementPlansOnBanner" finished-at="2021-12-14T00:18:09 IST" duration-ms="10802" status="PASS">
+        <test-method signature="verifyRetirementPlansOnBanner()[pri:5, instance:SeleniumTesting.AEMhdfc.HomepageTest@43b4fe19]" started-at="2021-12-15T20:25:54 IST" name="verifyRetirementPlansOnBanner" finished-at="2021-12-15T20:26:05 IST" duration-ms="11912" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRetirementPlansOnBanner -->
-        <test-method signature="verifyViewAllButton()[pri:6, instance:SeleniumTesting.AEMhdfc.HomepageTest@1d1f7216]" started-at="2021-12-14T00:18:09 IST" name="verifyViewAllButton" finished-at="2021-12-14T00:18:13 IST" duration-ms="3191" status="PASS">
+        <test-method signature="verifyViewAllButton()[pri:6, instance:SeleniumTesting.AEMhdfc.HomepageTest@43b4fe19]" started-at="2021-12-15T20:26:05 IST" name="verifyViewAllButton" finished-at="2021-12-15T20:26:09 IST" duration-ms="3280" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyViewAllButton -->
-        <test-method signature="verifyULIPPlansOnBanner()[pri:7, instance:SeleniumTesting.AEMhdfc.HomepageTest@1d1f7216]" started-at="2021-12-14T00:18:13 IST" name="verifyULIPPlansOnBanner" finished-at="2021-12-14T00:18:23 IST" duration-ms="10713" status="PASS">
+        <test-method signature="verifyULIPPlansOnBanner()[pri:7, instance:SeleniumTesting.AEMhdfc.HomepageTest@43b4fe19]" started-at="2021-12-15T20:26:09 IST" name="verifyULIPPlansOnBanner" finished-at="2021-12-15T20:26:21 IST" duration-ms="12235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyULIPPlansOnBanner -->
-        <test-method signature="verifyFixedMaturityPlanOnBanner()[pri:8, instance:SeleniumTesting.AEMhdfc.HomepageTest@1d1f7216]" started-at="2021-12-14T00:18:23 IST" name="verifyFixedMaturityPlanOnBanner" finished-at="2021-12-14T00:18:38 IST" duration-ms="14508" status="PASS">
+        <test-method signature="verifyFixedMaturityPlanOnBanner()[pri:8, instance:SeleniumTesting.AEMhdfc.HomepageTest@43b4fe19]" started-at="2021-12-15T20:26:21 IST" name="verifyFixedMaturityPlanOnBanner" finished-at="2021-12-15T20:26:37 IST" duration-ms="16359" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFixedMaturityPlanOnBanner -->
-        <test-method signature="verifyHealthPlansOnBanner()[pri:9, instance:SeleniumTesting.AEMhdfc.HomepageTest@1d1f7216]" started-at="2021-12-14T00:18:38 IST" name="verifyHealthPlansOnBanner" finished-at="2021-12-14T00:18:52 IST" duration-ms="14033" status="PASS">
+        <test-method signature="verifyHealthPlansOnBanner()[pri:9, instance:SeleniumTesting.AEMhdfc.HomepageTest@43b4fe19]" started-at="2021-12-15T20:26:37 IST" name="verifyHealthPlansOnBanner" finished-at="2021-12-15T20:26:52 IST" duration-ms="15042" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHealthPlansOnBanner -->
-        <test-method signature="verifyPosPlansOnBanner()[pri:10, instance:SeleniumTesting.AEMhdfc.HomepageTest@1d1f7216]" started-at="2021-12-14T00:18:52 IST" name="verifyPosPlansOnBanner" finished-at="2021-12-14T00:19:05 IST" duration-ms="13714" status="PASS">
+        <test-method signature="verifyPosPlansOnBanner()[pri:10, instance:SeleniumTesting.AEMhdfc.HomepageTest@43b4fe19]" started-at="2021-12-15T20:26:52 IST" name="verifyPosPlansOnBanner" finished-at="2021-12-15T20:27:07 IST" duration-ms="14780" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPosPlansOnBanner -->
-        <test-method signature="verifyComboPlansOnBanner()[pri:11, instance:SeleniumTesting.AEMhdfc.HomepageTest@1d1f7216]" started-at="2021-12-14T00:19:05 IST" name="verifyComboPlansOnBanner" finished-at="2021-12-14T00:19:25 IST" duration-ms="19404" status="PASS">
+        <test-method signature="verifyComboPlansOnBanner()[pri:11, instance:SeleniumTesting.AEMhdfc.HomepageTest@43b4fe19]" started-at="2021-12-15T20:27:07 IST" name="verifyComboPlansOnBanner" finished-at="2021-12-15T20:27:28 IST" duration-ms="20501" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyComboPlansOnBanner -->
-        <test-method signature="verifyGroupPlansOnBanner()[pri:12, instance:SeleniumTesting.AEMhdfc.HomepageTest@1d1f7216]" started-at="2021-12-14T00:19:25 IST" name="verifyGroupPlansOnBanner" finished-at="2021-12-14T00:19:57 IST" duration-ms="32508" status="PASS">
+        <test-method signature="verifyGroupPlansOnBanner()[pri:12, instance:SeleniumTesting.AEMhdfc.HomepageTest@43b4fe19]" started-at="2021-12-15T20:27:28 IST" name="verifyGroupPlansOnBanner" finished-at="2021-12-15T20:28:01 IST" duration-ms="33417" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGroupPlansOnBanner -->
-        <test-method signature="verifyArrowButtonsOnBanner()[pri:13, instance:SeleniumTesting.AEMhdfc.HomepageTest@1d1f7216]" started-at="2021-12-14T00:19:57 IST" name="verifyArrowButtonsOnBanner" finished-at="2021-12-14T00:20:41 IST" duration-ms="43098" status="PASS">
+        <test-method signature="verifyArrowButtonsOnBanner()[pri:13, instance:SeleniumTesting.AEMhdfc.HomepageTest@43b4fe19]" started-at="2021-12-15T20:28:01 IST" name="verifyArrowButtonsOnBanner" finished-at="2021-12-15T20:28:45 IST" duration-ms="43600" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyArrowButtonsOnBanner -->
-        <test-method signature="verifyMouseIndicator()[pri:14, instance:SeleniumTesting.AEMhdfc.HomepageTest@1d1f7216]" started-at="2021-12-14T00:20:41 IST" name="verifyMouseIndicator" finished-at="2021-12-14T00:20:50 IST" duration-ms="9101" status="PASS">
+        <test-method signature="verifyMouseIndicator()[pri:14, instance:SeleniumTesting.AEMhdfc.HomepageTest@43b4fe19]" started-at="2021-12-15T20:28:45 IST" name="verifyMouseIndicator" finished-at="2021-12-15T20:28:54 IST" duration-ms="9285" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMouseIndicator -->
-        <test-method signature="verifyschedulePopupWithValidDataProductPage(java.lang.String,java.lang.String)[pri:15, instance:SeleniumTesting.AEMhdfc.HomepageTest@1d1f7216]" started-at="2021-12-14T00:20:50 IST" name="verifyschedulePopupWithValidDataProductPage" data-provider="getscheduleformData1" finished-at="2021-12-14T00:20:59 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator" duration-ms="8468" status="PASS">
+        <test-method signature="verifyschedulePopupWithValidDataProductPage(java.lang.String,java.lang.String)[pri:15, instance:SeleniumTesting.AEMhdfc.HomepageTest@43b4fe19]" started-at="2021-12-15T20:28:55 IST" name="verifyschedulePopupWithValidDataProductPage" data-provider="getscheduleformData1" finished-at="2021-12-15T20:29:03 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator" duration-ms="8567" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -83,207 +113,207 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyschedulePopupWithValidDataProductPage -->
-        <test-method signature="verifyschedulepopupblankSubmit()[pri:16, instance:SeleniumTesting.AEMhdfc.HomepageTest@1d1f7216]" started-at="2021-12-14T00:20:59 IST" name="verifyschedulepopupblankSubmit" finished-at="2021-12-14T00:21:08 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator" duration-ms="9633" status="PASS">
+        <test-method signature="verifyschedulepopupblankSubmit()[pri:16, instance:SeleniumTesting.AEMhdfc.HomepageTest@43b4fe19]" started-at="2021-12-15T20:29:03 IST" name="verifyschedulepopupblankSubmit" finished-at="2021-12-15T20:29:13 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator" duration-ms="9906" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyschedulepopupblankSubmit -->
-        <test-method signature="verifyschedulePopupwithoutmindata()[pri:17, instance:SeleniumTesting.AEMhdfc.HomepageTest@1d1f7216]" started-at="2021-12-14T00:21:08 IST" name="verifyschedulePopupwithoutmindata" finished-at="2021-12-14T00:21:15 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator" duration-ms="6548" status="PASS">
+        <test-method signature="verifyschedulePopupwithoutmindata()[pri:17, instance:SeleniumTesting.AEMhdfc.HomepageTest@43b4fe19]" started-at="2021-12-15T20:29:13 IST" name="verifyschedulePopupwithoutmindata" finished-at="2021-12-15T20:29:20 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator" duration-ms="6606" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyschedulePopupwithoutmindata -->
-        <test-method signature="verifycalculatorWithValidData()[pri:18, instance:SeleniumTesting.AEMhdfc.HomepageTest@1d1f7216]" started-at="2021-12-14T00:21:15 IST" name="verifycalculatorWithValidData" finished-at="2021-12-14T00:22:01 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator" duration-ms="46494" status="PASS">
+        <test-method signature="verifycalculatorWithValidData()[pri:18, instance:SeleniumTesting.AEMhdfc.HomepageTest@43b4fe19]" started-at="2021-12-15T20:29:20 IST" name="verifycalculatorWithValidData" finished-at="2021-12-15T20:30:02 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator" duration-ms="42700" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifycalculatorWithValidData -->
-        <test-method signature="verifyCalculatorCloseBtn()[pri:19, instance:SeleniumTesting.AEMhdfc.HomepageTest@1d1f7216]" started-at="2021-12-14T00:22:01 IST" name="verifyCalculatorCloseBtn" finished-at="2021-12-14T00:22:10 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator, SeleniumTesting.AEMhdfc.HomepageTest.verifycalculatorWithValidData" duration-ms="9210" status="PASS">
+        <test-method signature="verifyCalculatorCloseBtn()[pri:19, instance:SeleniumTesting.AEMhdfc.HomepageTest@43b4fe19]" started-at="2021-12-15T20:30:02 IST" name="verifyCalculatorCloseBtn" finished-at="2021-12-15T20:30:12 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator, SeleniumTesting.AEMhdfc.HomepageTest.verifycalculatorWithValidData" duration-ms="9611" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCalculatorCloseBtn -->
-        <test-method signature="verifySanchayPlusBuyNowBtn()[pri:20, instance:SeleniumTesting.AEMhdfc.HomepageTest@1d1f7216]" started-at="2021-12-14T00:22:10 IST" name="verifySanchayPlusBuyNowBtn" finished-at="2021-12-14T00:22:23 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator, SeleniumTesting.AEMhdfc.HomepageTest.verifycalculatorWithValidData" duration-ms="12692" status="PASS">
+        <test-method signature="verifySanchayPlusBuyNowBtn()[pri:20, instance:SeleniumTesting.AEMhdfc.HomepageTest@43b4fe19]" started-at="2021-12-15T20:30:12 IST" name="verifySanchayPlusBuyNowBtn" finished-at="2021-12-15T20:30:25 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator, SeleniumTesting.AEMhdfc.HomepageTest.verifycalculatorWithValidData" duration-ms="12746" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySanchayPlusBuyNowBtn -->
-        <test-method signature="verifyDisclaimer()[pri:21, instance:SeleniumTesting.AEMhdfc.HomepageTest@1d1f7216]" started-at="2021-12-14T00:22:23 IST" name="verifyDisclaimer" finished-at="2021-12-14T00:22:38 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator, SeleniumTesting.AEMhdfc.HomepageTest.verifycalculatorWithValidData" duration-ms="15194" status="PASS">
+        <test-method signature="verifyDisclaimer()[pri:21, instance:SeleniumTesting.AEMhdfc.HomepageTest@43b4fe19]" started-at="2021-12-15T20:30:25 IST" name="verifyDisclaimer" finished-at="2021-12-15T20:30:40 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator, SeleniumTesting.AEMhdfc.HomepageTest.verifycalculatorWithValidData" duration-ms="15195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDisclaimer -->
-        <test-method signature="verifyProductAndPopularLinks()[pri:22, instance:SeleniumTesting.AEMhdfc.HomepageTest@1d1f7216]" started-at="2021-12-14T00:22:38 IST" name="verifyProductAndPopularLinks" finished-at="2021-12-14T00:22:44 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyDisclaimer, SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator, SeleniumTesting.AEMhdfc.HomepageTest.verifycalculatorWithValidData" duration-ms="6095" status="PASS">
+        <test-method signature="verifyProductAndPopularLinks()[pri:22, instance:SeleniumTesting.AEMhdfc.HomepageTest@43b4fe19]" started-at="2021-12-15T20:30:40 IST" name="verifyProductAndPopularLinks" finished-at="2021-12-15T20:30:47 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyDisclaimer, SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator, SeleniumTesting.AEMhdfc.HomepageTest.verifycalculatorWithValidData" duration-ms="6881" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductAndPopularLinks -->
-        <test-method signature="verifyStayConnectedwithUs()[pri:23, instance:SeleniumTesting.AEMhdfc.HomepageTest@1d1f7216]" started-at="2021-12-14T00:22:44 IST" name="verifyStayConnectedwithUs" finished-at="2021-12-14T00:22:54 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyDisclaimer, SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator, SeleniumTesting.AEMhdfc.HomepageTest.verifycalculatorWithValidData" duration-ms="9161" status="PASS">
+        <test-method signature="verifyStayConnectedwithUs()[pri:23, instance:SeleniumTesting.AEMhdfc.HomepageTest@43b4fe19]" started-at="2021-12-15T20:30:47 IST" name="verifyStayConnectedwithUs" finished-at="2021-12-15T20:30:57 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyDisclaimer, SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator, SeleniumTesting.AEMhdfc.HomepageTest.verifycalculatorWithValidData" duration-ms="9827" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyStayConnectedwithUs -->
-        <test-method signature="verifyDownloadLinks()[pri:24, instance:SeleniumTesting.AEMhdfc.HomepageTest@1d1f7216]" started-at="2021-12-14T00:22:54 IST" name="verifyDownloadLinks" finished-at="2021-12-14T00:23:06 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyStayConnectedwithUs" duration-ms="12641" status="PASS">
+        <test-method signature="verifyDownloadLinks()[pri:24, instance:SeleniumTesting.AEMhdfc.HomepageTest@43b4fe19]" started-at="2021-12-15T20:30:57 IST" name="verifyDownloadLinks" finished-at="2021-12-15T20:31:09 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyStayConnectedwithUs" duration-ms="12568" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDownloadLinks -->
-        <test-method signature="verifySubscribeOptionWithValidData()[pri:25, instance:SeleniumTesting.AEMhdfc.HomepageTest@1d1f7216]" started-at="2021-12-14T00:23:06 IST" name="verifySubscribeOptionWithValidData" finished-at="2021-12-14T00:23:16 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyStayConnectedwithUs" duration-ms="9277" status="PASS">
+        <test-method signature="verifySubscribeOptionWithValidData()[pri:25, instance:SeleniumTesting.AEMhdfc.HomepageTest@43b4fe19]" started-at="2021-12-15T20:31:09 IST" name="verifySubscribeOptionWithValidData" finished-at="2021-12-15T20:31:19 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyStayConnectedwithUs" duration-ms="9410" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySubscribeOptionWithValidData -->
-        <test-method signature="verifyGroupWebsitesLinks()[pri:26, instance:SeleniumTesting.AEMhdfc.HomepageTest@1d1f7216]" started-at="2021-12-14T00:23:16 IST" name="verifyGroupWebsitesLinks" finished-at="2021-12-14T00:23:29 IST" duration-ms="13936" status="PASS">
+        <test-method signature="verifyGroupWebsitesLinks()[pri:26, instance:SeleniumTesting.AEMhdfc.HomepageTest@43b4fe19]" started-at="2021-12-15T20:31:19 IST" name="verifyGroupWebsitesLinks" finished-at="2021-12-15T20:33:56 IST" duration-ms="157079" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGroupWebsitesLinks -->
-        <test-method signature="verifyArticlesOnHomePage()[pri:27, instance:SeleniumTesting.AEMhdfc.HomepageTest@1d1f7216]" started-at="2021-12-14T00:23:29 IST" name="verifyArticlesOnHomePage" finished-at="2021-12-14T00:24:50 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyGroupWebsitesLinks" duration-ms="80276" status="PASS">
+        <test-method signature="verifyArticlesOnHomePage()[pri:27, instance:SeleniumTesting.AEMhdfc.HomepageTest@43b4fe19]" started-at="2021-12-15T20:33:56 IST" name="verifyArticlesOnHomePage" finished-at="2021-12-15T20:35:25 IST" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyGroupWebsitesLinks" duration-ms="89465" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyArticlesOnHomePage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumTesting.AEMhdfc.HomepageTest@1d1f7216]" started-at="2021-12-14T00:24:50 IST" name="tearDown" finished-at="2021-12-14T00:24:50 IST" duration-ms="365" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumTesting.AEMhdfc.HomepageTest@43b4fe19]" started-at="2021-12-15T20:35:25 IST" name="tearDown" finished-at="2021-12-15T20:35:26 IST" duration-ms="412" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- SeleniumTesting.AEMhdfc.HomepageTest -->
       <class name="SeleniumTesting.AEMhdfc.CategorypageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTesting.AEMhdfc.CategorypageTest@44c79f32]" started-at="2021-12-14T00:24:50 IST" name="setUp" finished-at="2021-12-14T00:24:54 IST" duration-ms="3413" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTesting.AEMhdfc.CategorypageTest@743cb8e0]" started-at="2021-12-15T20:35:26 IST" name="setUp" finished-at="2021-12-15T20:35:32 IST" duration-ms="6002" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="navigateToPage()[pri:1, instance:SeleniumTesting.AEMhdfc.CategorypageTest@44c79f32]" started-at="2021-12-14T00:24:54 IST" name="navigateToPage" finished-at="2021-12-14T00:25:04 IST" duration-ms="10919" status="PASS">
+        <test-method signature="navigateToPage()[pri:1, instance:SeleniumTesting.AEMhdfc.CategorypageTest@743cb8e0]" started-at="2021-12-15T20:35:32 IST" name="navigateToPage" finished-at="2021-12-15T20:35:43 IST" duration-ms="11780" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToPage -->
-        <test-method signature="verifyCalculatePremiumBtn()[pri:2, instance:SeleniumTesting.AEMhdfc.CategorypageTest@44c79f32]" started-at="2021-12-14T00:25:04 IST" name="verifyCalculatePremiumBtn" finished-at="2021-12-14T00:25:17 IST" duration-ms="12374" status="PASS">
+        <test-method signature="verifyCalculatePremiumBtn()[pri:2, instance:SeleniumTesting.AEMhdfc.CategorypageTest@743cb8e0]" started-at="2021-12-15T20:35:43 IST" name="verifyCalculatePremiumBtn" finished-at="2021-12-15T20:35:56 IST" duration-ms="12948" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCalculatePremiumBtn -->
-        <test-method signature="verifyTalkToAdvisor()[pri:3, instance:SeleniumTesting.AEMhdfc.CategorypageTest@44c79f32]" started-at="2021-12-14T00:25:17 IST" name="verifyTalkToAdvisor" finished-at="2021-12-14T00:25:23 IST" duration-ms="6210" status="PASS">
+        <test-method signature="verifyTalkToAdvisor()[pri:3, instance:SeleniumTesting.AEMhdfc.CategorypageTest@743cb8e0]" started-at="2021-12-15T20:35:56 IST" name="verifyTalkToAdvisor" finished-at="2021-12-15T20:36:03 IST" duration-ms="6334" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTalkToAdvisor -->
-        <test-method signature="verifyTalkToAdvisorPopup()[pri:4, instance:SeleniumTesting.AEMhdfc.CategorypageTest@44c79f32]" started-at="2021-12-14T00:25:23 IST" name="verifyTalkToAdvisorPopup" finished-at="2021-12-14T00:25:32 IST" duration-ms="9389" status="PASS">
+        <test-method signature="verifyTalkToAdvisorPopup()[pri:4, instance:SeleniumTesting.AEMhdfc.CategorypageTest@743cb8e0]" started-at="2021-12-15T20:36:03 IST" name="verifyTalkToAdvisorPopup" finished-at="2021-12-15T20:36:12 IST" duration-ms="9554" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTalkToAdvisorPopup -->
-        <test-method signature="verifyHomeIconInBreadCrumb()[pri:5, instance:SeleniumTesting.AEMhdfc.CategorypageTest@44c79f32]" started-at="2021-12-14T00:25:32 IST" name="verifyHomeIconInBreadCrumb" finished-at="2021-12-14T00:25:40 IST" duration-ms="7777" status="PASS">
+        <test-method signature="verifyHomeIconInBreadCrumb()[pri:5, instance:SeleniumTesting.AEMhdfc.CategorypageTest@743cb8e0]" started-at="2021-12-15T20:36:12 IST" name="verifyHomeIconInBreadCrumb" finished-at="2021-12-15T20:36:22 IST" duration-ms="9511" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomeIconInBreadCrumb -->
-        <test-method signature="verifyC2PLProduct()[pri:6, instance:SeleniumTesting.AEMhdfc.CategorypageTest@44c79f32]" started-at="2021-12-14T00:25:40 IST" name="verifyC2PLProduct" finished-at="2021-12-14T00:26:09 IST" duration-ms="29053" status="PASS">
+        <test-method signature="verifyC2PLProduct()[pri:6, instance:SeleniumTesting.AEMhdfc.CategorypageTest@743cb8e0]" started-at="2021-12-15T20:36:22 IST" name="verifyC2PLProduct" finished-at="2021-12-15T20:36:54 IST" duration-ms="31862" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyC2PLProduct -->
-        <test-method signature="verifySJBProduct()[pri:7, instance:SeleniumTesting.AEMhdfc.CategorypageTest@44c79f32]" started-at="2021-12-14T00:26:09 IST" name="verifySJBProduct" finished-at="2021-12-14T00:26:33 IST" depends-on-methods="SeleniumTesting.AEMhdfc.CategorypageTest.verifyC2PLProduct" duration-ms="23970" status="PASS">
+        <test-method signature="verifySJBProduct()[pri:7, instance:SeleniumTesting.AEMhdfc.CategorypageTest@743cb8e0]" started-at="2021-12-15T20:36:54 IST" name="verifySJBProduct" finished-at="2021-12-15T20:37:20 IST" depends-on-methods="SeleniumTesting.AEMhdfc.CategorypageTest.verifyC2PLProduct" duration-ms="26245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySJBProduct -->
-        <test-method signature="verifyLetsCalculateBtn()[pri:8, instance:SeleniumTesting.AEMhdfc.CategorypageTest@44c79f32]" started-at="2021-12-14T00:26:33 IST" name="verifyLetsCalculateBtn" finished-at="2021-12-14T00:26:44 IST" depends-on-methods="SeleniumTesting.AEMhdfc.CategorypageTest.verifySJBProduct, SeleniumTesting.AEMhdfc.CategorypageTest.verifyC2PLProduct" duration-ms="10462" status="PASS">
+        <test-method signature="verifyLetsCalculateBtn()[pri:8, instance:SeleniumTesting.AEMhdfc.CategorypageTest@743cb8e0]" started-at="2021-12-15T20:37:20 IST" name="verifyLetsCalculateBtn" finished-at="2021-12-15T20:37:32 IST" depends-on-methods="SeleniumTesting.AEMhdfc.CategorypageTest.verifySJBProduct, SeleniumTesting.AEMhdfc.CategorypageTest.verifyC2PLProduct" duration-ms="12136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLetsCalculateBtn -->
-        <test-method signature="verifyVideoOnCategoryPage()[pri:9, instance:SeleniumTesting.AEMhdfc.CategorypageTest@44c79f32]" started-at="2021-12-14T00:26:44 IST" name="verifyVideoOnCategoryPage" finished-at="2021-12-14T00:26:50 IST" depends-on-methods="SeleniumTesting.AEMhdfc.CategorypageTest.verifySJBProduct, SeleniumTesting.AEMhdfc.CategorypageTest.verifyLetsCalculateBtn, SeleniumTesting.AEMhdfc.CategorypageTest.verifyC2PLProduct" duration-ms="6083" status="PASS">
+        <test-method signature="verifyVideoOnCategoryPage()[pri:9, instance:SeleniumTesting.AEMhdfc.CategorypageTest@743cb8e0]" started-at="2021-12-15T20:37:32 IST" name="verifyVideoOnCategoryPage" finished-at="2021-12-15T20:37:38 IST" depends-on-methods="SeleniumTesting.AEMhdfc.CategorypageTest.verifySJBProduct, SeleniumTesting.AEMhdfc.CategorypageTest.verifyLetsCalculateBtn, SeleniumTesting.AEMhdfc.CategorypageTest.verifyC2PLProduct" duration-ms="6014" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyVideoOnCategoryPage -->
-        <test-method signature="verifyWhySection()[pri:10, instance:SeleniumTesting.AEMhdfc.CategorypageTest@44c79f32]" started-at="2021-12-14T00:26:50 IST" name="verifyWhySection" finished-at="2021-12-14T00:26:59 IST" depends-on-methods="SeleniumTesting.AEMhdfc.CategorypageTest.verifyVideoOnCategoryPage" duration-ms="9227" status="PASS">
+        <test-method signature="verifyWhySection()[pri:10, instance:SeleniumTesting.AEMhdfc.CategorypageTest@743cb8e0]" started-at="2021-12-15T20:37:38 IST" name="verifyWhySection" finished-at="2021-12-15T20:37:47 IST" depends-on-methods="SeleniumTesting.AEMhdfc.CategorypageTest.verifyVideoOnCategoryPage" duration-ms="9478" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWhySection -->
-        <test-method signature="verifyTermInsuranceGuideFaqSection()[pri:11, instance:SeleniumTesting.AEMhdfc.CategorypageTest@44c79f32]" started-at="2021-12-14T00:26:59 IST" name="verifyTermInsuranceGuideFaqSection" finished-at="2021-12-14T00:27:21 IST" duration-ms="21535" status="PASS">
+        <test-method signature="verifyTermInsuranceGuideFaqSection()[pri:11, instance:SeleniumTesting.AEMhdfc.CategorypageTest@743cb8e0]" started-at="2021-12-15T20:37:47 IST" name="verifyTermInsuranceGuideFaqSection" finished-at="2021-12-15T20:38:09 IST" duration-ms="21991" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTermInsuranceGuideFaqSection -->
-        <test-method signature="verifyRidersSection()[pri:12, instance:SeleniumTesting.AEMhdfc.CategorypageTest@44c79f32]" started-at="2021-12-14T00:27:21 IST" name="verifyRidersSection" finished-at="2021-12-14T00:28:12 IST" duration-ms="51651" status="PASS">
+        <test-method signature="verifyRidersSection()[pri:12, instance:SeleniumTesting.AEMhdfc.CategorypageTest@743cb8e0]" started-at="2021-12-15T20:38:09 IST" name="verifyRidersSection" finished-at="2021-12-15T20:39:01 IST" duration-ms="51944" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRidersSection -->
-        <test-method signature="verifyContactUs()[pri:13, instance:SeleniumTesting.AEMhdfc.CategorypageTest@44c79f32]" started-at="2021-12-14T00:28:12 IST" name="verifyContactUs" finished-at="2021-12-14T00:28:26 IST" duration-ms="14230" status="PASS">
+        <test-method signature="verifyContactUs()[pri:13, instance:SeleniumTesting.AEMhdfc.CategorypageTest@743cb8e0]" started-at="2021-12-15T20:39:01 IST" name="verifyContactUs" finished-at="2021-12-15T20:39:18 IST" duration-ms="16385" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyContactUs -->
-        <test-method signature="verifyArticlesSection()[pri:14, instance:SeleniumTesting.AEMhdfc.CategorypageTest@44c79f32]" started-at="2021-12-14T00:28:26 IST" name="verifyArticlesSection" finished-at="2021-12-14T00:29:50 IST" duration-ms="83163" status="PASS">
+        <test-method signature="verifyArticlesSection()[pri:14, instance:SeleniumTesting.AEMhdfc.CategorypageTest@743cb8e0]" started-at="2021-12-15T20:39:18 IST" name="verifyArticlesSection" finished-at="2021-12-15T20:41:00 IST" duration-ms="102368" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyArticlesSection -->
-        <test-method signature="verifyDisclaimer()[pri:15, instance:SeleniumTesting.AEMhdfc.CategorypageTest@44c79f32]" started-at="2021-12-14T00:29:50 IST" name="verifyDisclaimer" finished-at="2021-12-14T00:29:59 IST" duration-ms="9125" status="PASS">
+        <test-method signature="verifyDisclaimer()[pri:15, instance:SeleniumTesting.AEMhdfc.CategorypageTest@743cb8e0]" started-at="2021-12-15T20:41:00 IST" name="verifyDisclaimer" finished-at="2021-12-15T20:41:09 IST" duration-ms="9188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDisclaimer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumTesting.AEMhdfc.CategorypageTest@44c79f32]" started-at="2021-12-14T00:29:59 IST" name="tearDown" finished-at="2021-12-14T00:29:59 IST" duration-ms="253" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumTesting.AEMhdfc.CategorypageTest@743cb8e0]" started-at="2021-12-15T20:41:09 IST" name="tearDown" finished-at="2021-12-15T20:41:10 IST" duration-ms="319" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- SeleniumTesting.AEMhdfc.CategorypageTest -->
       <class name="SeleniumTesting.AEMhdfc.ProductpageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTesting.AEMhdfc.ProductpageTest@7fcbe147]" started-at="2021-12-14T00:29:59 IST" name="setUp" finished-at="2021-12-14T00:30:03 IST" duration-ms="4533" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTesting.AEMhdfc.ProductpageTest@c7a975a]" started-at="2021-12-15T20:41:10 IST" name="setUp" finished-at="2021-12-15T20:41:14 IST" duration-ms="4304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="navigateToProductPage()[pri:1, instance:SeleniumTesting.AEMhdfc.ProductpageTest@7fcbe147]" started-at="2021-12-14T00:30:03 IST" name="navigateToProductPage" finished-at="2021-12-14T00:30:24 IST" duration-ms="20973" status="PASS">
+        <test-method signature="navigateToProductPage()[pri:1, instance:SeleniumTesting.AEMhdfc.ProductpageTest@c7a975a]" started-at="2021-12-15T20:41:14 IST" name="navigateToProductPage" finished-at="2021-12-15T20:41:36 IST" duration-ms="22031" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToProductPage -->
-        <test-method signature="verifyTandCOption()[pri:2, instance:SeleniumTesting.AEMhdfc.ProductpageTest@7fcbe147]" started-at="2021-12-14T00:30:24 IST" name="verifyTandCOption" finished-at="2021-12-14T00:30:49 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.navigateToProductPage" duration-ms="24286" status="PASS">
+        <test-method signature="verifyTandCOption()[pri:2, instance:SeleniumTesting.AEMhdfc.ProductpageTest@c7a975a]" started-at="2021-12-15T20:41:36 IST" name="verifyTandCOption" finished-at="2021-12-15T20:42:00 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.navigateToProductPage" duration-ms="24545" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTandCOption -->
-        <test-method signature="verifyProductPageBreadcrumb()[pri:3, instance:SeleniumTesting.AEMhdfc.ProductpageTest@7fcbe147]" started-at="2021-12-14T00:30:49 IST" name="verifyProductPageBreadcrumb" finished-at="2021-12-14T00:31:09 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.navigateToProductPage" duration-ms="19990" status="PASS">
+        <test-method signature="verifyProductPageBreadcrumb()[pri:3, instance:SeleniumTesting.AEMhdfc.ProductpageTest@c7a975a]" started-at="2021-12-15T20:42:00 IST" name="verifyProductPageBreadcrumb" finished-at="2021-12-15T20:42:24 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.navigateToProductPage" duration-ms="23601" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductPageBreadcrumb -->
-        <test-method signature="verifyRatingOption()[pri:4, instance:SeleniumTesting.AEMhdfc.ProductpageTest@7fcbe147]" started-at="2021-12-14T00:31:09 IST" name="verifyRatingOption" finished-at="2021-12-14T00:31:18 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.navigateToProductPage" duration-ms="9455" status="PASS">
+        <test-method signature="verifyRatingOption()[pri:4, instance:SeleniumTesting.AEMhdfc.ProductpageTest@c7a975a]" started-at="2021-12-15T20:42:24 IST" name="verifyRatingOption" finished-at="2021-12-15T20:42:34 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.navigateToProductPage" duration-ms="9654" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRatingOption -->
-        <test-method signature="verifyPrintBtn()[pri:5, instance:SeleniumTesting.AEMhdfc.ProductpageTest@7fcbe147]" started-at="2021-12-14T00:31:18 IST" name="verifyPrintBtn" finished-at="2021-12-14T00:31:28 IST" duration-ms="9328" status="PASS">
+        <test-method signature="verifyPrintBtn()[pri:5, instance:SeleniumTesting.AEMhdfc.ProductpageTest@c7a975a]" started-at="2021-12-15T20:42:34 IST" name="verifyPrintBtn" finished-at="2021-12-15T20:42:43 IST" duration-ms="9537" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPrintBtn -->
-        <test-method signature="verifyShareOption()[pri:6, instance:SeleniumTesting.AEMhdfc.ProductpageTest@7fcbe147]" started-at="2021-12-14T00:31:28 IST" name="verifyShareOption" finished-at="2021-12-14T00:32:17 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyPrintBtn" duration-ms="49671" status="PASS">
+        <test-method signature="verifyShareOption()[pri:6, instance:SeleniumTesting.AEMhdfc.ProductpageTest@c7a975a]" started-at="2021-12-15T20:42:43 IST" name="verifyShareOption" finished-at="2021-12-15T20:43:33 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyPrintBtn" duration-ms="49965" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyShareOption -->
-        <test-method signature="verifyRatingsFromAPI()[pri:7, instance:SeleniumTesting.AEMhdfc.ProductpageTest@7fcbe147]" started-at="2021-12-14T00:32:17 IST" name="verifyRatingsFromAPI" finished-at="2021-12-14T00:32:20 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyPrintBtn" duration-ms="3032" status="PASS">
+        <test-method signature="verifyRatingsFromAPI()[pri:7, instance:SeleniumTesting.AEMhdfc.ProductpageTest@c7a975a]" started-at="2021-12-15T20:43:33 IST" name="verifyRatingsFromAPI" finished-at="2021-12-15T20:43:36 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyPrintBtn" duration-ms="3036" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRatingsFromAPI -->
-        <test-method signature="verifyDownloadBrochure()[pri:8, instance:SeleniumTesting.AEMhdfc.ProductpageTest@7fcbe147]" started-at="2021-12-14T00:32:20 IST" name="verifyDownloadBrochure" finished-at="2021-12-14T00:32:26 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyPrintBtn" duration-ms="6090" status="PASS">
+        <test-method signature="verifyDownloadBrochure()[pri:8, instance:SeleniumTesting.AEMhdfc.ProductpageTest@c7a975a]" started-at="2021-12-15T20:43:36 IST" name="verifyDownloadBrochure" finished-at="2021-12-15T20:43:42 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyPrintBtn" duration-ms="6183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDownloadBrochure -->
-        <test-method signature="verifyCalculatePremiumBtn()[pri:9, instance:SeleniumTesting.AEMhdfc.ProductpageTest@7fcbe147]" started-at="2021-12-14T00:32:26 IST" name="verifyCalculatePremiumBtn" finished-at="2021-12-14T00:32:38 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyPrintBtn" duration-ms="11310" status="PASS">
+        <test-method signature="verifyCalculatePremiumBtn()[pri:9, instance:SeleniumTesting.AEMhdfc.ProductpageTest@c7a975a]" started-at="2021-12-15T20:43:42 IST" name="verifyCalculatePremiumBtn" finished-at="2021-12-15T20:43:54 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyPrintBtn" duration-ms="11557" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCalculatePremiumBtn -->
-        <test-method signature="verifyBuyNowBtn()[pri:10, instance:SeleniumTesting.AEMhdfc.ProductpageTest@7fcbe147]" started-at="2021-12-14T00:32:38 IST" name="verifyBuyNowBtn" finished-at="2021-12-14T00:32:47 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyPrintBtn" duration-ms="9344" status="PASS">
+        <test-method signature="verifyBuyNowBtn()[pri:10, instance:SeleniumTesting.AEMhdfc.ProductpageTest@c7a975a]" started-at="2021-12-15T20:43:54 IST" name="verifyBuyNowBtn" finished-at="2021-12-15T20:44:04 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyPrintBtn" duration-ms="9640" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBuyNowBtn -->
-        <test-method signature="verifyDownloadsSectionAfterScroll()[pri:11, instance:SeleniumTesting.AEMhdfc.ProductpageTest@7fcbe147]" started-at="2021-12-14T00:32:47 IST" name="verifyDownloadsSectionAfterScroll" finished-at="2021-12-14T00:34:34 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.navigateToProductPage" duration-ms="106721" status="PASS">
+        <test-method signature="verifyDownloadsSectionAfterScroll()[pri:11, instance:SeleniumTesting.AEMhdfc.ProductpageTest@c7a975a]" started-at="2021-12-15T20:44:04 IST" name="verifyDownloadsSectionAfterScroll" finished-at="2021-12-15T20:45:52 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.navigateToProductPage" duration-ms="108276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDownloadsSectionAfterScroll -->
-        <test-method signature="verifyYourPlanYourBenefitsSection()[pri:12, instance:SeleniumTesting.AEMhdfc.ProductpageTest@7fcbe147]" started-at="2021-12-14T00:34:34 IST" name="verifyYourPlanYourBenefitsSection" finished-at="2021-12-14T00:35:21 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyDownloadsSectionAfterScroll" duration-ms="47165" status="PASS">
+        <test-method signature="verifyYourPlanYourBenefitsSection()[pri:12, instance:SeleniumTesting.AEMhdfc.ProductpageTest@c7a975a]" started-at="2021-12-15T20:45:52 IST" name="verifyYourPlanYourBenefitsSection" finished-at="2021-12-15T20:46:40 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyDownloadsSectionAfterScroll" duration-ms="48388" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyYourPlanYourBenefitsSection -->
-        <test-method signature="verifyEligibilityCriteria()[pri:13, instance:SeleniumTesting.AEMhdfc.ProductpageTest@7fcbe147]" started-at="2021-12-14T00:35:21 IST" name="verifyEligibilityCriteria" finished-at="2021-12-14T00:35:30 IST" duration-ms="9262" status="PASS">
+        <test-method signature="verifyEligibilityCriteria()[pri:13, instance:SeleniumTesting.AEMhdfc.ProductpageTest@c7a975a]" started-at="2021-12-15T20:46:40 IST" name="verifyEligibilityCriteria" finished-at="2021-12-15T20:46:50 IST" duration-ms="9359" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEligibilityCriteria -->
-        <test-method signature="verifyVideoOnCategoryPage()[pri:14, instance:SeleniumTesting.AEMhdfc.ProductpageTest@7fcbe147]" started-at="2021-12-14T00:35:30 IST" name="verifyVideoOnCategoryPage" finished-at="2021-12-14T00:35:33 IST" duration-ms="3022" status="PASS">
+        <test-method signature="verifyVideoOnCategoryPage()[pri:14, instance:SeleniumTesting.AEMhdfc.ProductpageTest@c7a975a]" started-at="2021-12-15T20:46:50 IST" name="verifyVideoOnCategoryPage" finished-at="2021-12-15T20:46:53 IST" duration-ms="3010" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyVideoOnCategoryPage -->
-        <test-method signature="verifyRidersSection()[pri:15, instance:SeleniumTesting.AEMhdfc.ProductpageTest@7fcbe147]" started-at="2021-12-14T00:35:33 IST" name="verifyRidersSection" finished-at="2021-12-14T00:36:31 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyVideoOnCategoryPage" duration-ms="57750" status="PASS">
+        <test-method signature="verifyRidersSection()[pri:15, instance:SeleniumTesting.AEMhdfc.ProductpageTest@c7a975a]" started-at="2021-12-15T20:46:53 IST" name="verifyRidersSection" finished-at="2021-12-15T20:47:51 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyVideoOnCategoryPage" duration-ms="58361" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRidersSection -->
-        <test-method signature="verifyScheduleACallOnProductPage()[pri:16, instance:SeleniumTesting.AEMhdfc.ProductpageTest@7fcbe147]" started-at="2021-12-14T00:36:31 IST" name="verifyScheduleACallOnProductPage" finished-at="2021-12-14T00:36:48 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyRidersSection" duration-ms="16754" status="PASS">
+        <test-method signature="verifyScheduleACallOnProductPage()[pri:16, instance:SeleniumTesting.AEMhdfc.ProductpageTest@c7a975a]" started-at="2021-12-15T20:47:51 IST" name="verifyScheduleACallOnProductPage" finished-at="2021-12-15T20:48:08 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyRidersSection" duration-ms="16955" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyScheduleACallOnProductPage -->
-        <test-method signature="verifyFAQSection()[pri:17, instance:SeleniumTesting.AEMhdfc.ProductpageTest@7fcbe147]" started-at="2021-12-14T00:36:48 IST" name="verifyFAQSection" finished-at="2021-12-14T00:37:00 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyScheduleACallOnProductPage" duration-ms="12393" status="PASS">
+        <test-method signature="verifyFAQSection()[pri:17, instance:SeleniumTesting.AEMhdfc.ProductpageTest@c7a975a]" started-at="2021-12-15T20:48:08 IST" name="verifyFAQSection" finished-at="2021-12-15T20:48:21 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyScheduleACallOnProductPage" duration-ms="12541" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFAQSection -->
-        <test-method signature="verifyDisclaimerOnProductPage()[pri:18, instance:SeleniumTesting.AEMhdfc.ProductpageTest@7fcbe147]" started-at="2021-12-14T00:37:00 IST" name="verifyDisclaimerOnProductPage" finished-at="2021-12-14T00:37:09 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyFAQSection" duration-ms="9105" status="PASS">
+        <test-method signature="verifyDisclaimerOnProductPage()[pri:18, instance:SeleniumTesting.AEMhdfc.ProductpageTest@c7a975a]" started-at="2021-12-15T20:48:21 IST" name="verifyDisclaimerOnProductPage" finished-at="2021-12-15T20:48:30 IST" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyFAQSection" duration-ms="9149" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDisclaimerOnProductPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumTesting.AEMhdfc.ProductpageTest@7fcbe147]" started-at="2021-12-14T00:37:09 IST" name="tearDown" finished-at="2021-12-14T00:37:09 IST" duration-ms="257" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumTesting.AEMhdfc.ProductpageTest@c7a975a]" started-at="2021-12-15T20:48:30 IST" name="tearDown" finished-at="2021-12-15T20:48:30 IST" duration-ms="426" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

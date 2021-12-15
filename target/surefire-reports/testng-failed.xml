@@ -21,6 +21,14 @@
           <include name="verifyScheduleACallOnProductPage"/>
         </methods>
       </class> <!-- SeleniumTesting.AEMhdfc.ProductpageTest -->
+      <class name="SeleniumTesting.AEMhdfc.HomepageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyArticlesOnHomePage"/>
+          <include name="setUp"/>
+          <include name="verifyGroupWebsitesLinks"/>
+        </methods>
+      </class> <!-- SeleniumTesting.AEMhdfc.HomepageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

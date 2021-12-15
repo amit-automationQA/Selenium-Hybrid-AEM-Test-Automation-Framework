@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>17/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Dec 14 12:29:59 IST 2021</td>
+<td>Started on:</td><td>Wed Dec 15 19:51:39 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>24 seconds (24423 ms)</td>
+<tr><td>Total time:</td><td>435 seconds (435265 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,13 +75,35 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='SeleniumTesting.AEMhdfc.HomepageTest.verifyHeader()'><b>verifyHeader</b><br>Test class: SeleniumTesting.AEMhdfc.HomepageTest</td>
-<td><div><pre>java.net.MalformedURLException: unknown protocol: tel
-	at java.base/java.net.URL.&lt;init&gt;(URL.java:681)
-	at java.base/java.net.URL.&lt;init&gt;(URL.java:569)
-	at java.base/java.net.URL.&lt;init&gt;(URL.java:516)
-	at PageObjects.Homepage.verifyHeaderLinks(Homepage.java:722)
-	at SeleniumTesting.AEMhdfc.HomepageTest.verifyHeader(HomepageTest.java:50)
+<td title='SeleniumTesting.AEMhdfc.ProductpageTest.verifyDisclaimerOnProductPage()'><b>verifyDisclaimerOnProductPage</b><br>Test class: SeleniumTesting.AEMhdfc.ProductpageTest</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;collapsed&quot; data-toggle=&quot;collapse&quot; href=&quot;#collapse1&quot;&gt;...&lt;/a&gt; is not clickable at point (765, 594). Other element would receive the click: &lt;iframe id=&quot;nv_box_content-iframe_17168&quot; src=&quot;&quot; frameborder=&quot;0&quot; style=&quot;border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; border: 1px solid #d51d25;height: 100%;width: 100%;padding: 0;margin: 0;outline: 0;overflow: auto;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=96.0.4664.93)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LIN24007907&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Akundar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53787}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a5164cce311ee7c9d5a9afff36701b4d
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at PageObjects.Homepage.openCloseDisclaimer(Homepage.java:522)
+	at SeleniumTesting.AEMhdfc.ProductpageTest.verifyDisclaimerOnProductPage(ProductpageTest.java:218)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -107,13 +129,35 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace409821235", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace409821235'><pre>java.net.MalformedURLException: unknown protocol: tel
-	at java.base/java.net.URL.&lt;init&gt;(URL.java:681)
-	at java.base/java.net.URL.&lt;init&gt;(URL.java:569)
-	at java.base/java.net.URL.&lt;init&gt;(URL.java:516)
-	at PageObjects.Homepage.verifyHeaderLinks(Homepage.java:722)
-	at SeleniumTesting.AEMhdfc.HomepageTest.verifyHeader(HomepageTest.java:50)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1094446968", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1094446968'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;collapsed&quot; data-toggle=&quot;collapse&quot; href=&quot;#collapse1&quot;&gt;...&lt;/a&gt; is not clickable at point (765, 594). Other element would receive the click: &lt;iframe id=&quot;nv_box_content-iframe_17168&quot; src=&quot;&quot; frameborder=&quot;0&quot; style=&quot;border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; border: 1px solid #d51d25;height: 100%;width: 100%;padding: 0;margin: 0;outline: 0;overflow: auto;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=96.0.4664.93)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LIN24007907&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Akundar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53787}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a5164cce311ee7c9d5a9afff36701b4d
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at PageObjects.Homepage.openCloseDisclaimer(Homepage.java:522)
+	at SeleniumTesting.AEMhdfc.ProductpageTest.verifyDisclaimerOnProductPage(ProductpageTest.java:218)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -140,8 +184,101 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
-<td>19</td>
-<td>SeleniumTesting.AEMhdfc.HomepageTest@115667d</td></tr>
+<td>4</td>
+<td>SeleniumTesting.AEMhdfc.ProductpageTest@635572a7</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.ProductpageTest.navigateToProductPage()'><b>navigateToProductPage</b><br>Test class: SeleniumTesting.AEMhdfc.ProductpageTest</td>
+<td></td>
+<td>22</td>
+<td>SeleniumTesting.AEMhdfc.ProductpageTest@635572a7</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.ProductpageTest.verifyBuyNowBtn()'><b>verifyBuyNowBtn</b><br>Test class: SeleniumTesting.AEMhdfc.ProductpageTest</td>
+<td></td>
+<td>9</td>
+<td>SeleniumTesting.AEMhdfc.ProductpageTest@635572a7</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.ProductpageTest.verifyCalculatePremiumBtn()'><b>verifyCalculatePremiumBtn</b><br>Test class: SeleniumTesting.AEMhdfc.ProductpageTest</td>
+<td></td>
+<td>11</td>
+<td>SeleniumTesting.AEMhdfc.ProductpageTest@635572a7</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.ProductpageTest.verifyDownloadBrochure()'><b>verifyDownloadBrochure</b><br>Test class: SeleniumTesting.AEMhdfc.ProductpageTest</td>
+<td></td>
+<td>6</td>
+<td>SeleniumTesting.AEMhdfc.ProductpageTest@635572a7</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.ProductpageTest.verifyDownloadsSectionAfterScroll()'><b>verifyDownloadsSectionAfterScroll</b><br>Test class: SeleniumTesting.AEMhdfc.ProductpageTest</td>
+<td></td>
+<td>108</td>
+<td>SeleniumTesting.AEMhdfc.ProductpageTest@635572a7</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.ProductpageTest.verifyEligibilityCriteria()'><b>verifyEligibilityCriteria</b><br>Test class: SeleniumTesting.AEMhdfc.ProductpageTest</td>
+<td></td>
+<td>9</td>
+<td>SeleniumTesting.AEMhdfc.ProductpageTest@635572a7</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.ProductpageTest.verifyFAQSection()'><b>verifyFAQSection</b><br>Test class: SeleniumTesting.AEMhdfc.ProductpageTest</td>
+<td></td>
+<td>12</td>
+<td>SeleniumTesting.AEMhdfc.ProductpageTest@635572a7</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.ProductpageTest.verifyPrintBtn()'><b>verifyPrintBtn</b><br>Test class: SeleniumTesting.AEMhdfc.ProductpageTest</td>
+<td></td>
+<td>9</td>
+<td>SeleniumTesting.AEMhdfc.ProductpageTest@635572a7</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.ProductpageTest.verifyProductPageBreadcrumb()'><b>verifyProductPageBreadcrumb</b><br>Test class: SeleniumTesting.AEMhdfc.ProductpageTest</td>
+<td></td>
+<td>22</td>
+<td>SeleniumTesting.AEMhdfc.ProductpageTest@635572a7</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.ProductpageTest.verifyRatingOption()'><b>verifyRatingOption</b><br>Test class: SeleniumTesting.AEMhdfc.ProductpageTest</td>
+<td></td>
+<td>9</td>
+<td>SeleniumTesting.AEMhdfc.ProductpageTest@635572a7</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.ProductpageTest.verifyRatingsFromAPI()'><b>verifyRatingsFromAPI</b><br>Test class: SeleniumTesting.AEMhdfc.ProductpageTest</td>
+<td></td>
+<td>3</td>
+<td>SeleniumTesting.AEMhdfc.ProductpageTest@635572a7</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.ProductpageTest.verifyRidersSection()'><b>verifyRidersSection</b><br>Test class: SeleniumTesting.AEMhdfc.ProductpageTest</td>
+<td></td>
+<td>58</td>
+<td>SeleniumTesting.AEMhdfc.ProductpageTest@635572a7</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.ProductpageTest.verifyScheduleACallOnProductPage()'><b>verifyScheduleACallOnProductPage</b><br>Test class: SeleniumTesting.AEMhdfc.ProductpageTest</td>
+<td></td>
+<td>17</td>
+<td>SeleniumTesting.AEMhdfc.ProductpageTest@635572a7</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.ProductpageTest.verifyShareOption()'><b>verifyShareOption</b><br>Test class: SeleniumTesting.AEMhdfc.ProductpageTest</td>
+<td></td>
+<td>49</td>
+<td>SeleniumTesting.AEMhdfc.ProductpageTest@635572a7</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.ProductpageTest.verifyTandCOption()'><b>verifyTandCOption</b><br>Test class: SeleniumTesting.AEMhdfc.ProductpageTest</td>
+<td></td>
+<td>24</td>
+<td>SeleniumTesting.AEMhdfc.ProductpageTest@635572a7</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.ProductpageTest.verifyVideoOnCategoryPage()'><b>verifyVideoOnCategoryPage</b><br>Test class: SeleniumTesting.AEMhdfc.ProductpageTest</td>
+<td></td>
+<td>3</td>
+<td>SeleniumTesting.AEMhdfc.ProductpageTest@635572a7</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.ProductpageTest.verifyYourPlanYourBenefitsSection()'><b>verifyYourPlanYourBenefitsSection</b><br>Test class: SeleniumTesting.AEMhdfc.ProductpageTest</td>
+<td></td>
+<td>48</td>
+<td>SeleniumTesting.AEMhdfc.ProductpageTest@635572a7</td></tr>
 </table><p>
 </body>
 </html>

@@ -1443,3 +1443,607 @@ with linkhttps://hslcc.hdfclife.com/ams/ams/presentation/view/login.aspx------>O
 with linkhttps://partner.hdfclife.com/------>OK
 12:30:23.885 [main] INFO  PageObjects.Homepage - with linkhttps://www.hdfclife.com/#------>OK
 12:30:23.897 [main] INFO  SeleniumTesting.AEMhdfc.HomepageTest - Homepage test cases executed
+15:32:35.987 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases started
+15:43:14.084 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases started
+15:43:28.288 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases executed
+15:44:29.606 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases started
+15:44:43.768 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases executed
+15:47:45.694 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases started
+15:48:03.029 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases executed
+15:48:20.344 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases started
+15:48:37.734 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases executed
+16:32:31.056 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases started
+16:33:07.848 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases executed
+16:34:53.170 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases started
+16:35:28.994 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases executed
+16:46:52.754 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases started
+16:47:46.436 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases executed
+17:23:13.334 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases started
+17:24:57.102 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases executed
+17:26:12.687 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases started
+17:27:37.670 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases executed
+17:31:51.496 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases started
+17:40:17.167 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases started
+17:41:39.110 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases executed
+17:42:29.208 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases started
+17:43:55.307 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases executed
+18:00:45.485 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases started
+18:02:05.953 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases executed
+18:02:40.692 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases started
+18:04:01.316 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases executed
+18:07:45.684 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases started
+18:08:55.410 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases executed
+18:10:41.427 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases started
+18:12:37.449 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases started
+18:14:25.264 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases started
+18:16:12.502 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases started
+18:17:53.582 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases executed
+18:20:21.055 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases started
+18:22:16.024 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases executed
+18:34:22.607 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases started
+18:38:07.794 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases executed
+18:38:59.397 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases started
+18:43:02.830 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases executed
+18:47:06.585 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Product page test cases started
+18:47:33.116 [main] INFO  SeleniumTesting.AEMhdfc.HomepageTest - Homepage test cases started
+18:47:53.415 [main] INFO  SeleniumTesting.AEMhdfc.CategorypageTest - Category page test cases started
+18:48:08.484 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases started
+18:48:52.756 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Product page test cases started
+18:49:19.005 [main] INFO  SeleniumTesting.AEMhdfc.HomepageTest - Homepage test cases started
+18:49:40.397 [main] INFO  SeleniumTesting.AEMhdfc.CategorypageTest - Category page test cases started
+18:49:57.729 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases started
+18:54:13.093 [main] INFO  SeleniumTesting.AEMhdfc.HomepageTest - Homepage test cases started
+18:58:03.326 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+18:58:03.328 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+18:58:03.329 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+18:58:03.330 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+18:58:03.330 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+18:58:03.331 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+18:58:03.341 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+18:58:03.341 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+18:58:03.344 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+18:58:03.345 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+18:58:03.345 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+18:58:03.346 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+18:58:03.346 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+18:58:03.347 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+18:58:03.385 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+18:58:03.386 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle themefd26doctype
+18:58:03.440 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stylesheet5d8bdoctype
+18:58:03.445 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctstylesheet4257type
+18:58:03.448 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfonts6623type
+18:58:03.452 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfont14d8type
+18:58:03.457 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfills2c6ftype
+18:58:03.459 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfill550ctype
+18:58:03.460 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborders0d66type
+18:58:03.462 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborderf935type
+18:58:03.464 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellxfs1322type
+18:58:03.466 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctxf97f7type
+18:58:03.468 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellstylexfsa81ftype
+18:58:03.469 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctdxfsb26atype
+18:58:03.471 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cttablestyles872ftype
+18:58:03.475 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle sstf81fdoctype
+18:58:03.478 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsst44f3type
+18:58:03.487 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrsta472type
+18:58:03.500 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle workbookec17doctype
+18:58:03.504 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworkbook83c3type
+18:58:03.509 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheets49fdtype
+18:58:03.512 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheet4dbetype
+18:58:03.514 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle strelationshipid1e94type
+18:58:03.519 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle worksheetf539doctype
+18:58:03.525 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworksheet530dtype
+18:58:03.531 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheetdata8408type
+18:58:03.534 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrowdd39type
+18:58:03.542 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcell842btype
+18:58:03.550 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcellrefe4e0type
+18:58:03.564 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcols627ctype
+18:58:03.566 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcola95ftype
+18:58:03.585 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stxstringf179type
+18:58:03.588 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcelltypebf95type
+18:58:03.602 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcellstylexfid70c7type
+18:58:03.606 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stnumfmtid76fbtype
+18:59:50.363 [main] INFO  PageObjects.Homepage - Popular and Product Listing Footer link check started
+18:59:51.146 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/term-insurance-plans------>OK
+18:59:51.229 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/ulip-plans------>OK
+18:59:51.378 [main] INFO  PageObjects.Homepage - https://onlinepayments.hdfclife.com/HDFCLife/quick_pay.html?source=NW_HP_PP_POPLinks&agentcode=00399206&utm_medium=website&utm_source=home-page&utm_campaign&utm_content=banner&prod=PP------>OK
+18:59:51.714 [main] INFO  PageObjects.Homepage - https://myaccount.hdfclife.com/?source=NW_HP_MyACC_POPLinks&agentcode=00399206&utm_medium=website&utm_source=home-page&utm_campaign&utm_content=banner&prod=MyACC------>OK
+18:59:51.785 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/fund-performance------>OK
+18:59:51.865 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/term-insurance-plans/click-2-protect-life------>OK
+18:59:51.969 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/term-insurance-plans/saral-jeevan-bima------>OK
+18:59:52.047 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/term-insurance-plans------>OK
+18:59:52.151 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/ulip-plans/click-2-wealth-ulip-plan------>OK
+18:59:52.229 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/ulip-plans/click-2-invest-ulip-plan------>OK
+18:59:52.299 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/ulip-plans/progrowth-plus-ulip-plan------>OK
+18:59:52.389 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/ulip-plans------>OK
+18:59:52.476 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/children-insurance-plans/youngstar-super-premium------>OK
+18:59:52.598 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/children-insurance-plans/youngstar-udaan------>OK
+18:59:52.682 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/children-insurance-plans------>OK
+18:59:52.764 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/savings-plans/pos-guaranteed-savings-plan------>OK
+18:59:52.841 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/retirement-and-pension-plans/pension-guaranteed-plan------>OK
+18:59:52.924 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/retirement-and-pension-plans/new-immediate-annuity-plan------>OK
+18:59:53.012 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/retirement-and-pension-plans/guaranteed-pension-plan------>OK
+18:59:53.081 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/retirement-and-pension-plans/click-2-retire------>OK
+18:59:53.160 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/retirement-and-pension-plans------>OK
+18:59:53.242 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/savings-plans/sanchay-fixed-maturity-plan------>OK
+18:59:53.340 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/savings-plans/sanchay-par-advantage------>OK
+18:59:53.411 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/savings-plans/sanchay-plus------>OK
+18:59:53.477 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/savings-plans------>OK
+18:59:53.548 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/health-insurance-plans/click-2-protect-corona-kavach------>OK
+18:59:53.647 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/health-insurance-plans/click-2-protect-health-plan------>OK
+18:59:53.731 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/health-insurance-plans/cancer-care-insurance------>OK
+18:59:53.820 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/health-insurance-plans/cardiac-care------>OK
+18:59:53.885 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/health-insurance-plans------>OK
+18:59:53.964 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/sanchay-maximiser------>OK
+18:59:53.964 [main] INFO  PageObjects.Homepage - Popular and Product Listing Footer link check ended
+18:59:56.985 [main] INFO  PageObjects.Homepage - Stay Connected With Us Footer link check started
+18:59:59.885 [main] INFO  PageObjects.Homepage - https://www.facebook.com/HDFClife------>OK
+19:00:00.161 [main] INFO  PageObjects.Homepage - https://www.linkedin.com/company/hdfc-life------>Request denied
+19:00:00.603 [main] INFO  PageObjects.Homepage - https://twitter.com/HDFClife------>OK
+19:00:00.962 [main] INFO  PageObjects.Homepage - https://www.youtube.com/user/hdfclife10------>OK
+19:00:02.912 [main] INFO  PageObjects.Homepage - https://www.instagram.com/hdfclife/------>OK
+19:00:04.677 [main] INFO  PageObjects.Homepage - https://www.slideshare.net/hdfclife------>OK
+19:00:04.677 [main] INFO  PageObjects.Homepage - Stay Connected With Us Footer link check ended
+19:00:29.483 [main] INFO  PageObjects.Homepage - Group Websites link check started
+19:00:31.676 [main] INFO  PageObjects.Homepage - https://www.hdfc.com/------>OK
+19:00:31.735 [main] INFO  PageObjects.Homepage - http://www.hdfcbank.com/------>Moved Permanently
+19:00:31.804 [main] INFO  PageObjects.Homepage - http://www.hdfcsec.com/------>Moved Permanently
+19:00:31.865 [main] INFO  PageObjects.Homepage - http://www.hdfcfund.com/------>Moved Permanently
+19:00:33.449 [main] INFO  PageObjects.Homepage - https://www.hdfcpension.com/------>OK
+19:00:33.985 [main] INFO  PageObjects.Homepage - https://www.hdfcergo.com/------>OK
+19:00:34.048 [main] INFO  PageObjects.Homepage - http://www.hdbfs.com/------>Moved Permanently
+19:00:35.838 [main] INFO  PageObjects.Homepage - http://hdfcrealty.com/------>OK
+19:00:41.432 [main] INFO  PageObjects.Homepage - http://www.hdfcpropertyfund.com/------>OK
+19:00:41.605 [main] INFO  PageObjects.Homepage - http://www.hdfclifere.com/------>Moved Permanently
+19:00:42.609 [main] INFO  PageObjects.Homepage - http://www.credila.com/------>OK
+19:00:43.130 [main] INFO  PageObjects.Homepage - https://www.hdfcsales.com/------>OK
+19:00:43.225 [main] INFO  PageObjects.Homepage - https://myaccount.hdfclife.com/portal.do?_portalid=cpRegistrationLink&_pageid=cp_dndPage------>OK
+19:00:43.284 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/disclaimer------>OK
+19:00:43.372 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/privacy-policy------>OK
+19:00:43.447 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/terms-and-conditions------>OK
+19:00:43.521 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/content/hdfclifeinsurancecompany/in/en/about-us#investorRelations------>Moved Permanently
+19:00:43.620 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/irda-public-notice-on-spurious-calls------>OK
+19:00:43.696 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/content/hdfclifeinsurancecompany/in/en/customer-service/insurance-notice-corner------>Moved Permanently
+19:00:43.781 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/content/hdfclifeinsurancecompany/in/en/customer-service/claims/unclaimed-policyholder-payment-dues-amount-disclosure------>Moved Permanently
+19:00:44.724 [main] INFO  PageObjects.Homepage - https://www.irdai.gov.in/Defaulthome.aspx?page=H1------>OK
+19:00:45.179 [main] INFO  PageObjects.Homepage - https://www.irdai.gov.in/ADMINCMS/cms/NormalData_Layout.aspx?page=PageNo234&mid=7.2------>OK
+19:00:45.937 [main] INFO  PageObjects.Homepage - https://www.policyholder.gov.in/------>OK
+19:00:46.761 [main] INFO  PageObjects.Homepage - https://www.lifeinscouncil.org/code/Default.aspx------>OK
+19:00:46.830 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/qrops------>OK
+19:00:46.905 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/customer-service/pay-premium------>OK
+19:00:46.982 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/nav-summary------>OK
+19:00:47.058 [main] INFO  PageObjects.Homepage - https://onlineinsurance.hdfclife.com/------>OK
+19:00:47.128 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/financial-tools-calculators------>OK
+19:00:47.222 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/content/hdfclifeinsurancecompany/in/en/customer-service/about-demat------>Moved Permanently
+19:00:47.287 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/content/hdfclifeinsurancecompany/in/en/about-us/investor-relations------>Moved Permanently
+19:00:47.349 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/footer/T-and-C-for-Policy-loan.pdf------>OK
+19:00:47.433 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/footer/TERMS-AND-CONDITIONS-OF-APPOINTMENT.pdf------>OK
+19:00:47.502 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/content/hdfclifeinsurancecompany/in/en/sitemap------>Moved Permanently
+19:00:47.582 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/footer/POSP-Appointment-TandC.pdf------>OK
+19:00:47.704 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/footer/Underwriting-philosophy-and-approach-with-regard-to-offering-insurance-coverage-to-Persons-with-Disabilities-Mental-Illness.pdf------>OK
+19:00:47.781 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/insurance-knowledge-centre/glossary------>OK
+19:00:47.860 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/life-insurance-solutions------>OK
+19:00:47.929 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/hdfc-life-mobile-app------>OK
+19:00:47.993 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/life-insurance-plans------>OK
+19:00:48.074 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/customer-service/testimonials------>OK
+19:00:51.095 [main] INFO  PageObjects.Categorypage - Article section verification started
+19:00:51.143 [main] INFO  PageObjects.Categorypage -  the number of link in article section : 7
+19:00:52.887 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases executed
+19:00:57.956 [main] INFO  PageObjects.Categorypage -  and URL is: https://www.hdfclife.com/insurance-knowledge-centre/about-life-insurance/best-term-insurance-plan
+19:01:09.340 [main] INFO  PageObjects.Categorypage - Choose the Right Term Insurance Plan - 7 Simple Steps
+
+"There are certain factors which must be taken into consideration before purchasing term plan. Read seven basic steps to be taken while choosing a term insurance plan." and URL is: https://www.hdfclife.com/insurance-knowledge-centre/about-life-insurance/best-term-insurance-plan
+19:01:21.342 [main] INFO  PageObjects.Categorypage - Unit Linked Insurance Plans, Most Preferred Investment Option among Indians | HDFC Life and URL is: https://www.hdfclife.com/insurance-knowledge-centre/investment-for-future-planning/what-makes-ulips-attractive
+19:01:33.829 [main] INFO  PageObjects.Categorypage - Financial Planning - Importance of Savings and Investment | HDFC Life and URL is: https://www.hdfclife.com/insurance-knowledge-centre/investment-for-future-planning/importance-of-savings-and-investments
+19:01:45.214 [main] INFO  PageObjects.Categorypage - Health Insurance Plan - Requirement & Benefits | HDFC Life
+
+"Health Plans offer financial security to meet health related contingencies. It becomes imperative therefore to have a health insurance plan in place. To Know more about health plans, Visit Now !" and URL is: https://www.hdfclife.com/insurance-knowledge-centre/secure-your-health/need-for-health-plan
+19:01:57.604 [main] INFO  PageObjects.Categorypage -  and URL is: https://www.hdfclife.com/insurance-knowledge-centre/secure-your-health/need-for-health-plan
+19:02:08.662 [main] INFO  PageObjects.Categorypage - VIEW MORE and URL is: https://www.hdfclife.com/insurance-knowledge-centre
+19:02:13.890 [main] INFO  PageObjects.Categorypage - No Broken link found
+19:02:13.890 [main] INFO  PageObjects.Categorypage - Article section test case ended
+19:02:16.904 [main] INFO  SeleniumTesting.AEMhdfc.HomepageTest - Homepage test cases executed
+19:02:21.316 [main] INFO  SeleniumTesting.AEMhdfc.CategorypageTest - Category page test cases started
+19:03:32.137 [main] INFO  PageObjects.Categorypage - MC062124237-V01-HDFC-Life-Click-2-Protect-Life-Retail-Brochure.pdf is present
+19:03:57.101 [main] ERROR PageObjects.Categorypage - saral-jeevan-brochure.pdf is incorrect
+19:03:57.101 [main] INFO  PageObjects.Categorypage - saral-jeevan-brochure.pdf is present
+19:04:36.753 [main] INFO  PageObjects.Categorypage - First FAQ accordion is open on page load
+19:04:43.026 [main] INFO  PageObjects.Categorypage - Second FAQ accordion is opened on click
+19:05:07.534 [main] INFO  PageObjects.Categorypage - Verification for download button in rider section started
+19:05:07.560 [main] INFO  PageObjects.Categorypage -  the number of buttons in download riders section : 2
+19:05:31.988 [main] INFO  PageObjects.Categorypage -  the number of buttons in second row in download riders section : 1
+19:05:56.477 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Download section verification after scroll started
+19:06:06.173 [main] INFO  PageObjects.Categorypage - Article section verification started
+19:06:06.229 [main] INFO  PageObjects.Categorypage -  the number of link in article section : 7
+19:06:08.619 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Download section verification after scroll started
+19:06:12.900 [main] INFO  PageObjects.Categorypage -  and URL is: https://www.hdfclife.com/insurance-knowledge-centre/about-life-insurance/what-is-term-insurance
+19:06:20.781 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Download section verification after scroll started
+19:06:26.285 [main] INFO  PageObjects.Categorypage - What is Term Insurance? - Meaning of Term Plan | HDFC Life
+
+"Before making a financial plan for yourself, it is very important to know the meaning of term insurance. Read this blog to know the details about term plan!" and URL is: https://www.hdfclife.com/insurance-knowledge-centre/about-life-insurance/what-is-term-insurance
+19:06:32.898 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Download section verification after scroll started
+19:06:39.764 [main] INFO  PageObjects.Categorypage - Why Is Term Insurance Important For Everyone - HDFC Life and URL is: https://www.hdfclife.com/insurance-knowledge-centre/about-life-insurance/why-term-insurance-is-important.html
+19:06:51.983 [main] INFO  PageObjects.Categorypage - Term Insurance FAQs - Answers to All Your Questions | HDFC Life and URL is: https://www.hdfclife.com/insurance-knowledge-centre/about-life-insurance/faqs-on-term-insurance
+19:07:05.113 [main] INFO  PageObjects.Categorypage - Ultimate Guide - Buy Term Insurance Plans Online | HDFC Life
+
+"Buying insurance is seen as time-consuming even cumbersome. So while individuals appreciate the importance of taking insurance, the formalities can be a put-off, making them postpone the decision......" and URL is: https://www.hdfclife.com/insurance-knowledge-centre/about-life-insurance/how-to-buy-term-insurance-online
+19:07:18.815 [main] INFO  PageObjects.Categorypage -  and URL is: https://www.hdfclife.com/insurance-knowledge-centre/about-life-insurance/how-to-buy-term-insurance-online
+19:07:32.163 [main] INFO  PageObjects.Categorypage - VIEW MORE and URL is: https://www.hdfclife.com/insurance-knowledge-centre
+19:07:38.658 [main] INFO  PageObjects.Categorypage - No Broken link found
+19:07:38.658 [main] INFO  PageObjects.Categorypage - Article section test case ended
+19:07:51.291 [main] INFO  SeleniumTesting.AEMhdfc.CategorypageTest - Category page test cases executed
+19:07:51.299 [main] INFO  SeleniumTesting.AEMhdfc.CategorypageTest - Folder deleted for Category downloads
+19:07:56.061 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Product page test cases started
+19:10:22.439 [main] INFO  PageObjects.Categorypage - MC062124237-V01-HDFC-Life-Click-2-Protect-Life-Retail-Brochure.pdf is present
+19:10:43.247 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Download section verification after scroll started
+19:11:27.704 [main] INFO  SeleniumTesting.AEMhdfc.CategorypageTest - Category page test cases executed
+19:11:27.816 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Product page test cases executed
+19:12:09.033 [main] INFO  PageObjects.Categorypage - MC062124237-V01-HDFC-Life-Click-2-Protect-Life-Retail-Brochure.pdf is present
+19:12:16.387 [main] INFO  SeleniumTesting.AEMhdfc.HomepageTest - Homepage test cases executed
+19:12:47.381 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Download section verification after scroll started
+19:13:20.423 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Download section verification after scroll started
+19:13:53.480 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Download section verification after scroll started
+19:15:39.467 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Product page test cases executed
+19:15:43.596 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases started
+19:19:43.579 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases executed
+19:51:45.068 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Product page test cases started
+19:54:12.171 [main] INFO  PageObjects.Categorypage - MC062124237-V01-HDFC-Life-Click-2-Protect-Life-Retail-Brochure.pdf is present
+19:54:33.081 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Download section verification after scroll started
+19:56:00.392 [main] INFO  PageObjects.Categorypage - MC062124237-V01-HDFC-Life-Click-2-Protect-Life-Retail-Brochure.pdf is present
+19:57:40.965 [main] INFO  PageObjects.Categorypage - Verification for download button in rider section started
+19:57:40.991 [main] INFO  PageObjects.Categorypage -  the number of buttons in download riders section : 2
+19:58:05.598 [main] INFO  PageObjects.Categorypage -  the number of buttons in second row in download riders section : 1
+19:58:40.901 [main] INFO  PageObjects.Categorypage - First FAQ accordion is open on page load
+19:58:47.396 [main] INFO  PageObjects.Categorypage - Second FAQ accordion is opened on click
+19:58:50.537 [main] ERROR PageObjects.Productpage - View more button for FAQ is not visible on page load
+19:58:55.027 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Product page test cases executed
+19:59:20.706 [main] INFO  SeleniumTesting.AEMhdfc.HomepageTest - Homepage test cases started
+20:03:19.573 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+20:03:19.577 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+20:03:19.578 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+20:03:19.579 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+20:03:19.580 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+20:03:19.581 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+20:03:19.598 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+20:03:19.598 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+20:03:19.604 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+20:03:19.605 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+20:03:19.606 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+20:03:19.607 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+20:03:19.608 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+20:03:19.609 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+20:03:19.664 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+20:03:19.665 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle themefd26doctype
+20:03:19.720 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stylesheet5d8bdoctype
+20:03:19.724 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctstylesheet4257type
+20:03:19.727 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfonts6623type
+20:03:19.730 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfont14d8type
+20:03:19.738 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfills2c6ftype
+20:03:19.741 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfill550ctype
+20:03:19.742 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborders0d66type
+20:03:19.744 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborderf935type
+20:03:19.746 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellxfs1322type
+20:03:19.749 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctxf97f7type
+20:03:19.751 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellstylexfsa81ftype
+20:03:19.755 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctdxfsb26atype
+20:03:19.757 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cttablestyles872ftype
+20:03:19.760 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle sstf81fdoctype
+20:03:19.762 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsst44f3type
+20:03:19.775 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrsta472type
+20:03:19.795 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle workbookec17doctype
+20:03:19.799 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworkbook83c3type
+20:03:19.806 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheets49fdtype
+20:03:19.808 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheet4dbetype
+20:03:19.811 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle strelationshipid1e94type
+20:03:19.813 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle worksheetf539doctype
+20:03:19.817 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworksheet530dtype
+20:03:19.823 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheetdata8408type
+20:03:19.828 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrowdd39type
+20:03:19.832 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcell842btype
+20:03:19.842 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcellrefe4e0type
+20:03:19.858 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcols627ctype
+20:03:19.863 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcola95ftype
+20:03:19.885 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stxstringf179type
+20:03:19.890 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcelltypebf95type
+20:03:19.900 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcellstylexfid70c7type
+20:03:19.908 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stnumfmtid76fbtype
+20:05:09.989 [main] INFO  PageObjects.Homepage - Popular and Product Listing Footer link check started
+20:05:10.890 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/term-insurance-plans------>OK
+20:05:11.035 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/ulip-plans------>OK
+20:05:11.232 [main] INFO  PageObjects.Homepage - https://onlinepayments.hdfclife.com/HDFCLife/quick_pay.html?source=NW_HP_PP_POPLinks&agentcode=00399206&utm_medium=website&utm_source=home-page&utm_campaign&utm_content=banner&prod=PP------>OK
+20:05:11.355 [main] INFO  PageObjects.Homepage - https://myaccount.hdfclife.com/?source=NW_HP_MyACC_POPLinks&agentcode=00399206&utm_medium=website&utm_source=home-page&utm_campaign&utm_content=banner&prod=MyACC------>OK
+20:05:11.483 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/fund-performance------>OK
+20:05:11.561 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/term-insurance-plans/click-2-protect-life------>OK
+20:05:11.640 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/term-insurance-plans/saral-jeevan-bima------>OK
+20:05:11.719 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/term-insurance-plans------>OK
+20:05:11.804 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/ulip-plans/click-2-wealth-ulip-plan------>OK
+20:05:11.916 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/ulip-plans/click-2-invest-ulip-plan------>OK
+20:05:12.000 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/ulip-plans/progrowth-plus-ulip-plan------>OK
+20:05:12.101 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/ulip-plans------>OK
+20:05:12.231 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/children-insurance-plans/youngstar-super-premium------>OK
+20:05:12.343 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/children-insurance-plans/youngstar-udaan------>OK
+20:05:12.433 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/children-insurance-plans------>OK
+20:05:12.534 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/savings-plans/pos-guaranteed-savings-plan------>OK
+20:05:12.605 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/retirement-and-pension-plans/pension-guaranteed-plan------>OK
+20:05:12.694 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/retirement-and-pension-plans/new-immediate-annuity-plan------>OK
+20:05:12.803 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/retirement-and-pension-plans/guaranteed-pension-plan------>OK
+20:05:12.882 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/retirement-and-pension-plans/click-2-retire------>OK
+20:05:12.979 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/retirement-and-pension-plans------>OK
+20:05:13.052 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/savings-plans/sanchay-fixed-maturity-plan------>OK
+20:05:13.133 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/savings-plans/sanchay-par-advantage------>OK
+20:05:13.243 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/savings-plans/sanchay-plus------>OK
+20:05:13.313 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/savings-plans------>OK
+20:05:13.395 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/health-insurance-plans/click-2-protect-corona-kavach------>OK
+20:05:13.477 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/health-insurance-plans/click-2-protect-health-plan------>OK
+20:05:13.546 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/health-insurance-plans/cancer-care-insurance------>OK
+20:05:13.616 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/health-insurance-plans/cardiac-care------>OK
+20:05:13.693 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/health-insurance-plans------>OK
+20:05:13.794 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/sanchay-maximiser------>OK
+20:05:13.794 [main] INFO  PageObjects.Homepage - Popular and Product Listing Footer link check ended
+20:05:16.811 [main] INFO  PageObjects.Homepage - Stay Connected With Us Footer link check started
+20:05:19.536 [main] INFO  PageObjects.Homepage - https://www.facebook.com/HDFClife------>OK
+20:05:19.922 [main] INFO  PageObjects.Homepage - https://www.linkedin.com/company/hdfc-life------>Request denied
+20:05:20.434 [main] INFO  PageObjects.Homepage - https://twitter.com/HDFClife------>OK
+20:05:21.128 [main] INFO  PageObjects.Homepage - https://www.youtube.com/user/hdfclife10------>OK
+20:05:23.030 [main] INFO  PageObjects.Homepage - https://www.instagram.com/hdfclife/------>OK
+20:05:24.865 [main] INFO  PageObjects.Homepage - https://www.slideshare.net/hdfclife------>OK
+20:05:24.865 [main] INFO  PageObjects.Homepage - Stay Connected With Us Footer link check ended
+20:05:53.399 [main] INFO  PageObjects.Homepage - Group Websites link check started
+20:05:56.058 [main] INFO  PageObjects.Homepage - https://www.hdfc.com/------>OK
+20:05:56.137 [main] INFO  PageObjects.Homepage - http://www.hdfcbank.com/------>Moved Permanently
+20:05:56.377 [main] INFO  PageObjects.Homepage - http://www.hdfcsec.com/------>Moved Permanently
+20:05:56.496 [main] INFO  PageObjects.Homepage - http://www.hdfcfund.com/------>Moved Permanently
+20:05:58.432 [main] INFO  PageObjects.Homepage - https://www.hdfcpension.com/------>OK
+20:05:58.745 [main] INFO  PageObjects.Homepage - https://www.hdfcergo.com/------>OK
+20:05:58.850 [main] INFO  PageObjects.Homepage - http://www.hdbfs.com/------>Moved Permanently
+20:06:00.455 [main] INFO  PageObjects.Homepage - http://hdfcrealty.com/------>OK
+20:06:24.698 [main] INFO  PageObjects.Homepage - Group Websites link check started
+20:06:27.107 [main] INFO  PageObjects.Homepage - https://www.hdfc.com/------>OK
+20:06:27.152 [main] INFO  PageObjects.Homepage - http://www.hdfcbank.com/------>Moved Permanently
+20:06:27.204 [main] INFO  PageObjects.Homepage - http://www.hdfcsec.com/------>Moved Permanently
+20:06:27.241 [main] INFO  PageObjects.Homepage - http://www.hdfcfund.com/------>Moved Permanently
+20:06:28.882 [main] INFO  PageObjects.Homepage - https://www.hdfcpension.com/------>OK
+20:06:30.575 [main] INFO  PageObjects.Homepage - https://www.hdfcergo.com/------>OK
+20:06:30.607 [main] INFO  PageObjects.Homepage - http://www.hdbfs.com/------>Moved Permanently
+20:06:31.968 [main] INFO  PageObjects.Homepage - http://hdfcrealty.com/------>OK
+20:06:56.018 [main] INFO  PageObjects.Homepage - Group Websites link check started
+20:06:58.417 [main] INFO  PageObjects.Homepage - https://www.hdfc.com/------>OK
+20:06:58.506 [main] INFO  PageObjects.Homepage - http://www.hdfcbank.com/------>Moved Permanently
+20:06:58.576 [main] INFO  PageObjects.Homepage - http://www.hdfcsec.com/------>Moved Permanently
+20:06:58.639 [main] INFO  PageObjects.Homepage - http://www.hdfcfund.com/------>Moved Permanently
+20:07:00.839 [main] INFO  PageObjects.Homepage - https://www.hdfcpension.com/------>OK
+20:07:01.782 [main] INFO  PageObjects.Homepage - https://www.hdfcergo.com/------>OK
+20:07:01.989 [main] INFO  PageObjects.Homepage - http://www.hdbfs.com/------>Moved Permanently
+20:07:03.271 [main] INFO  PageObjects.Homepage - http://hdfcrealty.com/------>OK
+20:07:27.352 [main] INFO  PageObjects.Homepage - Group Websites link check started
+20:07:29.749 [main] INFO  PageObjects.Homepage - https://www.hdfc.com/------>OK
+20:07:29.795 [main] INFO  PageObjects.Homepage - http://www.hdfcbank.com/------>Moved Permanently
+20:07:29.838 [main] INFO  PageObjects.Homepage - http://www.hdfcsec.com/------>Moved Permanently
+20:07:29.880 [main] INFO  PageObjects.Homepage - http://www.hdfcfund.com/------>Moved Permanently
+20:07:31.736 [main] INFO  PageObjects.Homepage - https://www.hdfcpension.com/------>OK
+20:07:31.862 [main] INFO  PageObjects.Homepage - https://www.hdfcergo.com/------>OK
+20:07:31.886 [main] INFO  PageObjects.Homepage - http://www.hdbfs.com/------>Moved Permanently
+20:07:32.555 [main] INFO  PageObjects.Homepage - http://hdfcrealty.com/------>OK
+20:07:53.941 [main] INFO  SeleniumTesting.AEMhdfc.HomepageTest - Homepage test cases executed
+20:07:58.940 [main] INFO  SeleniumTesting.AEMhdfc.CategorypageTest - Category page test cases started
+20:09:14.978 [main] INFO  PageObjects.Categorypage - MC062124237-V01-HDFC-Life-Click-2-Protect-Life-Retail-Brochure.pdf is present
+20:09:45.557 [main] ERROR PageObjects.Categorypage - saral-jeevan-brochure.pdf is incorrect
+20:09:45.558 [main] INFO  PageObjects.Categorypage - saral-jeevan-brochure.pdf is present
+20:10:27.374 [main] INFO  PageObjects.Categorypage - First FAQ accordion is open on page load
+20:10:33.753 [main] INFO  PageObjects.Categorypage - Second FAQ accordion is opened on click
+20:10:58.550 [main] INFO  PageObjects.Categorypage - Verification for download button in rider section started
+20:10:58.573 [main] INFO  PageObjects.Categorypage -  the number of buttons in download riders section : 2
+20:11:23.458 [main] INFO  PageObjects.Categorypage -  the number of buttons in second row in download riders section : 1
+20:11:58.102 [main] INFO  PageObjects.Categorypage - Article section verification started
+20:11:58.137 [main] INFO  PageObjects.Categorypage -  the number of link in article section : 7
+20:12:05.579 [main] INFO  PageObjects.Categorypage -  and URL is: https://www.hdfclife.com/insurance-knowledge-centre/about-life-insurance/what-is-term-insurance
+20:12:19.616 [main] INFO  PageObjects.Categorypage - What is Term Insurance? - Meaning of Term Plan | HDFC Life
+
+"Before making a financial plan for yourself, it is very important to know the meaning of term insurance. Read this blog to know the details about term plan!" and URL is: https://www.hdfclife.com/insurance-knowledge-centre/about-life-insurance/what-is-term-insurance
+20:12:34.083 [main] INFO  PageObjects.Categorypage - Why Is Term Insurance Important For Everyone - HDFC Life and URL is: https://www.hdfclife.com/insurance-knowledge-centre/about-life-insurance/why-term-insurance-is-important.html
+20:12:49.180 [main] INFO  PageObjects.Categorypage - Term Insurance FAQs - Answers to All Your Questions | HDFC Life and URL is: https://www.hdfclife.com/insurance-knowledge-centre/about-life-insurance/faqs-on-term-insurance
+20:13:03.903 [main] INFO  PageObjects.Categorypage - Ultimate Guide - Buy Term Insurance Plans Online | HDFC Life
+
+"Buying insurance is seen as time-consuming even cumbersome. So while individuals appreciate the importance of taking insurance, the formalities can be a put-off, making them postpone the decision......" and URL is: https://www.hdfclife.com/insurance-knowledge-centre/about-life-insurance/how-to-buy-term-insurance-online
+20:13:18.818 [main] INFO  PageObjects.Categorypage -  and URL is: https://www.hdfclife.com/insurance-knowledge-centre/about-life-insurance/how-to-buy-term-insurance-online
+20:13:34.076 [main] INFO  PageObjects.Categorypage - VIEW MORE and URL is: https://www.hdfclife.com/insurance-knowledge-centre
+20:13:41.645 [main] INFO  PageObjects.Categorypage - No Broken link found
+20:13:41.645 [main] INFO  PageObjects.Categorypage - Article section test case ended
+20:13:54.302 [main] INFO  SeleniumTesting.AEMhdfc.CategorypageTest - Category page test cases executed
+20:13:54.306 [main] INFO  SeleniumTesting.AEMhdfc.CategorypageTest - Folder deleted for Category downloads
+20:13:59.315 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Product page test cases started
+20:16:32.725 [main] INFO  PageObjects.Categorypage - MC062124237-V01-HDFC-Life-Click-2-Protect-Life-Retail-Brochure.pdf is present
+20:16:54.003 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Download section verification after scroll started
+20:18:04.595 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Download section verification after scroll started
+20:18:20.262 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Download section verification after scroll started
+20:19:03.985 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Download section verification after scroll started
+20:19:55.475 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Product page test cases executed
+20:19:59.744 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases started
+20:24:03.694 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases executed
+20:25:00.269 [main] INFO  SeleniumTesting.AEMhdfc.HomepageTest - Homepage test cases started
+20:28:54.671 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+20:28:54.674 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+20:28:54.675 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+20:28:54.676 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+20:28:54.677 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+20:28:54.678 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+20:28:54.691 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+20:28:54.691 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+20:28:54.694 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+20:28:54.695 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+20:28:54.696 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+20:28:54.696 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+20:28:54.697 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+20:28:54.698 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+20:28:54.748 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+20:28:54.750 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle themefd26doctype
+20:28:54.820 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stylesheet5d8bdoctype
+20:28:54.826 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctstylesheet4257type
+20:28:54.834 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfonts6623type
+20:28:54.838 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfont14d8type
+20:28:54.845 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfills2c6ftype
+20:28:54.848 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfill550ctype
+20:28:54.852 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborders0d66type
+20:28:54.855 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborderf935type
+20:28:54.858 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellxfs1322type
+20:28:54.860 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctxf97f7type
+20:28:54.863 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellstylexfsa81ftype
+20:28:54.864 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctdxfsb26atype
+20:28:54.868 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cttablestyles872ftype
+20:28:54.872 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle sstf81fdoctype
+20:28:54.877 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsst44f3type
+20:28:54.890 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrsta472type
+20:28:54.913 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle workbookec17doctype
+20:28:54.919 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworkbook83c3type
+20:28:54.924 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheets49fdtype
+20:28:54.927 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheet4dbetype
+20:28:54.929 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle strelationshipid1e94type
+20:28:54.932 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle worksheetf539doctype
+20:28:54.938 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworksheet530dtype
+20:28:54.945 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheetdata8408type
+20:28:54.948 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrowdd39type
+20:28:54.954 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcell842btype
+20:28:54.963 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcellrefe4e0type
+20:28:54.972 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcols627ctype
+20:28:54.974 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcola95ftype
+20:28:54.992 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stxstringf179type
+20:28:54.996 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcelltypebf95type
+20:28:55.008 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcellstylexfid70c7type
+20:28:55.012 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stnumfmtid76fbtype
+20:30:43.415 [main] INFO  PageObjects.Homepage - Popular and Product Listing Footer link check started
+20:30:44.272 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/term-insurance-plans------>OK
+20:30:44.428 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/ulip-plans------>OK
+20:30:44.599 [main] INFO  PageObjects.Homepage - https://onlinepayments.hdfclife.com/HDFCLife/quick_pay.html?source=NW_HP_PP_POPLinks&agentcode=00399206&utm_medium=website&utm_source=home-page&utm_campaign&utm_content=banner&prod=PP------>OK
+20:30:44.746 [main] INFO  PageObjects.Homepage - https://myaccount.hdfclife.com/?source=NW_HP_MyACC_POPLinks&agentcode=00399206&utm_medium=website&utm_source=home-page&utm_campaign&utm_content=banner&prod=MyACC------>OK
+20:30:44.881 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/fund-performance------>OK
+20:30:44.997 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/term-insurance-plans/click-2-protect-life------>OK
+20:30:45.096 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/term-insurance-plans/saral-jeevan-bima------>OK
+20:30:45.165 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/term-insurance-plans------>OK
+20:30:45.239 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/ulip-plans/click-2-wealth-ulip-plan------>OK
+20:30:45.324 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/ulip-plans/click-2-invest-ulip-plan------>OK
+20:30:45.398 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/ulip-plans/progrowth-plus-ulip-plan------>OK
+20:30:45.470 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/ulip-plans------>OK
+20:30:45.591 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/children-insurance-plans/youngstar-super-premium------>OK
+20:30:45.698 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/children-insurance-plans/youngstar-udaan------>OK
+20:30:45.846 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/children-insurance-plans------>OK
+20:30:46.017 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/savings-plans/pos-guaranteed-savings-plan------>OK
+20:30:46.148 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/retirement-and-pension-plans/pension-guaranteed-plan------>OK
+20:30:46.262 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/retirement-and-pension-plans/new-immediate-annuity-plan------>OK
+20:30:46.356 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/retirement-and-pension-plans/guaranteed-pension-plan------>OK
+20:30:46.435 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/retirement-and-pension-plans/click-2-retire------>OK
+20:30:46.511 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/retirement-and-pension-plans------>OK
+20:30:46.588 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/savings-plans/sanchay-fixed-maturity-plan------>OK
+20:30:46.649 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/savings-plans/sanchay-par-advantage------>OK
+20:30:46.725 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/savings-plans/sanchay-plus------>OK
+20:30:46.810 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/savings-plans------>OK
+20:30:46.881 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/health-insurance-plans/click-2-protect-corona-kavach------>OK
+20:30:46.972 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/health-insurance-plans/click-2-protect-health-plan------>OK
+20:30:47.046 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/health-insurance-plans/cancer-care-insurance------>OK
+20:30:47.116 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/health-insurance-plans/cardiac-care------>OK
+20:30:47.188 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/health-insurance-plans------>OK
+20:30:47.248 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/sanchay-maximiser------>OK
+20:30:47.248 [main] INFO  PageObjects.Homepage - Popular and Product Listing Footer link check ended
+20:30:50.259 [main] INFO  PageObjects.Homepage - Stay Connected With Us Footer link check started
+20:30:52.286 [main] INFO  PageObjects.Homepage - https://www.facebook.com/HDFClife------>OK
+20:30:52.574 [main] INFO  PageObjects.Homepage - https://www.linkedin.com/company/hdfc-life------>Request denied
+20:30:53.018 [main] INFO  PageObjects.Homepage - https://twitter.com/HDFClife------>OK
+20:30:53.458 [main] INFO  PageObjects.Homepage - https://www.youtube.com/user/hdfclife10------>OK
+20:30:55.304 [main] INFO  PageObjects.Homepage - https://www.instagram.com/hdfclife/------>OK
+20:30:57.076 [main] INFO  PageObjects.Homepage - https://www.slideshare.net/hdfclife------>OK
+20:30:57.076 [main] INFO  PageObjects.Homepage - Stay Connected With Us Footer link check ended
+20:31:22.096 [main] INFO  PageObjects.Homepage - Group Websites link check started
+20:31:24.300 [main] INFO  PageObjects.Homepage - https://www.hdfc.com/------>OK
+20:31:24.418 [main] INFO  PageObjects.Homepage - http://www.hdfcbank.com/------>Moved Permanently
+20:31:24.471 [main] INFO  PageObjects.Homepage - http://www.hdfcsec.com/------>Moved Permanently
+20:31:24.521 [main] INFO  PageObjects.Homepage - http://www.hdfcfund.com/------>Moved Permanently
+20:31:26.253 [main] INFO  PageObjects.Homepage - https://www.hdfcpension.com/------>OK
+20:31:27.425 [main] INFO  PageObjects.Homepage - https://www.hdfcergo.com/------>OK
+20:33:37.987 [main] INFO  PageObjects.Homepage - http://www.hdbfs.com/------>Service Unavailable
+20:33:44.562 [main] INFO  PageObjects.Homepage - http://hdfcrealty.com/------>OK
+20:33:49.795 [main] INFO  PageObjects.Homepage - http://www.hdfcpropertyfund.com/------>OK
+20:33:50.124 [main] INFO  PageObjects.Homepage - http://www.hdfclifere.com/------>Moved Permanently
+20:33:51.088 [main] INFO  PageObjects.Homepage - http://www.credila.com/------>OK
+20:33:51.635 [main] INFO  PageObjects.Homepage - https://www.hdfcsales.com/------>OK
+20:33:51.760 [main] INFO  PageObjects.Homepage - https://myaccount.hdfclife.com/portal.do?_portalid=cpRegistrationLink&_pageid=cp_dndPage------>OK
+20:33:51.976 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/disclaimer------>OK
+20:33:52.088 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/privacy-policy------>OK
+20:33:52.217 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/terms-and-conditions------>OK
+20:33:52.292 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/content/hdfclifeinsurancecompany/in/en/about-us#investorRelations------>Moved Permanently
+20:33:52.388 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/irda-public-notice-on-spurious-calls------>OK
+20:33:52.466 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/content/hdfclifeinsurancecompany/in/en/customer-service/insurance-notice-corner------>Moved Permanently
+20:33:52.522 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/content/hdfclifeinsurancecompany/in/en/customer-service/claims/unclaimed-policyholder-payment-dues-amount-disclosure------>Moved Permanently
+20:33:53.158 [main] INFO  PageObjects.Homepage - https://www.irdai.gov.in/Defaulthome.aspx?page=H1------>OK
+20:33:53.472 [main] INFO  PageObjects.Homepage - https://www.irdai.gov.in/ADMINCMS/cms/NormalData_Layout.aspx?page=PageNo234&mid=7.2------>OK
+20:33:53.942 [main] INFO  PageObjects.Homepage - https://www.policyholder.gov.in/------>OK
+20:33:54.882 [main] INFO  PageObjects.Homepage - https://www.lifeinscouncil.org/code/Default.aspx------>OK
+20:33:54.955 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/qrops------>OK
+20:33:55.027 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/customer-service/pay-premium------>OK
+20:33:55.088 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/nav-summary------>OK
+20:33:55.167 [main] INFO  PageObjects.Homepage - https://onlineinsurance.hdfclife.com/------>OK
+20:33:55.231 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/financial-tools-calculators------>OK
+20:33:55.286 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/content/hdfclifeinsurancecompany/in/en/customer-service/about-demat------>Moved Permanently
+20:33:55.345 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/content/hdfclifeinsurancecompany/in/en/about-us/investor-relations------>Moved Permanently
+20:33:55.427 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/footer/T-and-C-for-Policy-loan.pdf------>OK
+20:33:55.487 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/footer/TERMS-AND-CONDITIONS-OF-APPOINTMENT.pdf------>OK
+20:33:55.559 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/content/hdfclifeinsurancecompany/in/en/sitemap------>Moved Permanently
+20:33:55.625 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/footer/POSP-Appointment-TandC.pdf------>OK
+20:33:55.709 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/footer/Underwriting-philosophy-and-approach-with-regard-to-offering-insurance-coverage-to-Persons-with-Disabilities-Mental-Illness.pdf------>OK
+20:33:55.782 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/insurance-knowledge-centre/glossary------>OK
+20:33:55.856 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/life-insurance-solutions------>OK
+20:33:55.968 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/hdfc-life-mobile-app------>OK
+20:33:56.059 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/life-insurance-plans------>OK
+20:33:56.138 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/customer-service/testimonials------>OK
+20:33:59.150 [main] INFO  PageObjects.Categorypage - Article section verification started
+20:33:59.180 [main] INFO  PageObjects.Categorypage -  the number of link in article section : 7
+20:34:06.039 [main] INFO  PageObjects.Categorypage -  and URL is: https://www.hdfclife.com/insurance-knowledge-centre/about-life-insurance/best-term-insurance-plan
+20:34:17.642 [main] INFO  PageObjects.Categorypage - Choose the Right Term Insurance Plan - 7 Simple Steps
+
+"There are certain factors which must be taken into consideration before purchasing term plan. Read seven basic steps to be taken while choosing a term insurance plan." and URL is: https://www.hdfclife.com/insurance-knowledge-centre/about-life-insurance/best-term-insurance-plan
+20:34:29.903 [main] INFO  PageObjects.Categorypage - Unit Linked Insurance Plans, Most Preferred Investment Option among Indians | HDFC Life and URL is: https://www.hdfclife.com/insurance-knowledge-centre/investment-for-future-planning/what-makes-ulips-attractive
+20:34:41.285 [main] INFO  PageObjects.Categorypage - Financial Planning - Importance of Savings and Investment | HDFC Life and URL is: https://www.hdfclife.com/insurance-knowledge-centre/investment-for-future-planning/importance-of-savings-and-investments
+20:34:53.658 [main] INFO  PageObjects.Categorypage - Health Insurance Plan - Requirement & Benefits | HDFC Life
+
+"Health Plans offer financial security to meet health related contingencies. It becomes imperative therefore to have a health insurance plan in place. To Know more about health plans, Visit Now !" and URL is: https://www.hdfclife.com/insurance-knowledge-centre/secure-your-health/need-for-health-plan
+20:35:06.151 [main] INFO  PageObjects.Categorypage -  and URL is: https://www.hdfclife.com/insurance-knowledge-centre/secure-your-health/need-for-health-plan
+20:35:17.298 [main] INFO  PageObjects.Categorypage - VIEW MORE and URL is: https://www.hdfclife.com/insurance-knowledge-centre
+20:35:22.591 [main] INFO  PageObjects.Categorypage - No Broken link found
+20:35:22.592 [main] INFO  PageObjects.Categorypage - Article section test case ended
+20:35:25.605 [main] INFO  SeleniumTesting.AEMhdfc.HomepageTest - Homepage test cases executed
+20:35:32.017 [main] INFO  SeleniumTesting.AEMhdfc.CategorypageTest - Category page test cases started
+20:36:44.493 [main] INFO  PageObjects.Categorypage - MC062124237-V01-HDFC-Life-Click-2-Protect-Life-Retail-Brochure.pdf is present
+20:37:10.419 [main] ERROR PageObjects.Categorypage - saral-jeevan-brochure.pdf is incorrect
+20:37:10.422 [main] INFO  PageObjects.Categorypage - saral-jeevan-brochure.pdf is present
+20:37:50.976 [main] INFO  PageObjects.Categorypage - First FAQ accordion is open on page load
+20:37:57.310 [main] INFO  PageObjects.Categorypage - Second FAQ accordion is opened on click
+20:38:22.050 [main] INFO  PageObjects.Categorypage - Verification for download button in rider section started
+20:38:22.074 [main] INFO  PageObjects.Categorypage -  the number of buttons in download riders section : 2
+20:38:46.593 [main] INFO  PageObjects.Categorypage -  the number of buttons in second row in download riders section : 1
+20:39:21.233 [main] INFO  PageObjects.Categorypage - Article section verification started
+20:39:21.315 [main] INFO  PageObjects.Categorypage -  the number of link in article section : 7
+20:39:28.414 [main] INFO  PageObjects.Categorypage -  and URL is: https://www.hdfclife.com/insurance-knowledge-centre/about-life-insurance/what-is-term-insurance
+20:39:42.474 [main] INFO  PageObjects.Categorypage - What is Term Insurance? - Meaning of Term Plan | HDFC Life
+
+"Before making a financial plan for yourself, it is very important to know the meaning of term insurance. Read this blog to know the details about term plan!" and URL is: https://www.hdfclife.com/insurance-knowledge-centre/about-life-insurance/what-is-term-insurance
+20:39:55.842 [main] INFO  PageObjects.Categorypage - Why Is Term Insurance Important For Everyone - HDFC Life and URL is: https://www.hdfclife.com/insurance-knowledge-centre/about-life-insurance/why-term-insurance-is-important.html
+20:40:10.240 [main] INFO  PageObjects.Categorypage - Term Insurance FAQs - Answers to All Your Questions | HDFC Life and URL is: https://www.hdfclife.com/insurance-knowledge-centre/about-life-insurance/faqs-on-term-insurance
+20:40:24.012 [main] INFO  PageObjects.Categorypage - Ultimate Guide - Buy Term Insurance Plans Online | HDFC Life
+
+"Buying insurance is seen as time-consuming even cumbersome. So while individuals appreciate the importance of taking insurance, the formalities can be a put-off, making them postpone the decision......" and URL is: https://www.hdfclife.com/insurance-knowledge-centre/about-life-insurance/how-to-buy-term-insurance-online
+20:40:37.437 [main] INFO  PageObjects.Categorypage -  and URL is: https://www.hdfclife.com/insurance-knowledge-centre/about-life-insurance/how-to-buy-term-insurance-online
+20:40:51.073 [main] INFO  PageObjects.Categorypage - VIEW MORE and URL is: https://www.hdfclife.com/insurance-knowledge-centre
+20:40:57.568 [main] INFO  PageObjects.Categorypage - No Broken link found
+20:40:57.568 [main] INFO  PageObjects.Categorypage - Article section test case ended
+20:41:10.082 [main] INFO  SeleniumTesting.AEMhdfc.CategorypageTest - Category page test cases executed
+20:41:10.085 [main] INFO  SeleniumTesting.AEMhdfc.CategorypageTest - Folder deleted for Category downloads
+20:41:14.389 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Product page test cases started
+20:43:42.943 [main] INFO  PageObjects.Categorypage - MC062124237-V01-HDFC-Life-Click-2-Protect-Life-Retail-Brochure.pdf is present
+20:44:04.151 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Download section verification after scroll started
+20:45:31.392 [main] INFO  PageObjects.Categorypage - MC062124237-V01-HDFC-Life-Click-2-Protect-Life-Retail-Brochure.pdf is present
+20:47:11.472 [main] INFO  PageObjects.Categorypage - Verification for download button in rider section started
+20:47:11.519 [main] INFO  PageObjects.Categorypage -  the number of buttons in download riders section : 2
+20:47:36.182 [main] INFO  PageObjects.Categorypage -  the number of buttons in second row in download riders section : 1
+20:48:11.573 [main] INFO  PageObjects.Categorypage - First FAQ accordion is open on page load
+20:48:17.861 [main] INFO  PageObjects.Categorypage - Second FAQ accordion is opened on click
+20:48:21.044 [main] ERROR PageObjects.Productpage - View more button for FAQ is not visible on page load
+20:48:30.620 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Product page test cases executed
+20:48:35.285 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases started
+20:52:36.889 [main] INFO  SeleniumTesting.AEMhdfc.ProductpageTest - Customer Service Landing Page test cases executed

@@ -9,6 +9,7 @@
 			<class name="SeleniumTesting.AEMhdfc.HomepageTest" />
 			<class name="SeleniumTesting.AEMhdfc.CategorypageTest" />
 			<class name="SeleniumTesting.AEMhdfc.ProductpageTest" /> 
+			<class name="SeleniumTesting.AEMhdfc.CustomerservicelandingTest" /> 
 		</classes>
 	</test>
 </suite> <!-- Suite -->

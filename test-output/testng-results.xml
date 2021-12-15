@@ -1,28 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="18" passed="17" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-14T06:59:59Z" name="Default suite" finished-at="2021-12-14T07:00:24Z" duration-ms="24423">
+  <suite started-at="2021-12-15T14:21:39Z" name="Default suite" finished-at="2021-12-15T14:28:55Z" duration-ms="435265">
     <groups>
     </groups>
-    <test started-at="2021-12-14T06:59:59Z" name="Default test" finished-at="2021-12-14T07:00:24Z" duration-ms="24423">
-      <class name="SeleniumTesting.AEMhdfc.HomepageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTesting.AEMhdfc.HomepageTest@115667d]" started-at="2021-12-14T12:29:59Z" name="setUp" finished-at="2021-12-14T12:30:04Z" duration-ms="4830" status="PASS">
+    <test started-at="2021-12-15T14:21:39Z" name="Default test" finished-at="2021-12-15T14:28:55Z" duration-ms="435265">
+      <class name="SeleniumTesting.AEMhdfc.ProductpageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTesting.AEMhdfc.ProductpageTest@635572a7]" started-at="2021-12-15T19:51:39Z" name="setUp" finished-at="2021-12-15T19:51:45Z" duration-ms="5302" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyHeader()[pri:1, instance:SeleniumTesting.AEMhdfc.HomepageTest@115667d]" started-at="2021-12-14T12:30:04Z" name="verifyHeader" finished-at="2021-12-14T12:30:23Z" duration-ms="19398" status="FAIL">
-          <exception class="java.net.MalformedURLException">
+        <test-method signature="navigateToProductPage()[pri:1, instance:SeleniumTesting.AEMhdfc.ProductpageTest@635572a7]" started-at="2021-12-15T19:51:45Z" name="navigateToProductPage" finished-at="2021-12-15T19:52:07Z" duration-ms="22363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToProductPage -->
+        <test-method signature="verifyTandCOption()[pri:2, instance:SeleniumTesting.AEMhdfc.ProductpageTest@635572a7]" started-at="2021-12-15T19:52:07Z" name="verifyTandCOption" finished-at="2021-12-15T19:52:31Z" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.navigateToProductPage" duration-ms="24371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTandCOption -->
+        <test-method signature="verifyProductPageBreadcrumb()[pri:3, instance:SeleniumTesting.AEMhdfc.ProductpageTest@635572a7]" started-at="2021-12-15T19:52:31Z" name="verifyProductPageBreadcrumb" finished-at="2021-12-15T19:52:54Z" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.navigateToProductPage" duration-ms="22438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductPageBreadcrumb -->
+        <test-method signature="verifyRatingOption()[pri:4, instance:SeleniumTesting.AEMhdfc.ProductpageTest@635572a7]" started-at="2021-12-15T19:52:54Z" name="verifyRatingOption" finished-at="2021-12-15T19:53:03Z" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.navigateToProductPage" duration-ms="9644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRatingOption -->
+        <test-method signature="verifyPrintBtn()[pri:5, instance:SeleniumTesting.AEMhdfc.ProductpageTest@635572a7]" started-at="2021-12-15T19:53:03Z" name="verifyPrintBtn" finished-at="2021-12-15T19:53:13Z" duration-ms="9389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPrintBtn -->
+        <test-method signature="verifyShareOption()[pri:6, instance:SeleniumTesting.AEMhdfc.ProductpageTest@635572a7]" started-at="2021-12-15T19:53:13Z" name="verifyShareOption" finished-at="2021-12-15T19:54:02Z" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyPrintBtn" duration-ms="49691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShareOption -->
+        <test-method signature="verifyRatingsFromAPI()[pri:7, instance:SeleniumTesting.AEMhdfc.ProductpageTest@635572a7]" started-at="2021-12-15T19:54:02Z" name="verifyRatingsFromAPI" finished-at="2021-12-15T19:54:06Z" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyPrintBtn" duration-ms="3042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRatingsFromAPI -->
+        <test-method signature="verifyDownloadBrochure()[pri:8, instance:SeleniumTesting.AEMhdfc.ProductpageTest@635572a7]" started-at="2021-12-15T19:54:06Z" name="verifyDownloadBrochure" finished-at="2021-12-15T19:54:12Z" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyPrintBtn" duration-ms="6143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDownloadBrochure -->
+        <test-method signature="verifyCalculatePremiumBtn()[pri:9, instance:SeleniumTesting.AEMhdfc.ProductpageTest@635572a7]" started-at="2021-12-15T19:54:12Z" name="verifyCalculatePremiumBtn" finished-at="2021-12-15T19:54:23Z" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyPrintBtn" duration-ms="11372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCalculatePremiumBtn -->
+        <test-method signature="verifyBuyNowBtn()[pri:10, instance:SeleniumTesting.AEMhdfc.ProductpageTest@635572a7]" started-at="2021-12-15T19:54:23Z" name="verifyBuyNowBtn" finished-at="2021-12-15T19:54:33Z" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyPrintBtn" duration-ms="9530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuyNowBtn -->
+        <test-method signature="verifyDownloadsSectionAfterScroll()[pri:11, instance:SeleniumTesting.AEMhdfc.ProductpageTest@635572a7]" started-at="2021-12-15T19:54:33Z" name="verifyDownloadsSectionAfterScroll" finished-at="2021-12-15T19:56:21Z" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.navigateToProductPage" duration-ms="108365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDownloadsSectionAfterScroll -->
+        <test-method signature="verifyYourPlanYourBenefitsSection()[pri:12, instance:SeleniumTesting.AEMhdfc.ProductpageTest@635572a7]" started-at="2021-12-15T19:56:21Z" name="verifyYourPlanYourBenefitsSection" finished-at="2021-12-15T19:57:10Z" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyDownloadsSectionAfterScroll" duration-ms="48938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyYourPlanYourBenefitsSection -->
+        <test-method signature="verifyEligibilityCriteria()[pri:13, instance:SeleniumTesting.AEMhdfc.ProductpageTest@635572a7]" started-at="2021-12-15T19:57:10Z" name="verifyEligibilityCriteria" finished-at="2021-12-15T19:57:19Z" duration-ms="9359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEligibilityCriteria -->
+        <test-method signature="verifyVideoOnCategoryPage()[pri:14, instance:SeleniumTesting.AEMhdfc.ProductpageTest@635572a7]" started-at="2021-12-15T19:57:19Z" name="verifyVideoOnCategoryPage" finished-at="2021-12-15T19:57:22Z" duration-ms="3030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyVideoOnCategoryPage -->
+        <test-method signature="verifyRidersSection()[pri:15, instance:SeleniumTesting.AEMhdfc.ProductpageTest@635572a7]" started-at="2021-12-15T19:57:22Z" name="verifyRidersSection" finished-at="2021-12-15T19:58:20Z" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyVideoOnCategoryPage" duration-ms="58078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRidersSection -->
+        <test-method signature="verifyScheduleACallOnProductPage()[pri:16, instance:SeleniumTesting.AEMhdfc.ProductpageTest@635572a7]" started-at="2021-12-15T19:58:20Z" name="verifyScheduleACallOnProductPage" finished-at="2021-12-15T19:58:37Z" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyRidersSection" duration-ms="17003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyScheduleACallOnProductPage -->
+        <test-method signature="verifyFAQSection()[pri:17, instance:SeleniumTesting.AEMhdfc.ProductpageTest@635572a7]" started-at="2021-12-15T19:58:37Z" name="verifyFAQSection" finished-at="2021-12-15T19:58:50Z" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyScheduleACallOnProductPage" duration-ms="12678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFAQSection -->
+        <test-method signature="verifyDisclaimerOnProductPage()[pri:18, instance:SeleniumTesting.AEMhdfc.ProductpageTest@635572a7]" started-at="2021-12-15T19:58:50Z" name="verifyDisclaimerOnProductPage" finished-at="2021-12-15T19:58:54Z" depends-on-methods="SeleniumTesting.AEMhdfc.ProductpageTest.verifyFAQSection" duration-ms="4103" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[unknown protocol: tel]]>
+              <![CDATA[element click intercepted: Element <a class="collapsed" data-toggle="collapse" href="#collapse1">...</a> is not clickable at point (765, 594). Other element would receive the click: <iframe id="nv_box_content-iframe_17168" src="" frameborder="0" style="border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; border: 1px solid #d51d25;height: 100%;width: 100%;padding: 0;margin: 0;outline: 0;overflow: auto;"></iframe>
+  (Session info: chrome=96.0.4664.93)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN24007907', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Akundar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53787}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a5164cce311ee7c9d5a9afff36701b4d]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.net.MalformedURLException: unknown protocol: tel
-	at java.base/java.net.URL.<init>(URL.java:681)
-	at java.base/java.net.URL.<init>(URL.java:569)
-	at java.base/java.net.URL.<init>(URL.java:516)
-	at PageObjects.Homepage.verifyHeaderLinks(Homepage.java:722)
-	at SeleniumTesting.AEMhdfc.HomepageTest.verifyHeader(HomepageTest.java:50)
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="collapsed" data-toggle="collapse" href="#collapse1">...</a> is not clickable at point (765, 594). Other element would receive the click: <iframe id="nv_box_content-iframe_17168" src="" frameborder="0" style="border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; border: 1px solid #d51d25;height: 100%;width: 100%;padding: 0;margin: 0;outline: 0;overflow: auto;"></iframe>
+  (Session info: chrome=96.0.4664.93)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LIN24007907', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Akundar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53787}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a5164cce311ee7c9d5a9afff36701b4d
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at PageObjects.Homepage.openCloseDisclaimer(Homepage.java:522)
+	at SeleniumTesting.AEMhdfc.ProductpageTest.verifyDisclaimerOnProductPage(ProductpageTest.java:218)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -50,15 +146,15 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.net.MalformedURLException -->
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyHeader -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumTesting.AEMhdfc.HomepageTest@115667d]" started-at="2021-12-14T12:30:23Z" name="tearDown" finished-at="2021-12-14T12:30:24Z" duration-ms="181" status="PASS">
+        </test-method> <!-- verifyDisclaimerOnProductPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumTesting.AEMhdfc.ProductpageTest@635572a7]" started-at="2021-12-15T19:58:54Z" name="tearDown" finished-at="2021-12-15T19:58:55Z" duration-ms="384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- SeleniumTesting.AEMhdfc.HomepageTest -->
+      </class> <!-- SeleniumTesting.AEMhdfc.ProductpageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
