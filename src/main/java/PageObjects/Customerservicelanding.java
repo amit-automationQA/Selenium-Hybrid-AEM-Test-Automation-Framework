@@ -1,4 +1,6 @@
 package PageObjects;
+import java.util.List;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
@@ -101,6 +103,24 @@ public class Customerservicelanding extends BaseClass{
 	
 	@FindBy(xpath="(//div[@class='rt-blue-bg']//a)[10]")
 	WebElement paypremium;
+	
+	@FindBy(xpath="//a[@data-modaltarget='service-when']")
+	WebElement faqques;
+	
+	@FindBy(xpath="//div[@id='service-when']//a[@class='modalCloseBtn']")
+	WebElement firstfaqpopupclosebtn;
+	
+	@FindBy(css="a[class='btn btnwhite btn-white-data-layer']")
+	List<WebElement> learnmorebtns;
+	
+	@FindBy(css="button[class='info-blue-button info-blue-button-data-layer']")
+	List<WebElement> loginbtns;
+	
+	@FindBy(xpath="//button[@class='btn btn-primary btnred btn-auto toggleBtnClick']")
+	WebElement aadharclickherebtn;
+	
+	@FindBy(xpath="//a[@class='bannerAdBtn siteButton']")
+	WebElement contactusbtn;
 	
 	public void visitCustomerServiceLandingPage() throws InterruptedException
 	{
@@ -251,8 +271,84 @@ public class Customerservicelanding extends BaseClass{
 		verifyoption(ivr,"https://www.hdfclife.com/customer-service/interactive-voice-response",
 				"https://www.hdfclife.com/customer-service");
 		verifyoption(paypremium,"https://www.hdfclife.com/customer-service/pay-premium",
-				"https://www.hdfclife.com/customer-service");
-		
+				"https://www.hdfclife.com/customer-service");		
 		
 	}
+	
+	public void verifyFAQpopup() throws InterruptedException
+	{
+		SoftAssert softAssertion = new SoftAssert();
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,200)");
+		Thread.sleep(3000);
+		softAssertion.assertTrue(faqques.isDisplayed());
+		faqques.click();
+		Thread.sleep(2000);
+		softAssertion.assertTrue(firstfaqpopupclosebtn.isDisplayed());
+		firstfaqpopupclosebtn.click();
+		Thread.sleep(2000);
+		
+	}
+	
+	public void verifyButtonsOnTiles() throws InterruptedException
+	{
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollTo(0, -document.body.scrollHeight)");
+		Thread.sleep(3000);
+		js.executeScript("window.scrollBy(0,300)");
+		verifyoption(learnmorebtns.get(0), "https://www.hdfclife.com/customer-service/myaccount-faq", 
+				"https://www.hdfclife.com/customer-service");
+		verifyoption(learnmorebtns.get(1), "https://www.hdfclife.com/customer-service/pay-premium", 
+				"https://www.hdfclife.com/customer-service");
+		js.executeScript("window.scrollBy(0,300)");
+		verifyoption(learnmorebtns.get(2), "https://www.hdfclife.com/customer-service/my-personal-details", 
+				"https://www.hdfclife.com/customer-service");
+		verifyoption(loginbtns.get(0),"https://myaccount.hdfclife.com/","https://www.hdfclife.com/customer-service");
+		js.executeScript("window.scrollBy(0,400)");
+		Thread.sleep(3000);
+		verifyoption(learnmorebtns.get(3), "https://www.hdfclife.com/customer-service/my-policy", 
+				"https://www.hdfclife.com/customer-service");
+		verifyoption(learnmorebtns.get(4), "https://www.hdfclife.com/customer-service/payouts-related", 
+				"https://www.hdfclife.com/customer-service");
+		js.executeScript("window.scrollBy(0,450)");
+		Thread.sleep(3000);
+		verifyoption(learnmorebtns.get(5), "https://www.hdfclife.com/customer-service/claims", 
+				"https://www.hdfclife.com/customer-service");
+		verifyoption(learnmorebtns.get(6), "https://www.hdfclife.com/customer-service/grievance-redressal", 
+				"https://www.hdfclife.com/customer-service");
+		js.executeScript("window.scrollBy(0,400)");
+		Thread.sleep(3000);
+		verifyoption(loginbtns.get(1), "https://www.hdfclife.com/group-insurance-plans/customer-service", 
+				"https://www.hdfclife.com/customer-service");
+		verifyoption(learnmorebtns.get(7), "https://www.hdfclife.com/customer-service/contact-us", 
+				"https://www.hdfclife.com/customer-service");
+		js.executeScript("window.scrollBy(0,500)");
+		Thread.sleep(3000);
+		verifyoption(learnmorebtns.get(8), "https://www.hdfclife.com/customer-service/digital-chatbot", 
+				"https://www.hdfclife.com/customer-service");
+	}
+	
+	
+	public void clickAadharBtn() throws InterruptedException
+	{
+		SoftAssert softAssertion = new SoftAssert();
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,550)");
+		Thread.sleep(2000);
+		softAssertion.assertTrue(aadharclickherebtn.isDisplayed());
+		aadharclickherebtn.click();
+		Thread.sleep(2000);
+	}
+	
+	public void clickContactUsBtn() throws InterruptedException
+	{
+		SoftAssert softAssertion = new SoftAssert();
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,450)");
+		Thread.sleep(2000);
+		softAssertion.assertTrue(contactusbtn.isDisplayed());
+		contactusbtn.click();
+		Thread.sleep(2000);
+	}
 }
+

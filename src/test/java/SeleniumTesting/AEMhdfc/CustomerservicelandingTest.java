@@ -54,7 +54,7 @@ public class CustomerservicelandingTest extends BaseClass{
 		csl.visitCustomerServiceLandingPage();
 	}
 
-	@Test(priority=2, dependsOnMethods= {"navigateToCustomerServiceLandingPage"})
+	@Test(priority=2, dependsOnMethods= {"navigateToCustomerServiceLandingPage"}, retryAnalyzer = Analyzer.RetryAnalyzer.class)
 	public void verifyCustomerServiceLandingPopup() throws InterruptedException
 	{
 		csl.clickDownloadBtn();
@@ -63,7 +63,7 @@ public class CustomerservicelandingTest extends BaseClass{
 		csl.verifyCloseBtn();
 	}
 
-	@Test(priority=3, dependsOnMethods= {"verifyCustomerServiceLandingPopup"})
+	@Test(priority=3, dependsOnMethods= {"verifyCustomerServiceLandingPopup"}, retryAnalyzer = Analyzer.RetryAnalyzer.class)
 	public void verifyBannerCarousel() throws InterruptedException
 	{
 		csl.verifyBannerCarousel1();
@@ -81,22 +81,47 @@ public class CustomerservicelandingTest extends BaseClass{
 				"https://www.hdfclife.com/customer-service");
 		csl.verifyBannerCarousel5();	
 	}
-	
-	@Test(priority=4, dependsOnMethods= {"verifyCustomerServiceLandingPopup"})
+
+	@Test(priority=4, dependsOnMethods= {"verifyCustomerServiceLandingPopup"}, retryAnalyzer = Analyzer.RetryAnalyzer.class)
 	public void verifyBreadcrumb() throws InterruptedException
 	{
 		cp.clickHomeIconInBreadcrumb();
 		csl.verifyCloseBtn();
 	}
-	
-	@Test(priority=5, dependsOnMethods= {"verifyCustomerServiceLandingPopup"})
+
+	@Test(priority=5, dependsOnMethods= {"verifyCustomerServiceLandingPopup"}, retryAnalyzer = Analyzer.RetryAnalyzer.class)
 	public void verifyQuickLinksSection() throws InterruptedException
 	{
 		csl.verifyQuickLinks();
 	}
+
+	@Test(priority=6, dependsOnMethods= {"verifyQuickLinksSection"}, retryAnalyzer = Analyzer.RetryAnalyzer.class)
+	public void verifyFAQSection() throws InterruptedException
+	{
+		csl.verifyFAQpopup();
+	}
+
+	@Test(priority=7, dependsOnMethods= {"verifyCustomerServiceLandingPopup"})
+	public void verifyTiles() throws InterruptedException
+	{
+		csl.verifyButtonsOnTiles();
+	}
+
+	@Test(priority=8, dependsOnMethods= {"navigateToCustomerServiceLandingPage"})
+	public void verifyAadharSection() throws InterruptedException
+	{
+		csl.clickAadharBtn();
+		hp.verifyLinkOpenedInNewWindow("https://eportal.incometax.gov.in/iec/foservices/#/pre-login/bl-link-aadhaar"
+				, "https://www.hdfclife.com/customer-service");
+	}
 	
-
-
+	@Test(priority=9, dependsOnMethods= {"navigateToCustomerServiceLandingPage"})
+	public void verifyContactUsSection() throws InterruptedException
+	{
+		csl.clickContactUsBtn();
+		hp.verifyLinkOpenedInNewWindow("https://myaccount.hdfclife.com/static-cp-cms/023953020_-Go-digital-today.html"
+				, "https://www.hdfclife.com/customer-service");
+	}
 	@AfterClass(alwaysRun=true)
 	public void tearDown()
 	{
