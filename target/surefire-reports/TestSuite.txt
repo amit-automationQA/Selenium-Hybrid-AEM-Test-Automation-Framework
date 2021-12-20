@@ -1,61 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 73, Failures: 5, Errors: 0, Skipped: 9, Time elapsed: 1,396.892 s <<< FAILURE! - in TestSuite
-SeleniumTesting.AEMhdfc.CategorypageTest.verifyArticlesSection  Time elapsed: 67.205 s  <<< FAILURE!
+Tests run: 69, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1,742.236 s <<< FAILURE! - in TestSuite
+SeleniumTesting.AEMhdfc.ProductpageTest.verifyYourPlanYourBenefitsSection  Time elapsed: 30.116 s  <<< FAILURE!
 org.openqa.selenium.TimeoutException: 
-timeout: Timed out receiving message from renderer: 29.990
-  (Session info: chrome=96.0.4664.110)
+timeout: Timed out receiving message from renderer: 30.000
+  (Session info: MicrosoftEdge=96.0.1054.62)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LIN24007907', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Akundar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:64427}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 135cef408e6a5f14b2b99f59c6aad94c
-	at SeleniumTesting.AEMhdfc.CategorypageTest.verifyArticlesSection(CategorypageTest.java:167)
-
-SeleniumTesting.AEMhdfc.CategorypageTest.verifyDisclaimer  Time elapsed: 4.251 s  <<< FAILURE!
-org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element is not clickable at point (765, 758)
-  (Session info: chrome=96.0.4664.110)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LIN24007907', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Akundar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:64427}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 135cef408e6a5f14b2b99f59c6aad94c
-	at SeleniumTesting.AEMhdfc.CategorypageTest.verifyDisclaimer(CategorypageTest.java:174)
-
-SeleniumTesting.AEMhdfc.ProductpageTest.verifyYourPlanYourBenefitsSection  Time elapsed: 13.684 s  <<< FAILURE!
-org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element is not clickable at point (689, -1778)
-  (Session info: chrome=96.0.4664.110)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LIN24007907', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Akundar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:64826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 57546323a5bc7c585511f26cb251e195
-	at SeleniumTesting.AEMhdfc.ProductpageTest.verifyYourPlanYourBenefitsSection(ProductpageTest.java:157)
-
-SeleniumTesting.AEMhdfc.CustomerservicelandingTest.verifyCustomerServiceLandingPopup  Time elapsed: 30.282 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//img[@class='closeAll regulatorypopupAImg']"}
-  (Session info: chrome=96.0.4664.110)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LIN24007907', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Akundar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:65472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: bbb827b855a276b810086dbf9bd4c707
-*** Element info: {Using=xpath, value=//img[@class='closeAll regulatorypopupAImg']}
-	at SeleniumTesting.AEMhdfc.CustomerservicelandingTest.verifyCustomerServiceLandingPopup(CustomerservicelandingTest.java:60)
-
-SeleniumTesting.AEMhdfc.CustomerservicelandingTest.verifyAadharSection  Time elapsed: 3.411 s  <<< FAILURE!
-org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element is not clickable at point (847, 3072)
-  (Session info: chrome=96.0.4664.110)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LIN24007907', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Akundar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:65472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: bbb827b855a276b810086dbf9bd4c707
-	at SeleniumTesting.AEMhdfc.CustomerservicelandingTest.verifyAadharSection(CustomerservicelandingTest.java:113)
+Driver info: com.microsoft.edge.seleniumtools.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 96.0.1054.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61301}, msedge: {msedgedriverVersion: 96.0.1054.62 (f97cb2ce0103f..., userDataDir: C:\Users\Akundar\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b1b2accbd6a8ae6b8be6d77e863a1e9a
+	at SeleniumTesting.AEMhdfc.ProductpageTest.verifyYourPlanYourBenefitsSection(ProductpageTest.java:153)
 

@@ -13,31 +13,8 @@
           <include name="setUp"/>
           <include name="navigateToProductPage"/>
           <include name="tearDown"/>
-          <include name="verifyProductPageBreadcrumb"/>
         </methods>
       </class> <!-- SeleniumTesting.AEMhdfc.ProductpageTest -->
-      <class name="SeleniumTesting.AEMhdfc.CustomerservicelandingTest">
-        <methods>
-          <include name="navigateToCustomerServiceLandingPage"/>
-          <include name="verifyFAQSection"/>
-          <include name="verifyTiles"/>
-          <include name="verifyQuickLinksSection"/>
-          <include name="verifyBreadcrumb"/>
-          <include name="setUp"/>
-          <include name="verifyAadharSection"/>
-          <include name="verifyBannerCarousel"/>
-          <include name="tearDown"/>
-          <include name="verifyCustomerServiceLandingPopup"/>
-        </methods>
-      </class> <!-- SeleniumTesting.AEMhdfc.CustomerservicelandingTest -->
-      <class name="SeleniumTesting.AEMhdfc.CategorypageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="verifyArticlesSection"/>
-          <include name="verifyDisclaimer"/>
-        </methods>
-      </class> <!-- SeleniumTesting.AEMhdfc.CategorypageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

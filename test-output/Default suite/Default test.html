@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>14/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Dec 20 10:20:38 IST 2021</td>
+<td>Started on:</td><td>Mon Dec 20 11:29:20 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>502 seconds (502764 ms)</td>
+<tr><td>Total time:</td><td>300 seconds (300769 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,80 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifyRidersSection()'><b>verifyRidersSection</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
+<td><div><pre>java.util.NoSuchElementException
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:758)
+	at java.base/java.util.LinkedHashMap$LinkedKeyIterator.next(LinkedHashMap.java:778)
+	at PageObjects.Categorypage.firstRowClickDownloadBtn(Categorypage.java:371)
+	at SeleniumTesting.AEMhdfc.CategorypageTest.verifyRidersSection(CategorypageTest.java:150)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2074687317", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2074687317'><pre>java.util.NoSuchElementException
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:758)
+	at java.base/java.util.LinkedHashMap$LinkedKeyIterator.next(LinkedHashMap.java:778)
+	at PageObjects.Categorypage.firstRowClickDownloadBtn(Categorypage.java:371)
+	at SeleniumTesting.AEMhdfc.CategorypageTest.verifyRidersSection(CategorypageTest.java:150)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>18</td>
+<td>SeleniumTesting.AEMhdfc.CategorypageTest@6ee660fb</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,50 +149,75 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='SeleniumTesting.AEMhdfc.CustomerservicelandingTest.navigateToCustomerServiceLandingPage()'><b>navigateToCustomerServiceLandingPage</b><br>Test class: SeleniumTesting.AEMhdfc.CustomerservicelandingTest</td>
-<td></td>
-<td>4</td>
-<td>SeleniumTesting.AEMhdfc.CustomerservicelandingTest@75cd8043</td></tr>
-<tr>
-<td title='SeleniumTesting.AEMhdfc.CustomerservicelandingTest.verifyAadharSection()'><b>verifyAadharSection</b><br>Test class: SeleniumTesting.AEMhdfc.CustomerservicelandingTest</td>
-<td></td>
-<td>10</td>
-<td>SeleniumTesting.AEMhdfc.CustomerservicelandingTest@75cd8043</td></tr>
-<tr>
-<td title='SeleniumTesting.AEMhdfc.CustomerservicelandingTest.verifyBannerCarousel()'><b>verifyBannerCarousel</b><br>Test class: SeleniumTesting.AEMhdfc.CustomerservicelandingTest</td>
-<td></td>
-<td>38</td>
-<td>SeleniumTesting.AEMhdfc.CustomerservicelandingTest@75cd8043</td></tr>
-<tr>
-<td title='SeleniumTesting.AEMhdfc.CustomerservicelandingTest.verifyBreadcrumb()'><b>verifyBreadcrumb</b><br>Test class: SeleniumTesting.AEMhdfc.CustomerservicelandingTest</td>
+<td title='SeleniumTesting.AEMhdfc.CategorypageTest.navigateToPage()'><b>navigateToPage</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
 <td></td>
 <td>12</td>
-<td>SeleniumTesting.AEMhdfc.CustomerservicelandingTest@75cd8043</td></tr>
+<td>SeleniumTesting.AEMhdfc.CategorypageTest@6ee660fb</td></tr>
 <tr>
-<td title='SeleniumTesting.AEMhdfc.CustomerservicelandingTest.verifyContactUsSection()'><b>verifyContactUsSection</b><br>Test class: SeleniumTesting.AEMhdfc.CustomerservicelandingTest</td>
+<td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifyArticlesSection()'><b>verifyArticlesSection</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
 <td></td>
-<td>10</td>
-<td>SeleniumTesting.AEMhdfc.CustomerservicelandingTest@75cd8043</td></tr>
+<td>92</td>
+<td>SeleniumTesting.AEMhdfc.CategorypageTest@6ee660fb</td></tr>
 <tr>
-<td title='SeleniumTesting.AEMhdfc.CustomerservicelandingTest.verifyCustomerServiceLandingPopup()'><b>verifyCustomerServiceLandingPopup</b><br>Test class: SeleniumTesting.AEMhdfc.CustomerservicelandingTest</td>
+<td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifyC2PLProduct()'><b>verifyC2PLProduct</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
 <td></td>
-<td>15</td>
-<td>SeleniumTesting.AEMhdfc.CustomerservicelandingTest@75cd8043</td></tr>
+<td>29</td>
+<td>SeleniumTesting.AEMhdfc.CategorypageTest@6ee660fb</td></tr>
 <tr>
-<td title='SeleniumTesting.AEMhdfc.CustomerservicelandingTest.verifyFAQSection()'><b>verifyFAQSection</b><br>Test class: SeleniumTesting.AEMhdfc.CustomerservicelandingTest</td>
+<td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifyCalculatePremiumBtn()'><b>verifyCalculatePremiumBtn</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
 <td></td>
-<td>7</td>
-<td>SeleniumTesting.AEMhdfc.CustomerservicelandingTest@75cd8043</td></tr>
+<td>12</td>
+<td>SeleniumTesting.AEMhdfc.CategorypageTest@6ee660fb</td></tr>
 <tr>
-<td title='SeleniumTesting.AEMhdfc.CustomerservicelandingTest.verifyQuickLinksSection()'><b>verifyQuickLinksSection</b><br>Test class: SeleniumTesting.AEMhdfc.CustomerservicelandingTest</td>
+<td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifyContactUs()'><b>verifyContactUs</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
 <td></td>
-<td>179</td>
-<td>SeleniumTesting.AEMhdfc.CustomerservicelandingTest@75cd8043</td></tr>
+<td>16</td>
+<td>SeleniumTesting.AEMhdfc.CategorypageTest@6ee660fb</td></tr>
 <tr>
-<td title='SeleniumTesting.AEMhdfc.CustomerservicelandingTest.verifyTiles()'><b>verifyTiles</b><br>Test class: SeleniumTesting.AEMhdfc.CustomerservicelandingTest</td>
+<td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifyDisclaimer()'><b>verifyDisclaimer</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
 <td></td>
-<td>214</td>
-<td>SeleniumTesting.AEMhdfc.CustomerservicelandingTest@75cd8043</td></tr>
+<td>9</td>
+<td>SeleniumTesting.AEMhdfc.CategorypageTest@6ee660fb</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifyHomeIconInBreadCrumb()'><b>verifyHomeIconInBreadCrumb</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
+<td></td>
+<td>8</td>
+<td>SeleniumTesting.AEMhdfc.CategorypageTest@6ee660fb</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifyLetsCalculateBtn()'><b>verifyLetsCalculateBtn</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
+<td></td>
+<td>11</td>
+<td>SeleniumTesting.AEMhdfc.CategorypageTest@6ee660fb</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifySJBProduct()'><b>verifySJBProduct</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
+<td></td>
+<td>24</td>
+<td>SeleniumTesting.AEMhdfc.CategorypageTest@6ee660fb</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifyTalkToAdvisor()'><b>verifyTalkToAdvisor</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
+<td></td>
+<td>6</td>
+<td>SeleniumTesting.AEMhdfc.CategorypageTest@6ee660fb</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifyTalkToAdvisorPopup()'><b>verifyTalkToAdvisorPopup</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
+<td></td>
+<td>9</td>
+<td>SeleniumTesting.AEMhdfc.CategorypageTest@6ee660fb</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifyTermInsuranceGuideFaqSection()'><b>verifyTermInsuranceGuideFaqSection</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
+<td></td>
+<td>22</td>
+<td>SeleniumTesting.AEMhdfc.CategorypageTest@6ee660fb</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifyVideoOnCategoryPage()'><b>verifyVideoOnCategoryPage</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
+<td></td>
+<td>6</td>
+<td>SeleniumTesting.AEMhdfc.CategorypageTest@6ee660fb</td></tr>
+<tr>
+<td title='SeleniumTesting.AEMhdfc.CategorypageTest.verifyWhySection()'><b>verifyWhySection</b><br>Test class: SeleniumTesting.AEMhdfc.CategorypageTest</td>
+<td></td>
+<td>9</td>
+<td>SeleniumTesting.AEMhdfc.CategorypageTest@6ee660fb</td></tr>
 </table><p>
 </body>
 </html>

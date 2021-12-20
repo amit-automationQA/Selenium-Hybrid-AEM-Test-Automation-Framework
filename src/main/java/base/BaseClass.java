@@ -9,6 +9,7 @@ import java.util.HashMap;
 import java.util.Properties;
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
+
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -20,8 +21,10 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
+
 import com.microsoft.edge.seleniumtools.EdgeDriver;
 import com.microsoft.edge.seleniumtools.EdgeOptions;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import util.WebEventListener;
 
@@ -45,8 +48,8 @@ public class BaseClass {
 		folder = new File(UUID.randomUUID().toString());
 		if (browsername.equals("chrome"))
 		{
-			//WebDriverManager.chromedriver().setup();
-			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "\\Driver\\chromedriver.exe");
+			WebDriverManager.chromedriver().setup(); //https://www.youtube.com/watch?v=tdA3tSl0jUg
+			//System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "\\Driver\\chromedriver.exe");
 			DesiredCapabilities capabilities = DesiredCapabilities.chrome();
 			HashMap<String, Object> chromePrefs = new HashMap<String, Object>(); // code from developer chrome website
 			chromePrefs.put("profile.default_content_settings.popups", 0);
@@ -80,11 +83,13 @@ public class BaseClass {
 
 		else if(browsername.equals("firefox"))
 		{
-			System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir") + "\\Driver\\geckodriver.exe");
+			WebDriverManager.firefoxdriver().setup(); //https://www.youtube.com/watch?v=tdA3tSl0jUg
+			//System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir") + "\\Driver\\geckodriver.exe");
 			DesiredCapabilities capabilities = DesiredCapabilities.firefox();
 			FirefoxOptions options = new FirefoxOptions();
 			options.addPreference("browser.download.dir", folder.getAbsolutePath());
 			options.addPreference("browser.download.useDownloadDir", true);
+			options.addPreference("browser.download.folderList",2); //Use for the default download directory the last folder specified for a download
 			options.addPreference("browser.download.viewableInternally.enabledTypes", "");
 			options.addPreference("browser.helperApps.neverAsk.saveToDisk", "application/pdf;text/plain;application/text;text/xml;application/xml");
 			options.addPreference("pdfjs.disabled", true);  // disable the built-in PDF viewer
@@ -107,7 +112,8 @@ public class BaseClass {
 		}
 		else if(browsername.equals("edge")) //https://docs.microsoft.com/en-us/microsoft-edge/webdriver-chromium/?tabs=java
 		{
-			System.setProperty("webdriver.edge.driver",System.getProperty("user.dir") + "\\Driver\\msedgedriver.exe");
+			WebDriverManager.edgedriver().setup(); //https://www.youtube.com/watch?v=tdA3tSl0jUg
+			//System.setProperty("webdriver.edge.driver",System.getProperty("user.dir") + "\\Driver\\msedgedriver.exe");
 			EdgeOptions options= new EdgeOptions();
 			DesiredCapabilities capabilities = DesiredCapabilities.edge();
 			HashMap<String, Object> edgeprefs = new HashMap<String, Object>(); // code from developer edge website

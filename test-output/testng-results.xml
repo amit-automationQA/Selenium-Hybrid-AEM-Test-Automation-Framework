@@ -1,57 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="15" passed="14" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-20T04:50:38Z" name="Default suite" finished-at="2021-12-20T04:59:00Z" duration-ms="502764">
+  <suite started-at="2021-12-20T05:59:20Z" name="Default suite" finished-at="2021-12-20T06:04:21Z" duration-ms="300769">
     <groups>
     </groups>
-    <test started-at="2021-12-20T04:50:38Z" name="Default test" finished-at="2021-12-20T04:59:00Z" duration-ms="502764">
-      <class name="SeleniumTesting.AEMhdfc.CustomerservicelandingTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@75cd8043]" started-at="2021-12-20T10:20:38Z" name="setUp" finished-at="2021-12-20T10:20:47Z" duration-ms="9328" status="PASS">
+    <test started-at="2021-12-20T05:59:20Z" name="Default test" finished-at="2021-12-20T06:04:21Z" duration-ms="300769">
+      <class name="SeleniumTesting.AEMhdfc.CategorypageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTesting.AEMhdfc.CategorypageTest@6ee660fb]" started-at="2021-12-20T11:29:20Z" name="setUp" finished-at="2021-12-20T11:29:27Z" duration-ms="7143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="navigateToCustomerServiceLandingPage()[pri:1, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@75cd8043]" started-at="2021-12-20T10:20:47Z" name="navigateToCustomerServiceLandingPage" finished-at="2021-12-20T10:20:52Z" duration-ms="4875" status="PASS">
+        <test-method signature="navigateToPage()[pri:1, instance:SeleniumTesting.AEMhdfc.CategorypageTest@6ee660fb]" started-at="2021-12-20T11:29:27Z" name="navigateToPage" finished-at="2021-12-20T11:29:39Z" duration-ms="12222" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigateToCustomerServiceLandingPage -->
-        <test-method signature="verifyCustomerServiceLandingPopup()[pri:2, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@75cd8043]" started-at="2021-12-20T10:20:52Z" name="verifyCustomerServiceLandingPopup" finished-at="2021-12-20T10:21:08Z" depends-on-methods="SeleniumTesting.AEMhdfc.CustomerservicelandingTest.navigateToCustomerServiceLandingPage" duration-ms="15653" status="PASS">
+        </test-method> <!-- navigateToPage -->
+        <test-method signature="verifyCalculatePremiumBtn()[pri:2, instance:SeleniumTesting.AEMhdfc.CategorypageTest@6ee660fb]" started-at="2021-12-20T11:29:39Z" name="verifyCalculatePremiumBtn" finished-at="2021-12-20T11:29:52Z" duration-ms="12597" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyCustomerServiceLandingPopup -->
-        <test-method signature="verifyBannerCarousel()[pri:3, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@75cd8043]" started-at="2021-12-20T10:21:08Z" name="verifyBannerCarousel" finished-at="2021-12-20T10:21:46Z" depends-on-methods="SeleniumTesting.AEMhdfc.CustomerservicelandingTest.verifyCustomerServiceLandingPopup" duration-ms="38588" status="PASS">
+        </test-method> <!-- verifyCalculatePremiumBtn -->
+        <test-method signature="verifyTalkToAdvisor()[pri:3, instance:SeleniumTesting.AEMhdfc.CategorypageTest@6ee660fb]" started-at="2021-12-20T11:29:52Z" name="verifyTalkToAdvisor" finished-at="2021-12-20T11:29:58Z" duration-ms="6687" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyBannerCarousel -->
-        <test-method signature="verifyBreadcrumb()[pri:4, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@75cd8043]" started-at="2021-12-20T10:21:46Z" name="verifyBreadcrumb" finished-at="2021-12-20T10:21:59Z" depends-on-methods="SeleniumTesting.AEMhdfc.CustomerservicelandingTest.verifyCustomerServiceLandingPopup" duration-ms="12570" status="PASS">
+        </test-method> <!-- verifyTalkToAdvisor -->
+        <test-method signature="verifyTalkToAdvisorPopup()[pri:4, instance:SeleniumTesting.AEMhdfc.CategorypageTest@6ee660fb]" started-at="2021-12-20T11:29:58Z" name="verifyTalkToAdvisorPopup" finished-at="2021-12-20T11:30:08Z" duration-ms="9808" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyBreadcrumb -->
-        <test-method signature="verifyQuickLinksSection()[pri:5, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@75cd8043]" started-at="2021-12-20T10:21:59Z" name="verifyQuickLinksSection" finished-at="2021-12-20T10:24:58Z" depends-on-methods="SeleniumTesting.AEMhdfc.CustomerservicelandingTest.verifyCustomerServiceLandingPopup" duration-ms="179055" status="PASS">
+        </test-method> <!-- verifyTalkToAdvisorPopup -->
+        <test-method signature="verifyHomeIconInBreadCrumb()[pri:5, instance:SeleniumTesting.AEMhdfc.CategorypageTest@6ee660fb]" started-at="2021-12-20T11:30:08Z" name="verifyHomeIconInBreadCrumb" finished-at="2021-12-20T11:30:16Z" duration-ms="8095" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyQuickLinksSection -->
-        <test-method signature="verifyFAQSection()[pri:6, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@75cd8043]" started-at="2021-12-20T10:24:58Z" name="verifyFAQSection" finished-at="2021-12-20T10:25:05Z" depends-on-methods="SeleniumTesting.AEMhdfc.CustomerservicelandingTest.verifyQuickLinksSection" duration-ms="7294" status="PASS">
+        </test-method> <!-- verifyHomeIconInBreadCrumb -->
+        <test-method signature="verifyC2PLProduct()[pri:6, instance:SeleniumTesting.AEMhdfc.CategorypageTest@6ee660fb]" started-at="2021-12-20T11:30:16Z" name="verifyC2PLProduct" finished-at="2021-12-20T11:30:46Z" duration-ms="29866" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyFAQSection -->
-        <test-method signature="verifyTiles()[pri:7, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@75cd8043]" started-at="2021-12-20T10:25:05Z" name="verifyTiles" finished-at="2021-12-20T10:28:39Z" depends-on-methods="SeleniumTesting.AEMhdfc.CustomerservicelandingTest.verifyCustomerServiceLandingPopup" duration-ms="214121" status="PASS">
+        </test-method> <!-- verifyC2PLProduct -->
+        <test-method signature="verifySJBProduct()[pri:7, instance:SeleniumTesting.AEMhdfc.CategorypageTest@6ee660fb]" started-at="2021-12-20T11:30:46Z" name="verifySJBProduct" finished-at="2021-12-20T11:31:10Z" depends-on-methods="SeleniumTesting.AEMhdfc.CategorypageTest.verifyC2PLProduct" duration-ms="24276" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTiles -->
-        <test-method signature="verifyAadharSection()[pri:8, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@75cd8043]" started-at="2021-12-20T10:28:39Z" name="verifyAadharSection" finished-at="2021-12-20T10:28:50Z" depends-on-methods="SeleniumTesting.AEMhdfc.CustomerservicelandingTest.navigateToCustomerServiceLandingPage" duration-ms="10619" status="PASS">
+        </test-method> <!-- verifySJBProduct -->
+        <test-method signature="verifyLetsCalculateBtn()[pri:8, instance:SeleniumTesting.AEMhdfc.CategorypageTest@6ee660fb]" started-at="2021-12-20T11:31:10Z" name="verifyLetsCalculateBtn" finished-at="2021-12-20T11:31:22Z" depends-on-methods="SeleniumTesting.AEMhdfc.CategorypageTest.verifySJBProduct, SeleniumTesting.AEMhdfc.CategorypageTest.verifyC2PLProduct" duration-ms="11323" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAadharSection -->
-        <test-method signature="verifyContactUsSection()[pri:9, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@75cd8043]" started-at="2021-12-20T10:28:50Z" name="verifyContactUsSection" finished-at="2021-12-20T10:29:00Z" depends-on-methods="SeleniumTesting.AEMhdfc.CustomerservicelandingTest.navigateToCustomerServiceLandingPage" duration-ms="10316" status="PASS">
+        </test-method> <!-- verifyLetsCalculateBtn -->
+        <test-method signature="verifyVideoOnCategoryPage()[pri:9, instance:SeleniumTesting.AEMhdfc.CategorypageTest@6ee660fb]" started-at="2021-12-20T11:31:22Z" name="verifyVideoOnCategoryPage" finished-at="2021-12-20T11:31:28Z" depends-on-methods="SeleniumTesting.AEMhdfc.CategorypageTest.verifySJBProduct, SeleniumTesting.AEMhdfc.CategorypageTest.verifyLetsCalculateBtn, SeleniumTesting.AEMhdfc.CategorypageTest.verifyC2PLProduct" duration-ms="6052" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyContactUsSection -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@75cd8043]" started-at="2021-12-20T10:29:00Z" name="tearDown" finished-at="2021-12-20T10:29:00Z" duration-ms="314" status="PASS">
+        </test-method> <!-- verifyVideoOnCategoryPage -->
+        <test-method signature="verifyWhySection()[pri:10, instance:SeleniumTesting.AEMhdfc.CategorypageTest@6ee660fb]" started-at="2021-12-20T11:31:28Z" name="verifyWhySection" finished-at="2021-12-20T11:31:37Z" depends-on-methods="SeleniumTesting.AEMhdfc.CategorypageTest.verifyVideoOnCategoryPage" duration-ms="9659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWhySection -->
+        <test-method signature="verifyTermInsuranceGuideFaqSection()[pri:11, instance:SeleniumTesting.AEMhdfc.CategorypageTest@6ee660fb]" started-at="2021-12-20T11:31:37Z" name="verifyTermInsuranceGuideFaqSection" finished-at="2021-12-20T11:32:00Z" duration-ms="22570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTermInsuranceGuideFaqSection -->
+        <test-method signature="verifyRidersSection()[pri:12, instance:SeleniumTesting.AEMhdfc.CategorypageTest@6ee660fb]" started-at="2021-12-20T11:32:00Z" name="verifyRidersSection" finished-at="2021-12-20T11:32:19Z" duration-ms="18494" status="FAIL">
+          <exception class="java.util.NoSuchElementException">
+            <full-stacktrace>
+              <![CDATA[java.util.NoSuchElementException
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:758)
+	at java.base/java.util.LinkedHashMap$LinkedKeyIterator.next(LinkedHashMap.java:778)
+	at PageObjects.Categorypage.firstRowClickDownloadBtn(Categorypage.java:371)
+	at SeleniumTesting.AEMhdfc.CategorypageTest.verifyRidersSection(CategorypageTest.java:150)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRidersSection -->
+        <test-method signature="verifyContactUs()[pri:13, instance:SeleniumTesting.AEMhdfc.CategorypageTest@6ee660fb]" started-at="2021-12-20T11:32:19Z" name="verifyContactUs" finished-at="2021-12-20T11:32:35Z" duration-ms="16499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactUs -->
+        <test-method signature="verifyArticlesSection()[pri:14, instance:SeleniumTesting.AEMhdfc.CategorypageTest@6ee660fb]" started-at="2021-12-20T11:32:35Z" name="verifyArticlesSection" finished-at="2021-12-20T11:34:07Z" duration-ms="92247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyArticlesSection -->
+        <test-method signature="verifyDisclaimer()[pri:15, instance:SeleniumTesting.AEMhdfc.CategorypageTest@6ee660fb]" started-at="2021-12-20T11:34:07Z" name="verifyDisclaimer" finished-at="2021-12-20T11:34:17Z" duration-ms="9391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDisclaimer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumTesting.AEMhdfc.CategorypageTest@6ee660fb]" started-at="2021-12-20T11:34:17Z" name="tearDown" finished-at="2021-12-20T11:34:21Z" duration-ms="3806" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- SeleniumTesting.AEMhdfc.CustomerservicelandingTest -->
+      </class> <!-- SeleniumTesting.AEMhdfc.CategorypageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
