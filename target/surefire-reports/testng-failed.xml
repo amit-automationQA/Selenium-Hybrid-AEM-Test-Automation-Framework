@@ -9,26 +9,35 @@
       <class name="SeleniumTesting.AEMhdfc.ProductpageTest">
         <methods>
           <include name="verifyDownloadsSectionAfterScroll"/>
-          <include name="verifyFAQSection"/>
-          <include name="verifyRidersSection"/>
           <include name="verifyYourPlanYourBenefitsSection"/>
           <include name="setUp"/>
           <include name="navigateToProductPage"/>
-          <include name="verifyEligibilityCriteria"/>
           <include name="tearDown"/>
-          <include name="verifyDisclaimerOnProductPage"/>
-          <include name="verifyVideoOnCategoryPage"/>
-          <include name="verifyScheduleACallOnProductPage"/>
+          <include name="verifyProductPageBreadcrumb"/>
         </methods>
       </class> <!-- SeleniumTesting.AEMhdfc.ProductpageTest -->
-      <class name="SeleniumTesting.AEMhdfc.HomepageTest">
+      <class name="SeleniumTesting.AEMhdfc.CustomerservicelandingTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="verifyArticlesOnHomePage"/>
+          <include name="navigateToCustomerServiceLandingPage"/>
+          <include name="verifyFAQSection"/>
+          <include name="verifyTiles"/>
+          <include name="verifyQuickLinksSection"/>
+          <include name="verifyBreadcrumb"/>
           <include name="setUp"/>
-          <include name="verifyGroupWebsitesLinks"/>
+          <include name="verifyAadharSection"/>
+          <include name="verifyBannerCarousel"/>
+          <include name="tearDown"/>
+          <include name="verifyCustomerServiceLandingPopup"/>
         </methods>
-      </class> <!-- SeleniumTesting.AEMhdfc.HomepageTest -->
+      </class> <!-- SeleniumTesting.AEMhdfc.CustomerservicelandingTest -->
+      <class name="SeleniumTesting.AEMhdfc.CategorypageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyArticlesSection"/>
+          <include name="verifyDisclaimer"/>
+        </methods>
+      </class> <!-- SeleniumTesting.AEMhdfc.CategorypageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

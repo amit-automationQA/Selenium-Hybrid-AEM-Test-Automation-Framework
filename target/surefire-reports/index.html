@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,104 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">69 methods,   69 passed</span>
+                    <span class="method-stats">73 methods, 5 failed,  9 skipped,  59 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CustomerservicelandingTest" class="method navigator-link" hash-for-method="verifyAadharSection">verifyAadharSection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CategorypageTest" class="method navigator-link" hash-for-method="verifyArticlesSection">verifyArticlesSection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CustomerservicelandingTest" class="method navigator-link" hash-for-method="verifyCustomerServiceLandingPopup">verifyCustomerServiceLandingPopup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CategorypageTest" class="method navigator-link" hash-for-method="verifyDisclaimer">verifyDisclaimer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.ProductpageTest" class="method navigator-link" hash-for-method="verifyYourPlanYourBenefitsSection">verifyYourPlanYourBenefitsSection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CustomerservicelandingTest" class="method navigator-link" hash-for-method="verifyBannerCarousel">verifyBannerCarousel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CustomerservicelandingTest" class="method navigator-link" hash-for-method="verifyBreadcrumb">verifyBreadcrumb</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CustomerservicelandingTest" class="method navigator-link" hash-for-method="verifyFAQSection">verifyFAQSection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CustomerservicelandingTest" class="method navigator-link" hash-for-method="verifyQuickLinksSection">verifyQuickLinksSection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CustomerservicelandingTest" class="method navigator-link" hash-for-method="verifyTiles">verifyTiles</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CustomerservicelandingTest" class="method navigator-link" hash-for-method="verifyCustomerServiceLandingPopup">verifyCustomerServiceLandingPopup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CustomerservicelandingTest" class="method navigator-link" hash-for-method="verifyCustomerServiceLandingPopup">verifyCustomerServiceLandingPopup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CustomerservicelandingTest" class="method navigator-link" hash-for-method="verifyCustomerServiceLandingPopup">verifyCustomerServiceLandingPopup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.ProductpageTest" class="method navigator-link" hash-for-method="verifyProductPageBreadcrumb">verifyProductPageBreadcrumb</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -119,11 +216,6 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CustomerservicelandingTest" class="method navigator-link" hash-for-method="verifyAadharSection">verifyAadharSection</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.HomepageTest" class="method navigator-link" hash-for-method="verifyArrowButtonsOnBanner">verifyArrowButtonsOnBanner</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -134,22 +226,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CategorypageTest" class="method navigator-link" hash-for-method="verifyArticlesSection">verifyArticlesSection</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.HomepageTest" class="method navigator-link" hash-for-method="verifyBannerCarousel">verifyBannerCarousel</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CustomerservicelandingTest" class="method navigator-link" hash-for-method="verifyBannerCarousel">verifyBannerCarousel</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CustomerservicelandingTest" class="method navigator-link" hash-for-method="verifyBreadcrumb">verifyBreadcrumb</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -199,16 +276,6 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CustomerservicelandingTest" class="method navigator-link" hash-for-method="verifyCustomerServiceLandingPopup">verifyCustomerServiceLandingPopup</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CategorypageTest" class="method navigator-link" hash-for-method="verifyDisclaimer">verifyDisclaimer</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.HomepageTest" class="method navigator-link" hash-for-method="verifyDisclaimer">verifyDisclaimer</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -240,11 +307,6 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.ProductpageTest" class="method navigator-link" hash-for-method="verifyFAQSection">verifyFAQSection</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CustomerservicelandingTest" class="method navigator-link" hash-for-method="verifyFAQSection">verifyFAQSection</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -300,11 +362,6 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.ProductpageTest" class="method navigator-link" hash-for-method="verifyProductPageBreadcrumb">verifyProductPageBreadcrumb</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CustomerservicelandingTest" class="method navigator-link" hash-for-method="verifyQuickLinksSection">verifyQuickLinksSection</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -394,22 +451,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CustomerservicelandingTest" class="method navigator-link" hash-for-method="verifyTiles">verifyTiles</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.HomepageTest" class="method navigator-link" hash-for-method="verifyULIPPlansOnBanner">verifyULIPPlansOnBanner</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CategorypageTest" class="method navigator-link" hash-for-method="verifyVideoOnCategoryPage">verifyVideoOnCategoryPage</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.ProductpageTest" class="method navigator-link" hash-for-method="verifyVideoOnCategoryPage">verifyVideoOnCategoryPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.ProductpageTest" class="method navigator-link" hash-for-method="verifyVideoOnCategoryPage">verifyVideoOnCategoryPage</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CategorypageTest" class="method navigator-link" hash-for-method="verifyVideoOnCategoryPage">verifyVideoOnCategoryPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -420,11 +472,6 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.CategorypageTest" class="method navigator-link" hash-for-method="verifyWhySection">verifyWhySection</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SeleniumTesting.AEMhdfc.ProductpageTest" class="method navigator-link" hash-for-method="verifyYourPlanYourBenefitsSection">verifyYourPlanYourBenefitsSection</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -459,6 +506,399 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">SeleniumTesting.AEMhdfc.ProductpageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyYourPlanYourBenefitsSection">
+                  </a> <!-- verifyYourPlanYourBenefitsSection -->
+                  <span class="method-name">verifyYourPlanYourBenefitsSection</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (689, -1778)
+  (Session info: chrome=96.0.4664.110)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LIN24007907&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Akundar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:64826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 57546323a5bc7c585511f26cb251e195
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source)
+	at PageObjects.Productpage.verifyBenefitsSection(Productpage.java:397)
+	at SeleniumTesting.AEMhdfc.ProductpageTest.verifyYourPlanYourBenefitsSection(ProductpageTest.java:157)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 42 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">SeleniumTesting.AEMhdfc.CustomerservicelandingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAadharSection">
+                  </a> <!-- verifyAadharSection -->
+                  <span class="method-name">verifyAadharSection</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (847, 3072)
+  (Session info: chrome=96.0.4664.110)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LIN24007907&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Akundar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:65472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bbb827b855a276b810086dbf9bd4c707
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source)
+	at PageObjects.Customerservicelanding.clickAadharBtn(Customerservicelanding.java:339)
+	at SeleniumTesting.AEMhdfc.CustomerservicelandingTest.verifyAadharSection(CustomerservicelandingTest.java:113)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 42 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCustomerServiceLandingPopup">
+                  </a> <!-- verifyCustomerServiceLandingPopup -->
+                  <span class="method-name">verifyCustomerServiceLandingPopup</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//img[@class=&apos;closeAll regulatorypopupAImg&apos;]&quot;}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LIN24007907&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Akundar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:65472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bbb827b855a276b810086dbf9bd4c707
+*** Element info: {Using=xpath, value=//img[@class=&apos;closeAll regulatorypopupAImg&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.isDisplayed(Unknown Source)
+	at PageObjects.Customerservicelanding.clickDownloadBtn(Customerservicelanding.java:139)
+	at SeleniumTesting.AEMhdfc.CustomerservicelandingTest.verifyCustomerServiceLandingPopup(CustomerservicelandingTest.java:60)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 39 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">SeleniumTesting.AEMhdfc.CategorypageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyArticlesSection">
+                  </a> <!-- verifyArticlesSection -->
+                  <span class="method-name">verifyArticlesSection</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 29.990
+  (Session info: chrome=96.0.4664.110)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LIN24007907&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Akundar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:64427}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 135cef408e6a5f14b2b99f59c6aad94c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.back(RemoteWebDriver.java:849)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringNavigation.back(EventFiringWebDriver.java:581)
+	at PageObjects.Categorypage.verifyArticles(Categorypage.java:457)
+	at SeleniumTesting.AEMhdfc.CategorypageTest.verifyArticlesSection(CategorypageTest.java:167)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDisclaimer">
+                  </a> <!-- verifyDisclaimer -->
+                  <span class="method-name">verifyDisclaimer</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (765, 758)
+  (Session info: chrome=96.0.4664.110)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LIN24007907&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Akundar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:64427}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 135cef408e6a5f14b2b99f59c6aad94c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at PageObjects.Homepage.openCloseDisclaimer(Homepage.java:522)
+	at SeleniumTesting.AEMhdfc.CategorypageTest.verifyDisclaimer(CategorypageTest.java:174)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 39 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">SeleniumTesting.AEMhdfc.ProductpageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductPageBreadcrumb">
+                  </a> <!-- verifyProductPageBreadcrumb -->
+                  <span class="method-name">verifyProductPageBreadcrumb</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 29.974
+  (Session info: chrome=96.0.4664.110)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LIN24007907&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Akundar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:64826}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 57546323a5bc7c585511f26cb251e195
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.back(RemoteWebDriver.java:849)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringNavigation.back(EventFiringWebDriver.java:581)
+	at PageObjects.Categorypage.clickHomeIconInBreadcrumb(Categorypage.java:166)
+	at SeleniumTesting.AEMhdfc.ProductpageTest.verifyProductPageBreadcrumb(ProductpageTest.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">SeleniumTesting.AEMhdfc.CustomerservicelandingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBannerCarousel">
+                  </a> <!-- verifyBannerCarousel -->
+                  <span class="method-name">verifyBannerCarousel</span>
+                  <div class="stack-trace">java.lang.Throwable: Method CustomerservicelandingTest.verifyBannerCarousel()[pri:3, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@76a36b71] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBreadcrumb">
+                  </a> <!-- verifyBreadcrumb -->
+                  <span class="method-name">verifyBreadcrumb</span>
+                  <div class="stack-trace">java.lang.Throwable: Method CustomerservicelandingTest.verifyBreadcrumb()[pri:4, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@76a36b71] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCustomerServiceLandingPopup">
+                  </a> <!-- verifyCustomerServiceLandingPopup -->
+                  <span class="method-name">verifyCustomerServiceLandingPopup</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//img[@class=&apos;closeAll regulatorypopupAImg&apos;]&quot;}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LIN24007907&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Akundar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:65472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bbb827b855a276b810086dbf9bd4c707
+*** Element info: {Using=xpath, value=//img[@class=&apos;closeAll regulatorypopupAImg&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.isDisplayed(Unknown Source)
+	at PageObjects.Customerservicelanding.clickDownloadBtn(Customerservicelanding.java:139)
+	at SeleniumTesting.AEMhdfc.CustomerservicelandingTest.verifyCustomerServiceLandingPopup(CustomerservicelandingTest.java:60)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 39 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCustomerServiceLandingPopup">
+                  </a> <!-- verifyCustomerServiceLandingPopup -->
+                  <span class="method-name">verifyCustomerServiceLandingPopup</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//img[@class=&apos;closeAll regulatorypopupAImg&apos;]&quot;}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LIN24007907&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Akundar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:65472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bbb827b855a276b810086dbf9bd4c707
+*** Element info: {Using=xpath, value=//img[@class=&apos;closeAll regulatorypopupAImg&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.isDisplayed(Unknown Source)
+	at PageObjects.Customerservicelanding.clickDownloadBtn(Customerservicelanding.java:139)
+	at SeleniumTesting.AEMhdfc.CustomerservicelandingTest.verifyCustomerServiceLandingPopup(CustomerservicelandingTest.java:60)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 39 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCustomerServiceLandingPopup">
+                  </a> <!-- verifyCustomerServiceLandingPopup -->
+                  <span class="method-name">verifyCustomerServiceLandingPopup</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//img[@class=&apos;closeAll regulatorypopupAImg&apos;]&quot;}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LIN24007907&apos;, ip: &apos;192.168.1.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Akundar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:65472}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bbb827b855a276b810086dbf9bd4c707
+*** Element info: {Using=xpath, value=//img[@class=&apos;closeAll regulatorypopupAImg&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.isDisplayed(Unknown Source)
+	at PageObjects.Customerservicelanding.clickDownloadBtn(Customerservicelanding.java:139)
+	at SeleniumTesting.AEMhdfc.CustomerservicelandingTest.verifyCustomerServiceLandingPopup(CustomerservicelandingTest.java:60)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 39 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFAQSection">
+                  </a> <!-- verifyFAQSection -->
+                  <span class="method-name">verifyFAQSection</span>
+                  <div class="stack-trace">java.lang.Throwable: Method CustomerservicelandingTest.verifyFAQSection()[pri:6, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@76a36b71] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyQuickLinksSection">
+                  </a> <!-- verifyQuickLinksSection -->
+                  <span class="method-name">verifyQuickLinksSection</span>
+                  <div class="stack-trace">java.lang.Throwable: Method CustomerservicelandingTest.verifyQuickLinksSection()[pri:5, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@76a36b71] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTiles">
+                  </a> <!-- verifyTiles -->
+                  <span class="method-name">verifyTiles</span>
+                  <div class="stack-trace">java.lang.Throwable: Method CustomerservicelandingTest.verifyTiles()[pri:7, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@76a36b71] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -584,13 +1024,6 @@
                   <span class="method-name">verifyVideoOnCategoryPage</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyYourPlanYourBenefitsSection">
-                  </a> <!-- verifyYourPlanYourBenefitsSection -->
-                  <span class="method-name">verifyYourPlanYourBenefitsSection</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
@@ -608,58 +1041,9 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyAadharSection">
-                  </a> <!-- verifyAadharSection -->
-                  <span class="method-name">verifyAadharSection</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyBannerCarousel">
-                  </a> <!-- verifyBannerCarousel -->
-                  <span class="method-name">verifyBannerCarousel</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyBreadcrumb">
-                  </a> <!-- verifyBreadcrumb -->
-                  <span class="method-name">verifyBreadcrumb</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="verifyContactUsSection">
                   </a> <!-- verifyContactUsSection -->
                   <span class="method-name">verifyContactUsSection</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyCustomerServiceLandingPopup">
-                  </a> <!-- verifyCustomerServiceLandingPopup -->
-                  <span class="method-name">verifyCustomerServiceLandingPopup</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyFAQSection">
-                  </a> <!-- verifyFAQSection -->
-                  <span class="method-name">verifyFAQSection</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyQuickLinksSection">
-                  </a> <!-- verifyQuickLinksSection -->
-                  <span class="method-name">verifyQuickLinksSection</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyTiles">
-                  </a> <!-- verifyTiles -->
-                  <span class="method-name">verifyTiles</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -877,13 +1261,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyArticlesSection">
-                  </a> <!-- verifyArticlesSection -->
-                  <span class="method-name">verifyArticlesSection</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="verifyC2PLProduct">
                   </a> <!-- verifyC2PLProduct -->
                   <span class="method-name">verifyC2PLProduct</span>
@@ -901,13 +1278,6 @@
                   <a name="verifyContactUs">
                   </a> <!-- verifyContactUs -->
                   <span class="method-name">verifyContactUs</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyDisclaimer">
-                  </a> <!-- verifyDisclaimer -->
-                  <span class="method-name">verifyDisclaimer</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -1033,288 +1403,304 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(69);
+data.addRows(73);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyTiles')
-data.setCell(0, 2, 'SeleniumTesting.AEMhdfc.CustomerservicelandingTest')
-data.setCell(0, 3, 218888);
+data.setCell(0, 1, 'verifyDownloadsSectionAfterScroll')
+data.setCell(0, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
+data.setCell(0, 3, 108910);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyQuickLinksSection')
-data.setCell(1, 2, 'SeleniumTesting.AEMhdfc.CustomerservicelandingTest')
-data.setCell(1, 3, 182099);
+data.setCell(1, 1, 'verifyArticlesOnHomePage')
+data.setCell(1, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
+data.setCell(1, 3, 96422);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyDownloadsSectionAfterScroll')
-data.setCell(2, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
-data.setCell(2, 3, 111255);
+data.setCell(2, 1, 'verifyArticlesSection')
+data.setCell(2, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
+data.setCell(2, 3, 66940);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyArticlesSection')
-data.setCell(3, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
-data.setCell(3, 3, 107087);
+data.setCell(3, 1, 'verifyRidersSection')
+data.setCell(3, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
+data.setCell(3, 3, 57868);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifyArticlesOnHomePage')
-data.setCell(4, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(4, 3, 102415);
+data.setCell(4, 1, 'verifyRidersSection')
+data.setCell(4, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
+data.setCell(4, 3, 52013);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifyRidersSection')
+data.setCell(5, 1, 'verifyShareOption')
 data.setCell(5, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
-data.setCell(5, 3, 58258);
+data.setCell(5, 3, 49958);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'verifyRidersSection')
-data.setCell(6, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
-data.setCell(6, 3, 52249);
+data.setCell(6, 1, 'verifyArrowButtonsOnBanner')
+data.setCell(6, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
+data.setCell(6, 3, 43976);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'verifyShareOption')
-data.setCell(7, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
-data.setCell(7, 3, 50201);
+data.setCell(7, 1, 'verifycalculatorWithValidData')
+data.setCell(7, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
+data.setCell(7, 3, 43776);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'verifyYourPlanYourBenefitsSection')
+data.setCell(8, 1, 'verifyProductPageBreadcrumb')
 data.setCell(8, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
-data.setCell(8, 3, 49900);
+data.setCell(8, 3, 35004);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'verifycalculatorWithValidData')
+data.setCell(9, 1, 'verifyGroupPlansOnBanner')
 data.setCell(9, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(9, 3, 49690);
+data.setCell(9, 3, 34041);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'verifyArrowButtonsOnBanner')
-data.setCell(10, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(10, 3, 44726);
+data.setCell(10, 1, 'verifyC2PLProduct')
+data.setCell(10, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
+data.setCell(10, 3, 32714);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'verifyCalculatePremiumBtn')
-data.setCell(11, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
-data.setCell(11, 3, 39061);
+data.setCell(11, 1, 'verifyCustomerServiceLandingPopup')
+data.setCell(11, 2, 'SeleniumTesting.AEMhdfc.CustomerservicelandingTest')
+data.setCell(11, 3, 30078);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'verifyBannerCarousel')
+data.setCell(12, 1, 'verifyCustomerServiceLandingPopup')
 data.setCell(12, 2, 'SeleniumTesting.AEMhdfc.CustomerservicelandingTest')
-data.setCell(12, 3, 36285);
+data.setCell(12, 3, 30054);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'verifyGroupPlansOnBanner')
-data.setCell(13, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(13, 3, 35788);
+data.setCell(13, 1, 'verifyCustomerServiceLandingPopup')
+data.setCell(13, 2, 'SeleniumTesting.AEMhdfc.CustomerservicelandingTest')
+data.setCell(13, 3, 30051);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'verifyC2PLProduct')
-data.setCell(14, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
-data.setCell(14, 3, 35577);
+data.setCell(14, 1, 'verifyCustomerServiceLandingPopup')
+data.setCell(14, 2, 'SeleniumTesting.AEMhdfc.CustomerservicelandingTest')
+data.setCell(14, 3, 30007);
 data.setCell(15, 0, 15)
 data.setCell(15, 1, 'verifySJBProduct')
 data.setCell(15, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
-data.setCell(15, 3, 27388);
+data.setCell(15, 3, 26306);
 data.setCell(16, 0, 16)
 data.setCell(16, 1, 'verifyProductPageBreadcrumb')
 data.setCell(16, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
-data.setCell(16, 3, 25375);
+data.setCell(16, 3, 24853);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'navigateToProductPage')
+data.setCell(17, 1, 'verifyTandCOption')
 data.setCell(17, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
-data.setCell(17, 3, 24787);
+data.setCell(17, 3, 24344);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'verifyTandCOption')
+data.setCell(18, 1, 'navigateToProductPage')
 data.setCell(18, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
-data.setCell(18, 3, 24654);
+data.setCell(18, 3, 23685);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'verifyComboPlansOnBanner')
-data.setCell(19, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(19, 3, 22250);
+data.setCell(19, 1, 'verifyTermInsuranceGuideFaqSection')
+data.setCell(19, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
+data.setCell(19, 3, 21737);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'verifyTermInsuranceGuideFaqSection')
-data.setCell(20, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
-data.setCell(20, 3, 21977);
+data.setCell(20, 1, 'verifyComboPlansOnBanner')
+data.setCell(20, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
+data.setCell(20, 3, 21033);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'verifyGroupWebsitesLinks')
-data.setCell(21, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(21, 3, 17744);
+data.setCell(21, 1, 'verifyScheduleACallOnProductPage')
+data.setCell(21, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
+data.setCell(21, 3, 17244);
 data.setCell(22, 0, 22)
-data.setCell(22, 1, 'verifyScheduleACallOnProductPage')
-data.setCell(22, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
-data.setCell(22, 3, 17328);
+data.setCell(22, 1, 'verifyGroupWebsitesLinks')
+data.setCell(22, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
+data.setCell(22, 3, 16943);
 data.setCell(23, 0, 23)
 data.setCell(23, 1, 'verifyContactUs')
 data.setCell(23, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
-data.setCell(23, 3, 17162);
+data.setCell(23, 3, 16738);
 data.setCell(24, 0, 24)
 data.setCell(24, 1, 'verifyFixedMaturityPlanOnBanner')
 data.setCell(24, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(24, 3, 16591);
+data.setCell(24, 3, 16590);
 data.setCell(25, 0, 25)
-data.setCell(25, 1, 'verifyPosPlansOnBanner')
+data.setCell(25, 1, 'verifyBannerCarousel')
 data.setCell(25, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(25, 3, 15994);
+data.setCell(25, 3, 15818);
 data.setCell(26, 0, 26)
-data.setCell(26, 1, 'verifyBannerCarousel')
+data.setCell(26, 1, 'verifyDisclaimer')
 data.setCell(26, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(26, 3, 15965);
+data.setCell(26, 3, 15185);
 data.setCell(27, 0, 27)
-data.setCell(27, 1, 'verifyHealthPlansOnBanner')
+data.setCell(27, 1, 'verifyPosPlansOnBanner')
 data.setCell(27, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(27, 3, 15513);
+data.setCell(27, 3, 15127);
 data.setCell(28, 0, 28)
-data.setCell(28, 1, 'verifyTermPlanOnBanner')
+data.setCell(28, 1, 'verifyHealthPlansOnBanner')
 data.setCell(28, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(28, 3, 15422);
+data.setCell(28, 3, 14953);
 data.setCell(29, 0, 29)
-data.setCell(29, 1, 'verifyDisclaimer')
+data.setCell(29, 1, 'verifyTermPlanOnBanner')
 data.setCell(29, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(29, 3, 15341);
+data.setCell(29, 3, 14371);
 data.setCell(30, 0, 30)
-data.setCell(30, 1, 'verifyRetirementPlansOnBanner')
-data.setCell(30, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(30, 3, 13712);
+data.setCell(30, 1, 'verifyYourPlanYourBenefitsSection')
+data.setCell(30, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
+data.setCell(30, 3, 13505);
 data.setCell(31, 0, 31)
-data.setCell(31, 1, 'verifyDownloadLinks')
+data.setCell(31, 1, 'verifyStayConnectedwithUs')
 data.setCell(31, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(31, 3, 13709);
+data.setCell(31, 3, 13159);
 data.setCell(32, 0, 32)
 data.setCell(32, 1, 'verifySanchayPlusBuyNowBtn')
 data.setCell(32, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(32, 3, 13344);
+data.setCell(32, 3, 13057);
 data.setCell(33, 0, 33)
-data.setCell(33, 1, 'verifyLetsCalculateBtn')
-data.setCell(33, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
-data.setCell(33, 3, 13147);
+data.setCell(33, 1, 'verifyDownloadLinks')
+data.setCell(33, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
+data.setCell(33, 3, 12899);
 data.setCell(34, 0, 34)
-data.setCell(34, 1, 'verifySavingPlansOnBanner')
-data.setCell(34, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(34, 3, 13081);
+data.setCell(34, 1, 'verifyLetsCalculateBtn')
+data.setCell(34, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
+data.setCell(34, 3, 12706);
 data.setCell(35, 0, 35)
-data.setCell(35, 1, 'verifyCalculatePremiumBtn')
+data.setCell(35, 1, 'verifyFAQSection')
 data.setCell(35, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
-data.setCell(35, 3, 13007);
+data.setCell(35, 3, 12581);
 data.setCell(36, 0, 36)
-data.setCell(36, 1, 'verifyFAQSection')
-data.setCell(36, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
-data.setCell(36, 3, 12887);
+data.setCell(36, 1, 'verifyCalculatePremiumBtn')
+data.setCell(36, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
+data.setCell(36, 3, 12556);
 data.setCell(37, 0, 37)
-data.setCell(37, 1, 'verifyBreadcrumb')
-data.setCell(37, 2, 'SeleniumTesting.AEMhdfc.CustomerservicelandingTest')
-data.setCell(37, 3, 12665);
+data.setCell(37, 1, 'verifyULIPPlansOnBanner')
+data.setCell(37, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
+data.setCell(37, 3, 12088);
 data.setCell(38, 0, 38)
-data.setCell(38, 1, 'verifyCustomerServiceLandingPopup')
-data.setCell(38, 2, 'SeleniumTesting.AEMhdfc.CustomerservicelandingTest')
-data.setCell(38, 3, 12615);
+data.setCell(38, 1, 'verifyChildrenPlansOnBanner')
+data.setCell(38, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
+data.setCell(38, 3, 11958);
 data.setCell(39, 0, 39)
-data.setCell(39, 1, 'navigateToPage')
-data.setCell(39, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
-data.setCell(39, 3, 12511);
+data.setCell(39, 1, 'verifySavingPlansOnBanner')
+data.setCell(39, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
+data.setCell(39, 3, 11881);
 data.setCell(40, 0, 40)
-data.setCell(40, 1, 'verifyChildrenPlansOnBanner')
+data.setCell(40, 1, 'verifyRetirementPlansOnBanner')
 data.setCell(40, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(40, 3, 12408);
+data.setCell(40, 3, 11824);
 data.setCell(41, 0, 41)
-data.setCell(41, 1, 'verifyULIPPlansOnBanner')
-data.setCell(41, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(41, 3, 12163);
+data.setCell(41, 1, 'navigateToPage')
+data.setCell(41, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
+data.setCell(41, 3, 11722);
 data.setCell(42, 0, 42)
-data.setCell(42, 1, 'verifyHomeIconInBreadCrumb')
-data.setCell(42, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
-data.setCell(42, 3, 10903);
+data.setCell(42, 1, 'verifyCalculatePremiumBtn')
+data.setCell(42, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
+data.setCell(42, 3, 11492);
 data.setCell(43, 0, 43)
-data.setCell(43, 1, 'verifyAadharSection')
+data.setCell(43, 1, 'verifyContactUsSection')
 data.setCell(43, 2, 'SeleniumTesting.AEMhdfc.CustomerservicelandingTest')
-data.setCell(43, 3, 10833);
+data.setCell(43, 3, 10311);
 data.setCell(44, 0, 44)
-data.setCell(44, 1, 'verifyStayConnectedwithUs')
+data.setCell(44, 1, 'verifyschedulepopupblankSubmit')
 data.setCell(44, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(44, 3, 10448);
+data.setCell(44, 3, 9785);
 data.setCell(45, 0, 45)
-data.setCell(45, 1, 'verifyContactUsSection')
-data.setCell(45, 2, 'SeleniumTesting.AEMhdfc.CustomerservicelandingTest')
-data.setCell(45, 3, 10321);
+data.setCell(45, 1, 'verifyHomeIconInBreadCrumb')
+data.setCell(45, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
+data.setCell(45, 3, 9654);
 data.setCell(46, 0, 46)
-data.setCell(46, 1, 'verifyschedulepopupblankSubmit')
-data.setCell(46, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(46, 3, 9909);
+data.setCell(46, 1, 'verifyTalkToAdvisorPopup')
+data.setCell(46, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
+data.setCell(46, 3, 9631);
 data.setCell(47, 0, 47)
-data.setCell(47, 1, 'verifyRatingOption')
+data.setCell(47, 1, 'verifyPrintBtn')
 data.setCell(47, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
-data.setCell(47, 3, 9698);
+data.setCell(47, 3, 9563);
 data.setCell(48, 0, 48)
-data.setCell(48, 1, 'verifyTalkToAdvisorPopup')
-data.setCell(48, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
-data.setCell(48, 3, 9689);
+data.setCell(48, 1, 'verifyCalculatorCloseBtn')
+data.setCell(48, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
+data.setCell(48, 3, 9521);
 data.setCell(49, 0, 49)
-data.setCell(49, 1, 'verifyBuyNowBtn')
-data.setCell(49, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
-data.setCell(49, 3, 9627);
+data.setCell(49, 1, 'verifyWhySection')
+data.setCell(49, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
+data.setCell(49, 3, 9520);
 data.setCell(50, 0, 50)
-data.setCell(50, 1, 'verifyCalculatorCloseBtn')
-data.setCell(50, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(50, 3, 9623);
+data.setCell(50, 1, 'verifyRatingOption')
+data.setCell(50, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
+data.setCell(50, 3, 9515);
 data.setCell(51, 0, 51)
-data.setCell(51, 1, 'verifyPrintBtn')
+data.setCell(51, 1, 'verifyBuyNowBtn')
 data.setCell(51, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
-data.setCell(51, 3, 9613);
+data.setCell(51, 3, 9458);
 data.setCell(52, 0, 52)
 data.setCell(52, 1, 'verifyEligibilityCriteria')
 data.setCell(52, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
-data.setCell(52, 3, 9609);
+data.setCell(52, 3, 9341);
 data.setCell(53, 0, 53)
 data.setCell(53, 1, 'verifySubscribeOptionWithValidData')
 data.setCell(53, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(53, 3, 9569);
+data.setCell(53, 3, 9314);
 data.setCell(54, 0, 54)
-data.setCell(54, 1, 'verifyWhySection')
-data.setCell(54, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
-data.setCell(54, 3, 9393);
+data.setCell(54, 1, 'verifyMouseIndicator')
+data.setCell(54, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
+data.setCell(54, 3, 9201);
 data.setCell(55, 0, 55)
-data.setCell(55, 1, 'verifyMouseIndicator')
-data.setCell(55, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(55, 3, 9304);
+data.setCell(55, 1, 'verifyDisclaimerOnProductPage')
+data.setCell(55, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
+data.setCell(55, 3, 9165);
 data.setCell(56, 0, 56)
-data.setCell(56, 1, 'verifyDisclaimer')
-data.setCell(56, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
-data.setCell(56, 3, 9198);
+data.setCell(56, 1, 'verifyschedulePopupWithValidDataProductPage')
+data.setCell(56, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
+data.setCell(56, 3, 8597);
 data.setCell(57, 0, 57)
-data.setCell(57, 1, 'verifyDisclaimerOnProductPage')
-data.setCell(57, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
-data.setCell(57, 3, 9175);
+data.setCell(57, 1, 'verifyschedulePopupwithoutmindata')
+data.setCell(57, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
+data.setCell(57, 3, 6725);
 data.setCell(58, 0, 58)
-data.setCell(58, 1, 'verifyschedulePopupWithValidDataProductPage')
+data.setCell(58, 1, 'verifyProductAndPopularLinks')
 data.setCell(58, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(58, 3, 8818);
+data.setCell(58, 3, 6296);
 data.setCell(59, 0, 59)
-data.setCell(59, 1, 'verifyProductAndPopularLinks')
-data.setCell(59, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(59, 3, 8482);
+data.setCell(59, 1, 'verifyTalkToAdvisor')
+data.setCell(59, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
+data.setCell(59, 3, 6270);
 data.setCell(60, 0, 60)
-data.setCell(60, 1, 'verifyFAQSection')
-data.setCell(60, 2, 'SeleniumTesting.AEMhdfc.CustomerservicelandingTest')
-data.setCell(60, 3, 7549);
+data.setCell(60, 1, 'verifyDownloadBrochure')
+data.setCell(60, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
+data.setCell(60, 3, 6195);
 data.setCell(61, 0, 61)
-data.setCell(61, 1, 'verifyschedulePopupwithoutmindata')
-data.setCell(61, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(61, 3, 6781);
+data.setCell(61, 1, 'verifyVideoOnCategoryPage')
+data.setCell(61, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
+data.setCell(61, 3, 6019);
 data.setCell(62, 0, 62)
-data.setCell(62, 1, 'verifyTalkToAdvisor')
-data.setCell(62, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
-data.setCell(62, 3, 6384);
+data.setCell(62, 1, 'navigateToCustomerServiceLandingPage')
+data.setCell(62, 2, 'SeleniumTesting.AEMhdfc.CustomerservicelandingTest')
+data.setCell(62, 3, 5149);
 data.setCell(63, 0, 63)
-data.setCell(63, 1, 'verifyDownloadBrochure')
-data.setCell(63, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
-data.setCell(63, 3, 6242);
+data.setCell(63, 1, 'verifyDisclaimer')
+data.setCell(63, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
+data.setCell(63, 3, 4093);
 data.setCell(64, 0, 64)
-data.setCell(64, 1, 'verifyVideoOnCategoryPage')
-data.setCell(64, 2, 'SeleniumTesting.AEMhdfc.CategorypageTest')
-data.setCell(64, 3, 6040);
+data.setCell(64, 1, 'verifyViewAllButton')
+data.setCell(64, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
+data.setCell(64, 3, 3236);
 data.setCell(65, 0, 65)
-data.setCell(65, 1, 'navigateToCustomerServiceLandingPage')
+data.setCell(65, 1, 'verifyAadharSection')
 data.setCell(65, 2, 'SeleniumTesting.AEMhdfc.CustomerservicelandingTest')
-data.setCell(65, 3, 5462);
+data.setCell(65, 3, 3160);
 data.setCell(66, 0, 66)
-data.setCell(66, 1, 'verifyViewAllButton')
-data.setCell(66, 2, 'SeleniumTesting.AEMhdfc.HomepageTest')
-data.setCell(66, 3, 3308);
+data.setCell(66, 1, 'verifyRatingsFromAPI')
+data.setCell(66, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
+data.setCell(66, 3, 3044);
 data.setCell(67, 0, 67)
-data.setCell(67, 1, 'verifyRatingsFromAPI')
+data.setCell(67, 1, 'verifyVideoOnCategoryPage')
 data.setCell(67, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
-data.setCell(67, 3, 3042);
+data.setCell(67, 3, 3015);
 data.setCell(68, 0, 68)
-data.setCell(68, 1, 'verifyVideoOnCategoryPage')
-data.setCell(68, 2, 'SeleniumTesting.AEMhdfc.ProductpageTest')
-data.setCell(68, 3, 3028);
+data.setCell(68, 1, 'verifyBannerCarousel')
+data.setCell(68, 2, 'SeleniumTesting.AEMhdfc.CustomerservicelandingTest')
+data.setCell(68, 3, 0);
+data.setCell(69, 0, 69)
+data.setCell(69, 1, 'verifyQuickLinksSection')
+data.setCell(69, 2, 'SeleniumTesting.AEMhdfc.CustomerservicelandingTest')
+data.setCell(69, 3, 0);
+data.setCell(70, 0, 70)
+data.setCell(70, 1, 'verifyTiles')
+data.setCell(70, 2, 'SeleniumTesting.AEMhdfc.CustomerservicelandingTest')
+data.setCell(70, 3, 0);
+data.setCell(71, 0, 71)
+data.setCell(71, 1, 'verifyBreadcrumb')
+data.setCell(71, 2, 'SeleniumTesting.AEMhdfc.CustomerservicelandingTest')
+data.setCell(71, 3, 0);
+data.setCell(72, 0, 72)
+data.setCell(72, 1, 'verifyFAQSection')
+data.setCell(72, 2, 'SeleniumTesting.AEMhdfc.CustomerservicelandingTest')
+data.setCell(72, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 30 minutes</span>
+              <span class="suite-total-time">Total running time: 22 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -1347,316 +1733,342 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyBannerCarousel</span>
-                <span class="method-start">6606 ms</span>
+                <span class="method-start">5002 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyTermPlanOnBanner</span>
-                <span class="method-start">22579 ms</span>
+                <span class="method-start">20849 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifySavingPlansOnBanner</span>
-                <span class="method-start">38001 ms</span>
+                <span class="method-start">35221 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyChildrenPlansOnBanner</span>
-                <span class="method-start">51084 ms</span>
+                <span class="method-start">47104 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyRetirementPlansOnBanner</span>
-                <span class="method-start">63496 ms</span>
+                <span class="method-start">59062 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyViewAllButton</span>
-                <span class="method-start">77209 ms</span>
+                <span class="method-start">70886 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyULIPPlansOnBanner</span>
-                <span class="method-start">80518 ms</span>
+                <span class="method-start">74122 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyFixedMaturityPlanOnBanner</span>
-                <span class="method-start">92682 ms</span>
+                <span class="method-start">86212 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyHealthPlansOnBanner</span>
-                <span class="method-start">109274 ms</span>
+                <span class="method-start">102804 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyPosPlansOnBanner</span>
-                <span class="method-start">124789 ms</span>
+                <span class="method-start">117759 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyComboPlansOnBanner</span>
-                <span class="method-start">140786 ms</span>
+                <span class="method-start">132887 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyGroupPlansOnBanner</span>
-                <span class="method-start">163038 ms</span>
+                <span class="method-start">153920 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyArrowButtonsOnBanner</span>
-                <span class="method-start">198827 ms</span>
+                <span class="method-start">187962 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyMouseIndicator</span>
-                <span class="method-start">243554 ms</span>
+                <span class="method-start">231940 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyschedulePopupWithValidDataProductPage(Amit Kundar, 9.768462054E9)</span>
-                <span class="method-start">253695 ms</span>
+                <span class="method-start">241792 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyschedulepopupblankSubmit</span>
-                <span class="method-start">262514 ms</span>
+                <span class="method-start">250390 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyschedulePopupwithoutmindata</span>
-                <span class="method-start">272425 ms</span>
+                <span class="method-start">260178 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifycalculatorWithValidData</span>
-                <span class="method-start">279207 ms</span>
+                <span class="method-start">266904 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyCalculatorCloseBtn</span>
-                <span class="method-start">328900 ms</span>
+                <span class="method-start">310681 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifySanchayPlusBuyNowBtn</span>
-                <span class="method-start">338525 ms</span>
+                <span class="method-start">320203 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyDisclaimer</span>
-                <span class="method-start">351870 ms</span>
+                <span class="method-start">333261 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyProductAndPopularLinks</span>
-                <span class="method-start">367212 ms</span>
+                <span class="method-start">348447 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyStayConnectedwithUs</span>
-                <span class="method-start">375695 ms</span>
+                <span class="method-start">354744 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyDownloadLinks</span>
-                <span class="method-start">386144 ms</span>
+                <span class="method-start">367904 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifySubscribeOptionWithValidData</span>
-                <span class="method-start">399856 ms</span>
+                <span class="method-start">380804 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyGroupWebsitesLinks</span>
-                <span class="method-start">409429 ms</span>
+                <span class="method-start">390119 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyArticlesOnHomePage</span>
-                <span class="method-start">427174 ms</span>
+                <span class="method-start">407063 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">529590 ms</span>
+                <span class="method-start">503485 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">SeleniumTesting.AEMhdfc.CategorypageTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">530014 ms</span>
+                <span class="method-start">503825 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">navigateToPage</span>
-                <span class="method-start">534621 ms</span>
+                <span class="method-start">507888 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyCalculatePremiumBtn</span>
-                <span class="method-start">547134 ms</span>
+                <span class="method-start">519612 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyTalkToAdvisor</span>
-                <span class="method-start">586197 ms</span>
+                <span class="method-start">532169 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyTalkToAdvisorPopup</span>
-                <span class="method-start">592582 ms</span>
+                <span class="method-start">538441 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyHomeIconInBreadCrumb</span>
-                <span class="method-start">602271 ms</span>
+                <span class="method-start">548073 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyC2PLProduct</span>
-                <span class="method-start">613180 ms</span>
+                <span class="method-start">557728 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifySJBProduct</span>
-                <span class="method-start">648759 ms</span>
+                <span class="method-start">590442 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyLetsCalculateBtn</span>
-                <span class="method-start">676148 ms</span>
+                <span class="method-start">616749 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyVideoOnCategoryPage</span>
-                <span class="method-start">689298 ms</span>
+                <span class="method-start">629456 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyWhySection</span>
-                <span class="method-start">695340 ms</span>
+                <span class="method-start">635477 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyTermInsuranceGuideFaqSection</span>
-                <span class="method-start">704734 ms</span>
+                <span class="method-start">644998 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyRidersSection</span>
-                <span class="method-start">726713 ms</span>
+                <span class="method-start">666736 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyContactUs</span>
-                <span class="method-start">778963 ms</span>
+                <span class="method-start">718750 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">verifyArticlesSection</span>
-                <span class="method-start">796125 ms</span>
+                <span class="method-start">735488 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">verifyDisclaimer</span>
-                <span class="method-start">903213 ms</span>
+                <span class="method-start">802689 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">912411 ms</span>
+                <span class="method-start">806946 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">SeleniumTesting.AEMhdfc.ProductpageTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">912774 ms</span>
+                <span class="method-start">807274 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">navigateToProductPage</span>
-                <span class="method-start">917797 ms</span>
+                <span class="method-start">811436 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyTandCOption</span>
-                <span class="method-start">942587 ms</span>
+                <span class="method-start">835122 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyProductPageBreadcrumb</span>
-                <span class="method-start">967242 ms</span>
+                <span class="method-start">859468 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyProductPageBreadcrumb</span>
+                <span class="method-start">894473 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyRatingOption</span>
-                <span class="method-start">992617 ms</span>
+                <span class="method-start">919326 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyPrintBtn</span>
-                <span class="method-start">1002316 ms</span>
+                <span class="method-start">928842 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyShareOption</span>
-                <span class="method-start">1011930 ms</span>
+                <span class="method-start">938406 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyRatingsFromAPI</span>
-                <span class="method-start">1062134 ms</span>
+                <span class="method-start">988365 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyDownloadBrochure</span>
-                <span class="method-start">1065177 ms</span>
+                <span class="method-start">991410 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyCalculatePremiumBtn</span>
-                <span class="method-start">1071420 ms</span>
+                <span class="method-start">997607 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyBuyNowBtn</span>
-                <span class="method-start">1084429 ms</span>
+                <span class="method-start">1009100 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyDownloadsSectionAfterScroll</span>
-                <span class="method-start">1094057 ms</span>
+                <span class="method-start">1018560 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">verifyYourPlanYourBenefitsSection</span>
-                <span class="method-start">1205315 ms</span>
+                <span class="method-start">1127471 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyEligibilityCriteria</span>
-                <span class="method-start">1255216 ms</span>
+                <span class="method-start">1141188 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyVideoOnCategoryPage</span>
-                <span class="method-start">1264826 ms</span>
+                <span class="method-start">1150530 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyRidersSection</span>
-                <span class="method-start">1267855 ms</span>
+                <span class="method-start">1153546 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyScheduleACallOnProductPage</span>
-                <span class="method-start">1326115 ms</span>
+                <span class="method-start">1211415 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyFAQSection</span>
-                <span class="method-start">1343444 ms</span>
+                <span class="method-start">1228660 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyDisclaimerOnProductPage</span>
-                <span class="method-start">1356332 ms</span>
+                <span class="method-start">1241242 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">1365507 ms</span>
+                <span class="method-start">1250407 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">SeleniumTesting.AEMhdfc.CustomerservicelandingTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">1365951 ms</span>
+                <span class="method-start">1250814 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">navigateToCustomerServiceLandingPage</span>
-                <span class="method-start">1370959 ms</span>
+                <span class="method-start">1255572 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyCustomerServiceLandingPopup</span>
-                <span class="method-start">1376422 ms</span>
+                <span class="method-start">1260722 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCustomerServiceLandingPopup</span>
+                <span class="method-start">1290776 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCustomerServiceLandingPopup</span>
+                <span class="method-start">1320784 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyCustomerServiceLandingPopup</span>
+                <span class="method-start">1350835 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyBannerCarousel</span>
-                <span class="method-start">1389038 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyBreadcrumb</span>
-                <span class="method-start">1425325 ms</span>
+                <span class="method-start">1381118 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyQuickLinksSection</span>
-                <span class="method-start">1437992 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyFAQSection</span>
-                <span class="method-start">1620092 ms</span>
+                <span class="method-start">1381119 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyTiles</span>
-                <span class="method-start">1627643 ms</span>
+                <span class="method-start">1381119 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <span class="method-name">verifyBreadcrumb</span>
+                <span class="method-start">1381119 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">verifyAadharSection</span>
-                <span class="method-start">1846532 ms</span>
+                <span class="method-start">1381119 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyFAQSection</span>
+                <span class="method-start">1381119 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyContactUsSection</span>
-                <span class="method-start">1857366 ms</span>
+                <span class="method-start">1384529 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">1867687 ms</span>
+                <span class="method-start">1394840 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

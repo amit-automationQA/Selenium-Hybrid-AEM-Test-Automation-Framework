@@ -136,6 +136,7 @@ public class Customerservicelanding extends BaseClass{
 	public void clickDownloadBtn() throws InterruptedException
 	{
 		SoftAssert softAssertion = new SoftAssert();
+		Thread.sleep(3000);
 		softAssertion.assertTrue(imageincspopup.isDisplayed());
 		softAssertion.assertTrue(cslandingpopupdownloadbtn.isDisplayed());
 		cslandingpopupdownloadbtn.click();

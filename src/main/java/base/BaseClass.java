@@ -20,10 +20,9 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
-
 import com.microsoft.edge.seleniumtools.EdgeDriver;
 import com.microsoft.edge.seleniumtools.EdgeOptions;
-
+import io.github.bonigarcia.wdm.WebDriverManager;
 import util.WebEventListener;
 
 public class BaseClass {
@@ -32,6 +31,7 @@ public class BaseClass {
 	public static WebEventListener eventListener;
 	public TakesScreenshot ts;
 	//public static String downloadPath = System.getProperty("user.dir") + "\\Downloaded";
+	//https://stackoverflow.com/questions/50143872/how-to-auto-set-chromedriver-path
 	public static File folder;
 	//String projectpath= System.getProperty("user.dir");
 
@@ -45,6 +45,7 @@ public class BaseClass {
 		folder = new File(UUID.randomUUID().toString());
 		if (browsername.equals("chrome"))
 		{
+			//WebDriverManager.chromedriver().setup();
 			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "\\Driver\\chromedriver.exe");
 			DesiredCapabilities capabilities = DesiredCapabilities.chrome();
 			HashMap<String, Object> chromePrefs = new HashMap<String, Object>(); // code from developer chrome website

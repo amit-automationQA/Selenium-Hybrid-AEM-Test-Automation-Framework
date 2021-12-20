@@ -2,52 +2,52 @@
 <testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-17T14:28:03Z" name="Default suite" finished-at="2021-12-17T14:36:26Z" duration-ms="503005">
+  <suite started-at="2021-12-20T04:50:38Z" name="Default suite" finished-at="2021-12-20T04:59:00Z" duration-ms="502764">
     <groups>
     </groups>
-    <test started-at="2021-12-17T14:28:03Z" name="Default test" finished-at="2021-12-17T14:36:26Z" duration-ms="503005">
+    <test started-at="2021-12-20T04:50:38Z" name="Default test" finished-at="2021-12-20T04:59:00Z" duration-ms="502764">
       <class name="SeleniumTesting.AEMhdfc.CustomerservicelandingTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@736caf7a]" started-at="2021-12-17T19:58:03Z" name="setUp" finished-at="2021-12-17T19:58:08Z" duration-ms="4927" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@75cd8043]" started-at="2021-12-20T10:20:38Z" name="setUp" finished-at="2021-12-20T10:20:47Z" duration-ms="9328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="navigateToCustomerServiceLandingPage()[pri:1, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@736caf7a]" started-at="2021-12-17T19:58:08Z" name="navigateToCustomerServiceLandingPage" finished-at="2021-12-17T19:58:12Z" duration-ms="4646" status="PASS">
+        <test-method signature="navigateToCustomerServiceLandingPage()[pri:1, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@75cd8043]" started-at="2021-12-20T10:20:47Z" name="navigateToCustomerServiceLandingPage" finished-at="2021-12-20T10:20:52Z" duration-ms="4875" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToCustomerServiceLandingPage -->
-        <test-method signature="verifyCustomerServiceLandingPopup()[pri:2, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@736caf7a]" started-at="2021-12-17T19:58:12Z" name="verifyCustomerServiceLandingPopup" finished-at="2021-12-17T19:58:25Z" depends-on-methods="SeleniumTesting.AEMhdfc.CustomerservicelandingTest.navigateToCustomerServiceLandingPage" duration-ms="12673" status="PASS">
+        <test-method signature="verifyCustomerServiceLandingPopup()[pri:2, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@75cd8043]" started-at="2021-12-20T10:20:52Z" name="verifyCustomerServiceLandingPopup" finished-at="2021-12-20T10:21:08Z" depends-on-methods="SeleniumTesting.AEMhdfc.CustomerservicelandingTest.navigateToCustomerServiceLandingPage" duration-ms="15653" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCustomerServiceLandingPopup -->
-        <test-method signature="verifyBannerCarousel()[pri:3, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@736caf7a]" started-at="2021-12-17T19:58:25Z" name="verifyBannerCarousel" finished-at="2021-12-17T19:59:04Z" depends-on-methods="SeleniumTesting.AEMhdfc.CustomerservicelandingTest.verifyCustomerServiceLandingPopup" duration-ms="38557" status="PASS">
+        <test-method signature="verifyBannerCarousel()[pri:3, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@75cd8043]" started-at="2021-12-20T10:21:08Z" name="verifyBannerCarousel" finished-at="2021-12-20T10:21:46Z" depends-on-methods="SeleniumTesting.AEMhdfc.CustomerservicelandingTest.verifyCustomerServiceLandingPopup" duration-ms="38588" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBannerCarousel -->
-        <test-method signature="verifyBreadcrumb()[pri:4, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@736caf7a]" started-at="2021-12-17T19:59:04Z" name="verifyBreadcrumb" finished-at="2021-12-17T19:59:16Z" depends-on-methods="SeleniumTesting.AEMhdfc.CustomerservicelandingTest.verifyCustomerServiceLandingPopup" duration-ms="12479" status="PASS">
+        <test-method signature="verifyBreadcrumb()[pri:4, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@75cd8043]" started-at="2021-12-20T10:21:46Z" name="verifyBreadcrumb" finished-at="2021-12-20T10:21:59Z" depends-on-methods="SeleniumTesting.AEMhdfc.CustomerservicelandingTest.verifyCustomerServiceLandingPopup" duration-ms="12570" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBreadcrumb -->
-        <test-method signature="verifyQuickLinksSection()[pri:5, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@736caf7a]" started-at="2021-12-17T19:59:16Z" name="verifyQuickLinksSection" finished-at="2021-12-17T20:02:18Z" depends-on-methods="SeleniumTesting.AEMhdfc.CustomerservicelandingTest.verifyCustomerServiceLandingPopup" duration-ms="181595" status="PASS">
+        <test-method signature="verifyQuickLinksSection()[pri:5, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@75cd8043]" started-at="2021-12-20T10:21:59Z" name="verifyQuickLinksSection" finished-at="2021-12-20T10:24:58Z" depends-on-methods="SeleniumTesting.AEMhdfc.CustomerservicelandingTest.verifyCustomerServiceLandingPopup" duration-ms="179055" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyQuickLinksSection -->
-        <test-method signature="verifyFAQSection()[pri:6, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@736caf7a]" started-at="2021-12-17T20:02:18Z" name="verifyFAQSection" finished-at="2021-12-17T20:02:25Z" depends-on-methods="SeleniumTesting.AEMhdfc.CustomerservicelandingTest.verifyQuickLinksSection" duration-ms="7495" status="PASS">
+        <test-method signature="verifyFAQSection()[pri:6, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@75cd8043]" started-at="2021-12-20T10:24:58Z" name="verifyFAQSection" finished-at="2021-12-20T10:25:05Z" depends-on-methods="SeleniumTesting.AEMhdfc.CustomerservicelandingTest.verifyQuickLinksSection" duration-ms="7294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFAQSection -->
-        <test-method signature="verifyTiles()[pri:7, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@736caf7a]" started-at="2021-12-17T20:02:25Z" name="verifyTiles" finished-at="2021-12-17T20:06:04Z" depends-on-methods="SeleniumTesting.AEMhdfc.CustomerservicelandingTest.verifyCustomerServiceLandingPopup" duration-ms="219247" status="PASS">
+        <test-method signature="verifyTiles()[pri:7, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@75cd8043]" started-at="2021-12-20T10:25:05Z" name="verifyTiles" finished-at="2021-12-20T10:28:39Z" depends-on-methods="SeleniumTesting.AEMhdfc.CustomerservicelandingTest.verifyCustomerServiceLandingPopup" duration-ms="214121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTiles -->
-        <test-method signature="verifyAadharSection()[pri:8, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@736caf7a]" started-at="2021-12-17T20:06:04Z" name="verifyAadharSection" finished-at="2021-12-17T20:06:15Z" depends-on-methods="SeleniumTesting.AEMhdfc.CustomerservicelandingTest.navigateToCustomerServiceLandingPage" duration-ms="10755" status="PASS">
+        <test-method signature="verifyAadharSection()[pri:8, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@75cd8043]" started-at="2021-12-20T10:28:39Z" name="verifyAadharSection" finished-at="2021-12-20T10:28:50Z" depends-on-methods="SeleniumTesting.AEMhdfc.CustomerservicelandingTest.navigateToCustomerServiceLandingPage" duration-ms="10619" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAadharSection -->
-        <test-method signature="verifyContactUsSection()[pri:9, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@736caf7a]" started-at="2021-12-17T20:06:15Z" name="verifyContactUsSection" finished-at="2021-12-17T20:06:25Z" depends-on-methods="SeleniumTesting.AEMhdfc.CustomerservicelandingTest.navigateToCustomerServiceLandingPage" duration-ms="10316" status="PASS">
+        <test-method signature="verifyContactUsSection()[pri:9, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@75cd8043]" started-at="2021-12-20T10:28:50Z" name="verifyContactUsSection" finished-at="2021-12-20T10:29:00Z" depends-on-methods="SeleniumTesting.AEMhdfc.CustomerservicelandingTest.navigateToCustomerServiceLandingPage" duration-ms="10316" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyContactUsSection -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@736caf7a]" started-at="2021-12-17T20:06:25Z" name="tearDown" finished-at="2021-12-17T20:06:26Z" duration-ms="286" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumTesting.AEMhdfc.CustomerservicelandingTest@75cd8043]" started-at="2021-12-20T10:29:00Z" name="tearDown" finished-at="2021-12-20T10:29:00Z" duration-ms="314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -15,11 +15,11 @@
   </Appenders>
   <Loggers>
   <Logger name="PageObjects.Homepage" level="all" additivity="false">  <!-- Change logger name to class name where we need logs in file -->
-  <AppenderRef ref="File"/>
+  <AppenderRef ref="Console"/>
   </Logger>
 
     <Root level="all">
-      <AppenderRef ref="File"/> <!-- Please change ref=file to place logs for whole test suite in file -->
+      <AppenderRef ref="Console"/> <!-- Please change ref=file to place logs for whole test suite in file -->
     </Root>
   </Loggers>
 </Configuration>
