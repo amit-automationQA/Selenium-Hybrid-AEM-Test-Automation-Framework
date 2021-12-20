@@ -474,6 +474,18 @@ log.info("Verification for download button in rider section started");
 		softAssertion.assertTrue(articlesviewmorebtn.isDisplayed());
 		articlesviewmorebtn.click();
 	}
+	
+	public void closeAdvPopup() throws InterruptedException
+	{
+		WebElement adclose= driver.findElement(By.id("nv_js-box-close-button_17168"));
+		if(adclose.isDisplayed())
+		{
+			Thread.sleep(3000);
+			adclose.click();
+			Thread.sleep(2000);
+		}
+	}
+	
 
 }
 

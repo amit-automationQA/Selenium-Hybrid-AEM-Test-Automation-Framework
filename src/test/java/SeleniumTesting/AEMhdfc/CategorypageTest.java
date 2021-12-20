@@ -19,11 +19,11 @@ public class CategorypageTest extends BaseClass{
 	HomepageTest ht;
 	JavascriptExecutor js;
 	public static Logger log=LogManager.getLogger(CategorypageTest.class.getName());
-	
+
 	public CategorypageTest() {
 		super();
 	}
-	
+
 
 	@BeforeClass(alwaysRun = true)
 	public void setUp() throws IOException {
@@ -139,10 +139,11 @@ public class CategorypageTest extends BaseClass{
 		js.executeScript("window.scrollBy(0,300)");
 		cp.verifyTermGuideViewMoreBtn();
 	}
-	
+
 	@Test(priority=12)
 	public void verifyRidersSection() throws InterruptedException //Implementation of for loop for clickdownloadbtnmethod is pending
 	{
+		cp.closeAdvPopup();
 		js.executeScript("window.scrollBy(0,900)");
 		cp.verifyViewMoreOnLoad();
 		js.executeScript("window.scrollBy(0,-100)");
@@ -151,7 +152,7 @@ public class CategorypageTest extends BaseClass{
 		cp.secondRowClickDownloadBtn();
 		Thread.sleep(3000);
 	}
-	
+
 	@Test(priority=13)
 	public void verifyContactUs() throws InterruptedException
 	{
@@ -159,14 +160,14 @@ public class CategorypageTest extends BaseClass{
 		cp.clickContactUsBtn();
 		hp.verifyLink("https://www.hdfclife.com/contact-us");
 	}
-	
+
 	@Test(priority=14)
 	public void verifyArticlesSection() throws InterruptedException //Implementation of loop is pending
 	{
 		js.executeScript("window.scrollBy(0,1000)");
 		cp.verifyArticles();
 	}
-	
+
 	@Test(priority=15)
 	public void verifyDisclaimer() throws InterruptedException
 	{

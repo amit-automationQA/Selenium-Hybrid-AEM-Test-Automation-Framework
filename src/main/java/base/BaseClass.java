@@ -9,7 +9,6 @@ import java.util.HashMap;
 import java.util.Properties;
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
-
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -81,22 +80,26 @@ public class BaseClass {
 			fis.close();
 		}
 
-		else if(browsername.equals("firefox"))
+		else if(browsername.equals("firefox")) //http://kb.mozillazine.org/About:config_entries
 		{
 			WebDriverManager.firefoxdriver().setup(); //https://www.youtube.com/watch?v=tdA3tSl0jUg
 			//System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir") + "\\Driver\\geckodriver.exe");
-			DesiredCapabilities capabilities = DesiredCapabilities.firefox();
+			//DesiredCapabilities capabilities = DesiredCapabilities.firefox();
 			FirefoxOptions options = new FirefoxOptions();
-			options.addPreference("browser.download.dir", folder.getAbsolutePath());
 			options.addPreference("browser.download.useDownloadDir", true);
 			options.addPreference("browser.download.folderList",2); //Use for the default download directory the last folder specified for a download
+			options.addPreference("browser.download.dir", folder.getAbsolutePath());
 			options.addPreference("browser.download.viewableInternally.enabledTypes", "");
 			options.addPreference("browser.helperApps.neverAsk.saveToDisk", "application/pdf;text/plain;application/text;text/xml;application/xml");
 			options.addPreference("pdfjs.disabled", true);  // disable the built-in PDF viewer
 			options.addPreference("dom.webnotifications.enabled", false);
 			options.addPreference("javascript.enabled", true);
-			capabilities.setCapability("firefox.binary",System.getProperty("user.dir") + "\\Driver\\geckodriver.exe");
-			capabilities.setCapability(FirefoxOptions.FIREFOX_OPTIONS, options);
+			options.setCapability("marionette", true);
+			options.addPreference("browser.link.open_newwindow", 3);
+			options.addPreference("browser.link.open_newwindow.restriction", 0);
+			//options.addPreference("browser.privatebrowsing.autostart", true);
+			//options.setCapability("firefox.binary",System.getProperty("user.dir") + "\\Driver\\geckodriver.exe");
+			//options.setCapability(FirefoxOptions.FIREFOX_OPTIONS, options);
 			driver = new FirefoxDriver(options);
 			driver.manage().window().maximize();
 			e_driver = new EventFiringWebDriver(driver);
@@ -119,6 +122,7 @@ public class BaseClass {
 			HashMap<String, Object> edgeprefs = new HashMap<String, Object>(); // code from developer edge website
 			edgeprefs.put("profile.default_content_settings.popups", 0);
 			edgeprefs.put("download.default_directory", folder.getAbsolutePath());// to download any file in project directory only
+			edgeprefs.put("profile.default_content_setting_values.notifications", 2); //https://www.linkedin.com/pulse/how-handle-browser-level-notification-using-selenium-webdriver-maske
 			options.addArguments("--no-sandbox");
 			options.addArguments("-inprivate"); 
 			//https://stackoverflow.com/questions/61735197/cant-open-private-window-in-edge-browser-using-selenium
@@ -129,6 +133,7 @@ public class BaseClass {
 	        options.addArguments("--disable-dev-shm-usage");
 	        options.addArguments("--start-maximized");
 	        options.addArguments("enable-automation"); 
+	        options.setExperimentalOption("prefs", edgeprefs);
 	        //options.addArguments("--headless");
 			options.merge(capabilities);
 			capabilities.setCapability(EdgeOptions.CAPABILITY, options);

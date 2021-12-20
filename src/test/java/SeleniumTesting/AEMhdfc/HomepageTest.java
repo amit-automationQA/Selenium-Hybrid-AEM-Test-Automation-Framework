@@ -216,7 +216,7 @@ public class HomepageTest extends BaseClass {
 		hp.clickLetsCalculateButton();
 		hp.calculatorInputs("30", "50", "200000", "2000", "0", "graduate", "0");
 		hp.clickCalculateButton2();
-		hp.verifyLearnMorebtn("https://www.hdfclife.com/term-insurance-plans/click-2-protect-life");
+		hp.verifyLearnMorebtn("https://www.hdfclife.com/products/term-insurance-plans/click-2-protect-life");
 	}
 	@Test(priority=19, dependsOnMethods = {  "verifyMouseIndicator", "verifycalculatorWithValidData"})
 	public void verifyCalculatorCloseBtn() throws InterruptedException
@@ -227,7 +227,7 @@ public class HomepageTest extends BaseClass {
 		hp.clickCalculatorCloseBtn();
 	}
 
-	@Test(priority=20, dependsOnMethods = {  "verifyMouseIndicator", "verifycalculatorWithValidData"})
+	@Test(priority=20, dependsOnMethods = {  "verifyMouseIndicator"})
 	public void verifySanchayPlusBuyNowBtn() throws InterruptedException
 	{
 		js.executeScript("window.scrollBy(0,400)");
@@ -237,7 +237,7 @@ public class HomepageTest extends BaseClass {
 				"https://www.hdfclife.com/");
 	}
 
-	@Test(priority=21, dependsOnMethods = { "verifyMouseIndicator", "verifycalculatorWithValidData"})
+	@Test(priority=21, dependsOnMethods = { "verifyMouseIndicator"})
 	public void verifyDisclaimer() throws InterruptedException
 	{
 		hp.scrollToDisclaimer();
@@ -248,7 +248,7 @@ public class HomepageTest extends BaseClass {
 		softAssertion.assertAll();
 	}
 
-	@Test(priority=22, dependsOnMethods = {  "verifyMouseIndicator", "verifycalculatorWithValidData", "verifyDisclaimer"})
+	@Test(priority=22, dependsOnMethods = {  "verifyMouseIndicator", "verifyDisclaimer"})
 	public void verifyProductAndPopularLinks() throws Throwable, Exception 
 	{
 		js.executeScript("window.scrollBy(0,300)");
@@ -256,7 +256,7 @@ public class HomepageTest extends BaseClass {
 		hp.PopularandProductLinks();
 	}
 
-	@Test(priority=23, dependsOnMethods = {"verifyMouseIndicator", "verifycalculatorWithValidData", "verifyDisclaimer"})
+	@Test(priority=23, dependsOnMethods = {"verifyMouseIndicator", "verifyDisclaimer"})
 	public void verifyStayConnectedwithUs() throws InterruptedException, IOException
 	{
 		js.executeScript("window.scrollBy(0,300)");

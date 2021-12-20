@@ -1,15 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 69, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1,742.236 s <<< FAILURE! - in TestSuite
-SeleniumTesting.AEMhdfc.ProductpageTest.verifyYourPlanYourBenefitsSection  Time elapsed: 30.116 s  <<< FAILURE!
-org.openqa.selenium.TimeoutException: 
-timeout: Timed out receiving message from renderer: 30.000
-  (Session info: MicrosoftEdge=96.0.1054.62)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LIN24007907', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: com.microsoft.edge.seleniumtools.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 96.0.1054.62, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61301}, msedge: {msedgedriverVersion: 96.0.1054.62 (f97cb2ce0103f..., userDataDir: C:\Users\Akundar\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b1b2accbd6a8ae6b8be6d77e863a1e9a
-	at SeleniumTesting.AEMhdfc.ProductpageTest.verifyYourPlanYourBenefitsSection(ProductpageTest.java:153)
-
+Tests run: 69, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1,763.609 s - in TestSuite
