@@ -485,7 +485,6 @@ log.info("Verification for download button in rider section started");
 			Thread.sleep(2000);
 		}
 	}
-	
 
 }
 

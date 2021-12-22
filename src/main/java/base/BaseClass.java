@@ -11,12 +11,15 @@ import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
+import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.firefox.ProfilesIni;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
@@ -49,7 +52,7 @@ public class BaseClass {
 		{
 			WebDriverManager.chromedriver().setup(); //https://www.youtube.com/watch?v=tdA3tSl0jUg
 			//System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "\\Driver\\chromedriver.exe");
-			DesiredCapabilities capabilities = DesiredCapabilities.chrome();
+			//DesiredCapabilities capabilities = DesiredCapabilities.chrome();
 			HashMap<String, Object> chromePrefs = new HashMap<String, Object>(); // code from developer chrome website
 			chromePrefs.put("profile.default_content_settings.popups", 0);
 			chromePrefs.put("download.default_directory", folder.getAbsolutePath());// to download any file in project directory only*/
@@ -57,16 +60,17 @@ public class BaseClass {
 			options.addArguments("--disable-notifications"); // Disabled notifications popup
 			options.addArguments("--incognito");
 			options.addArguments("--start-maximized"); // https://stackoverflow.com/a/26283818/1689770
-			options.addArguments("enable-automation"); // https://stackoverflow.com/a/43840128/1689770
+			options.addArguments("enable-automation"); // https://stackoverflow.com/a/43840128/1689770 -->> comment to disable automation message in browser
 			options.addArguments("--no-sandbox"); //https://stackoverflow.com/a/50725918/1689770
 			options.addArguments("--disable-infobars"); //https://stackoverflow.com/a/43840128/1689770
 			options.addArguments("--disable-dev-shm-usage"); //https://stackoverflow.com/a/50725918/1689770
 			options.addArguments("--disable-browser-side-navigation"); //https://stackoverflow.com/a/49123152/1689770
 			options.addArguments("--disable-gpu"); //https://stackoverflow.com/questions/51959986/how-to-solve-selenium-chromedriver-timed-out-receiving-message-from-renderer-exc
-			options.setExperimentalOption("useAutomationExtension", false);
+			//options.setExperimentalOption("useAutomationExtension", false);
+			//options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
 			options.setExperimentalOption("prefs", chromePrefs);
-			capabilities.setCapability("chrome.binary",System.getProperty("user.dir") + "\\Driver\\chromedriver.exe");
-			capabilities.setCapability(ChromeOptions.CAPABILITY, options);
+			options.setCapability("chrome.binary",System.getProperty("user.dir") + "\\Driver\\chromedriver.exe");
+			options.setCapability(ChromeOptions.CAPABILITY, options);
 			driver= new ChromeDriver(options);
 			e_driver = new EventFiringWebDriver(driver);
 			eventListener = new WebEventListener();
@@ -83,10 +87,28 @@ public class BaseClass {
 		else if(browsername.equals("firefox")) //http://kb.mozillazine.org/About:config_entries
 		{
 			WebDriverManager.firefoxdriver().setup(); //https://www.youtube.com/watch?v=tdA3tSl0jUg
+			WebDriverManager.firefoxdriver().getDownloadedDriverPath();
+			System.setProperty(FirefoxDriver.SystemProperty.DRIVER_USE_MARIONETTE,"true");
+			System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, "FirefoxLogsforeveryexecution.txt");
 			//System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir") + "\\Driver\\geckodriver.exe");
 			//DesiredCapabilities capabilities = DesiredCapabilities.firefox();
 			FirefoxOptions options = new FirefoxOptions();
-			options.addPreference("browser.download.useDownloadDir", true);
+			//Prerequisite : Create Firefox profile with command firefox -p profilemanager
+			//https://www.youtube.com/watch?v=ilwlp8iI4xc
+			ProfilesIni profini= new ProfilesIni(); 
+			FirefoxProfile prof= profini.getProfile("AutomationAEM");
+			options.setProfile(prof);
+			prof.setPreference("dom.webnotifications.enabled", false);
+			options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
+			//prof.setPreference("browser.download.useDownloadDir", true);
+			prof.setPreference("browser.download.dir", folder.getAbsolutePath());
+			prof.setPreference("browser.download.folderList",2);
+			prof.setPreference("browser.download.viewableInternally.enabledTypes", "");
+			prof.setPreference("browser.helperApps.neverAsk.saveToDisk", "application/pdf;text/plain;application/text;text/xml;application/xml");
+			//prof.setPreference("browser.helperApps.alwaysAsk.force", false);
+			prof.setPreference("pdfjs.disabled", true);  // disable the built-in PDF viewer
+			prof.setPreference("javascript.enabled", true);
+			/*options.addPreference("browser.download.useDownloadDir", true);
 			options.addPreference("browser.download.folderList",2); //Use for the default download directory the last folder specified for a download
 			options.addPreference("browser.download.dir", folder.getAbsolutePath());
 			options.addPreference("browser.download.viewableInternally.enabledTypes", "");
@@ -99,9 +121,9 @@ public class BaseClass {
 			options.addPreference("browser.link.open_newwindow.restriction", 0);
 			//options.addPreference("browser.privatebrowsing.autostart", true);
 			//options.setCapability("firefox.binary",System.getProperty("user.dir") + "\\Driver\\geckodriver.exe");
-			//options.setCapability(FirefoxOptions.FIREFOX_OPTIONS, options);
+			//options.setCapability(FirefoxOptions.FIREFOX_OPTIONS, options);*/
 			driver = new FirefoxDriver(options);
-			driver.manage().window().maximize();
+			//driver.manage().window().maximize();
 			e_driver = new EventFiringWebDriver(driver);
 			eventListener = new WebEventListener();
 			e_driver.register(eventListener);

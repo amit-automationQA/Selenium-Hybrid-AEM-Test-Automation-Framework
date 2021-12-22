@@ -141,6 +141,7 @@ public class CategorypageTest extends BaseClass{
 	}
 
 	@Test(priority=12)
+	//Please comment before executing script in firefox
 	public void verifyRidersSection() throws InterruptedException //Implementation of for loop for clickdownloadbtnmethod is pending
 	{
 		cp.closeAdvPopup();

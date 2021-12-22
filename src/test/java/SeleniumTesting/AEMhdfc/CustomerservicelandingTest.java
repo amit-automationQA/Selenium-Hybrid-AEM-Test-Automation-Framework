@@ -57,9 +57,9 @@ public class CustomerservicelandingTest extends BaseClass{
 	@Test(priority=2, dependsOnMethods= {"navigateToCustomerServiceLandingPage"}, retryAnalyzer = Analyzer.RetryAnalyzer.class)
 	public void verifyCustomerServiceLandingPopup() throws InterruptedException
 	{
-		csl.clickDownloadBtn();
+		csl.clickDownloadBtn(); //Please comment before executing script in firefox
 		hp.verifyLinkOpenedInNewWindow("https://brandsite-static.hdfclife.com/media/documents/apps/Customer%20FAQ%20For%20BCP%20Scenario_VF.pdf",
-				"https://www.hdfclife.com/customer-service");
+				"https://www.hdfclife.com/customer-service"); //Please comment before executing script in firefox
 		csl.verifyCloseBtn();
 	}
 

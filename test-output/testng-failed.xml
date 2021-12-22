@@ -3,27 +3,21 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="SeleniumTesting.AEMhdfc.ProductpageTest">
+      <class name="SeleniumTesting.AEMhdfc.CustomerservicelandingTest">
         <methods>
-          <include name="verifyEligibilityCriteria"/>
-          <include name="verifyRatingsFromAPI"/>
-          <include name="verifyShareOption"/>
-          <include name="setUp"/>
-          <include name="verifyCalculatePremiumBtn"/>
-          <include name="verifyDisclaimerOnProductPage"/>
-          <include name="verifyScheduleACallOnProductPage"/>
-          <include name="verifyDownloadsSectionAfterScroll"/>
-          <include name="verifyPrintBtn"/>
-          <include name="tearDown"/>
-          <include name="verifyBuyNowBtn"/>
-          <include name="verifyDownloadBrochure"/>
-          <include name="verifyRidersSection"/>
-          <include name="verifyYourPlanYourBenefitsSection"/>
-          <include name="navigateToProductPage"/>
+          <include name="navigateToCustomerServiceLandingPage"/>
           <include name="verifyFAQSection"/>
-          <include name="verifyVideoOnCategoryPage"/>
+          <include name="verifyTiles"/>
+          <include name="verifyBreadcrumb"/>
+          <include name="verifyBannerCarousel"/>
+          <include name="verifyContactUsSection"/>
+          <include name="verifyQuickLinksSection"/>
+          <include name="setUp"/>
+          <include name="verifyAadharSection"/>
+          <include name="verifyCustomerServiceLandingPopup"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- SeleniumTesting.AEMhdfc.ProductpageTest -->
+      </class> <!-- SeleniumTesting.AEMhdfc.CustomerservicelandingTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

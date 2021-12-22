@@ -78,7 +78,7 @@ public class ProductpageTest extends BaseClass{
 		pp.provideRatings();
 	}
 
-	@Test(priority=5, retryAnalyzer = Analyzer.RetryAnalyzer.class)
+	@Test(priority=5, retryAnalyzer = Analyzer.RetryAnalyzer.class) //Please comment before executing script in firefox
 	public void verifyPrintBtn() throws InterruptedException
 	{
 		js.executeScript("window.scrollBy(0,300)");
@@ -86,7 +86,7 @@ public class ProductpageTest extends BaseClass{
 		pp.verifyLinkOpeningInNewWindow();
 	}
 
-	@Test(priority=6, retryAnalyzer = Analyzer.RetryAnalyzer.class , dependsOnMethods={"verifyPrintBtn"})
+	@Test(priority=6, retryAnalyzer = Analyzer.RetryAnalyzer.class)
 	public void verifyShareOption() throws InterruptedException
 	{
 		pp.verifySharePopup();
@@ -97,13 +97,13 @@ public class ProductpageTest extends BaseClass{
 		pp.verifyLinkedInShareBtn();
 
 	}
-	@Test(priority=7, retryAnalyzer = Analyzer.RetryAnalyzer.class , dependsOnMethods={"verifyPrintBtn"})
+	@Test(priority=7, retryAnalyzer = Analyzer.RetryAnalyzer.class)
 	public void verifyRatingsFromAPI() throws InterruptedException
 	{
 		pp.viewProductRatingsFromApi();
 	}
 
-	@Test(priority=8, retryAnalyzer = Analyzer.RetryAnalyzer.class , dependsOnMethods={"verifyPrintBtn"})
+	@Test(priority=8, retryAnalyzer = Analyzer.RetryAnalyzer.class)
 	public void verifyDownloadBrochure() throws InterruptedException
 	{
 		folder.mkdir();
@@ -112,7 +112,7 @@ public class ProductpageTest extends BaseClass{
 		cp.deleteFolder();
 	}
 
-	@Test(priority=9, retryAnalyzer = Analyzer.RetryAnalyzer.class , dependsOnMethods={"verifyPrintBtn"})
+	@Test(priority=9, retryAnalyzer = Analyzer.RetryAnalyzer.class)
 	public void verifyCalculatePremiumBtn() throws InterruptedException
 	{
 		pp.clickCalculatePremiumBtn();
@@ -120,7 +120,7 @@ public class ProductpageTest extends BaseClass{
 				"https://www.hdfclife.com/term-insurance-plans/click-2-protect-life#discPopup");
 	}
 
-	@Test(priority=10, retryAnalyzer = Analyzer.RetryAnalyzer.class , dependsOnMethods={"verifyPrintBtn"})
+	@Test(priority=10, retryAnalyzer = Analyzer.RetryAnalyzer.class)
 	public void verifyBuyNowBtn() throws InterruptedException
 	{
 		pp.clickBuyNow();
@@ -139,7 +139,7 @@ public class ProductpageTest extends BaseClass{
 		Thread.sleep(3000);
 		verifyRatingOption();
 		Thread.sleep(3000);
-		verifyPrintBtn();	
+		verifyPrintBtn();	//Please comment before executing script in firefox
 		verifyShareOption();
 		verifyRatingsFromAPI();
 		verifyDownloadBrochure();
