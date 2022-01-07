@@ -87,10 +87,10 @@ public class BaseClass {
 		else if(browsername.equals("firefox")) //http://kb.mozillazine.org/About:config_entries
 		{
 			WebDriverManager.firefoxdriver().setup(); //https://www.youtube.com/watch?v=tdA3tSl0jUg
-			WebDriverManager.firefoxdriver().getDownloadedDriverPath();
+			//WebDriverManager.firefoxdriver().getDownloadedDriverPath();
 			System.setProperty(FirefoxDriver.SystemProperty.DRIVER_USE_MARIONETTE,"true");
 			System.setProperty(FirefoxDriver.SystemProperty.BROWSER_LOGFILE, "FirefoxLogsforeveryexecution.txt");
-			//System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir") + "\\Driver\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir") + "\\Driver\\geckodriver.exe");
 			//DesiredCapabilities capabilities = DesiredCapabilities.firefox();
 			FirefoxOptions options = new FirefoxOptions();
 			//Prerequisite : Create Firefox profile with command firefox -p profilemanager

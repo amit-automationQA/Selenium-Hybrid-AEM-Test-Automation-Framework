@@ -1,26 +1,19 @@
-1640163184475	geckodriver	INFO	Listening on 127.0.0.1:4950
-1640163196136	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Akundar\\AppData\\Local\\Temp\\rust_mozprofilebmDrz1"
-1640163196623	Marionette	INFO	Marionette enabled
+1640773403777	geckodriver	INFO	Listening on 127.0.0.1:47871
+1640773424376	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Akundar\\AppData\\Local\\Temp\\rust_mozprofileobkOlw"
+1640773424823	Marionette	INFO	Marionette enabled
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: has already ran once and saw panel, exit.
-1640163197975	Marionette	INFO	Listening on port 50743
+1640773426386	Marionette	INFO	Listening on port 55420
+1640773426471	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640773426512	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: has already ran once and saw panel, exit.
-1640163198215	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-JavaScript warning: https://assets.adobedtm.com/13917eaed364/9ece96efaa49/launch-EN179fadd8bab443e8b83f75e8281ae451.min.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript error: https://www.hdfclife.com/etc.clientlibs/hdfclifeinsurancecompany/components/structure/hdfc-life-insurance-header/clientlib.min.js, line 26: ReferenceError: jsHelper is not defined
+JavaScript warning: https://assets.adobedtm.com/13917eaed364/9ece96efaa49/launch-EN179fadd8bab443e8b83f75e8281ae451.min.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript error: https://cdn.notifyvisitors.com/ext/js/nv-push-upl.js, line 1: ReferenceError: Notification is not defined
 JavaScript warning: https://assets.adobedtm.com/13917eaed364/9ece96efaa49/launch-EN179fadd8bab443e8b83f75e8281ae451.min.js, line 5: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
 JavaScript error: https://cdn.notifyvisitors.com/ext/js/nv-push-upl.js, line 1: ReferenceError: Notification is not defined
+1640773432788	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
 JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
 JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
 JavaScript error: https://lifeai-widget.apps-hdfclife.com/?source=www.hdfclife.com, line 5: TypeError: navigator.serviceWorker.unregister is not a function
@@ -28,12 +21,16 @@ JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT
 JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
 JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
 JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
-1640163224027	Marionette	INFO	Stopped listening on port 50743
-[Parent 19380, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:542
-JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
+JavaScript error: resource://gre/modules/pdfjs.js, line 31: NS_ERROR_FACTORY_NOT_REGISTERED: 
+1640773468775	Marionette	INFO	Stopped listening on port 55420
+[Parent 11768, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:542
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+[Parent 11768, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 11768, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
+[Parent 11768, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167

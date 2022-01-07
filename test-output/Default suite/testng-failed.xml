@@ -3,21 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="SeleniumTesting.AEMhdfc.CustomerservicelandingTest">
+      <class name="SeleniumTesting.AEMhdfc.HomepageTest">
         <methods>
-          <include name="navigateToCustomerServiceLandingPage"/>
-          <include name="verifyFAQSection"/>
-          <include name="verifyTiles"/>
-          <include name="verifyBreadcrumb"/>
-          <include name="verifyBannerCarousel"/>
-          <include name="verifyContactUsSection"/>
-          <include name="verifyQuickLinksSection"/>
+          <include name="verifyDisclaimer"/>
+          <include name="verifyMouseIndicator"/>
+          <include name="verifyStayConnectedwithUs"/>
           <include name="setUp"/>
-          <include name="verifyAadharSection"/>
-          <include name="verifyCustomerServiceLandingPopup"/>
+          <include name="verifyCalculatorCloseBtn"/>
+          <include name="verifyschedulePopupWithValidDataProductPage" invocation-numbers="0"/>
           <include name="tearDown"/>
+          <include name="verifyDownloadLinks"/>
+          <include name="verifycalculatorWithValidData"/>
         </methods>
-      </class> <!-- SeleniumTesting.AEMhdfc.CustomerservicelandingTest -->
+      </class> <!-- SeleniumTesting.AEMhdfc.HomepageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
