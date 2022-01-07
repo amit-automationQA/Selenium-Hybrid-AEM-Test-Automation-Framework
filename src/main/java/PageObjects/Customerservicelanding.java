@@ -56,7 +56,7 @@ public class Customerservicelanding extends BaseClass{
 	@FindBy(xpath="//img[@class='at-element-click-tracking']")
 	WebElement cslandingpopupclosebtn;
 
-	@FindBy(xpath="(//a[contains(text(),'Website')])[1]")
+	@FindBy(xpath="(//div[@class='carousel-item active']//a[1]")
 	WebElement websiteoptioninbanner;
 	
 	@FindBy(xpath="(//a[contains(text(),'Mobile')])[1]")
