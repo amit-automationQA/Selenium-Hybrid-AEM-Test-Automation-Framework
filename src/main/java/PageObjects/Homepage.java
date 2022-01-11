@@ -661,6 +661,12 @@ To fix this problem you should be instantiating the SoftAssert object inside the
 		softAssertion.assertEquals(driver.getCurrentUrl(), parenturl);
 		Thread.sleep(3000);
 	}
+	
+	//Alternate code for the above method open link in new window
+	//ArrayList<String> tabs2 = new ArrayList<String>(driver.getWindowHandles());
+	// driver.switchTo().window(tabs2.get(1));
+	// driver.close();
+	// driver.switchTo().window(tabs2.get(0));
 
 	public void verifyLink(String pageurl) throws InterruptedException
 	{
