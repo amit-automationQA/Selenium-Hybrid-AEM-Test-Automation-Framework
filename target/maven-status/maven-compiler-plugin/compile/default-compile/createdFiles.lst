@@ -3,8 +3,8 @@ util\Listeners.class
 PageObjects\Homepage.class
 Analyzer\RetryAnalyzer.class
 PageObjects\Customerservicelanding.class
+PageObjects\Categorypage.class
 util\ExtentReporterNG.class
 util\ExcelUtil.class
 PageObjects\Productpage.class
 util\WebEventListener.class
-PageObjects\Categorypage.class

@@ -1,4 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.528 s - in TestSuite
+Tests run: 24, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 368.688 s <<< FAILURE! - in TestSuite
+SeleniumTesting.AEMhdfc.HomepageTest.verifySubscribeOptionWithValidData  Time elapsed: 9.298 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [true] but found [false],
+	expected [Thank you for subscribing to us.] but found []
+	at SeleniumTesting.AEMhdfc.HomepageTest.verifySubscribeOptionWithValidData(HomepageTest.java:264)
+

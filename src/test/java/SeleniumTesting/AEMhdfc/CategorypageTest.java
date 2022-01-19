@@ -47,7 +47,7 @@ public class CategorypageTest extends BaseClass{
 		//Thread.sleep(3000);
 	}
 
-	/*@Test(priority=2, retryAnalyzer = Analyzer.RetryAnalyzer.class)
+	@Test(priority=2, retryAnalyzer = Analyzer.RetryAnalyzer.class)
 	public void verifyCalculatePremiumBtn() throws InterruptedException
 	{
 		cp.verifyCalculatePremiumbtn();
@@ -75,6 +75,7 @@ public class CategorypageTest extends BaseClass{
 	public void verifyHomeIconInBreadCrumb() throws InterruptedException
 	{
 		cp.clickHomeIconInBreadcrumb();
+		cp.navigateToTermCategoryPage();
 	}
 
 	@Test(priority=6, retryAnalyzer = Analyzer.RetryAnalyzer.class)
@@ -82,7 +83,10 @@ public class CategorypageTest extends BaseClass{
 	{
 		js.executeScript("window.scrollBy(0,2900)");
 		cp.clickC2plLearnMoreBtn();
-		hp.verifyLink("https://www.hdfclife.com/term-insurance-plans/click-2-protect-life");
+		hp.verifyLink1("https://www.hdfclife.com/term-insurance-plans/click-2-protect-life");
+cp.navigateToTermCategoryPage();
+js.executeScript("window.scrollBy(0,2900)");
+Thread.sleep(3000);
 		cp.downloadBrochure();
 		cp.isFileDownloaded("MC062124237-V01-HDFC-Life-Click-2-Protect-Life-Retail-Brochure.pdf");
 		cp.clickC2plBuyNowBtn();
@@ -90,39 +94,43 @@ public class CategorypageTest extends BaseClass{
 				, "https://www.hdfclife.com/term-insurance-plans");
 	}
 
-	@Test(priority=7, dependsOnMethods = { "verifyC2PLProduct" })
+	/*@Test(priority=7, dependsOnMethods = { "verifyC2PLProduct" })
 	public void verifySJBProduct() throws InterruptedException
 	{
 		js.executeScript("window.scrollBy(0,800)");
 		cp.clickSJBLearnMorebtn();
-		hp.verifyLink("https://www.hdfclife.com/term-insurance-plans/saral-jeevan-bima");
+		hp.verifyLink1("https://www.hdfclife.com/term-insurance-plans/saral-jeevan-bima");
+		cp.navigateToTermCategoryPage();
+		js.executeScript("window.scrollBy(0,3700)");
+		Thread.sleep(3000);
 		cp.sjbDownloadBrochure();
 		cp.isFileDownloaded("saral-jeevan-brochure.pdf");
 		cp.clickSJBBuyOnlineBtn();
 		hp.verifyLinkOpenedInNewWindow("https://onlineinsurance.hdfclife.com/buy-online-term-insurance-plans/saral-jeevan-bima/basic-details?source=NW_SJB_BuyOl&agentcode=00399206&language=en"
 				,"https://www.hdfclife.com/term-insurance-plans");
-	}
+	}*/
 
 	@Test(priority=8, dependsOnMethods = { "verifyC2PLProduct", "verifySJBProduct" })
 	public void verifyLetsCalculateBtn() throws InterruptedException
 	{
 		js.executeScript("window.scrollBy(0,-500)");
 		cp.clickLetsCalculateBtn();
-		hp.verifyLink("https://www.hdfclife.com/financial-tools-calculators/human-life-value-calculator");		
+		hp.verifyLink1("https://www.hdfclife.com/financial-tools-calculators/human-life-value-calculator");		
+		cp.navigateToTermCategoryPage();
+		js.executeScript("window.scrollBy(0,3700)");
+		Thread.sleep(3000);
 	}
 
 	@Test(priority=9, dependsOnMethods = { "verifyC2PLProduct", "verifySJBProduct", "verifyLetsCalculateBtn" })
 	public void verifyVideoOnCategoryPage() throws InterruptedException // Youtube implementation is pending
 	{
 		Thread.sleep(3000);
-		js.executeScript("window.scrollBy(0,900)");
+		js.executeScript("window.scrollBy(0,300)");
 		Thread.sleep(3000);
-		//WebElement framename= driver.findElement(By.xpath("//*[@id=\"planVideoSection\"]/div/div[2]/iframe"));
-		//driver.switchTo().frame(framename);
-		//cp.verifyVideoOnPage();
+		cp.youtubeVideoVerification();
 	}
 
-	@Test(priority=10, dependsOnMethods=  {"verifyVideoOnCategoryPage"})
+	/*@Test(priority=10, dependsOnMethods=  {"verifyVideoOnCategoryPage"})
 	public void verifyWhySection() throws InterruptedException
 	{
 		js.executeScript("window.scrollBy(0,-2000)");
@@ -132,7 +140,7 @@ public class CategorypageTest extends BaseClass{
 	@Test(priority=11)
 	public void verifyTermInsuranceGuideFaqSection() throws InterruptedException
 	{
-		js.executeScript("window.scrollBy(0,2300)");
+		js.executeScript("window.scrollBy(0,4500)");
 		cp.verifyFirstOpenFAQ();
 		js.executeScript("window.scrollBy(0,200)");
 		cp.verifysecondFAQ();
@@ -160,7 +168,7 @@ public class CategorypageTest extends BaseClass{
 		//js.executeScript("window.scrollBy(0,3700)");
 		cp.clickContactUsBtn();
 		hp.verifyLink("https://www.hdfclife.com/contact-us");
-	}
+	}*/
 
 	@Test(priority=14)
 	public void verifyArticlesSection() throws InterruptedException //Implementation of loop is pending
@@ -175,7 +183,7 @@ public class CategorypageTest extends BaseClass{
 		js.executeScript("window.scrollBy(0,100)");
 		hp.openCloseDisclaimer();
 	}
-*/
+
 	@AfterClass(alwaysRun=true)
 	public void tearDown()
 	{

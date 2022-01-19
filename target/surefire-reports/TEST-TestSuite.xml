@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="24.528" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="368.688" tests="24" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="17"/>
-    <property name="webdriver.chrome.driver" value="C:\Users\Akundar\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\Akundar\.cache\selenium\chromedriver\win32\97.0.4692.71\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\Akundar\eclipse-workspace\AEMhdfc\target\test-classes;C:\Users\Akundar\eclipse-workspace\AEMhdfc\target\classes;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Akundar\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Akundar\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Akundar\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Akundar\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Akundar\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Akundar\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Akundar\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Akundar\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Akundar\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Akundar\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Akundar\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Akundar\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Akundar\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Akundar\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.0\log4j-core-2.17.0.jar;C:\Users\Akundar\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.0\log4j-api-2.17.0.jar;C:\Users\Akundar\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Akundar\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Akundar\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Akundar\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Akundar\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Akundar\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\poi\5.0.0\poi-5.0.0.jar;C:\Users\Akundar\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Akundar\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Akundar\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Akundar\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Akundar\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Akundar\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\poi-ooxml\5.0.0\poi-ooxml-5.0.0.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\poi-ooxml-lite\5.0.0\poi-ooxml-lite-5.0.0.jar;C:\Users\Akundar\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\Akundar\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Akundar\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.68\bcpkix-jdk15on-1.68.jar;C:\Users\Akundar\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.68\bcprov-jdk15on-1.68.jar;C:\Users\Akundar\.m2\repository\org\apache\santuario\xmlsec\2.2.1\xmlsec-2.2.1.jar;C:\Users\Akundar\.m2\repository\com\fasterxml\woodstox\woodstox-core\5.2.1\woodstox-core-5.2.1.jar;C:\Users\Akundar\.m2\repository\org\codehaus\woodstox\stax2-api\4.2\stax2-api-4.2.jar;C:\Users\Akundar\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar;C:\Users\Akundar\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-all\1.13\batik-all-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-anim\1.13\batik-anim-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-shared-resources\1.13\batik-shared-resources-1.13.jar;C:\Users\Akundar\.m2\repository\xml-apis\xml-apis-ext\1.3.04\xml-apis-ext-1.3.04.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-awt-util\1.13\batik-awt-util-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\xmlgraphics-commons\2.4\xmlgraphics-commons-2.4.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-bridge\1.13\batik-bridge-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-codec\1.13\batik-codec-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-constants\1.13\batik-constants-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-css\1.13\batik-css-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-dom\1.13\batik-dom-1.13.jar;C:\Users\Akundar\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\Akundar\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\Akundar\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-ext\1.13\batik-ext-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-extension\1.13\batik-extension-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-gui-util\1.13\batik-gui-util-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-gvt\1.13\batik-gvt-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-i18n\1.13\batik-i18n-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-parser\1.13\batik-parser-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-rasterizer-ext\1.13\batik-rasterizer-ext-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-rasterizer\1.13\batik-rasterizer-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-script\1.13\batik-script-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-slideshow\1.13\batik-slideshow-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-squiggle-ext\1.13\batik-squiggle-ext-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-squiggle\1.13\batik-squiggle-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-svg-dom\1.13\batik-svg-dom-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-svgbrowser\1.13\batik-svgbrowser-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-svggen\1.13\batik-svggen-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-svgpp\1.13\batik-svgpp-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-svgrasterizer\1.13\batik-svgrasterizer-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-swing\1.13\batik-swing-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-transcoder\1.13\batik-transcoder-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-util\1.13\batik-util-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-ttf2svg\1.13\batik-ttf2svg-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-xml\1.13\batik-xml-1.13.jar;C:\Users\Akundar\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\Akundar\.m2\repository\org\apache\pdfbox\pdfbox\2.0.22\pdfbox-2.0.22.jar;C:\Users\Akundar\.m2\repository\org\apache\pdfbox\fontbox\2.0.22\fontbox-2.0.22.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\poi-scratchpad\5.0.0\poi-scratchpad-5.0.0.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\poi-excelant\5.0.0\poi-excelant-5.0.0.jar;C:\Users\Akundar\.m2\repository\org\apache\ant\ant\1.10.9\ant-1.10.9.jar;C:\Users\Akundar\.m2\repository\org\apache\ant\ant-launcher\1.10.9\ant-launcher-1.10.9.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\ooxml-schemas\1.4\ooxml-schemas-1.4.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.1\xmlbeans-5.0.1.jar;C:\Users\Akundar\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\Akundar\.m2\repository\com\microsoft\edge\msedge-selenium-tools-java\3.141.0\msedge-selenium-tools-java-3.141.0.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-all\4.1.70.Final\netty-all-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-buffer\4.1.70.Final\netty-buffer-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec\4.1.70.Final\netty-codec-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-dns\4.1.70.Final\netty-codec-dns-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-haproxy\4.1.70.Final\netty-codec-haproxy-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-http\4.1.70.Final\netty-codec-http-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-http2\4.1.70.Final\netty-codec-http2-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-memcache\4.1.70.Final\netty-codec-memcache-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-mqtt\4.1.70.Final\netty-codec-mqtt-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-redis\4.1.70.Final\netty-codec-redis-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-smtp\4.1.70.Final\netty-codec-smtp-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-socks\4.1.70.Final\netty-codec-socks-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-stomp\4.1.70.Final\netty-codec-stomp-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-xml\4.1.70.Final\netty-codec-xml-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-common\4.1.70.Final\netty-common-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-handler\4.1.70.Final\netty-handler-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-handler-proxy\4.1.70.Final\netty-handler-proxy-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-resolver\4.1.70.Final\netty-resolver-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-resolver-dns\4.1.70.Final\netty-resolver-dns-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport\4.1.70.Final\netty-transport-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-rxtx\4.1.70.Final\netty-transport-rxtx-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-sctp\4.1.70.Final\netty-transport-sctp-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-udt\4.1.70.Final\netty-transport-udt-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.70.Final\netty-transport-classes-epoll-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.70.Final\netty-transport-native-unix-common-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.70.Final\netty-transport-classes-kqueue-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.70.Final\netty-resolver-dns-classes-macos-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-native-epoll\4.1.70.Final\netty-transport-native-epoll-4.1.70.Final-linux-x86_64.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-native-epoll\4.1.70.Final\netty-transport-native-epoll-4.1.70.Final-linux-aarch_64.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.70.Final\netty-transport-native-kqueue-4.1.70.Final-osx-x86_64.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.70.Final\netty-transport-native-kqueue-4.1.70.Final-osx-aarch_64.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.70.Final\netty-resolver-dns-native-macos-4.1.70.Final-osx-x86_64.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.70.Final\netty-resolver-dns-native-macos-4.1.70.Final-osx-aarch_64.jar;C:\Users\Akundar\.m2\repository\io\github\bonigarcia\webdrivermanager\5.0.0\webdrivermanager-5.0.0.jar;C:\Users\Akundar\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\Users\Akundar\.m2\repository\com\github\docker-java\docker-java\3.2.11\docker-java-3.2.11.jar;C:\Users\Akundar\.m2\repository\com\github\docker-java\docker-java-core\3.2.11\docker-java-core-3.2.11.jar;C:\Users\Akundar\.m2\repository\com\github\docker-java\docker-java-api\3.2.11\docker-java-api-3.2.11.jar;C:\Users\Akundar\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Akundar\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Akundar\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Akundar\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Akundar\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.11\docker-java-transport-httpclient5-3.2.11.jar;C:\Users\Akundar\.m2\repository\com\github\docker-java\docker-java-transport\3.2.11\docker-java-transport-3.2.11.jar;C:\Users\Akundar\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\Akundar\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\Akundar\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\Akundar\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;"/>
+    <property name="java.class.path" value="C:\Users\Akundar\eclipse-workspace\AEMhdfc\target\test-classes;C:\Users\Akundar\eclipse-workspace\AEMhdfc\target\classes;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Akundar\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Akundar\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Akundar\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Akundar\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Akundar\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Akundar\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Akundar\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Akundar\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Akundar\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Akundar\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Akundar\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Akundar\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Akundar\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Akundar\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.0\log4j-core-2.17.0.jar;C:\Users\Akundar\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.0\log4j-api-2.17.0.jar;C:\Users\Akundar\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Akundar\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Akundar\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Akundar\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Akundar\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Akundar\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\poi\5.0.0\poi-5.0.0.jar;C:\Users\Akundar\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Akundar\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Akundar\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Akundar\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Akundar\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\poi-ooxml\5.0.0\poi-ooxml-5.0.0.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\poi-ooxml-lite\5.0.0\poi-ooxml-lite-5.0.0.jar;C:\Users\Akundar\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\Akundar\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Akundar\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.68\bcpkix-jdk15on-1.68.jar;C:\Users\Akundar\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.68\bcprov-jdk15on-1.68.jar;C:\Users\Akundar\.m2\repository\org\apache\santuario\xmlsec\2.2.1\xmlsec-2.2.1.jar;C:\Users\Akundar\.m2\repository\com\fasterxml\woodstox\woodstox-core\5.2.1\woodstox-core-5.2.1.jar;C:\Users\Akundar\.m2\repository\org\codehaus\woodstox\stax2-api\4.2\stax2-api-4.2.jar;C:\Users\Akundar\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar;C:\Users\Akundar\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-all\1.13\batik-all-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-anim\1.13\batik-anim-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-shared-resources\1.13\batik-shared-resources-1.13.jar;C:\Users\Akundar\.m2\repository\xml-apis\xml-apis-ext\1.3.04\xml-apis-ext-1.3.04.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-awt-util\1.13\batik-awt-util-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\xmlgraphics-commons\2.4\xmlgraphics-commons-2.4.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-bridge\1.13\batik-bridge-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-codec\1.13\batik-codec-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-constants\1.13\batik-constants-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-css\1.13\batik-css-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-dom\1.13\batik-dom-1.13.jar;C:\Users\Akundar\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\Akundar\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\Akundar\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-ext\1.13\batik-ext-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-extension\1.13\batik-extension-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-gui-util\1.13\batik-gui-util-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-gvt\1.13\batik-gvt-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-i18n\1.13\batik-i18n-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-parser\1.13\batik-parser-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-rasterizer-ext\1.13\batik-rasterizer-ext-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-rasterizer\1.13\batik-rasterizer-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-script\1.13\batik-script-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-slideshow\1.13\batik-slideshow-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-squiggle-ext\1.13\batik-squiggle-ext-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-squiggle\1.13\batik-squiggle-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-svg-dom\1.13\batik-svg-dom-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-svgbrowser\1.13\batik-svgbrowser-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-svggen\1.13\batik-svggen-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-svgpp\1.13\batik-svgpp-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-svgrasterizer\1.13\batik-svgrasterizer-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-swing\1.13\batik-swing-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-transcoder\1.13\batik-transcoder-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-util\1.13\batik-util-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-ttf2svg\1.13\batik-ttf2svg-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-xml\1.13\batik-xml-1.13.jar;C:\Users\Akundar\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\Akundar\.m2\repository\org\apache\pdfbox\pdfbox\2.0.22\pdfbox-2.0.22.jar;C:\Users\Akundar\.m2\repository\org\apache\pdfbox\fontbox\2.0.22\fontbox-2.0.22.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\poi-scratchpad\5.0.0\poi-scratchpad-5.0.0.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\poi-excelant\5.0.0\poi-excelant-5.0.0.jar;C:\Users\Akundar\.m2\repository\org\apache\ant\ant\1.10.9\ant-1.10.9.jar;C:\Users\Akundar\.m2\repository\org\apache\ant\ant-launcher\1.10.9\ant-launcher-1.10.9.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\ooxml-schemas\1.4\ooxml-schemas-1.4.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.1\xmlbeans-5.0.1.jar;C:\Users\Akundar\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\Akundar\.m2\repository\com\microsoft\edge\msedge-selenium-tools-java\3.141.0\msedge-selenium-tools-java-3.141.0.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-all\4.1.70.Final\netty-all-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-buffer\4.1.70.Final\netty-buffer-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec\4.1.70.Final\netty-codec-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-dns\4.1.70.Final\netty-codec-dns-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-haproxy\4.1.70.Final\netty-codec-haproxy-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-http\4.1.70.Final\netty-codec-http-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-http2\4.1.70.Final\netty-codec-http2-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-memcache\4.1.70.Final\netty-codec-memcache-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-mqtt\4.1.70.Final\netty-codec-mqtt-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-redis\4.1.70.Final\netty-codec-redis-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-smtp\4.1.70.Final\netty-codec-smtp-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-socks\4.1.70.Final\netty-codec-socks-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-stomp\4.1.70.Final\netty-codec-stomp-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-xml\4.1.70.Final\netty-codec-xml-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-common\4.1.70.Final\netty-common-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-handler\4.1.70.Final\netty-handler-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-handler-proxy\4.1.70.Final\netty-handler-proxy-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-resolver\4.1.70.Final\netty-resolver-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-resolver-dns\4.1.70.Final\netty-resolver-dns-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport\4.1.70.Final\netty-transport-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-rxtx\4.1.70.Final\netty-transport-rxtx-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-sctp\4.1.70.Final\netty-transport-sctp-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-udt\4.1.70.Final\netty-transport-udt-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.70.Final\netty-transport-classes-epoll-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.70.Final\netty-transport-native-unix-common-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.70.Final\netty-transport-classes-kqueue-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.70.Final\netty-resolver-dns-classes-macos-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-native-epoll\4.1.70.Final\netty-transport-native-epoll-4.1.70.Final-linux-x86_64.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-native-epoll\4.1.70.Final\netty-transport-native-epoll-4.1.70.Final-linux-aarch_64.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.70.Final\netty-transport-native-kqueue-4.1.70.Final-osx-x86_64.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.70.Final\netty-transport-native-kqueue-4.1.70.Final-osx-aarch_64.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.70.Final\netty-resolver-dns-native-macos-4.1.70.Final-osx-x86_64.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.70.Final\netty-resolver-dns-native-macos-4.1.70.Final-osx-aarch_64.jar;C:\Users\Akundar\.m2\repository\io\github\bonigarcia\webdrivermanager\5.0.0\webdrivermanager-5.0.0.jar;C:\Users\Akundar\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\Users\Akundar\.m2\repository\com\github\docker-java\docker-java\3.2.11\docker-java-3.2.11.jar;C:\Users\Akundar\.m2\repository\com\github\docker-java\docker-java-core\3.2.11\docker-java-core-3.2.11.jar;C:\Users\Akundar\.m2\repository\com\github\docker-java\docker-java-api\3.2.11\docker-java-api-3.2.11.jar;C:\Users\Akundar\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Akundar\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Akundar\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Akundar\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Akundar\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.11\docker-java-transport-httpclient5-3.2.11.jar;C:\Users\Akundar\.m2\repository\com\github\docker-java\docker-java-transport\3.2.11\docker-java-transport-3.2.11.jar;C:\Users\Akundar\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\Akundar\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\Akundar\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\Akundar\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Akundar\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\Akundar\.m2\repository\org\slf4j\slf4j-log4j12\1.7.5\slf4j-log4j12-1.7.5.jar;C:\Users\Akundar\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -16,9 +16,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Users\Akundar\Installers\openjdk-17_windows-x64_bin (1)\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\Akundar\AppData\Local\Temp\surefire722945850159970311\surefirebooter11575720708431741274.jar C:\Users\Akundar\AppData\Local\Temp\surefire722945850159970311 2022-01-07T14-25-49_295-jvmRun1 surefire16250550127001495950tmp surefire_015281065504778439381tmp"/>
+    <property name="sun.java.command" value="C:\Users\Akundar\AppData\Local\Temp\surefire11014959215962221834\surefirebooter16653130272695665792.jar C:\Users\Akundar\AppData\Local\Temp\surefire11014959215962221834 2022-01-19T15-54-54_772-jvmRun1 surefire15795860406920848872tmp surefire_09618278013312270802tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\Akundar\eclipse-workspace\AEMhdfc\target\test-classes;C:\Users\Akundar\eclipse-workspace\AEMhdfc\target\classes;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Akundar\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Akundar\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Akundar\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Akundar\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Akundar\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Akundar\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Akundar\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Akundar\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Akundar\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Akundar\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Akundar\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Akundar\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Akundar\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Akundar\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.0\log4j-core-2.17.0.jar;C:\Users\Akundar\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.0\log4j-api-2.17.0.jar;C:\Users\Akundar\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Akundar\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Akundar\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Akundar\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Akundar\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Akundar\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\poi\5.0.0\poi-5.0.0.jar;C:\Users\Akundar\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Akundar\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Akundar\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Akundar\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Akundar\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Akundar\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\poi-ooxml\5.0.0\poi-ooxml-5.0.0.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\poi-ooxml-lite\5.0.0\poi-ooxml-lite-5.0.0.jar;C:\Users\Akundar\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\Akundar\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Akundar\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.68\bcpkix-jdk15on-1.68.jar;C:\Users\Akundar\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.68\bcprov-jdk15on-1.68.jar;C:\Users\Akundar\.m2\repository\org\apache\santuario\xmlsec\2.2.1\xmlsec-2.2.1.jar;C:\Users\Akundar\.m2\repository\com\fasterxml\woodstox\woodstox-core\5.2.1\woodstox-core-5.2.1.jar;C:\Users\Akundar\.m2\repository\org\codehaus\woodstox\stax2-api\4.2\stax2-api-4.2.jar;C:\Users\Akundar\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar;C:\Users\Akundar\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-all\1.13\batik-all-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-anim\1.13\batik-anim-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-shared-resources\1.13\batik-shared-resources-1.13.jar;C:\Users\Akundar\.m2\repository\xml-apis\xml-apis-ext\1.3.04\xml-apis-ext-1.3.04.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-awt-util\1.13\batik-awt-util-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\xmlgraphics-commons\2.4\xmlgraphics-commons-2.4.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-bridge\1.13\batik-bridge-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-codec\1.13\batik-codec-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-constants\1.13\batik-constants-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-css\1.13\batik-css-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-dom\1.13\batik-dom-1.13.jar;C:\Users\Akundar\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\Akundar\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\Akundar\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-ext\1.13\batik-ext-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-extension\1.13\batik-extension-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-gui-util\1.13\batik-gui-util-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-gvt\1.13\batik-gvt-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-i18n\1.13\batik-i18n-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-parser\1.13\batik-parser-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-rasterizer-ext\1.13\batik-rasterizer-ext-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-rasterizer\1.13\batik-rasterizer-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-script\1.13\batik-script-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-slideshow\1.13\batik-slideshow-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-squiggle-ext\1.13\batik-squiggle-ext-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-squiggle\1.13\batik-squiggle-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-svg-dom\1.13\batik-svg-dom-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-svgbrowser\1.13\batik-svgbrowser-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-svggen\1.13\batik-svggen-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-svgpp\1.13\batik-svgpp-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-svgrasterizer\1.13\batik-svgrasterizer-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-swing\1.13\batik-swing-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-transcoder\1.13\batik-transcoder-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-util\1.13\batik-util-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-ttf2svg\1.13\batik-ttf2svg-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-xml\1.13\batik-xml-1.13.jar;C:\Users\Akundar\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\Akundar\.m2\repository\org\apache\pdfbox\pdfbox\2.0.22\pdfbox-2.0.22.jar;C:\Users\Akundar\.m2\repository\org\apache\pdfbox\fontbox\2.0.22\fontbox-2.0.22.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\poi-scratchpad\5.0.0\poi-scratchpad-5.0.0.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\poi-excelant\5.0.0\poi-excelant-5.0.0.jar;C:\Users\Akundar\.m2\repository\org\apache\ant\ant\1.10.9\ant-1.10.9.jar;C:\Users\Akundar\.m2\repository\org\apache\ant\ant-launcher\1.10.9\ant-launcher-1.10.9.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\ooxml-schemas\1.4\ooxml-schemas-1.4.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.1\xmlbeans-5.0.1.jar;C:\Users\Akundar\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\Akundar\.m2\repository\com\microsoft\edge\msedge-selenium-tools-java\3.141.0\msedge-selenium-tools-java-3.141.0.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-all\4.1.70.Final\netty-all-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-buffer\4.1.70.Final\netty-buffer-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec\4.1.70.Final\netty-codec-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-dns\4.1.70.Final\netty-codec-dns-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-haproxy\4.1.70.Final\netty-codec-haproxy-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-http\4.1.70.Final\netty-codec-http-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-http2\4.1.70.Final\netty-codec-http2-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-memcache\4.1.70.Final\netty-codec-memcache-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-mqtt\4.1.70.Final\netty-codec-mqtt-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-redis\4.1.70.Final\netty-codec-redis-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-smtp\4.1.70.Final\netty-codec-smtp-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-socks\4.1.70.Final\netty-codec-socks-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-stomp\4.1.70.Final\netty-codec-stomp-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-xml\4.1.70.Final\netty-codec-xml-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-common\4.1.70.Final\netty-common-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-handler\4.1.70.Final\netty-handler-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-handler-proxy\4.1.70.Final\netty-handler-proxy-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-resolver\4.1.70.Final\netty-resolver-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-resolver-dns\4.1.70.Final\netty-resolver-dns-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport\4.1.70.Final\netty-transport-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-rxtx\4.1.70.Final\netty-transport-rxtx-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-sctp\4.1.70.Final\netty-transport-sctp-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-udt\4.1.70.Final\netty-transport-udt-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.70.Final\netty-transport-classes-epoll-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.70.Final\netty-transport-native-unix-common-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.70.Final\netty-transport-classes-kqueue-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.70.Final\netty-resolver-dns-classes-macos-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-native-epoll\4.1.70.Final\netty-transport-native-epoll-4.1.70.Final-linux-x86_64.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-native-epoll\4.1.70.Final\netty-transport-native-epoll-4.1.70.Final-linux-aarch_64.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.70.Final\netty-transport-native-kqueue-4.1.70.Final-osx-x86_64.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.70.Final\netty-transport-native-kqueue-4.1.70.Final-osx-aarch_64.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.70.Final\netty-resolver-dns-native-macos-4.1.70.Final-osx-x86_64.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.70.Final\netty-resolver-dns-native-macos-4.1.70.Final-osx-aarch_64.jar;C:\Users\Akundar\.m2\repository\io\github\bonigarcia\webdrivermanager\5.0.0\webdrivermanager-5.0.0.jar;C:\Users\Akundar\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\Users\Akundar\.m2\repository\com\github\docker-java\docker-java\3.2.11\docker-java-3.2.11.jar;C:\Users\Akundar\.m2\repository\com\github\docker-java\docker-java-core\3.2.11\docker-java-core-3.2.11.jar;C:\Users\Akundar\.m2\repository\com\github\docker-java\docker-java-api\3.2.11\docker-java-api-3.2.11.jar;C:\Users\Akundar\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Akundar\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Akundar\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Akundar\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Akundar\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.11\docker-java-transport-httpclient5-3.2.11.jar;C:\Users\Akundar\.m2\repository\com\github\docker-java\docker-java-transport\3.2.11\docker-java-transport-3.2.11.jar;C:\Users\Akundar\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\Akundar\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\Akundar\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\Akundar\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\Akundar\eclipse-workspace\AEMhdfc\target\test-classes;C:\Users\Akundar\eclipse-workspace\AEMhdfc\target\classes;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Akundar\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Akundar\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Akundar\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Akundar\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Akundar\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Akundar\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Akundar\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Akundar\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Akundar\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Akundar\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Akundar\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Akundar\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\Akundar\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Akundar\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Akundar\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.0\log4j-core-2.17.0.jar;C:\Users\Akundar\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.0\log4j-api-2.17.0.jar;C:\Users\Akundar\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\Akundar\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Akundar\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Akundar\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Akundar\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Akundar\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\poi\5.0.0\poi-5.0.0.jar;C:\Users\Akundar\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Akundar\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Akundar\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Akundar\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Akundar\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\poi-ooxml\5.0.0\poi-ooxml-5.0.0.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\poi-ooxml-lite\5.0.0\poi-ooxml-lite-5.0.0.jar;C:\Users\Akundar\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\Akundar\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Akundar\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.68\bcpkix-jdk15on-1.68.jar;C:\Users\Akundar\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.68\bcprov-jdk15on-1.68.jar;C:\Users\Akundar\.m2\repository\org\apache\santuario\xmlsec\2.2.1\xmlsec-2.2.1.jar;C:\Users\Akundar\.m2\repository\com\fasterxml\woodstox\woodstox-core\5.2.1\woodstox-core-5.2.1.jar;C:\Users\Akundar\.m2\repository\org\codehaus\woodstox\stax2-api\4.2\stax2-api-4.2.jar;C:\Users\Akundar\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar;C:\Users\Akundar\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-all\1.13\batik-all-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-anim\1.13\batik-anim-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-shared-resources\1.13\batik-shared-resources-1.13.jar;C:\Users\Akundar\.m2\repository\xml-apis\xml-apis-ext\1.3.04\xml-apis-ext-1.3.04.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-awt-util\1.13\batik-awt-util-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\xmlgraphics-commons\2.4\xmlgraphics-commons-2.4.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-bridge\1.13\batik-bridge-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-codec\1.13\batik-codec-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-constants\1.13\batik-constants-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-css\1.13\batik-css-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-dom\1.13\batik-dom-1.13.jar;C:\Users\Akundar\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\Akundar\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\Akundar\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-ext\1.13\batik-ext-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-extension\1.13\batik-extension-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-gui-util\1.13\batik-gui-util-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-gvt\1.13\batik-gvt-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-i18n\1.13\batik-i18n-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-parser\1.13\batik-parser-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-rasterizer-ext\1.13\batik-rasterizer-ext-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-rasterizer\1.13\batik-rasterizer-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-script\1.13\batik-script-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-slideshow\1.13\batik-slideshow-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-squiggle-ext\1.13\batik-squiggle-ext-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-squiggle\1.13\batik-squiggle-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-svg-dom\1.13\batik-svg-dom-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-svgbrowser\1.13\batik-svgbrowser-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-svggen\1.13\batik-svggen-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-svgpp\1.13\batik-svgpp-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-svgrasterizer\1.13\batik-svgrasterizer-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-swing\1.13\batik-swing-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-transcoder\1.13\batik-transcoder-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-util\1.13\batik-util-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-ttf2svg\1.13\batik-ttf2svg-1.13.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlgraphics\batik-xml\1.13\batik-xml-1.13.jar;C:\Users\Akundar\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\Akundar\.m2\repository\org\apache\pdfbox\pdfbox\2.0.22\pdfbox-2.0.22.jar;C:\Users\Akundar\.m2\repository\org\apache\pdfbox\fontbox\2.0.22\fontbox-2.0.22.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\poi-scratchpad\5.0.0\poi-scratchpad-5.0.0.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\poi-excelant\5.0.0\poi-excelant-5.0.0.jar;C:\Users\Akundar\.m2\repository\org\apache\ant\ant\1.10.9\ant-1.10.9.jar;C:\Users\Akundar\.m2\repository\org\apache\ant\ant-launcher\1.10.9\ant-launcher-1.10.9.jar;C:\Users\Akundar\.m2\repository\org\apache\poi\ooxml-schemas\1.4\ooxml-schemas-1.4.jar;C:\Users\Akundar\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.1\xmlbeans-5.0.1.jar;C:\Users\Akundar\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\Akundar\.m2\repository\com\microsoft\edge\msedge-selenium-tools-java\3.141.0\msedge-selenium-tools-java-3.141.0.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-all\4.1.70.Final\netty-all-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-buffer\4.1.70.Final\netty-buffer-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec\4.1.70.Final\netty-codec-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-dns\4.1.70.Final\netty-codec-dns-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-haproxy\4.1.70.Final\netty-codec-haproxy-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-http\4.1.70.Final\netty-codec-http-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-http2\4.1.70.Final\netty-codec-http2-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-memcache\4.1.70.Final\netty-codec-memcache-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-mqtt\4.1.70.Final\netty-codec-mqtt-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-redis\4.1.70.Final\netty-codec-redis-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-smtp\4.1.70.Final\netty-codec-smtp-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-socks\4.1.70.Final\netty-codec-socks-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-stomp\4.1.70.Final\netty-codec-stomp-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-codec-xml\4.1.70.Final\netty-codec-xml-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-common\4.1.70.Final\netty-common-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-handler\4.1.70.Final\netty-handler-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-handler-proxy\4.1.70.Final\netty-handler-proxy-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-resolver\4.1.70.Final\netty-resolver-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-resolver-dns\4.1.70.Final\netty-resolver-dns-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport\4.1.70.Final\netty-transport-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-rxtx\4.1.70.Final\netty-transport-rxtx-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-sctp\4.1.70.Final\netty-transport-sctp-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-udt\4.1.70.Final\netty-transport-udt-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.70.Final\netty-transport-classes-epoll-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.70.Final\netty-transport-native-unix-common-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.70.Final\netty-transport-classes-kqueue-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.70.Final\netty-resolver-dns-classes-macos-4.1.70.Final.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-native-epoll\4.1.70.Final\netty-transport-native-epoll-4.1.70.Final-linux-x86_64.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-native-epoll\4.1.70.Final\netty-transport-native-epoll-4.1.70.Final-linux-aarch_64.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.70.Final\netty-transport-native-kqueue-4.1.70.Final-osx-x86_64.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.70.Final\netty-transport-native-kqueue-4.1.70.Final-osx-aarch_64.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.70.Final\netty-resolver-dns-native-macos-4.1.70.Final-osx-x86_64.jar;C:\Users\Akundar\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.70.Final\netty-resolver-dns-native-macos-4.1.70.Final-osx-aarch_64.jar;C:\Users\Akundar\.m2\repository\io\github\bonigarcia\webdrivermanager\5.0.0\webdrivermanager-5.0.0.jar;C:\Users\Akundar\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\Users\Akundar\.m2\repository\com\github\docker-java\docker-java\3.2.11\docker-java-3.2.11.jar;C:\Users\Akundar\.m2\repository\com\github\docker-java\docker-java-core\3.2.11\docker-java-core-3.2.11.jar;C:\Users\Akundar\.m2\repository\com\github\docker-java\docker-java-api\3.2.11\docker-java-api-3.2.11.jar;C:\Users\Akundar\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Akundar\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Akundar\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Akundar\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Akundar\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.11\docker-java-transport-httpclient5-3.2.11.jar;C:\Users\Akundar\.m2\repository\com\github\docker-java\docker-java-transport\3.2.11\docker-java-transport-3.2.11.jar;C:\Users\Akundar\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\Akundar\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\Akundar\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\Akundar\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Akundar\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\Akundar\.m2\repository\org\slf4j\slf4j-log4j12\1.7.5\slf4j-log4j12-1.7.5.jar;C:\Users\Akundar\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Akundar"/>
     <property name="user.language" value="en"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Akundar\AppData\Local\Temp\surefire722945850159970311\surefirebooter11575720708431741274.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Akundar\AppData\Local\Temp\surefire11014959215962221834\surefirebooter16653130272695665792.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17+35-2724"/>
@@ -50,57 +50,1058 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Users\Akundar\Installers\openjdk-17_windows-x64_bin (1)\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/Akundar/Installers/openjdk-17_windows-x64_bin (1)/jdk-17/bin/server;C:/Users/Akundar/Installers/openjdk-17_windows-x64_bin (1)/jdk-17/bin;C:\Program Files (x86)\RSA SecurID Token Common;C:\Program Files\RSA SecurID Token Common;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath_target_9596750;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Akundar\Installers\openjdk-17_windows-x64_bin (1)\jdk-17\bin;C:\apache-maven-3.8.2-bin (1)\apache-maven-3.8.2\bin;C:\Users\Akundar\Downloads\edgedriver_win64;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Akundar\AppData\Local\Microsoft\WindowsApps;C:\Users\Akundar\AppData\Local\Programs\Git\cmd;C:\Users\Akundar\OneDrive - Capgemini\Desktop;;."/>
+    <property name="java.library.path" value="C:\Users\Akundar\Installers\openjdk-17_windows-x64_bin (1)\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/Akundar/Installers/openjdk-17_windows-x64_bin (1)/jdk-17/bin/server;C:/Users/Akundar/Installers/openjdk-17_windows-x64_bin (1)/jdk-17/bin;C:\Program Files (x86)\RSA SecurID Token Common;C:\Program Files\RSA SecurID Token Common;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath_target_9596750;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Akundar\Installers\openjdk-17_windows-x64_bin (1)\jdk-17\bin;C:\apache-maven-3.8.2-bin (1)\apache-maven-3.8.2\bin;C:\Users\Akundar\Downloads\edgedriver_win64;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Program Files\nodejs\;C:\Users\Akundar\AppData\Local\Android\Sdk\tools\bin;C:\Users\Akundar\AppData\Local\Android\Sdk\tools;C:\Users\Akundar\AppData\Local\Android\Sdk\platform-tools;C:\Users\Akundar\AppData\Local\Android\Sdk;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Akundar\AppData\Local\Microsoft\WindowsApps;C:\Users\Akundar\AppData\Local\Programs\Git\cmd;C:\Users\Akundar\AppData\Roaming\npm;C:\WINDOWS\system32;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="17+35-2724"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="verifyBannerCarousel" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="15.519">
+  <testcase name="verifyBannerCarousel" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="15.643">
     <system-out><![CDATA[Before navigating to: 'https://www.hdfclife.com/'
 Navigated to:'https://www.hdfclife.com/'
-14:25:58.734 [main] INFO  SeleniumTesting.AEMhdfc.HomepageTest - Homepage test cases started
+15:55:00.066 [main] INFO  SeleniumTesting.AEMhdfc.HomepageTest - Homepage test cases started
 Trying to find Element By : By.xpath: //li[@data-slide-to='1']
 Found Element By : By.xpath: //li[@data-slide-to='1']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (bf10672f0fec916058a225b4a2afc8a8)] -> xpath: //li[@data-slide-to='1']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (bf10672f0fec916058a225b4a2afc8a8)] -> xpath: //li[@data-slide-to='1']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //li[@data-slide-to='1']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //li[@data-slide-to='1']]
 Trying to find Element By : By.xpath: //div[@class='carousel-item active']//img[@class='bg-align']
 Found Element By : By.xpath: //div[@class='carousel-item active']//img[@class='bg-align']
 Trying to find Element By : By.xpath: //li[@data-slide-to='2']
 Found Element By : By.xpath: //li[@data-slide-to='2']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (bf10672f0fec916058a225b4a2afc8a8)] -> xpath: //li[@data-slide-to='2']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (bf10672f0fec916058a225b4a2afc8a8)] -> xpath: //li[@data-slide-to='2']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //li[@data-slide-to='2']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //li[@data-slide-to='2']]
 Trying to find Element By : By.xpath: //div[@class='carousel-item active']//img[@class='bg-align']
 Found Element By : By.xpath: //div[@class='carousel-item active']//img[@class='bg-align']
 Trying to find Element By : By.xpath: //li[@data-slide-to='3']
 Found Element By : By.xpath: //li[@data-slide-to='3']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (bf10672f0fec916058a225b4a2afc8a8)] -> xpath: //li[@data-slide-to='3']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (bf10672f0fec916058a225b4a2afc8a8)] -> xpath: //li[@data-slide-to='3']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //li[@data-slide-to='3']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //li[@data-slide-to='3']]
 Trying to find Element By : By.xpath: //div[@class='carousel-item active']//img[@class='bg-align']
 Found Element By : By.xpath: //div[@class='carousel-item active']//img[@class='bg-align']
 Trying to find Element By : By.xpath: //li[@data-slide-to='4']
 Found Element By : By.xpath: //li[@data-slide-to='4']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (bf10672f0fec916058a225b4a2afc8a8)] -> xpath: //li[@data-slide-to='4']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (bf10672f0fec916058a225b4a2afc8a8)] -> xpath: //li[@data-slide-to='4']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //li[@data-slide-to='4']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //li[@data-slide-to='4']]
 Trying to find Element By : By.xpath: //div[@class='carousel-item active']//img[@class='bg-align']
 Found Element By : By.xpath: //div[@class='carousel-item active']//img[@class='bg-align']
 Trying to find Element By : By.xpath: //li[@data-slide-to='0']
 Found Element By : By.xpath: //li[@data-slide-to='0']
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (bf10672f0fec916058a225b4a2afc8a8)] -> xpath: //li[@data-slide-to='0']]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (bf10672f0fec916058a225b4a2afc8a8)] -> xpath: //li[@data-slide-to='0']]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //li[@data-slide-to='0']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //li[@data-slide-to='0']]
 Trying to find Element By : By.xpath: //div[@class='carousel-item active']//img[@class='bg-align']
 Found Element By : By.xpath: //div[@class='carousel-item active']//img[@class='bg-align']
 ]]></system-out>
-    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 24400
+    <system-err><![CDATA[log4j:WARN No appenders could be found for logger (io.github.bonigarcia.wdm.cache.ResolutionCache).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 27669
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jan 07, 2022 2:25:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 19, 2022 3:54:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
+  </testcase>
+  <testcase name="verifySavingPlansOnBanner" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="15.224">
+    <system-out><![CDATA[Trying to find Element By : By.xpath: //a[@href='/savings-plans']//div
+Found Element By : By.xpath: //a[@href='/savings-plans']//div
+Trying to find Element By : By.xpath: //a[@href='/savings-plans']//div
+Found Element By : By.xpath: //a[@href='/savings-plans']//div
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //a[@href='/savings-plans']//div]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //a[@href='/savings-plans']//div]
+Trying to find Element By : By.xpath: //div[@class='headerWrap']//div[@class='logo']//a
+Found Element By : By.xpath: //div[@class='headerWrap']//div[@class='logo']//a
+Trying to find Element By : By.xpath: //div[@class='headerWrap']//div[@class='logo']//a
+Found Element By : By.xpath: //div[@class='headerWrap']//div[@class='logo']//a
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='headerWrap']//div[@class='logo']//a]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='headerWrap']//div[@class='logo']//a]
+]]></system-out>
+  </testcase>
+  <testcase name="verifyChildrenPlansOnBanner" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="14.916">
+    <system-out><![CDATA[Trying to find Element By : By.xpath: //a[@href='/children-insurance-plans']//div
+Found Element By : By.xpath: //a[@href='/children-insurance-plans']//div
+Trying to find Element By : By.xpath: //a[@href='/children-insurance-plans']//div
+Found Element By : By.xpath: //a[@href='/children-insurance-plans']//div
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //a[@href='/children-insurance-plans']//div]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //a[@href='/children-insurance-plans']//div]
+Trying to find Element By : By.xpath: //div[@class='headerWrap']//div[@class='logo']//a
+Found Element By : By.xpath: //div[@class='headerWrap']//div[@class='logo']//a
+Trying to find Element By : By.xpath: //div[@class='headerWrap']//div[@class='logo']//a
+Found Element By : By.xpath: //div[@class='headerWrap']//div[@class='logo']//a
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='headerWrap']//div[@class='logo']//a]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='headerWrap']//div[@class='logo']//a]
+]]></system-out>
+  </testcase>
+  <testcase name="verifyRetirementPlansOnBanner" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="14.956">
+    <system-out><![CDATA[Trying to find Element By : By.xpath: //a[@href='/retirement-and-pension-plans']//div//h2[@class='h5']
+Found Element By : By.xpath: //a[@href='/retirement-and-pension-plans']//div//h2[@class='h5']
+Trying to find Element By : By.xpath: //a[@href='/retirement-and-pension-plans']//div//h2[@class='h5']
+Found Element By : By.xpath: //a[@href='/retirement-and-pension-plans']//div//h2[@class='h5']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //a[@href='/retirement-and-pension-plans']//div//h2[@class='h5']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //a[@href='/retirement-and-pension-plans']//div//h2[@class='h5']]
+Trying to find Element By : By.xpath: //div[@class='headerWrap']//div[@class='logo']//a
+Found Element By : By.xpath: //div[@class='headerWrap']//div[@class='logo']//a
+Trying to find Element By : By.xpath: //div[@class='headerWrap']//div[@class='logo']//a
+Found Element By : By.xpath: //div[@class='headerWrap']//div[@class='logo']//a
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='headerWrap']//div[@class='logo']//a]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='headerWrap']//div[@class='logo']//a]
+]]></system-out>
+  </testcase>
+  <testcase name="verifyViewAllButton" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="3.321">
+    <system-out><![CDATA[Trying to find Element By : By.xpath: //div[@class='viewall']
+Found Element By : By.xpath: //div[@class='viewall']
+Trying to find Element By : By.xpath: //div[@class='viewall']
+Found Element By : By.xpath: //div[@class='viewall']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='viewall']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='viewall']]
+]]></system-out>
+  </testcase>
+  <testcase name="verifyULIPPlansOnBanner" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="14.75">
+    <system-out><![CDATA[Trying to find Element By : By.xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-4']
+Found Element By : By.xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-4']
+Trying to find Element By : By.xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-4']
+Found Element By : By.xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-4']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-4']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-4']]
+Trying to find Element By : By.xpath: //div[@class='headerWrap']//div[@class='logo']//a
+Found Element By : By.xpath: //div[@class='headerWrap']//div[@class='logo']//a
+Trying to find Element By : By.xpath: //div[@class='headerWrap']//div[@class='logo']//a
+Found Element By : By.xpath: //div[@class='headerWrap']//div[@class='logo']//a
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='headerWrap']//div[@class='logo']//a]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='headerWrap']//div[@class='logo']//a]
+]]></system-out>
+  </testcase>
+  <testcase name="verifyFixedMaturityPlanOnBanner" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="19.178">
+    <system-out><![CDATA[Trying to find Element By : By.xpath: //div[@class='viewall']
+Found Element By : By.xpath: //div[@class='viewall']
+Trying to find Element By : By.xpath: //div[@class='viewall']
+Found Element By : By.xpath: //div[@class='viewall']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='viewall']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='viewall']]
+Trying to find Element By : By.xpath: //a[@href='/savings-plans/sanchay-fixed-maturity-plan']//div
+Found Element By : By.xpath: //a[@href='/savings-plans/sanchay-fixed-maturity-plan']//div
+Trying to find Element By : By.xpath: //a[@href='/savings-plans/sanchay-fixed-maturity-plan']//div
+Found Element By : By.xpath: //a[@href='/savings-plans/sanchay-fixed-maturity-plan']//div
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //a[@href='/savings-plans/sanchay-fixed-maturity-plan']//div]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //a[@href='/savings-plans/sanchay-fixed-maturity-plan']//div]
+Trying to find Element By : By.xpath: //div[@class='headerWrap']//div[@class='logo']//a
+Found Element By : By.xpath: //div[@class='headerWrap']//div[@class='logo']//a
+Trying to find Element By : By.xpath: //div[@class='headerWrap']//div[@class='logo']//a
+Found Element By : By.xpath: //div[@class='headerWrap']//div[@class='logo']//a
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='headerWrap']//div[@class='logo']//a]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='headerWrap']//div[@class='logo']//a]
+]]></system-out>
+  </testcase>
+  <testcase name="verifyHealthPlansOnBanner" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="17.813">
+    <system-out><![CDATA[Trying to find Element By : By.xpath: //div[@class='viewall']
+Found Element By : By.xpath: //div[@class='viewall']
+Trying to find Element By : By.xpath: //div[@class='viewall']
+Found Element By : By.xpath: //div[@class='viewall']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='viewall']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='viewall']]
+Trying to find Element By : By.xpath: //a[@href='/health-insurance-plans']//div//h2[@class='h5']
+Found Element By : By.xpath: //a[@href='/health-insurance-plans']//div//h2[@class='h5']
+Trying to find Element By : By.xpath: //a[@href='/health-insurance-plans']//div//h2[@class='h5']
+Found Element By : By.xpath: //a[@href='/health-insurance-plans']//div//h2[@class='h5']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //a[@href='/health-insurance-plans']//div//h2[@class='h5']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //a[@href='/health-insurance-plans']//div//h2[@class='h5']]
+Trying to find Element By : By.xpath: //div[@class='headerWrap']//div[@class='logo']//a
+Found Element By : By.xpath: //div[@class='headerWrap']//div[@class='logo']//a
+Trying to find Element By : By.xpath: //div[@class='headerWrap']//div[@class='logo']//a
+Found Element By : By.xpath: //div[@class='headerWrap']//div[@class='logo']//a
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='headerWrap']//div[@class='logo']//a]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='headerWrap']//div[@class='logo']//a]
+]]></system-out>
+  </testcase>
+  <testcase name="verifyPosPlansOnBanner" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="18.895">
+    <system-out><![CDATA[Trying to find Element By : By.xpath: //div[@class='viewall']
+Found Element By : By.xpath: //div[@class='viewall']
+Trying to find Element By : By.xpath: //div[@class='viewall']
+Found Element By : By.xpath: //div[@class='viewall']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='viewall']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='viewall']]
+Trying to find Element By : By.xpath: //a[@href='/savings-plans/pos-guaranteed-savings-plan']//div//h2[@class='h5']
+Found Element By : By.xpath: //a[@href='/savings-plans/pos-guaranteed-savings-plan']//div//h2[@class='h5']
+Trying to find Element By : By.xpath: //a[@href='/savings-plans/pos-guaranteed-savings-plan']//div//h2[@class='h5']
+Found Element By : By.xpath: //a[@href='/savings-plans/pos-guaranteed-savings-plan']//div//h2[@class='h5']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //a[@href='/savings-plans/pos-guaranteed-savings-plan']//div//h2[@class='h5']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //a[@href='/savings-plans/pos-guaranteed-savings-plan']//div//h2[@class='h5']]
+Trying to find Element By : By.xpath: //div[@class='headerWrap']//div[@class='logo']//a
+Found Element By : By.xpath: //div[@class='headerWrap']//div[@class='logo']//a
+Trying to find Element By : By.xpath: //div[@class='headerWrap']//div[@class='logo']//a
+Found Element By : By.xpath: //div[@class='headerWrap']//div[@class='logo']//a
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='headerWrap']//div[@class='logo']//a]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='headerWrap']//div[@class='logo']//a]
+]]></system-out>
+  </testcase>
+  <testcase name="verifyComboPlansOnBanner" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="23.532">
+    <system-out><![CDATA[Trying to find Element By : By.xpath: //div[@class='viewall']
+Found Element By : By.xpath: //div[@class='viewall']
+Trying to find Element By : By.xpath: //div[@class='viewall']
+Found Element By : By.xpath: //div[@class='viewall']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='viewall']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='viewall']]
+Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
+Found Element By : By.xpath: //div[@class='swiper-button-next']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='swiper-button-next']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='swiper-button-next']]
+Trying to find Element By : By.xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-8']
+Found Element By : By.xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-8']
+Trying to find Element By : By.xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-8']
+Found Element By : By.xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-8']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-8']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-8']]
+Trying to find Element By : By.xpath: //div[@class='headerWrap']//div[@class='logo']//a
+Found Element By : By.xpath: //div[@class='headerWrap']//div[@class='logo']//a
+Trying to find Element By : By.xpath: //div[@class='headerWrap']//div[@class='logo']//a
+Found Element By : By.xpath: //div[@class='headerWrap']//div[@class='logo']//a
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='headerWrap']//div[@class='logo']//a]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='headerWrap']//div[@class='logo']//a]
+]]></system-out>
+  </testcase>
+  <testcase name="verifyGroupPlansOnBanner" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="36.694">
+    <system-out><![CDATA[Trying to find Element By : By.xpath: //div[@class='viewall']
+Found Element By : By.xpath: //div[@class='viewall']
+Trying to find Element By : By.xpath: //div[@class='viewall']
+Found Element By : By.xpath: //div[@class='viewall']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='viewall']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='viewall']]
+Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
+Found Element By : By.xpath: //div[@class='swiper-button-next']
+Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
+Found Element By : By.xpath: //div[@class='swiper-button-next']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='swiper-button-next']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='swiper-button-next']]
+Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
+Found Element By : By.xpath: //div[@class='swiper-button-next']
+Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
+Found Element By : By.xpath: //div[@class='swiper-button-next']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='swiper-button-next']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='swiper-button-next']]
+Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
+Found Element By : By.xpath: //div[@class='swiper-button-next']
+Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
+Found Element By : By.xpath: //div[@class='swiper-button-next']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='swiper-button-next']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='swiper-button-next']]
+Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
+Found Element By : By.xpath: //div[@class='swiper-button-next']
+Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
+Found Element By : By.xpath: //div[@class='swiper-button-next']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='swiper-button-next']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='swiper-button-next']]
+Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
+Found Element By : By.xpath: //div[@class='swiper-button-next']
+Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
+Found Element By : By.xpath: //div[@class='swiper-button-next']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='swiper-button-next']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='swiper-button-next']]
+Trying to find Element By : By.xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-9']
+Found Element By : By.xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-9']
+Trying to find Element By : By.xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-9']
+Found Element By : By.xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-9']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-9']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //a[@class='tile']//div//span[@class='bg-Term_plans bg-plans-9']]
+Trying to find Element By : By.xpath: //div[@class='headerWrap']//div[@class='logo']//a
+Found Element By : By.xpath: //div[@class='headerWrap']//div[@class='logo']//a
+Trying to find Element By : By.xpath: //div[@class='headerWrap']//div[@class='logo']//a
+Found Element By : By.xpath: //div[@class='headerWrap']//div[@class='logo']//a
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='headerWrap']//div[@class='logo']//a]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='headerWrap']//div[@class='logo']//a]
+]]></system-out>
+  </testcase>
+  <testcase name="verifyArrowButtonsOnBanner" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="43.056">
+    <system-out><![CDATA[Trying to find Element By : By.xpath: //div[@class='viewall']
+Found Element By : By.xpath: //div[@class='viewall']
+Trying to find Element By : By.xpath: //div[@class='viewall']
+Found Element By : By.xpath: //div[@class='viewall']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='viewall']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='viewall']]
+Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
+Found Element By : By.xpath: //div[@class='swiper-button-next']
+Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
+Found Element By : By.xpath: //div[@class='swiper-button-next']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='swiper-button-next']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='swiper-button-next']]
+Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
+Found Element By : By.xpath: //div[@class='swiper-button-next']
+Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
+Found Element By : By.xpath: //div[@class='swiper-button-next']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='swiper-button-next']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='swiper-button-next']]
+Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
+Found Element By : By.xpath: //div[@class='swiper-button-next']
+Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
+Found Element By : By.xpath: //div[@class='swiper-button-next']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='swiper-button-next']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='swiper-button-next']]
+Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
+Found Element By : By.xpath: //div[@class='swiper-button-next']
+Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
+Found Element By : By.xpath: //div[@class='swiper-button-next']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='swiper-button-next']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='swiper-button-next']]
+Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
+Found Element By : By.xpath: //div[@class='swiper-button-next']
+Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
+Found Element By : By.xpath: //div[@class='swiper-button-next']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='swiper-button-next']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='swiper-button-next']]
+Trying to find Element By : By.xpath: //div[@class='swiper-button-next swiper-button-disabled']
+Found Element By : By.xpath: //div[@class='swiper-button-next swiper-button-disabled']
+Trying to find Element By : By.xpath: //div[@class='swiper-button-prev']
+Found Element By : By.xpath: //div[@class='swiper-button-prev']
+Trying to find Element By : By.xpath: //div[@class='swiper-button-prev']
+Found Element By : By.xpath: //div[@class='swiper-button-prev']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='swiper-button-prev']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='swiper-button-prev']]
+Trying to find Element By : By.xpath: //div[@class='swiper-button-prev']
+Found Element By : By.xpath: //div[@class='swiper-button-prev']
+Trying to find Element By : By.xpath: //div[@class='swiper-button-prev']
+Found Element By : By.xpath: //div[@class='swiper-button-prev']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='swiper-button-prev']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='swiper-button-prev']]
+Trying to find Element By : By.xpath: //div[@class='swiper-button-prev']
+Found Element By : By.xpath: //div[@class='swiper-button-prev']
+Trying to find Element By : By.xpath: //div[@class='swiper-button-prev']
+Found Element By : By.xpath: //div[@class='swiper-button-prev']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='swiper-button-prev']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='swiper-button-prev']]
+Trying to find Element By : By.xpath: //div[@class='swiper-button-prev']
+Found Element By : By.xpath: //div[@class='swiper-button-prev']
+Trying to find Element By : By.xpath: //div[@class='swiper-button-prev']
+Found Element By : By.xpath: //div[@class='swiper-button-prev']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='swiper-button-prev']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='swiper-button-prev']]
+Trying to find Element By : By.xpath: //div[@class='swiper-button-prev']
+Found Element By : By.xpath: //div[@class='swiper-button-prev']
+Trying to find Element By : By.xpath: //div[@class='swiper-button-prev']
+Found Element By : By.xpath: //div[@class='swiper-button-prev']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='swiper-button-prev']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='swiper-button-prev']]
+Trying to find Element By : By.xpath: //div[@class='swiper-button-prev swiper-button-disabled']
+Found Element By : By.xpath: //div[@class='swiper-button-prev swiper-button-disabled']
+Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
+Found Element By : By.xpath: //div[@class='swiper-button-next']
+Trying to find Element By : By.xpath: //div[@class='swiper-button-next']
+Found Element By : By.xpath: //div[@class='swiper-button-next']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='swiper-button-next']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //div[@class='swiper-button-next']]
+Trying to find Element By : By.xpath: //div[@class='swiper-button-prev']
+Found Element By : By.xpath: //div[@class='swiper-button-prev']
+]]></system-out>
+  </testcase>
+  <testcase name="verifyMouseIndicator" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="9.118">
+    <system-out><![CDATA[Trying to find Element By : By.xpath: //img[@src='/content/dam/hdfclifeinsurancecompany/home/banner/mc.svg']
+Found Element By : By.xpath: //img[@src='/content/dam/hdfclifeinsurancecompany/home/banner/mc.svg']
+Trying to find Element By : By.xpath: //img[@src='/content/dam/hdfclifeinsurancecompany/home/banner/mc.svg']
+Found Element By : By.xpath: //img[@src='/content/dam/hdfclifeinsurancecompany/home/banner/mc.svg']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //img[@src='/content/dam/hdfclifeinsurancecompany/home/banner/mc.svg']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //img[@src='/content/dam/hdfclifeinsurancecompany/home/banner/mc.svg']]
+]]></system-out>
+  </testcase>
+  <testcase name="verifyschedulePopupWithValidDataProductPage[Amit Kundar, 9.768462054E9](1)" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="10.469">
+    <system-out><![CDATA[15:59:07.367 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+15:59:07.369 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+15:59:07.370 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+15:59:07.370 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+15:59:07.371 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+15:59:07.372 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+15:59:07.380 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+15:59:07.380 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+15:59:07.383 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+15:59:07.384 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+15:59:07.384 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+15:59:07.384 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+15:59:07.385 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+15:59:07.385 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+15:59:07.419 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+15:59:07.420 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle themefd26doctype
+15:59:07.458 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stylesheet5d8bdoctype
+15:59:07.461 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctstylesheet4257type
+15:59:07.463 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfonts6623type
+15:59:07.465 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfont14d8type
+15:59:07.468 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfills2c6ftype
+15:59:07.469 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfill550ctype
+15:59:07.470 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborders0d66type
+15:59:07.472 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborderf935type
+15:59:07.474 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellxfs1322type
+15:59:07.476 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctxf97f7type
+15:59:07.479 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellstylexfsa81ftype
+15:59:07.480 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctdxfsb26atype
+15:59:07.481 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cttablestyles872ftype
+15:59:07.484 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle sstf81fdoctype
+15:59:07.486 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsst44f3type
+15:59:07.493 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrsta472type
+15:59:07.503 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle workbookec17doctype
+15:59:07.506 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworkbook83c3type
+15:59:07.509 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheets49fdtype
+15:59:07.510 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheet4dbetype
+15:59:07.511 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle strelationshipid1e94type
+15:59:07.512 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle worksheetf539doctype
+15:59:07.516 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctworksheet530dtype
+15:59:07.520 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctsheetdata8408type
+15:59:07.523 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrowdd39type
+15:59:07.527 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcell842btype
+15:59:07.531 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcellrefe4e0type
+15:59:07.536 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcols627ctype
+15:59:07.538 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcola95ftype
+15:59:07.548 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stxstringf179type
+15:59:07.551 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcelltypebf95type
+15:59:07.558 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcellstylexfid70c7type
+15:59:07.561 [main] TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stnumfmtid76fbtype
+Trying to find Element By : By.xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']
+Found Element By : By.xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']]
+Trying to find Element By : By.xpath: //input[@class='first-name']
+Found Element By : By.xpath: //input[@class='first-name']
+Trying to find Element By : By.xpath: //input[@class='modilewidth']
+Found Element By : By.xpath: //input[@class='modilewidth']
+Trying to find Element By : By.id: insurance_category
+Found Element By : By.id: insurance_category
+Trying to find Element By : By.id: insurance_category
+Found Element By : By.id: insurance_category
+Trying to find Element By : By.id: insurance_category
+Found Element By : By.id: insurance_category
+Trying to find Element By : By.xpath: .//option[@value = "Health Plans"]
+Found Element By : By.xpath: .//option[@value = "Health Plans"]
+Trying to click on: [[[[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> id: insurance_category]] -> xpath: .//option[@value = "Health Plans"]]
+Clicked on: [[[[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> id: insurance_category]] -> xpath: .//option[@value = "Health Plans"]]
+Trying to find Element By : By.xpath: //span[@class='close-icon1']
+Found Element By : By.xpath: //span[@class='close-icon1']
+Trying to find Element By : By.xpath: //span[@class='close-icon1']
+Found Element By : By.xpath: //span[@class='close-icon1']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //span[@class='close-icon1']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //span[@class='close-icon1']]
+]]></system-out>
+  </testcase>
+  <testcase name="verifyschedulepopupblankSubmit" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="9.707">
+    <system-out><![CDATA[Trying to find Element By : By.xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']
+Found Element By : By.xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']]
+Trying to find Element By : By.id: scheduleCallBtn
+Found Element By : By.id: scheduleCallBtn
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> id: scheduleCallBtn]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> id: scheduleCallBtn]
+Trying to find Element By : By.xpath: //span[contains(text(),'Please enter valid name')]
+Found Element By : By.xpath: //span[contains(text(),'Please enter valid name')]
+Trying to find Element By : By.xpath: //span[contains(text(),'Please enter valid name')]
+Found Element By : By.xpath: //span[contains(text(),'Please enter valid name')]
+Trying to find Element By : By.xpath: //span[contains(text(),'Please enter mobile number')]
+Found Element By : By.xpath: //span[contains(text(),'Please enter mobile number')]
+Trying to find Element By : By.xpath: //span[contains(text(),'Please enter mobile number')]
+Found Element By : By.xpath: //span[contains(text(),'Please enter mobile number')]
+Trying to find Element By : By.xpath: //span[contains(text(),'Please select plan type')]
+Found Element By : By.xpath: //span[contains(text(),'Please select plan type')]
+Trying to find Element By : By.xpath: //span[contains(text(),'Please select plan type')]
+Found Element By : By.xpath: //span[contains(text(),'Please select plan type')]
+Trying to find Element By : By.className: scb-checkbox
+Found Element By : By.className: scb-checkbox
+Trying to find Element By : By.className: scb-checkbox
+Found Element By : By.className: scb-checkbox
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> class name: scb-checkbox]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> class name: scb-checkbox]
+Trying to find Element By : By.xpath: //span[@class='scb-checkbox-error error-txt']
+Found Element By : By.xpath: //span[@class='scb-checkbox-error error-txt']
+Trying to find Element By : By.xpath: //span[@class='close-icon1']
+Found Element By : By.xpath: //span[@class='close-icon1']
+Trying to find Element By : By.xpath: //span[@class='close-icon1']
+Found Element By : By.xpath: //span[@class='close-icon1']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //span[@class='close-icon1']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //span[@class='close-icon1']]
+]]></system-out>
+  </testcase>
+  <testcase name="verifyschedulePopupwithoutmindata" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="6.569">
+    <system-out><![CDATA[Trying to find Element By : By.xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']
+Found Element By : By.xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //button[@class='btn btn-primary btnred schedule-btn scb-data-layer']]
+Trying to find Element By : By.xpath: //input[@class='first-name']
+Found Element By : By.xpath: //input[@class='first-name']
+Trying to find Element By : By.xpath: //input[@class='modilewidth']
+Found Element By : By.xpath: //input[@class='modilewidth']
+Trying to find Element By : By.xpath: //span[contains(text(),'Field should contain minimum 3 and max 50 characters')]
+Found Element By : By.xpath: //span[contains(text(),'Field should contain minimum 3 and max 50 characters')]
+Trying to find Element By : By.xpath: //span[contains(text(),'Field should contain minimum 3 and max 50 characters')]
+Found Element By : By.xpath: //span[contains(text(),'Field should contain minimum 3 and max 50 characters')]
+Trying to find Element By : By.xpath: //span[contains(text(),'Field should contain minimum 3 and max 50 characters')]
+Found Element By : By.xpath: //span[contains(text(),'Field should contain minimum 3 and max 50 characters')]
+Trying to find Element By : By.xpath: //span[contains(text(),'Please enter valid mobile number')]
+Found Element By : By.xpath: //span[contains(text(),'Please enter valid mobile number')]
+Trying to find Element By : By.xpath: //span[@class='close-icon1']
+Found Element By : By.xpath: //span[@class='close-icon1']
+Trying to find Element By : By.xpath: //span[@class='close-icon1']
+Found Element By : By.xpath: //span[@class='close-icon1']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //span[@class='close-icon1']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //span[@class='close-icon1']]
+]]></system-out>
+  </testcase>
+  <testcase name="verifyCalculatorCloseBtn" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="9.24">
+    <system-out><![CDATA[Trying to find Element By : By.xpath: //button[@class='calculate-btn btn btn-primary btnred cal-data-layer']
+Found Element By : By.xpath: //button[@class='calculate-btn btn btn-primary btnred cal-data-layer']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //button[@class='calculate-btn btn btn-primary btnred cal-data-layer']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //button[@class='calculate-btn btn btn-primary btnred cal-data-layer']]
+Trying to find Element By : By.xpath: //span[@class='close-icon calculateClose']
+Found Element By : By.xpath: //span[@class='close-icon calculateClose']
+Trying to find Element By : By.xpath: //span[@class='close-icon calculateClose']
+Found Element By : By.xpath: //span[@class='close-icon calculateClose']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //span[@class='close-icon calculateClose']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //span[@class='close-icon calculateClose']]
+]]></system-out>
+  </testcase>
+  <testcase name="verifySanchayPlusBuyNowBtn" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="12.369">
+    <system-out><![CDATA[Trying to find Element By : By.xpath: //a[@data-button-name='BUY NOW']
+Found Element By : By.xpath: //a[@data-button-name='BUY NOW']
+Trying to find Element By : By.xpath: //a[@data-button-name='BUY NOW']
+Found Element By : By.xpath: //a[@data-button-name='BUY NOW']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //a[@data-button-name='BUY NOW']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //a[@data-button-name='BUY NOW']]
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDisclaimer" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="15.221">
+    <system-out><![CDATA[Trying to find Element By : By.xpath: //a[@data-toggle='collapse']
+Found Element By : By.xpath: //a[@data-toggle='collapse']
+Trying to find Element By : By.xpath: //a[@data-toggle='collapse']
+Found Element By : By.xpath: //a[@data-toggle='collapse']
+Trying to find Element By : By.xpath: //a[@data-toggle='collapse']
+Found Element By : By.xpath: //a[@data-toggle='collapse']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //a[@data-toggle='collapse']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //a[@data-toggle='collapse']]
+]]></system-out>
+  </testcase>
+  <testcase name="verifyProductAndPopularLinks" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="6.221">
+    <system-out><![CDATA[16:00:14.173 [main] INFO  PageObjects.Homepage - Popular and Product Listing Footer link check started
+Trying to find Element By : By.cssSelector: .wrapper.footerMenuSec a
+Found Element By : By.cssSelector: .wrapper.footerMenuSec a
+16:00:14.802 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/term-insurance-plans------>OK
+16:00:14.875 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/ulip-plans------>OK
+16:00:15.026 [main] INFO  PageObjects.Homepage - https://onlinepayments.hdfclife.com/HDFCLife/quick_pay.html?source=NW_HP_PP_POPLinks&agentcode=00399206&utm_medium=website&utm_source=home-page&utm_campaign&utm_content=banner&prod=PP------>OK
+16:00:15.183 [main] INFO  PageObjects.Homepage - https://myaccount.hdfclife.com/?source=NW_HP_MyACC_POPLinks&agentcode=00399206&utm_medium=website&utm_source=home-page&utm_campaign&utm_content=banner&prod=MyACC------>OK
+16:00:15.244 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/fund-performance------>OK
+16:00:15.320 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/life-insurance-plans------>OK
+16:00:15.394 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/term-insurance-plans/click-2-protect-life------>OK
+16:00:15.471 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/term-insurance-plans/saral-jeevan-bima------>OK
+16:00:15.556 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/term-insurance-plans------>OK
+16:00:15.632 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/ulip-plans/click-2-wealth-ulip-plan------>OK
+16:00:15.702 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/ulip-plans/click-2-invest-ulip-plan------>OK
+16:00:15.768 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/ulip-plans/progrowth-plus-ulip-plan------>OK
+16:00:15.844 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/ulip-plans------>OK
+16:00:15.910 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/children-insurance-plans/youngstar-super-premium------>OK
+16:00:16.012 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/children-insurance-plans/youngstar-udaan------>OK
+16:00:16.087 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/children-insurance-plans------>OK
+16:00:16.170 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/savings-plans/pos-guaranteed-savings-plan------>OK
+16:00:16.234 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/retirement-and-pension-plans/pension-guaranteed-plan------>OK
+16:00:16.285 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/retirement-and-pension-plans/new-immediate-annuity-plan------>OK
+16:00:16.352 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/retirement-and-pension-plans/guaranteed-pension-plan------>OK
+16:00:16.443 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/retirement-and-pension-plans/click-2-retire------>OK
+16:00:16.538 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/retirement-and-pension-plans------>OK
+16:00:16.591 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/savings-plans/sanchay-fixed-maturity-plan------>OK
+16:00:16.713 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/savings-plans/sanchay-par-advantage------>OK
+16:00:16.779 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/savings-plans/sanchay-plus------>OK
+16:00:16.846 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/savings-plans------>OK
+16:00:16.918 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/health-insurance-plans/click-2-protect-corona-kavach------>OK
+16:00:17.006 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/health-insurance-plans/click-2-protect-health-plan------>OK
+16:00:17.077 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/health-insurance-plans/cancer-care-insurance------>OK
+16:00:17.174 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/health-insurance-plans/cardiac-care------>OK
+16:00:17.251 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/health-insurance-plans------>OK
+16:00:17.358 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/sanchay-maximiser------>OK
+16:00:17.358 [main] INFO  PageObjects.Homepage - Popular and Product Listing Footer link check ended
+]]></system-out>
+  </testcase>
+  <testcase name="verifyStayConnectedwithUs" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="9.545">
+    <system-out><![CDATA[16:00:20.376 [main] INFO  PageObjects.Homepage - Stay Connected With Us Footer link check started
+Trying to find Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Found Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Trying to find Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Found Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Trying to find Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Found Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Trying to find Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Found Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Trying to find Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Found Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Trying to find Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Found Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Trying to find Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Found Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Trying to find Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Found Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Trying to find Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Found Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Trying to find Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Found Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Trying to find Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Found Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Trying to find Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Found Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Trying to find Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Found Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Trying to find Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Found Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Trying to find Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Found Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Trying to find Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Found Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Trying to find Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Found Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Trying to find Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Found Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Trying to find Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Found Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Trying to find Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Found Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Trying to find Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Found Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Trying to find Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Found Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Trying to find Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Found Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Trying to find Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Found Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Trying to find Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Found Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Trying to find Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Found Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Trying to find Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Found Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Trying to find Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Found Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Trying to find Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Found Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Trying to find Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Found Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Trying to find Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Found Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Trying to find Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Found Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Trying to find Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+Found Element By : By.cssSelector: .stayConnectedSec.footerFormBlk a
+16:00:20.987 [main] INFO  PageObjects.Homepage - https://www.facebook.com/HDFClife------>OK
+16:00:21.303 [main] INFO  PageObjects.Homepage - https://www.linkedin.com/company/hdfc-life------>Request denied
+16:00:21.744 [main] INFO  PageObjects.Homepage - https://twitter.com/HDFClife------>OK
+16:00:22.090 [main] INFO  PageObjects.Homepage - https://www.youtube.com/user/hdfclife10------>OK
+16:00:23.697 [main] INFO  PageObjects.Homepage - https://www.instagram.com/hdfclife/------>OK
+16:00:25.055 [main] INFO  PageObjects.Homepage - https://www.slideshare.net/hdfclife------>OK
+16:00:26.467 [main] INFO  PageObjects.Homepage - https://bit.ly/372sT7c------>OK
+16:00:26.902 [main] INFO  PageObjects.Homepage - https://bit.ly/3pwaRmy------>OK
+16:00:26.902 [main] INFO  PageObjects.Homepage - Stay Connected With Us Footer link check ended
+]]></system-out>
+  </testcase>
+  <testcase name="verifyDownloadLinks" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="12.448">
+    <system-out><![CDATA[Trying to find Element By : By.xpath: //a[@class='appleIcon']
+Found Element By : By.xpath: //a[@class='appleIcon']
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //a[@class='appleIcon']]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: //a[@class='appleIcon']]
+Trying to find Element By : By.xpath: (//a[@data-position='Download App Icon'])[2]
+Found Element By : By.xpath: (//a[@data-position='Download App Icon'])[2]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: (//a[@data-position='Download App Icon'])[2]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> xpath: (//a[@data-position='Download App Icon'])[2]]
+]]></system-out>
+  </testcase>
+  <testcase name="verifySubscribeOptionWithValidData" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="9.298">
+    <failure message="The following asserts failed:&#10;	expected [true] but found [false],&#10;	expected [Thank you for subscribing to us.] but found []" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+The following asserts failed:
+	expected [true] but found [false],
+	expected [Thank you for subscribing to us.] but found []
+	at SeleniumTesting.AEMhdfc.HomepageTest.verifySubscribeOptionWithValidData(HomepageTest.java:264)
+]]></failure>
+    <system-out><![CDATA[Trying to find Element By : By.className: emailAddress
+Found Element By : By.className: emailAddress
+Trying to find Element By : By.className: emailAddress
+Found Element By : By.className: emailAddress
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> class name: emailAddress]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> class name: emailAddress]
+Trying to find Element By : By.id: subscribeButton
+Found Element By : By.id: subscribeButton
+Trying to find Element By : By.className: emailAddress
+Found Element By : By.className: emailAddress
+Trying to find Element By : By.id: subscribeButton
+Found Element By : By.id: subscribeButton
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> id: subscribeButton]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (c0f3aa311fb6dd7a780fa9a06c463ca1)] -> id: subscribeButton]
+Trying to find Element By : By.xpath: //span[@class='message-success-subscribe']
+Found Element By : By.xpath: //span[@class='message-success-subscribe']
+Trying to find Element By : By.xpath: //span[@class='message-success-subscribe']
+Found Element By : By.xpath: //span[@class='message-success-subscribe']
+]]></system-out>
+  </testcase>
+  <testcase name="verifyGroupWebsitesLinks" classname="SeleniumTesting.AEMhdfc.HomepageTest" time="14.869">
+    <system-out><![CDATA[16:00:51.835 [main] INFO  PageObjects.Homepage - Group Websites link check started
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+Trying to find Element By : By.cssSelector: .wrapper.externalLinks a
+Found Element By : By.cssSelector: .wrapper.externalLinks a
+16:00:53.628 [main] INFO  PageObjects.Homepage - https://www.hdfc.com/------>OK
+16:00:53.684 [main] INFO  PageObjects.Homepage - http://www.hdfcbank.com/------>Moved Permanently
+16:00:53.755 [main] INFO  PageObjects.Homepage - http://www.hdfcsec.com/------>Moved Permanently
+16:00:53.826 [main] INFO  PageObjects.Homepage - http://www.hdfcfund.com/------>Moved Permanently
+16:00:55.634 [main] INFO  PageObjects.Homepage - https://www.hdfcpension.com/------>OK
+16:00:56.010 [main] INFO  PageObjects.Homepage - https://www.hdfcergo.com/------>OK
+16:00:56.057 [main] INFO  PageObjects.Homepage - http://www.hdbfs.com/------>Moved Permanently
+16:00:57.139 [main] INFO  PageObjects.Homepage - http://hdfcrealty.com/------>OK
+16:00:57.413 [main] INFO  PageObjects.Homepage - http://www.hdfcpropertyfund.com/------>OK
+16:00:57.500 [main] INFO  PageObjects.Homepage - http://www.hdfclifere.com/------>Moved Permanently
+16:00:58.206 [main] INFO  PageObjects.Homepage - http://www.credila.com/------>OK
+16:00:58.711 [main] INFO  PageObjects.Homepage - https://www.hdfcsales.com/------>OK
+16:00:58.891 [main] INFO  PageObjects.Homepage - https://www.exidelife.in/------>OK
+16:00:58.998 [main] INFO  PageObjects.Homepage - https://myaccount.hdfclife.com/portal.do?_portalid=cpRegistrationLink&_pageid=cp_dndPage------>OK
+16:00:59.065 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/disclaimer------>OK
+16:00:59.130 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/privacy-policy------>OK
+16:00:59.193 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/terms-and-conditions------>OK
+16:00:59.272 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/content/hdfclifeinsurancecompany/in/en/about-us#investorRelations------>Moved Permanently
+16:00:59.367 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/irda-public-notice-on-spurious-calls------>OK
+16:00:59.433 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/content/hdfclifeinsurancecompany/in/en/customer-service/insurance-notice-corner------>Moved Permanently
+16:00:59.484 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/content/hdfclifeinsurancecompany/in/en/customer-service/claims/unclaimed-policyholder-payment-dues-amount-disclosure------>Moved Permanently
+16:01:00.439 [main] INFO  PageObjects.Homepage - https://www.irdai.gov.in/Defaulthome.aspx?page=H1------>OK
+16:01:00.760 [main] INFO  PageObjects.Homepage - https://www.irdai.gov.in/ADMINCMS/cms/NormalData_Layout.aspx?page=PageNo234&mid=7.2------>OK
+16:01:01.152 [main] INFO  PageObjects.Homepage - https://www.policyholder.gov.in/------>OK
+16:01:02.322 [main] INFO  PageObjects.Homepage - https://www.lifeinscouncil.org/code/Default.aspx------>OK
+16:01:02.398 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/qrops------>OK
+16:01:02.483 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/customer-service/pay-premium------>OK
+16:01:02.560 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/nav-summary------>OK
+16:01:02.679 [main] INFO  PageObjects.Homepage - https://onlineinsurance.hdfclife.com/------>OK
+16:01:02.740 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/financial-tools-calculators------>OK
+16:01:02.821 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/content/hdfclifeinsurancecompany/in/en/customer-service/about-demat------>Moved Permanently
+16:01:02.880 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/content/hdfclifeinsurancecompany/in/en/about-us/investor-relations------>Moved Permanently
+16:01:02.961 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/documents/apps/T-&-C-for_Policy_loan.pdf------>OK
+16:01:03.029 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/footer/TERMS-AND-CONDITIONS-OF-APPOINTMENT.pdf------>OK
+16:01:03.107 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/content/hdfclifeinsurancecompany/in/en/sitemap------>Moved Permanently
+16:01:03.172 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/footer/POSP-Appointment-TandC.pdf------>OK
+16:01:03.271 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/content/dam/hdfclifeinsurancecompany/footer/Underwriting-philosophy-and-approach-with-regard-to-offering-insurance-coverage-to-Persons-with-Disabilities-Mental-Illness.pdf------>OK
+16:01:03.345 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/insurance-knowledge-centre/glossary------>OK
+16:01:03.415 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/life-insurance-solutions------>OK
+16:01:03.477 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/hdfc-life-mobile-app------>OK
+16:01:03.550 [main] INFO  PageObjects.Homepage - https://www.hdfclife.com/customer-service/testimonials------>OK
+Group Websites link check ended
+]]></system-out>
   </testcase>
 </testsuite>

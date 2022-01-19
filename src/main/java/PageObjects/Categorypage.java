@@ -4,6 +4,8 @@ import java.io.File;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
+import java.util.concurrent.TimeUnit;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
@@ -117,7 +119,18 @@ To fix this problem you should be instantiating the SoftAssert object inside the
 	
 	@FindBy(xpath="//div[@class='container aboutus-sec']")
 	WebElement articleblocks;
+	
+	@FindBy(xpath="//iframe[@src='https://www.youtube.com/embed/rVtiZXQhugM?rel=0&showinfo=0&enablejsapi=1&origin=https%3A%2F%2Fwww.hdfclife.com']")
+	WebElement frameElement;
 
+	@FindBy(xpath="//button[@aria-label='Play (k)']")
+	WebElement playbutton;
+	
+	@FindBy(xpath="//button[@Class='ytp-mute-button ytp-button']")
+	WebElement mutebutton;
+	
+	
+	
 	//Initialized objects
 	public void clickheaderAllLink()
 	{
@@ -163,7 +176,6 @@ To fix this problem you should be instantiating the SoftAssert object inside the
 		breadcrumbhomeicon.click();
 		Thread.sleep(3000);
 		softAssertion.assertEquals(driver.getCurrentUrl(), "https://www.hdfclife.com/");
-		driver.navigate().back();
 		Thread.sleep(3000);
 	}
 
@@ -485,6 +497,24 @@ log.info("Verification for download button in rider section started");
 			Thread.sleep(2000);
 		}
 	}
+	
+	public void youtubeVideoVerification() throws InterruptedException
+	{
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		driver.switchTo().frame(frameElement);
+		Thread.sleep(5000);
+		js.executeScript("arguments[0].click();", playbutton);
+		System.out.println("video is playing");
+		js.executeScript("arguments[0].click();", mutebutton);
+		System.out.println("video is muted now");
+		Thread.sleep(10000);
+		driver. switchTo(). defaultContent();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		//WebElement pausebutton =driver.findElement(By.xpath("//button[@aria-label='Pause (k)']"));
+		//js.executeScript("arguments[0].click();", pausebutton);
+		//System.out.println("pause");
+	}
+	
 
 }
 
