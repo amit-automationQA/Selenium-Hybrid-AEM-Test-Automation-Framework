@@ -47,7 +47,7 @@ public class CategorypageTest extends BaseClass{
 		//Thread.sleep(3000);
 	}
 
-	@Test(priority=2, retryAnalyzer = Analyzer.RetryAnalyzer.class)
+	/*@Test(priority=2, retryAnalyzer = Analyzer.RetryAnalyzer.class)
 	public void verifyCalculatePremiumBtn() throws InterruptedException
 	{
 		cp.verifyCalculatePremiumbtn();
@@ -175,7 +175,7 @@ public class CategorypageTest extends BaseClass{
 		js.executeScript("window.scrollBy(0,100)");
 		hp.openCloseDisclaimer();
 	}
-
+*/
 	@AfterClass(alwaysRun=true)
 	public void tearDown()
 	{

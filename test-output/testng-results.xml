@@ -1,94 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="24" passed="24" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-11T11:17:54Z" name="Default suite" finished-at="2022-01-11T11:18:48Z" duration-ms="53622">
+  <suite started-at="2022-01-19T07:56:32Z" name="Default suite" finished-at="2022-01-19T08:02:54Z" duration-ms="382179">
     <groups>
     </groups>
-    <test started-at="2022-01-11T11:17:54Z" name="Default test" finished-at="2022-01-11T11:18:48Z" duration-ms="53622">
-      <class name="SeleniumTesting.AEMhdfc.SampleClassTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTesting.AEMhdfc.SampleClassTest@363042d7]" started-at="2022-01-11T16:47:54Z" name="setUp" finished-at="2022-01-11T16:48:03Z" duration-ms="8570" status="PASS">
+    <test started-at="2022-01-19T07:56:32Z" name="Default test" finished-at="2022-01-19T08:02:54Z" duration-ms="382179">
+      <class name="SeleniumTesting.AEMhdfc.HomepageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTesting.AEMhdfc.HomepageTest@c5dc4a2]" started-at="2022-01-19T13:26:32Z" name="setUp" finished-at="2022-01-19T13:26:36Z" duration-ms="3847" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="footerTest()[pri:0, instance:SeleniumTesting.AEMhdfc.SampleClassTest@363042d7]" started-at="2022-01-11T16:48:03Z" name="footerTest" finished-at="2022-01-11T16:48:48Z" duration-ms="44790" status="FAIL">
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
-            <message>
-              <![CDATA[stale element reference: element is not attached to the page document
-  (Session info: chrome=96.0.4664.110)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LIN24007907', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Akundar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54747}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 79f7abf8bb1194338fdfc84b6d290556]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=96.0.4664.110)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LIN24007907', ip: '192.168.1.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\Akundar\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54747}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 79f7abf8bb1194338fdfc84b6d290556
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.executeScript(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:229)
-	at PageObjects.SampleClass.footer2(SampleClass.java:59)
-	at SeleniumTesting.AEMhdfc.SampleClassTest.footerTest(SampleClassTest.java:40)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+        <test-method signature="verifyBannerCarousel()[pri:1, instance:SeleniumTesting.AEMhdfc.HomepageTest@c5dc4a2]" started-at="2022-01-19T13:26:36Z" name="verifyBannerCarousel" finished-at="2022-01-19T13:26:52Z" duration-ms="15953" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- footerTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumTesting.AEMhdfc.SampleClassTest@363042d7]" started-at="2022-01-11T16:48:48Z" name="tearDown" finished-at="2022-01-11T16:48:48Z" duration-ms="219" status="PASS">
+        </test-method> <!-- verifyBannerCarousel -->
+        <test-method signature="verifySavingPlansOnBanner()[pri:3, instance:SeleniumTesting.AEMhdfc.HomepageTest@c5dc4a2]" started-at="2022-01-19T13:26:52Z" name="verifySavingPlansOnBanner" finished-at="2022-01-19T13:27:07Z" duration-ms="15178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySavingPlansOnBanner -->
+        <test-method signature="verifyChildrenPlansOnBanner()[pri:4, instance:SeleniumTesting.AEMhdfc.HomepageTest@c5dc4a2]" started-at="2022-01-19T13:27:07Z" name="verifyChildrenPlansOnBanner" finished-at="2022-01-19T13:27:22Z" duration-ms="15123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyChildrenPlansOnBanner -->
+        <test-method signature="verifyRetirementPlansOnBanner()[pri:5, instance:SeleniumTesting.AEMhdfc.HomepageTest@c5dc4a2]" started-at="2022-01-19T13:27:22Z" name="verifyRetirementPlansOnBanner" finished-at="2022-01-19T13:27:37Z" duration-ms="15078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRetirementPlansOnBanner -->
+        <test-method signature="verifyViewAllButton()[pri:6, instance:SeleniumTesting.AEMhdfc.HomepageTest@c5dc4a2]" started-at="2022-01-19T13:27:37Z" name="verifyViewAllButton" finished-at="2022-01-19T13:27:41Z" duration-ms="3282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyViewAllButton -->
+        <test-method signature="verifyULIPPlansOnBanner()[pri:7, instance:SeleniumTesting.AEMhdfc.HomepageTest@c5dc4a2]" started-at="2022-01-19T13:27:41Z" name="verifyULIPPlansOnBanner" finished-at="2022-01-19T13:27:55Z" duration-ms="14846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyULIPPlansOnBanner -->
+        <test-method signature="verifyFixedMaturityPlanOnBanner()[pri:8, instance:SeleniumTesting.AEMhdfc.HomepageTest@c5dc4a2]" started-at="2022-01-19T13:27:55Z" name="verifyFixedMaturityPlanOnBanner" finished-at="2022-01-19T13:28:14Z" duration-ms="18292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFixedMaturityPlanOnBanner -->
+        <test-method signature="verifyHealthPlansOnBanner()[pri:9, instance:SeleniumTesting.AEMhdfc.HomepageTest@c5dc4a2]" started-at="2022-01-19T13:28:14Z" name="verifyHealthPlansOnBanner" finished-at="2022-01-19T13:28:32Z" duration-ms="17827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHealthPlansOnBanner -->
+        <test-method signature="verifyPosPlansOnBanner()[pri:10, instance:SeleniumTesting.AEMhdfc.HomepageTest@c5dc4a2]" started-at="2022-01-19T13:28:32Z" name="verifyPosPlansOnBanner" finished-at="2022-01-19T13:28:50Z" duration-ms="18155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPosPlansOnBanner -->
+        <test-method signature="verifyComboPlansOnBanner()[pri:11, instance:SeleniumTesting.AEMhdfc.HomepageTest@c5dc4a2]" started-at="2022-01-19T13:28:50Z" name="verifyComboPlansOnBanner" finished-at="2022-01-19T13:29:13Z" duration-ms="23590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyComboPlansOnBanner -->
+        <test-method signature="verifyGroupPlansOnBanner()[pri:12, instance:SeleniumTesting.AEMhdfc.HomepageTest@c5dc4a2]" started-at="2022-01-19T13:29:13Z" name="verifyGroupPlansOnBanner" finished-at="2022-01-19T13:29:49Z" duration-ms="35358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGroupPlansOnBanner -->
+        <test-method signature="verifyArrowButtonsOnBanner()[pri:13, instance:SeleniumTesting.AEMhdfc.HomepageTest@c5dc4a2]" started-at="2022-01-19T13:29:49Z" name="verifyArrowButtonsOnBanner" finished-at="2022-01-19T13:30:32Z" duration-ms="43363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyArrowButtonsOnBanner -->
+        <test-method signature="verifyMouseIndicator()[pri:14, instance:SeleniumTesting.AEMhdfc.HomepageTest@c5dc4a2]" started-at="2022-01-19T13:30:32Z" name="verifyMouseIndicator" finished-at="2022-01-19T13:30:41Z" duration-ms="9133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMouseIndicator -->
+        <test-method signature="verifyschedulePopupWithValidDataProductPage(java.lang.String, java.lang.String)[pri:15, instance:SeleniumTesting.AEMhdfc.HomepageTest@c5dc4a2]" started-at="2022-01-19T13:30:42Z" name="verifyschedulePopupWithValidDataProductPage" data-provider="getscheduleformData1" finished-at="2022-01-19T13:30:52Z" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator" duration-ms="10521" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amit Kundar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.768462054E9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyschedulePopupWithValidDataProductPage -->
+        <test-method signature="verifyschedulepopupblankSubmit()[pri:16, instance:SeleniumTesting.AEMhdfc.HomepageTest@c5dc4a2]" started-at="2022-01-19T13:30:52Z" name="verifyschedulepopupblankSubmit" finished-at="2022-01-19T13:31:02Z" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator" duration-ms="9654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyschedulepopupblankSubmit -->
+        <test-method signature="verifyschedulePopupwithoutmindata()[pri:17, instance:SeleniumTesting.AEMhdfc.HomepageTest@c5dc4a2]" started-at="2022-01-19T13:31:02Z" name="verifyschedulePopupwithoutmindata" finished-at="2022-01-19T13:31:08Z" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator" duration-ms="6625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyschedulePopupwithoutmindata -->
+        <test-method signature="verifyCalculatorCloseBtn()[pri:19, instance:SeleniumTesting.AEMhdfc.HomepageTest@c5dc4a2]" started-at="2022-01-19T13:31:08Z" name="verifyCalculatorCloseBtn" finished-at="2022-01-19T13:31:18Z" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator" duration-ms="9214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCalculatorCloseBtn -->
+        <test-method signature="verifySanchayPlusBuyNowBtn()[pri:20, instance:SeleniumTesting.AEMhdfc.HomepageTest@c5dc4a2]" started-at="2022-01-19T13:31:18Z" name="verifySanchayPlusBuyNowBtn" finished-at="2022-01-19T13:31:30Z" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator" duration-ms="12427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySanchayPlusBuyNowBtn -->
+        <test-method signature="verifyDisclaimer()[pri:21, instance:SeleniumTesting.AEMhdfc.HomepageTest@c5dc4a2]" started-at="2022-01-19T13:31:30Z" name="verifyDisclaimer" finished-at="2022-01-19T13:31:45Z" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator" duration-ms="15189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDisclaimer -->
+        <test-method signature="verifyProductAndPopularLinks()[pri:22, instance:SeleniumTesting.AEMhdfc.HomepageTest@c5dc4a2]" started-at="2022-01-19T13:31:45Z" name="verifyProductAndPopularLinks" finished-at="2022-01-19T13:31:52Z" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyDisclaimer, SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator" duration-ms="6514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductAndPopularLinks -->
+        <test-method signature="verifyStayConnectedwithUs()[pri:23, instance:SeleniumTesting.AEMhdfc.HomepageTest@c5dc4a2]" started-at="2022-01-19T13:31:52Z" name="verifyStayConnectedwithUs" finished-at="2022-01-19T13:32:00Z" depends-on-methods="SeleniumTesting.AEMhdfc.HomepageTest.verifyDisclaimer, SeleniumTesting.AEMhdfc.HomepageTest.verifyMouseIndicator" duration-ms="8269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStayConnectedwithUs -->
+        <test-method signature="verifyDownloadLinks()[pri:24, instance:SeleniumTesting.AEMhdfc.HomepageTest@c5dc4a2]" started-at="2022-01-19T13:32:00Z" name="verifyDownloadLinks" finished-at="2022-01-19T13:32:13Z" duration-ms="12480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDownloadLinks -->
+        <test-method signature="verifySubscribeOptionWithValidData()[pri:25, instance:SeleniumTesting.AEMhdfc.HomepageTest@c5dc4a2]" started-at="2022-01-19T13:32:13Z" name="verifySubscribeOptionWithValidData" finished-at="2022-01-19T13:32:22Z" duration-ms="9275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubscribeOptionWithValidData -->
+        <test-method signature="verifyGroupWebsitesLinks()[pri:26, instance:SeleniumTesting.AEMhdfc.HomepageTest@c5dc4a2]" started-at="2022-01-19T13:32:22Z" name="verifyGroupWebsitesLinks" finished-at="2022-01-19T13:32:54Z" duration-ms="32113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGroupWebsitesLinks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumTesting.AEMhdfc.HomepageTest@c5dc4a2]" started-at="2022-01-19T13:32:54Z" name="tearDown" finished-at="2022-01-19T13:32:54Z" duration-ms="379" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- SeleniumTesting.AEMhdfc.SampleClassTest -->
+      </class> <!-- SeleniumTesting.AEMhdfc.HomepageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,13 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="SeleniumTesting.AEMhdfc.SampleClassTest">
+      <class name="SeleniumTesting.AEMhdfc.HomepageTest">
         <methods>
-          <include name="tearDown"/>
+          <include name="verifyDisclaimer"/>
+          <include name="verifyMouseIndicator"/>
+          <include name="verifySubscribeOptionWithValidData"/>
+          <include name="verifyStayConnectedwithUs"/>
           <include name="setUp"/>
-          <include name="footerTest"/>
+          <include name="tearDown"/>
+          <include name="verifyDownloadLinks"/>
         </methods>
-      </class> <!-- SeleniumTesting.AEMhdfc.SampleClassTest -->
+      </class> <!-- SeleniumTesting.AEMhdfc.HomepageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

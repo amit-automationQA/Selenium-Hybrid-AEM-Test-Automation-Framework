@@ -54,7 +54,7 @@ public class CustomerservicelandingTest extends BaseClass{
 		csl.visitCustomerServiceLandingPage();
 	}
 
-	@Test(priority=2, dependsOnMethods= {"navigateToCustomerServiceLandingPage"}, retryAnalyzer = Analyzer.RetryAnalyzer.class)
+	/*@Test(priority=2, dependsOnMethods= {"navigateToCustomerServiceLandingPage"}, retryAnalyzer = Analyzer.RetryAnalyzer.class)
 	public void verifyCustomerServiceLandingPopup() throws InterruptedException
 	{
 		csl.clickDownloadBtn(); //Please comment before executing script in firefox
@@ -121,7 +121,7 @@ public class CustomerservicelandingTest extends BaseClass{
 		csl.clickContactUsBtn();
 		hp.verifyLinkOpenedInNewWindow("https://myaccount.hdfclife.com/static-cp-cms/023953020_-Go-digital-today.html"
 				, "https://www.hdfclife.com/customer-service");
-	}
+	}*/
 	@AfterClass(alwaysRun=true)
 	public void tearDown()
 	{

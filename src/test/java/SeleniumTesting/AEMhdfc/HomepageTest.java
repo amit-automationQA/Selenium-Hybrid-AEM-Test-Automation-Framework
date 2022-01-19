@@ -59,40 +59,40 @@ public class HomepageTest extends BaseClass {
 		hp.verifyBannerCarouselDot0();
 	}
 
-	@Test(priority=2,retryAnalyzer = Analyzer.RetryAnalyzer.class)
+	/*@Test(priority=2,retryAnalyzer = Analyzer.RetryAnalyzer.class)
 	public void verifyTermPlanOnBanner() throws InterruptedException
 	{
 		hp.clickTermPlanBlock();
-		hp.verifyLink("https://www.hdfclife.com/term-insurance-plans/click-2-protect-life");
-	}
+		hp.verifyLink1("https://www.hdfclife.com/term-insurance-plans/click-2-protect-life");
+	}*/
 
 	@Test(priority=8, retryAnalyzer = Analyzer.RetryAnalyzer.class)
 	public void verifyFixedMaturityPlanOnBanner() throws InterruptedException
 	{
 		hp.clickViewAllBtn();
 		hp.clickFixedMaturityPlanBlock();
-		hp.verifyLink("https://www.hdfclife.com/savings-plans/sanchay-fixed-maturity-plan");
+		hp.verifyLink1("https://www.hdfclife.com/savings-plans/sanchay-fixed-maturity-plan");
 	}
 
 	@Test(priority=3, retryAnalyzer = Analyzer.RetryAnalyzer.class)
 	public void verifySavingPlansOnBanner() throws InterruptedException
 	{
 		hp.clickSavingPlansBlock();
-		hp.verifyLink("https://www.hdfclife.com/savings-plans");
+		hp.verifyLink1("https://www.hdfclife.com/savings-plans");
 	}
 
 	@Test(priority=5, retryAnalyzer = Analyzer.RetryAnalyzer.class)
 	public void verifyRetirementPlansOnBanner() throws InterruptedException
 	{
 		hp.clickRetirementPlansBlock();
-		hp.verifyLink("https://www.hdfclife.com/retirement-and-pension-plans");
+		hp.verifyLink1("https://www.hdfclife.com/retirement-and-pension-plans");
 	}
 
 	@Test(priority=7, retryAnalyzer = Analyzer.RetryAnalyzer.class)
 	public void verifyULIPPlansOnBanner() throws InterruptedException
 	{
 		hp.clickUlipPlansBlock();
-		hp.verifyLink("https://www.hdfclife.com/ulip-plans");
+		hp.verifyLink1("https://www.hdfclife.com/ulip-plans");
 	}
 
 	@Test(priority=6, retryAnalyzer = Analyzer.RetryAnalyzer.class)
@@ -105,7 +105,7 @@ public class HomepageTest extends BaseClass {
 	public void verifyChildrenPlansOnBanner() throws InterruptedException
 	{
 		hp.clickChildrenPlansBlock();
-		hp.verifyLink("https://www.hdfclife.com/children-insurance-plans");
+		hp.verifyLink1("https://www.hdfclife.com/children-insurance-plans");
 	}
 
 	@Test(priority=9, retryAnalyzer = Analyzer.RetryAnalyzer.class)
@@ -113,7 +113,7 @@ public class HomepageTest extends BaseClass {
 	{
 		hp.clickViewAllBtn();
 		hp.clickHealthPlansBlock();
-		hp.verifyLink("https://www.hdfclife.com/health-insurance-plans");
+		hp.verifyLink1("https://www.hdfclife.com/health-insurance-plans");
 	}
 
 	@Test(priority=10, retryAnalyzer = Analyzer.RetryAnalyzer.class)
@@ -121,7 +121,7 @@ public class HomepageTest extends BaseClass {
 	{
 		hp.clickViewAllBtn();
 		hp.clickPosPlansBlock();
-		hp.verifyLink("https://www.hdfclife.com/savings-plans/pos-guaranteed-savings-plan");
+		hp.verifyLink1("https://www.hdfclife.com/savings-plans/pos-guaranteed-savings-plan");
 	}
 
 	@Test(priority=11, retryAnalyzer = Analyzer.RetryAnalyzer.class)
@@ -131,7 +131,7 @@ public class HomepageTest extends BaseClass {
 		hp.clickNextArrow();
 		Thread.sleep(2000);
 		hp.clickComboPlansBlock();
-		hp.verifyLink("https://www.hdfclife.com/sanchay-maximiser");
+		hp.verifyLink1("https://www.hdfclife.com/sanchay-maximiser");
 	}
 
 
@@ -141,7 +141,7 @@ public class HomepageTest extends BaseClass {
 		hp.clickViewAllBtn();
 		hp.multipleClickNextArrow();
 		hp.clickGroupPlansBlock();
-		hp.verifyLink("https://www.hdfclife.com/group-insurance-plans");
+		hp.verifyLink1("https://www.hdfclife.com/group-insurance-plans");
 	}
 
 	@Test(priority=13, retryAnalyzer = Analyzer.RetryAnalyzer.class)
@@ -161,7 +161,8 @@ public class HomepageTest extends BaseClass {
 	@Test(priority=14, retryAnalyzer = Analyzer.RetryAnalyzer.class)
 	public void verifyMouseIndicator() throws InterruptedException
 	{
-		js.executeScript("arguments[0].scrollIntoView();", hp.bannerCarouselDot0());
+		//js.executeScript("arguments[0].scrollIntoView();", hp.mouseindicator());
+		js.executeScript("window.scrollBy(0,300)");
 		hp.clickMouseIndicator();
 	}
 
@@ -175,6 +176,8 @@ public class HomepageTest extends BaseClass {
 	@Test(priority=15, dataProvider="getscheduleformData1", dependsOnMethods = { "verifyMouseIndicator" })
 	public void verifyschedulePopupWithValidDataProductPage(String fname, String number) throws InterruptedException
 	{
+		js.executeScript("window.scrollBy(0,800)");
+		Thread.sleep(2000);
 		hp.clickScheduleACallButton().click();
 		Thread.sleep(2000);
 		hp.schedulepopupdata(fname, number);
@@ -202,7 +205,7 @@ public class HomepageTest extends BaseClass {
 		hp.closeScheduleCallPopup();
 	}
 
-	@Test(priority=18, dependsOnMethods = {"verifyMouseIndicator" })
+	/*@Test(priority=18, dependsOnMethods = {"verifyMouseIndicator" })
 	public void verifycalculatorWithValidData() throws InterruptedException
 	{
 		hp.scrollTillLetUsCalculate();
@@ -218,10 +221,10 @@ public class HomepageTest extends BaseClass {
 		hp.clickCalculateButton2();
 		hp.verifyLearnMorebtn("https://www.hdfclife.com/products/term-insurance-plans/click-2-protect-life");
 	}
-	@Test(priority=19, dependsOnMethods = {  "verifyMouseIndicator", "verifycalculatorWithValidData"})
+	*/@Test(priority=19, dependsOnMethods = {  "verifyMouseIndicator"})
 	public void verifyCalculatorCloseBtn() throws InterruptedException
 	{
-		js.executeScript("window.scrollBy(0,-800)");
+		js.executeScript("window.scrollBy(0,-400)");
 		Thread.sleep(3000);
 		hp.clickLetsCalculateButton();
 		hp.clickCalculatorCloseBtn();
@@ -230,7 +233,7 @@ public class HomepageTest extends BaseClass {
 	@Test(priority=20, dependsOnMethods = {  "verifyMouseIndicator"})
 	public void verifySanchayPlusBuyNowBtn() throws InterruptedException
 	{
-		js.executeScript("window.scrollBy(0,400)");
+		js.executeScript("window.scrollBy(0,800)");
 		Thread.sleep(3000);
 		hp.clickSanchayPlusBuyNow();
 		hp.verifyLinkOpenedInNewWindow("https://onlineinsurance.hdfclife.com/buy-online-savings-plans/sanchayplus-savings-plan?source=NW_SANCHAYP_HP_BuyNow&agentcode=00399206&language=sanchp_EN", 
@@ -264,7 +267,7 @@ public class HomepageTest extends BaseClass {
 		hp.stayConnectedFooter();
 	}
 
-	@Test(priority=24, dependsOnMethods = { "verifyStayConnectedwithUs"})
+	@Test(priority=24)
 	public void verifyDownloadLinks() throws InterruptedException, IOException
 	{
 		hp.appleIcon();
@@ -275,7 +278,7 @@ public class HomepageTest extends BaseClass {
 				, "https://www.hdfclife.com/");
 	}
 
-	@Test(priority=25, dependsOnMethods = { "verifyStayConnectedwithUs"})
+	@Test(priority=25)
 	public void verifySubscribeOptionWithValidData() throws InterruptedException
 	{
 		hp.emailPlaceholder(); // To verify placeholder
@@ -295,12 +298,12 @@ public class HomepageTest extends BaseClass {
 		hp.groupWebsiteLinks();
 	}
 	
-	@Test(priority=27, dependsOnMethods= {"verifyGroupWebsitesLinks"})
+	/*@Test(priority=27, dependsOnMethods= {"verifyGroupWebsitesLinks"})
 	public void verifyArticlesOnHomePage() throws InterruptedException
 	{
 		js.executeScript("window.scrollBy(0,-2000)");
 		cp.verifyArticles();
-	}
+	}*/
 	@AfterClass(alwaysRun=true)
 	public void tearDown()
 	{

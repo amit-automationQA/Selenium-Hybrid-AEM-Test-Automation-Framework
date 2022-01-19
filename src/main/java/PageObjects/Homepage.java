@@ -125,6 +125,10 @@ To fix this problem you should be instantiating the SoftAssert object inside the
 	List<WebElement> headerlinks;
 	
 
+	@FindBy(how=How.XPATH,using="//div[@class='headerWrap']//div[@class='logo']//a")
+	WebElement headerlogo;
+	
+	
 	//Initialized objects
 	public void verifyBannerCarouselDot0() throws InterruptedException
 	{
@@ -674,6 +678,18 @@ To fix this problem you should be instantiating the SoftAssert object inside the
 		Thread.sleep(3000);
 		softAssertion.assertEquals(driver.getCurrentUrl(), pageurl);
 		driver.navigate().back();
+		softAssertion.assertAll();
+		Thread.sleep(3000);
+	}
+	
+	public void verifyLink1(String pageurl) throws InterruptedException
+	{
+		SoftAssert softAssertion = new SoftAssert();
+		Thread.sleep(3000);
+		softAssertion.assertEquals(driver.getCurrentUrl(), pageurl);
+		Thread.sleep(2000);
+		softAssertion.assertTrue(headerlogo.isDisplayed());
+		headerlogo.click();
 		softAssertion.assertAll();
 		Thread.sleep(3000);
 	}

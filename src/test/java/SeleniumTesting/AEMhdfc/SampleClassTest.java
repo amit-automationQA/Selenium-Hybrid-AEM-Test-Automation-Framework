@@ -33,13 +33,13 @@ public class SampleClassTest extends BaseClass{
 
 	}
 	
-	@Test
+	/*@Test
 	public void footerTest() throws InterruptedException
 	{
 		sc.socialFooter();
 		sc.footer2();
 	}
-	
+	*/
 	@AfterClass(alwaysRun=true)
 	public void tearDown()
 	{

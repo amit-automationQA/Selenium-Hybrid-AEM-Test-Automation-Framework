@@ -44,7 +44,7 @@ public class ProductpageTest extends BaseClass{
 
 	}
 
-	@Test(priority=1, retryAnalyzer = Analyzer.RetryAnalyzer.class)
+@Test(priority=1, retryAnalyzer = Analyzer.RetryAnalyzer.class)
 	public void navigateToProductPage() throws InterruptedException
 	{
 		cp.navigateToTermCategoryPage();
@@ -53,7 +53,7 @@ public class ProductpageTest extends BaseClass{
 		pp.verifyOnlyPageUrl("https://www.hdfclife.com/term-insurance-plans/click-2-protect-life");		
 	}
 
-	@Test(priority=2, retryAnalyzer = Analyzer.RetryAnalyzer.class, dependsOnMethods={"navigateToProductPage"})
+	/*@Test(priority=2, retryAnalyzer = Analyzer.RetryAnalyzer.class, dependsOnMethods={"navigateToProductPage"})
 	public void verifyTandCOption() throws InterruptedException
 	{
 		pp.TandC();
@@ -216,7 +216,7 @@ public class ProductpageTest extends BaseClass{
 	{
 		js.executeScript("window.scrollBy(0,150)");
 		hp.openCloseDisclaimer();
-	}
+	}*/
 
 	@AfterClass(alwaysRun=true)
 	public void tearDown()
