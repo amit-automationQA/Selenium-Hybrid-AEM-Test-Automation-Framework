@@ -31,7 +31,6 @@ public class CategorypageTest extends BaseClass{
 		//SauceLabs_Invocation(); //uncomment if cross browser testing needs to be done
 		hp = new Homepage(driver);
 		cp = new Categorypage(driver);
-		PageFactory.initElements(driver, cp);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		this.js=js;
 		ts = (TakesScreenshot) driver;
@@ -110,7 +109,7 @@ Thread.sleep(3000);
 				,"https://www.hdfclife.com/term-insurance-plans");
 	}*/
 
-	@Test(priority=8, dependsOnMethods = { "verifyC2PLProduct", "verifySJBProduct" })
+	@Test(priority=8, dependsOnMethods = { "verifyC2PLProduct" })
 	public void verifyLetsCalculateBtn() throws InterruptedException
 	{
 		js.executeScript("window.scrollBy(0,-500)");
@@ -121,7 +120,7 @@ Thread.sleep(3000);
 		Thread.sleep(3000);
 	}
 
-	@Test(priority=9, dependsOnMethods = { "verifyC2PLProduct", "verifySJBProduct", "verifyLetsCalculateBtn" })
+	@Test(priority=9, dependsOnMethods = { "verifyC2PLProduct", "verifyLetsCalculateBtn" })
 	public void verifyVideoOnCategoryPage() throws InterruptedException // Youtube implementation is pending
 	{
 		Thread.sleep(3000);

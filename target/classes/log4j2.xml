@@ -12,14 +12,37 @@
     <Console name="Console" target="SYSTEM_OUT">
       <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
     </Console>
+    <!-- Email Appender -->
+    
+    <appender name="ERROR_MAIL" class="SecureSMTPAppender">
+   <param name="SMTPUsername" value="kundaramit@gmail.com" />
+    <param name="SMTPPassword" value="Qwerty@24031996" />
+    <param name="To" value="kundaramit@gmail.com"/>
+    <param name="From" value="kundaramit@gmail.com"/>
+    <param name="Subject" value="Log4j Error in AEM Hdfc Project"/>
+    <param name="SMTPHost" value="smtp.gmail.com"/>
+    
+    <param name="BufferSize" value="10"/>
+      <layout class="org.apache.log4j.PatternLayout">
+          <param name="ConversionPattern" value="%d{dd/MM/yyyy HH:mm:ss} %-5p %c{2} - %m%n"/>
+        </layout>
+    <filter class="org.apache.log4j.varia.LevelRangeFilter">
+      <param name="LevelMin" value="ERROR"/>
+      <param name="LevelMax" value="FATAL"/>
+    </filter>
+  </appender>   
+    
   </Appenders>
   <Loggers>
   <Logger name="PageObjects.Homepage" level="all" additivity="false">  <!-- Change logger name to class name where we need logs in file -->
   <AppenderRef ref="Console"/>
+   <AppenderRef ref="File"/> 
   </Logger>
 
     <Root level="all">
       <AppenderRef ref="Console"/> <!-- Please change ref=file to place logs for whole test suite in file -->
+     <AppenderRef ref="File"/> 
     </Root>
+    
   </Loggers>
 </Configuration>
