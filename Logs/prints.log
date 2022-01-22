@@ -11,3 +11,9 @@
 12:35:51.101 [main] INFO  SeleniumTesting.AEMhdfc.HomepageTest - Homepage test cases executed
 12:48:08.163 [main] INFO  SeleniumTesting.AEMhdfc.HomepageTest - Homepage test cases started
 12:48:23.833 [main] INFO  SeleniumTesting.AEMhdfc.HomepageTest - Homepage test cases executed
+12:55:21.448 [main] INFO  SeleniumTesting.AEMhdfc.HomepageTest - Homepage test cases started
+12:55:37.089 [main] ERROR SeleniumTesting.AEMhdfc.HomepageTest - Error occured
+12:55:37.094 [main] INFO  SeleniumTesting.AEMhdfc.HomepageTest - Homepage test cases executed
+12:56:11.590 [main] INFO  SeleniumTesting.AEMhdfc.HomepageTest - Homepage test cases started
+12:56:27.357 [main] ERROR SeleniumTesting.AEMhdfc.HomepageTest - Error occured
+12:56:27.363 [main] INFO  SeleniumTesting.AEMhdfc.HomepageTest - Homepage test cases executed

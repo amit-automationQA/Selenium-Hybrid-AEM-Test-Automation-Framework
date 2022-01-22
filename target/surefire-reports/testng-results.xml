@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-22T12:48:04 IST" name="Suite" finished-at="2022-01-22T12:48:24 IST" duration-ms="19614">
+  <suite started-at="2022-01-22T12:56:08 IST" name="Suite" finished-at="2022-01-22T12:56:27 IST" duration-ms="19492">
     <groups>
     </groups>
-    <test started-at="2022-01-22T12:48:04 IST" name="Test" finished-at="2022-01-22T12:48:24 IST" duration-ms="19614">
+    <test started-at="2022-01-22T12:56:08 IST" name="Test" finished-at="2022-01-22T12:56:27 IST" duration-ms="19492">
       <class name="SeleniumTesting.AEMhdfc.HomepageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTesting.AEMhdfc.HomepageTest@6f80fafe]" started-at="2022-01-22T12:48:04 IST" name="setUp" finished-at="2022-01-22T12:48:08 IST" duration-ms="3728" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTesting.AEMhdfc.HomepageTest@1568159]" started-at="2022-01-22T12:56:08 IST" name="setUp" finished-at="2022-01-22T12:56:11 IST" duration-ms="3517" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyBannerCarousel()[pri:1, instance:SeleniumTesting.AEMhdfc.HomepageTest@6f80fafe]" started-at="2022-01-22T12:48:08 IST" name="verifyBannerCarousel" finished-at="2022-01-22T12:48:23 IST" duration-ms="15651" status="PASS">
+        <test-method signature="verifyBannerCarousel()[pri:1, instance:SeleniumTesting.AEMhdfc.HomepageTest@1568159]" started-at="2022-01-22T12:56:11 IST" name="verifyBannerCarousel" finished-at="2022-01-22T12:56:27 IST" duration-ms="15753" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBannerCarousel -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumTesting.AEMhdfc.HomepageTest@6f80fafe]" started-at="2022-01-22T12:48:23 IST" name="tearDown" finished-at="2022-01-22T12:48:24 IST" duration-ms="202" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumTesting.AEMhdfc.HomepageTest@1568159]" started-at="2022-01-22T12:56:27 IST" name="tearDown" finished-at="2022-01-22T12:56:27 IST" duration-ms="192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
